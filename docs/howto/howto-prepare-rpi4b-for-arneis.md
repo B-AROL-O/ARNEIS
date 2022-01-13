@@ -1,18 +1,22 @@
 # HOWTO: Preparing a Raspberry Pi 4B for the ARNEIS project
 
-**TODO**: Upload to /docs/howto on <https://github.com/B-AROL-O/ARNEIS>
-
 <!-- (2022-01-12 07:44 CET) -->
 
 ## Introduction
 
-The following document explains how to prepare and configure a Raspberry Pi for the ARNEIS project.
+The following document explains how to prepare and configure a Raspberry Pi for the [ARNEIS project](https://github.com/B-AROL-O/ARNEIS/tree/fix/updates-to-howto-rpi4).
 
-## Required materials
+## Prerequisites
 
-* One Raspberry Pi 4B. Tested on rpi4gm35 ([Raspberry Pi 4B 4GB](https://www.amazon.com/Raspberry-Model-2019-Quad-Bluetooth/dp/B07TC2BK1X))
-* One blank (or erasable) MicroSD. Tested with a [SanDisk Ultra 256 GB MicroSDXC](https://www.amazon.it/SanDisk-microSDXC-adattatore-prestazioni-Rosso-Grigio/dp/B08GY8NHF2)
-* One laptop (OS: Windows or Linux or MacOS) with a MicroSDHC card reader (or a USB MicroSD card reader)
+* One [Raspberry Pi](https://www.raspberrypi.org/).
+  - Tested on rpi4gm35 ([Raspberry Pi 4B 4GB](https://www.amazon.com/Raspberry-Model-2019-Quad-Bluetooth/dp/B07TC2BK1X))
+* One MicroSD card of at least 4GB.
+  - **IMPORTANT**: The card should be blank, or at least should not contain any important data since it will be completely erased.
+  - Tested with a [SanDisk Ultra 256 GB MicroSDXC](https://www.amazon.it/SanDisk-microSDXC-adattatore-prestazioni-Rosso-Grigio/dp/B08GY8NHF2)
+* One desktop PC or laptop for formatting the SD card and controlling the RPi
+  - OS: A recent version of Windows or Linux or MacOS
+  - The PC should have a MicroSDHC card reader.
+    Alternatively, an additional USB MicroSD card reader is required
 * Fast internet connection
 
 ## Step-by-step instructions
@@ -221,10 +225,34 @@ HINT: To scan the network and identify the open services you can use one of thos
 - The [Fing app](https://www.fing.com/) on a mobile phone or on your laptop.
 - [nmap](https://nmap.org/)
 
-It this works disconnect the USB keyboard, mouse and display, then reboot your RPi4 and verify that the device is still accessible from SSH and VNC.
+It this works disconnect the USB keyboard, mouse and display
 
 ![2022-01-12-1038-rpi4b-boxed](../images/2022-01-12-1038-rpi4b-boxed.jpg)
 
-TODO
+Reboot your RPi4 and verify that the device is still accessible from SSH:
+
+```text
+gpmacario@HW2457 MINGW64 ~
+$ ssh pi@172.30.48.18
+pi@172.30.48.18's password:
+Linux rpi4gm35 5.10.63-v7l+ #1488 SMP Thu Nov 18 16:15:28 GMT 2021 armv7l
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+Last login: Wed Jan 12 16:36:38 2022
+pi@rpi4gm35:~ $
+```
+
+Do the same using a VNC client (in my case I used the free to use [VNC&reg; Viewer](https://www.realvnc.com/en/connect/download/viewer/))
+
+![2022-01-13-1731-vnc-connect.png](../images/2022-01-13-1731-vnc-connect.png)
+
+Double click on the selected profile to connect to the remote desktop of the Raspberry Pi:
+
+![2022-01-13-1731-vnc-connect-rpi4gm35.png](../images/2022-01-13-1736-vnc-connect-rpi4gm35.png)
 
 <!-- EOF -->
