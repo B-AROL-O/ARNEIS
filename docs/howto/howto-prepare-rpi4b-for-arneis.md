@@ -191,11 +191,13 @@ Click "OK" to continue.
 
 Click "Restart".
 
+Verify that the RPi reboots correctly.
+
+![2022-01-12-1037-raspian-os-rpi4b.jpg](../images/2022-01-12-1037-raspian-os-rpi4b.jpg)
+
 ## Configure hostname, SSH and VNC
 
 <!-- (2022-01-12 10:10 CET) -->
-
-Make sure the RPi reboots correctly.
 
 Open a terminal and type the following command
 
@@ -220,6 +222,8 @@ HINT: To scan the network and identify the open services you can use one of thos
 - [nmap](https://nmap.org/)
 
 It this works disconnect the USB keyboard, mouse and display, then reboot your RPi4 and verify that the device is still accessible from SSH and VNC.
+
+![2022-01-12-1038-rpi4b-boxed](../images/2022-01-12-1038-rpi4b-boxed.jpg)
 
 TODO
 
