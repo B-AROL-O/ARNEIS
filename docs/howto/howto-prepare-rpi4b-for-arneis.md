@@ -14,7 +14,7 @@ The following document explains how to prepare and configure a Raspberry Pi for 
   - **IMPORTANT**: The card should be blank, or at least should not contain any important data since it will be completely erased.
   - Tested with a [SanDisk Ultra 256 GB MicroSDXC](https://www.amazon.it/SanDisk-microSDXC-adattatore-prestazioni-Rosso-Grigio/dp/B08GY8NHF2)
 * One desktop PC or laptop for formatting the SD card and controlling the RPi
-  - OS: A recent version of Windows or Linux or MacOS
+  - OS: A recent version of Windows or Linux or macOS
   - The PC should have a MicroSDHC card reader.
     Alternatively, an additional USB MicroSD card reader is required
 * Fast internet connection
