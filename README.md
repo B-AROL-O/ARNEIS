@@ -15,7 +15,7 @@ Automated Recognizer, Network-Enabled, Items Sorter.
 >
 > Congratulations.
 > Your team “B-AROL-O Bottling Systems” and project “ARNEIS: Automated Recognizer, Network-Enabled, Items Sorter” have been selected as one of just 50 teams to move on to Phase 2 of OpenCV Spatial AI Contest.
-> Your team name and region are listed on the official webpage at <https://opencv.org/opencv-spatial-ai-contest/​>
+> Your team name and region are listed on the official webpage at <https://opencv.org/opencv-spatial-ai-contest/>
 
 <!-- ![opencv-spatial-ai-contest-finalist](docs/images/2021-12-17-1832-opencv-spatial-ai-contest-finalist.jpg) -->
 
