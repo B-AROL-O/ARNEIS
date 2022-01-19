@@ -4,7 +4,13 @@
 
 Automated Recognizer, Network-Enabled, Items Sorter.
 
-## ARNEIS is an OpenCV Spatial AI Contest Finalist
+## Project documentation
+
+The sources for project documentation are maintained inside the `/docs` subfolder of this repository.
+
+The documentation for the main branch and the project releases is automatically published to <https://arneis.readthedocs.io/>.
+
+### ARNEIS is an OpenCV Spatial AI Contest Finalist
 
 > Da: OpenCV Competition <competition@opencv.org><br>
 > Date: ven 17 dic 2021 alle ore 18:32<br>
