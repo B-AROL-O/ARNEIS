@@ -2,6 +2,10 @@
 
 <https://arneis.readthedocs.io/>
 
+## Step-by-step instructions
+
+### Create a feature branch
+
 Logged as gmacario@gmpowerhorse
 
 ```bash
@@ -15,6 +19,8 @@ Create a feature branch
 ```bash
 git checkout -b feat/issue-29-readthedocs
 ```
+
+### Create initial Sphyinx configuration
 
 Follow instructions at <https://docs.readthedocs.io/en/stable/intro/getting-started-with-sphinx.html>
 
@@ -112,6 +118,23 @@ python3 -m http.server
 ```
 
 then open <http://localhost:8000/> from your browser
+
+### Adding support for Markdown
+
+Reference: <https://www.sphinx-doc.org/en/master/usage/markdown.html>
+
+```bash
+cd ~/github/B-AROL-O/ARNEIS/docs
+pip3 install --upgrade myst-parser
+```
+
+Add _myst_parser_ to the [list of configured extensions](https://www.sphinx-doc.org/en/master/usage/configuration.html#confval-extensions)
+
+```python
+extensions = [
+    'myst_parser'
+]
+```
 
 TODO
 
