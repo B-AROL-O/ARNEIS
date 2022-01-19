@@ -4,8 +4,28 @@ import blobconverter
 import cv2
 import depthai as dai
 
-labelMap = ["background", "aeroplane", "bicycle", "bird", "boat", "bottle", "bus", "car", "cat", "chair", "cow",
-            "diningtable", "dog", "horse", "motorbike", "person", "pottedplant", "sheep", "sofa", "train", "tvmonitor"]
+labelMap = [
+            "background",
+            "aeroplane",
+            "bicycle",
+            "bird",
+            "boat",
+            "bottle",
+            "bus",
+            "car",
+            "cat",
+            "chair",
+            "cow",
+            "diningtable",
+            "dog",
+            "horse",
+            "motorbike",
+            "person",
+            "pottedplant",
+            "sheep",
+            "sofa",
+            "train",
+            "tvmonitor"]
 
 
 # This can be customized to pass multiple parameters
@@ -52,7 +72,9 @@ with contextlib.ExitStack() as stack:
         # The extra arguments passed are required by the existing overload variants
         openvino_version = dai.OpenVINO.Version.VERSION_2021_4
         usb2_mode = False
-        device = stack.enter_context(dai.Device(openvino_version, device_info, usb2_mode))
+        device = stack.enter_context(
+                    dai.Device(openvino_version, device_info, usb2_mode)
+        )
 
         # Note: currently on POE, DeviceInfo.getMxId() and Device.getMxId() are different!
         print("=== Connected to " + device_info.getMxId())
@@ -66,8 +88,8 @@ with contextlib.ExitStack() as stack:
 
         # Output queue will be used to get the rgb frames from the output defined above
         devices[mxid] = {
-            'rgb': device.getOutputQueue(name="rgb"),
-            'nn': device.getOutputQueue(name="nn"),
+            "rgb": device.getOutputQueue(name="rgb"),
+            "nn": device.getOutputQueue(name="nn"),
         }
 
     while True:
@@ -75,22 +97,33 @@ with contextlib.ExitStack() as stack:
         # print("\n")
         # print("devices.items: ",devices.items())
         for mxid, q in devices.items():
-            if q['nn'].has():
-                dets = q['nn'].get().detections
-                frame = q['rgb'].get().getCvFrame()
+            if q["nn"].has():
+                dets = q["nn"].get().detections
+                frame = q["rgb"].get().getCvFrame()
 
                 for detection in dets:
-                    ymin = int(300*detection.ymin)
-                    xmin = int(300*detection.xmin)
-                    cv2.putText(frame, labelMap[detection.label], (xmin + 10, ymin + 20), 
-                                cv2.FONT_HERSHEY_SIMPLEX, 1.0, (255,255,255))
-                    cv2.putText(frame, f"{int(detection.confidence * 100)}%", (xmin + 10, ymin + 40), 
-                                cv2.FONT_HERSHEY_SIMPLEX, 1.0, (255,255,255))
-                    cv2.rectangle(frame, (xmin, ymin), (int(300*detection.xmax), 
-                                                        int(300*detection.ymax)), (255,255,255), 2)
-            
+                    ymin = int(300 * detection.ymin)
+                    xmin = int(300 * detection.xmin)
+                    cv2.putText(frame,
+                                labelMap[detection.label],
+                                (xmin + 10, ymin + 20), 
+                                cv2.FONT_HERSHEY_SIMPLEX,
+                                1.0,
+                                (255, 255, 255))
+                    cv2.putText(frame,
+                                f"{int(detection.confidence * 100)}%",
+                                (xmin + 10, ymin + 40),
+                                cv2.FONT_HERSHEY_SIMPLEX,
+                                1.0,
+                                (255, 255, 255))
+                    cv2.rectangle(
+                                frame,
+                                (xmin, ymin),
+                                (int(300*detection.xmax), int(300*detection.ymax)),
+                                (255, 255, 255),
+                                2)
                 # Show the frame
                 cv2.imshow(f"Preview - {mxid}", frame)
 
-        if cv2.waitKey(1) == ord('q'):
+        if cv2.waitKey(1) == ord("q"'):
             break
