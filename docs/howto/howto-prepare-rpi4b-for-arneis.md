@@ -259,7 +259,7 @@ Double click on the selected profile to connect to the remote desktop of the Ras
 
 <!-- (2022-01-19 07:49 CET) -->
 
-Reference: <TODO>
+Reference: <https://docs.luxonis.com/en/latest/pages/tutorials/first_steps>
 
 Logged in as pi@rpi4gm35, type the following command to install DepthAI
 
