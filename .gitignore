@@ -6,6 +6,9 @@ __pycache__/
 # C extensions
 *.so
 
+# Sphinx documentation
+_build/
+
 # Distribution / packaging
 .Python
 build/
