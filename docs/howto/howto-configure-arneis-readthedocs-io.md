@@ -20,7 +20,7 @@ Create a feature branch
 git checkout -b feat/issue-29-readthedocs
 ```
 
-### Create initial Sphyinx configuration
+### Create initial Sphinx configuration
 
 Follow instructions at <https://docs.readthedocs.io/en/stable/intro/getting-started-with-sphinx.html>
 
