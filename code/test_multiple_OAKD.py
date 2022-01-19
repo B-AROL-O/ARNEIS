@@ -1,10 +1,12 @@
+import contextlib
+
+import blobconverter
 import cv2
 import depthai as dai
-import contextlib
-import blobconverter
 
 labelMap = ["background", "aeroplane", "bicycle", "bird", "boat", "bottle", "bus", "car", "cat", "chair", "cow",
             "diningtable", "dog", "horse", "motorbike", "person", "pottedplant", "sheep", "sofa", "train", "tvmonitor"]
+
 
 # This can be customized to pass multiple parameters
 def getPipeline():
@@ -68,11 +70,10 @@ with contextlib.ExitStack() as stack:
             'nn': device.getOutputQueue(name="nn"),
         }
 
-
     while True:
-        #print("devices: ",devices)
-        #print("\n")
-        #print("devices.items: ",devices.items())
+        # print("devices: ",devices)
+        # print("\n")
+        # print("devices.items: ",devices.items())
         for mxid, q in devices.items():
             if q['nn'].has():
                 dets = q['nn'].get().detections
@@ -81,11 +82,14 @@ with contextlib.ExitStack() as stack:
                 for detection in dets:
                     ymin = int(300*detection.ymin)
                     xmin = int(300*detection.xmin)
-                    cv2.putText(frame, labelMap[detection.label], (xmin + 10, ymin + 20), cv2.FONT_HERSHEY_SIMPLEX, 1.0, (255,255,255))
-                    cv2.putText(frame, f"{int(detection.confidence * 100)}%", (xmin + 10, ymin + 40), cv2.FONT_HERSHEY_SIMPLEX, 1.0, (255,255,255))
-                    cv2.rectangle(frame, (xmin, ymin), (int(300*detection.xmax), int(300*detection.ymax)), (255,255,255), 2)
+                    cv2.putText(frame, labelMap[detection.label], (xmin + 10, ymin + 20), 
+                                cv2.FONT_HERSHEY_SIMPLEX, 1.0, (255,255,255))
+                    cv2.putText(frame, f"{int(detection.confidence * 100)}%", (xmin + 10, ymin + 40), 
+                                cv2.FONT_HERSHEY_SIMPLEX, 1.0, (255,255,255))
+                    cv2.rectangle(frame, (xmin, ymin), (int(300*detection.xmax), 
+                                                        int(300*detection.ymax)), (255,255,255), 2)
+            
                 # Show the frame
-
                 cv2.imshow(f"Preview - {mxid}", frame)
 
         if cv2.waitKey(1) == ord('q'):
