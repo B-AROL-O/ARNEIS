@@ -5,6 +5,7 @@
   "rules": {
     "terminology": {
       "exclude": [
+        "HTML",
         "Node(?:js)?",
         "web[- ]?site(s)?",
         "wi[- ]?fi"

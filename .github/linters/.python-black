@@ -1,4 +1,4 @@
 [tool.black]
-skip-string-normalization
+skip-string-normalization = true
 
 # EOF
