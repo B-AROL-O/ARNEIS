@@ -1,1 +1,5 @@
---skip-string-normalization
+[tool.black]
+
+skip-string-normalization
+
+# EOF
