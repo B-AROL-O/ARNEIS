@@ -199,7 +199,7 @@ Verify that the RPi reboots correctly.
 
 ![2022-01-12-1037-raspian-os-rpi4b.jpg](../images/2022-01-12-1037-raspian-os-rpi4b.jpg)
 
-## Configure hostname, SSH and VNC
+### Configure hostname, SSH and VNC
 
 <!-- (2022-01-12 10:10 CET) -->
 
@@ -254,5 +254,60 @@ Do the same using a VNC client (in my case I used the free to use [VNC&reg; View
 Double click on the selected profile to connect to the remote desktop of the Raspberry Pi:
 
 ![2022-01-13-1731-vnc-connect-rpi4gm35.png](../images/2022-01-13-1736-vnc-connect-rpi4gm35.png)
+
+### Install DepthAI
+
+<!-- (2022-01-19 07:49 CET) -->
+
+Reference: <TODO>
+
+Logged in as pi@rpi4gm35, type the following command to install DepthAI
+
+```bash
+sudo apt update
+sudo apt install -y python3-pip python3-venv
+
+mkdir -p ~/github/luxonis
+cd ~/github/luxonis
+git clone https://github.com/luxonis/depthai.git
+```
+
+Now create a Python virtualenv
+
+```bash
+cd ~/github/luxonis/depthai
+python3 -m venv myvenv
+source myvenv/bin/activate
+pip install -U pip
+```
+
+Install requirements
+
+```bash
+python3 install_requirements.py
+```
+
+Add a new udev rule for the script to be able to access the OAK-D-Lite device correctly.
+
+```bash
+echo 'SUBSYSTEM=="usb", ATTRS{idVendor}=="03e7", MODE="0666"' | sudo tee /etc/udev/rules.d/80-movidius.rules
+sudo udevadm control --reload-rules && sudo udevadm trigger
+```
+
+Run the demo script
+
+```bash
+export DISPLAY=:0.0
+python3 depthai_demo.py
+```
+
+Result:
+
+```text
+(myvenv) pi@rpi4gm35:~/github/luxonis/depthai $ python3 depthai_demo.py
+Third party libraries failed to import: libhdf5_serial.so.103: cannot open shared object file: No such file or directory
+Run "python3 install_requirements.py" to install dependencies or visit our installation page for more details - https://docs.luxonis.com/projects/api/en/latest/install/
+(myvenv) pi@rpi4gm35:~/github/luxonis/depthai $
+```
 
 <!-- EOF -->
