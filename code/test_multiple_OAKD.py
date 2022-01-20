@@ -1,10 +1,9 @@
 import contextlib
+import pathlib
 
 import blobconverter
 import cv2
 import depthai as dai
-
-import pathlib
 
 labelMap = [
             "background",
@@ -126,8 +125,8 @@ with contextlib.ExitStack() as stack:
                                 (int(300*detection.xmax), int(300*detection.ymax)),
                                 (255, 255, 255),
                                 2)
-                # Show the frame
-                cv2.imshow(f"Preview - {mxid}", frame)
+                    # Show the frame
+                    cv2.imshow(f"Preview - {mxid}", frame)
 
         if cv2.waitKey(1) == ord("q"):
             break
