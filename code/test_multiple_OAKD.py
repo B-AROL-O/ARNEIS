@@ -29,6 +29,7 @@ labelMap = [
             "train",
             "tvmonitor"]
 
+index = 0
 
 # This can be customized to pass multiple parameters
 def getPipeline():
@@ -102,15 +103,15 @@ with contextlib.ExitStack() as stack:
             if q["nn"].has():
                 dets = q["nn"].get().detections
                 frame = q["rgb"].get().getCvFrame()
-                
-                frame_for_save = frame.copy()
                         
+                frame_for_save = frame.copy()
+            
                 for detection in dets:
                     ymin = int(300 * detection.ymin)
                     xmin = int(300 * detection.xmin)
                     cv2.putText(frame,
                                 labelMap[detection.label],
-                                (xmin + 10, ymin + 20), 
+                                (xmin + 10, ymin + 20),
                                 cv2.FONT_HERSHEY_SIMPLEX,
                                 1.0,
                                 (255, 255, 255))
@@ -136,6 +137,6 @@ with contextlib.ExitStack() as stack:
             if (pathlib.Path.cwd()/'images').exists():
                 cv2.imwrite("images/capture_"+str(index)+".png", frame_for_save)
             else:
-                pathlib.Path('images').mkdir(parents=True,exist_ok=True)
+                pathlib.Path('images').mkdir(parents=True, exist_ok=True)
                 cv2.imwrite("images/capture_"+str(index)+".png", frame_for_save)    
             index = index + 1
