@@ -29,6 +29,10 @@ author = 'The B-AROL-O Team'
 # ones.
 extensions = ['myst_parser']
 
+# Add the Markdown filename extension to the `source_suffix` list.
+# Reference: https://www.sphinx-doc.org/en/master/usage/markdown.html
+source_suffix = {'.rst': 'restructuredtext', '.txt': 'markdown', '.md': 'markdown'}
+
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
 
