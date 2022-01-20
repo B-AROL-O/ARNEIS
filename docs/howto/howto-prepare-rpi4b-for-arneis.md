@@ -255,9 +255,109 @@ Double click on the selected profile to connect to the remote desktop of the Ras
 
 ![2022-01-13-1731-vnc-connect-rpi4gm35.png](../images/2022-01-13-1736-vnc-connect-rpi4gm35.png)
 
+### (Recommended) Create a public DNS entry
+
+If you have administrative rights to a DNS zone you may choose to access your Raspberry Pi using a symbolic name rather than an IP address.
+
+If so, access your DNS administrative page (in my case, <https://register.it/>) and create an A record to map the name to the IP address assigned to your Raspberry Pi.
+
+In my case
+
+> `A rpi4gm45 172.30.48.18`
+
+Wait until the DNS zone is propagated, then verify that the device can be accessed by another host (in our case, our laptop) using the assigned name rather than its IP address:
+
+```bash
+gpmacario@HW2457 MINGW64 ~
+$ ping rpi4gm45.gmacario.it
+
+Esecuzione di Ping rpi4gm45.gmacario.it [172.30.48.18] con 32 byte di dati:
+Risposta da 172.30.48.18: byte=32 durata=8ms TTL=64
+Risposta da 172.30.48.18: byte=32 durata=7ms TTL=64
+Risposta da 172.30.48.18: byte=32 durata=6ms TTL=64
+Risposta da 172.30.48.18: byte=32 durata=6ms TTL=64
+
+Statistiche Ping per 172.30.48.18:
+    Pacchetti: Trasmessi = 4, Ricevuti = 4,
+    Persi = 0 (0% persi),
+Tempo approssimativo percorsi andata/ritorno in millisecondi:
+    Minimo = 6ms, Massimo =  8ms, Medio =  6ms
+
+gpmacario@HW2457 MINGW64 ~
+$
+```
+
+### Configure public SSH keypair
+
+Logged in as pi@rpi4gm45, create a public/private SSH keypair:
+
+```bash
+ssh-keygen
+```
+
+Type the following commands to be able to login to your Raspberry Pi through your public SSH key - for instance:
+
+```bash
+cat <<END >>$HOME/.ssh/authorized_keys
+ssh-rsa AAAAB3Nza....W1cG35r8= gpmacario@HW2457
+END
+```
+
+Test
+
+
+```bash
+gpmacario@HW2457 MINGW64 ~
+$ ssh pi@rpi4gm45.gmacario.it
+Linux rpi4gm35 5.10.92-v7l+ #1514 SMP Mon Jan 17 17:38:03 GMT 2022 armv7l
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+Last login: Thu Jan 20 09:12:23 2022
+pi@rpi4gm35:~ $
+```
+
+
+### Install Virtual Keyboard
+
+TODO
+
+
+### Install tool to display assigned IPv4 addresses
+
+TODO
+
+
+### Install git-aware-prompt
+
+TODO
+
+
+### Configure remote access through Visual Studio Code
+
+TODO
+
+
+### Clone ARNEIS sources from GitHub
+
+<!-- (2022-01-20 09:50 CET) -->
+
+Logged in as pi@rpi4gm45
+
+```bash
+mkdir -p ~/github/B-AROL-O
+cd ~/github/B-AROL-O
+git clone https://github.com/B-AROL-O/ARNEIS.git
+```
+
+
 ### Install DepthAI
 
-<!-- (2022-01-19 07:49 CET) -->
+<!-- (2022-01-20 09:51 CET) -->
 
 Reference: <https://docs.luxonis.com/en/latest/pages/tutorials/first_steps>
 
