@@ -131,7 +131,6 @@ with contextlib.ExitStack() as stack:
 
         if cv2.waitKey(1) == ord("q"):
             break
-    
         if cv2.waitKey(1) == ord('s'):
             if (pathlib.Path.cwd()/'images').exists():
                 cv2.imwrite("images/capture_"+str(index)+".png", frame_for_save)
