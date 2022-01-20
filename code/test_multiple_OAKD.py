@@ -103,10 +103,9 @@ with contextlib.ExitStack() as stack:
             if q["nn"].has():
                 dets = q["nn"].get().detections
                 frame = q["rgb"].get().getCvFrame()
-                        
                 frame_for_save = frame.copy()
             
-                for detection in dets:
+            for detection in dets:
                     ymin = int(300 * detection.ymin)
                     xmin = int(300 * detection.xmin)
                     cv2.putText(frame,
@@ -132,11 +131,11 @@ with contextlib.ExitStack() as stack:
 
         if cv2.waitKey(1) == ord("q"):
             break
-        
+            
         if cv2.waitKey(1) == ord('s'):
             if (pathlib.Path.cwd()/'images').exists():
                 cv2.imwrite("images/capture_"+str(index)+".png", frame_for_save)
             else:
                 pathlib.Path('images').mkdir(parents=True, exist_ok=True)
-                cv2.imwrite("images/capture_"+str(index)+".png", frame_for_save)    
+                cv2.imwrite("images/capture_"+str(index)+".png", frame_for_save)
             index = index + 1
