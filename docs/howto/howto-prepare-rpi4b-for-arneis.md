@@ -263,15 +263,15 @@ If so, access your DNS administrative page (in my case, <https://register.it/>) 
 
 In my case
 
-> `A rpi4gm45 172.30.48.18`
+> `A rpi4gm35 172.30.48.18`
 
 Wait until the DNS zone is propagated, then verify that the device can be accessed by another host (in our case, our laptop) using the assigned name rather than its IP address:
 
 ```bash
 gpmacario@HW2457 MINGW64 ~
-$ ping rpi4gm45.gmacario.it
+$ ping rpi4gm35.gmacario.it
 
-Esecuzione di Ping rpi4gm45.gmacario.it [172.30.48.18] con 32 byte di dati:
+Esecuzione di Ping rpi4gm35.gmacario.it [172.30.48.18] con 32 byte di dati:
 Risposta da 172.30.48.18: byte=32 durata=8ms TTL=64
 Risposta da 172.30.48.18: byte=32 durata=7ms TTL=64
 Risposta da 172.30.48.18: byte=32 durata=6ms TTL=64
@@ -394,8 +394,8 @@ Now create a Python virtualenv
 
 ```bash
 cd ~/github/luxonis/depthai
-python3 -m venv myvenv
-source myvenv/bin/activate
+python3 -m venv .venv
+source .venv/bin/activate
 pip install -U pip
 ```
 
@@ -405,11 +405,39 @@ Install requirements
 python3 install_requirements.py
 ```
 
+Install some missing binary packages (for some unknown reasons neither pip nor virtualenv automatically install them)
+
+```bash
+sudo apt-get install libcblas-dev
+sudo apt-get install python3-h5py
+```
+
 Add a new udev rule for the script to be able to access the OAK-D-Lite device correctly.
 
 ```bash
-echo 'SUBSYSTEM=="usb", ATTRS{idVendor}=="03e7", MODE="0666"' | sudo tee /etc/udev/rules.d/80-movidius.rules
-sudo udevadm control --reload-rules && sudo udevadm trigger
+echo 'SUBSYSTEM=="usb", ATTRS{idVendor}=="03e7", MODE="0666"' \
+    | sudo tee /etc/udev/rules.d/80-movidius.rules
+sudo udevadm control --reload-rules \
+    && sudo udevadm trigger
+```
+
+Check Linux kernel messages
+
+```bash
+sudo dmesg -w
+```
+
+Connect the OAK-D-Lite to one USB 3.0 port of the Raspberry Pi using a USB 3.0 cable (USB-A to USB-C).
+
+As soon as the OAK-D-Lite gets recognize the following messages should be displyed on the kernel log:
+
+```text
+[ 5253.298901] usb 1-1.2: new high-speed USB device number 4 using xhci_hcd
+[ 5253.429951] usb 1-1.2: New USB device found, idVendor=03e7, idProduct=2485, bcdDevice= 0.01
+[ 5253.429971] usb 1-1.2: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[ 5253.429987] usb 1-1.2: Product: Movidius MyriadX
+[ 5253.430002] usb 1-1.2: Manufacturer: Movidius Ltd.
+[ 5253.430017] usb 1-1.2: SerialNumber: 03e72485
 ```
 
 Run the demo script
@@ -419,13 +447,37 @@ export DISPLAY=:0.0
 python3 depthai_demo.py
 ```
 
+TODO
+
 Result:
 
 ```text
-(myvenv) pi@rpi4gm35:~/github/luxonis/depthai $ python3 depthai_demo.py
-Third party libraries failed to import: libhdf5_serial.so.103: cannot open shared object file: No such file or directory
-Run "python3 install_requirements.py" to install dependencies or visit our installation page for more details - https://docs.luxonis.com/projects/api/en/latest/install/
-(myvenv) pi@rpi4gm35:~/github/luxonis/depthai $
+(.venv) pi@rpi4gm35:~/github/luxonis/depthai $ python3 depthai_demo.py               Using depthai module from:  /home/pi/github/luxonis/depthai/.venv/lib/python3.9/site-packages/depthai.cpython-39-arm-linux-gnueabihf.so
+Depthai version installed:  2.14.1.0.dev+27fa4519f289498e84768ab5229a1a45efb7e4df
+Setting up demo...
+Available devices:
+[0] 19443010E106F01200 [X_LINK_UNBOOTED]
+USB Connection speed: UsbSpeed.SUPER
+Downloading /home/pi/.cache/blobconverter/mobilenet-ssd_openvino_2021.4_6shave.blob...
+[==================================================]
+Done
+Unable to init server: Could not connect: Connection refused
+
+(color:2483): Gtk-WARNING **: 21:08:30.548: cannot open display:
+python3: ../../libusb/os/threads_posix.h:58: usbi_mutex_destroy: Assertion `pthread_mutex_destroy(mutex) == 0' failed.
+Aborted
+Traceback (most recent call last):
+  File "/home/pi/github/luxonis/depthai/depthai_demo.py", line 998, in <module>
+    s.runDemo(args)
+  File "/home/pi/github/luxonis/depthai/depthai_helpers/supervisor.py", line 46, in runDemo
+    subprocess.check_call(' '.join([f'"{sys.executable}"', "depthai_demo.py"] + new_args), env=new_env, shell=True, cwd=repo_root)
+  File "/usr/lib/python3.9/subprocess.py", line 373, in check_call
+    raise CalledProcessError(retcode, cmd)
+subprocess.CalledProcessError: Command '"/home/pi/github/luxonis/depthai/.venv/bin/python3" depthai_demo.py --noSupervisor --guiType cv' returned non-zero exit status 134.
+Sentry is attempting to send 2 pending error messages
+Waiting up to 2 seconds
+Press Ctrl-C to quit
+(.venv) pi@rpi4gm35:~/github/luxonis/depthai $
 ```
 
 <!-- EOF -->
