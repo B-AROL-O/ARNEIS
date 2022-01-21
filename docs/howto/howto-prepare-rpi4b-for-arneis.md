@@ -324,7 +324,23 @@ pi@rpi4gm35:~ $
 
 ### Install Virtual Keyboard
 
-TODO
+Reference: <https://pimylifeup.com/raspberry-pi-on-screen-keyboard/>
+
+Logged in as pi@rpi4gm45, type the following commands to setup the On-Screen Keyboard:
+
+```bash
+sudo apt update
+sudo apt upgrade
+sudo apt install -y matchbox-keyboard
+```
+
+Test: On the Raspberry Pi OS dashboard run
+
+Accessories > Keyboard
+
+Result:
+
+TODO:2x photos
 
 
 ### Install tool to display assigned IPv4 addresses
