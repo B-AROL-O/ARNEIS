@@ -27,7 +27,7 @@ author = 'The B-AROL-O Team'
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = ['myst_parser','sphinx_rtd_theme']
+extensions = ['myst_parser', 'sphinx_rtd_theme']
 
 # Add the Markdown filename extension to the `source_suffix` list.
 # Reference: https://www.sphinx-doc.org/en/master/usage/markdown.html
