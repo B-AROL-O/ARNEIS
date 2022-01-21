@@ -199,6 +199,14 @@ Verify that the RPi reboots correctly.
 
 ![2022-01-12-1037-raspian-os-rpi4b.jpg](../images/2022-01-12-1037-raspian-os-rpi4b.jpg)
 
+
+### Display assigned IP addresses
+
+To know the IP addresses assigned to the Raspberry Pi just move the mouse over the network icon at the top right of the desktop
+
+![2022-01-21-2123-rpios-desktop-ipaddr.png](../images/2022-01-21-2123-rpios-desktop-ipaddr.png)
+
+
 ### Configure hostname, SSH and VNC
 
 <!-- (2022-01-12 10:10 CET) -->
@@ -344,12 +352,6 @@ Result:
 
 ![2022-01-21-1701-virtual-keyboard2.jpg](../images/2022-01-21-1701-virtual-keyboard2.jpg)
 
-
-### Install tool to display assigned IPv4 addresses
-
-**NOTE**: To display the IP addresses assigned to the Raspberry Pi just move the mouse over the network icon at the top right of the desktop
-
-![2022-01-21-2123-rpios-desktop-ipaddr.png](../images/2022-01-21-2123-rpios-desktop-ipaddr.png)
 
 <!--
 ### Install git-aware-prompt
