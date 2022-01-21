@@ -6,27 +6,28 @@ import cv2
 import depthai as dai
 
 labelMap = [
-            "background",
-            "aeroplane",
-            "bicycle",
-            "bird",
-            "boat",
-            "bottle",
-            "bus",
-            "car",
-            "cat",
-            "chair",
-            "cow",
-            "diningtable",
-            "dog",
-            "horse",
-            "motorbike",
-            "person",
-            "pottedplant",
-            "sheep",
-            "sofa",
-            "train",
-            "tvmonitor"]
+    "background",
+    "aeroplane",
+    "bicycle",
+    "bird",
+    "boat",
+    "bottle",
+    "bus",
+    "car",
+    "cat",
+    "chair",
+    "cow",
+    "diningtable",
+    "dog",
+    "horse",
+    "motorbike",
+    "person",
+    "pottedplant",
+    "sheep",
+    "sofa",
+    "train",
+    "tvmonitor"
+]
 
 index = 0
 
@@ -76,7 +77,7 @@ with contextlib.ExitStack() as stack:
         openvino_version = dai.OpenVINO.Version.VERSION_2021_4
         usb2_mode = False
         device = stack.enter_context(
-                    dai.Device(openvino_version, device_info, usb2_mode)
+            dai.Device(openvino_version, device_info, usb2_mode)
         )
 
         # Note: currently on POE, DeviceInfo.getMxId() and Device.getMxId() are different!
@@ -109,23 +110,23 @@ with contextlib.ExitStack() as stack:
                     ymin = int(300 * detection.ymin)
                     xmin = int(300 * detection.xmin)
                     cv2.putText(frame,
-                                labelMap[detection.label],
-                                (xmin + 10, ymin + 20),
-                                cv2.FONT_HERSHEY_SIMPLEX,
-                                1.0,
-                                (255, 255, 255))
+                        labelMap[detection.label],
+                        (xmin + 10, ymin + 20),
+                        cv2.FONT_HERSHEY_SIMPLEX,
+                        1.0,
+                        (255, 255, 255))
                     cv2.putText(frame,
-                                f"{int(detection.confidence * 100)}%",
-                                (xmin + 10, ymin + 40),
-                                cv2.FONT_HERSHEY_SIMPLEX,
-                                1.0,
-                                (255, 255, 255))
+                        f"{int(detection.confidence * 100)}%",
+                        (xmin + 10, ymin + 40),
+                        cv2.FONT_HERSHEY_SIMPLEX,
+                        1.0,
+                        (255, 255, 255))
                     cv2.rectangle(
-                                frame,
-                                (xmin, ymin),
-                                (int(300*detection.xmax), int(300*detection.ymax)),
-                                (255, 255, 255),
-                                2)
+                        frame,
+                        (xmin, ymin),
+                        (int(300*detection.xmax), int(300*detection.ymax)),
+                        (255, 255, 255),
+                        2)
                     # Show the frame
                     cv2.imshow(f"Preview - {mxid}", frame)
 
