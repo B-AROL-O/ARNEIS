@@ -347,17 +347,21 @@ Result:
 
 ### Install tool to display assigned IPv4 addresses
 
-TODO
+**NOTE**: To display the IP addresses assigned to the Raspberry Pi just move the mouse over the network icon at the top right of the desktop
 
+![2022-01-21-2123-rpios-desktop-ipaddr.png](../images/2022-01-21-2123-rpios-desktop-ipaddr.png)
 
+<!--
 ### Install git-aware-prompt
 
 TODO
+>
 
-
+<!--
 ### Configure remote access through Visual Studio Code
 
 TODO
+>
 
 
 ### Clone ARNEIS sources from GitHub
