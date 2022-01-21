@@ -4,7 +4,7 @@
 
 ## Introduction
 
-The following document explains how to prepare and configure a Raspberry Pi for the [ARNEIS project](https://github.com/B-AROL-O/ARNEIS/tree/fix/updates-to-howto-rpi4).
+The following document explains how to prepare and configure a Raspberry Pi for the [ARNEIS project](https://github.com/B-AROL-O/ARNEIS).
 
 ## Prerequisites
 
