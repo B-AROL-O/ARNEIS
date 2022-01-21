@@ -139,8 +139,12 @@ with contextlib.ExitStack() as stack:
             break
         if cv2.waitKey(1) == ord('s'):
             if (pathlib.Path.cwd() / 'images').exists():
-                cv2.imwrite("images/capture_" + str(index) + ".png", frame_for_save)  # may be changed so that the operation of writing is made outside of IF
+                cv2.imwrite(
+                    "images/capture_" + str(index) + ".png", frame_for_save
+                )  # may be changed so that the operation of writing is made outside of IF
             else:
                 pathlib.Path('images').mkdir(parents=True, exist_ok=True)
-                cv2.imwrite("images/capture_" + str(index) + ".png", frame_for_save)
+                cv2.imwrite(
+                    "images/capture_" + str(index) + ".png", frame_for_save
+                )
             index = index + 1
