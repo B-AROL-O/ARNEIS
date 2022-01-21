@@ -443,28 +443,30 @@ As soon as the OAK-D-Lite gets recognize the following messages should be disply
 Run the demo script
 
 ```bash
-export DISPLAY=:0.0
 python3 depthai_demo.py
 ```
 
-TODO
+Result: The `depthai_demo.py` program is executed correctly on the Raspberry Pi.
 
-Result:
+![2022-01-21-2117-rpi4-depthai-demo.jpg](../images/2022-01-21-2117-rpi4-depthai-demo.jpg)
+
+
+**NOTE**: If `depthai_demo.py` is started from a remote SSH shell, the following error is displayed:
 
 ```text
-(.venv) pi@rpi4gm35:~/github/luxonis/depthai $ python3 depthai_demo.py               Using depthai module from:  /home/pi/github/luxonis/depthai/.venv/lib/python3.9/site-packages/depthai.cpython-39-arm-linux-gnueabihf.so
+(.venv) pi@rpi4gm35:~/github/luxonis/depthai $ export DISPLAY=0.0
+(.venv) pi@rpi4gm35:~/github/luxonis/depthai $ python3 depthai_demo.py
+Using depthai module from:  /home/pi/github/luxonis/depthai/.venv/lib/python3.9/site-packages/depthai.cpython-39-arm-linux-gnueabihf.so
 Depthai version installed:  2.14.1.0.dev+27fa4519f289498e84768ab5229a1a45efb7e4df
 Setting up demo...
 Available devices:
 [0] 19443010E106F01200 [X_LINK_UNBOOTED]
 USB Connection speed: UsbSpeed.SUPER
-Downloading /home/pi/.cache/blobconverter/mobilenet-ssd_openvino_2021.4_6shave.blob...
-[==================================================]
-Done
 Unable to init server: Could not connect: Connection refused
 
-(color:2483): Gtk-WARNING **: 21:08:30.548: cannot open display:
+(color:2626): Gtk-WARNING **: 21:11:11.516: cannot open display: 0.0
 python3: ../../libusb/os/threads_posix.h:58: usbi_mutex_destroy: Assertion `pthread_mutex_destroy(mutex) == 0' failed.
+python3: ../../libusb/os/threads_posix.h:46: usbi_mutex_lock: Assertion `pthread_mutex_lock(mutex) == 0' failed.
 Aborted
 Traceback (most recent call last):
   File "/home/pi/github/luxonis/depthai/depthai_demo.py", line 998, in <module>
@@ -474,9 +476,6 @@ Traceback (most recent call last):
   File "/usr/lib/python3.9/subprocess.py", line 373, in check_call
     raise CalledProcessError(retcode, cmd)
 subprocess.CalledProcessError: Command '"/home/pi/github/luxonis/depthai/.venv/bin/python3" depthai_demo.py --noSupervisor --guiType cv' returned non-zero exit status 134.
-Sentry is attempting to send 2 pending error messages
-Waiting up to 2 seconds
-Press Ctrl-C to quit
 (.venv) pi@rpi4gm35:~/github/luxonis/depthai $
 ```
 
