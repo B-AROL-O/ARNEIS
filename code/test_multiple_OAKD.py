@@ -1,3 +1,9 @@
+#############
+#
+# Code inspired by https://github.com/luxonis/depthai-experiments/tree/master/gen2-multiple-devices
+#
+#############
+
 import contextlib
 import pathlib
 
