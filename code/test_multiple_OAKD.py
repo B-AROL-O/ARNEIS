@@ -26,7 +26,7 @@ labelMap = [
     "sheep",
     "sofa",
     "train",
-    "tvmonitor"
+    "tvmonitor",
 ]
 
 index = 0
@@ -109,33 +109,38 @@ with contextlib.ExitStack() as stack:
                 for detection in dets:
                     ymin = int(300 * detection.ymin)
                     xmin = int(300 * detection.xmin)
-                    cv2.putText(frame,
+                    cv2.putText(
+                        frame,
                         labelMap[detection.label],
                         (xmin + 10, ymin + 20),
                         cv2.FONT_HERSHEY_SIMPLEX,
                         1.0,
-                        (255, 255, 255))
-                    cv2.putText(frame,
+                        (255, 255, 255),
+                    )
+                    cv2.putText(
+                        frame,
                         f"{int(detection.confidence * 100)}%",
                         (xmin + 10, ymin + 40),
                         cv2.FONT_HERSHEY_SIMPLEX,
                         1.0,
-                        (255, 255, 255))
+                        (255, 255, 255),
+                    )
                     cv2.rectangle(
                         frame,
                         (xmin, ymin),
-                        (int(300*detection.xmax), int(300*detection.ymax)),
+                        (int(300 * detection.xmax), int(300 * detection.ymax)),
                         (255, 255, 255),
-                        2)
+                        2,
+                    )
                     # Show the frame
                     cv2.imshow(f"Preview - {mxid}", frame)
 
         if cv2.waitKey(1) == ord("q"):
             break
         if cv2.waitKey(1) == ord('s'):
-            if (pathlib.Path.cwd()/'images').exists():
-                cv2.imwrite("images/capture_"+str(index)+".png", frame_for_save)
+            if (pathlib.Path.cwd() / 'images').exists():
+                cv2.imwrite("images/capture_" + str(index) + ".png", frame_for_save)  # may be changed so that the operation of writing is made outside of IF
             else:
                 pathlib.Path('images').mkdir(parents=True, exist_ok=True)
-                cv2.imwrite("images/capture_"+str(index)+".png", frame_for_save)
+                cv2.imwrite("images/capture_" + str(index) + ".png", frame_for_save)
             index = index + 1
