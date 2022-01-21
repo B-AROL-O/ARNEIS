@@ -338,9 +338,11 @@ Test: On the Raspberry Pi OS dashboard run
 
 Accessories > Keyboard
 
+![2022-01-21-1701-virtual-keyboard1.jpg](../images/2022-01-21-1701-virtual-keyboard1.jpg)
+
 Result:
 
-TODO:2x photos
+![2022-01-21-1701-virtual-keyboard2.jpg](../images/2022-01-21-1701-virtual-keyboard2.jpg)
 
 
 ### Install tool to display assigned IPv4 addresses
