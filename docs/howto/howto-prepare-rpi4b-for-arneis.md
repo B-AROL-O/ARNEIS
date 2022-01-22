@@ -353,11 +353,41 @@ Result:
 ![2022-01-21-1701-virtual-keyboard2.jpg](../images/2022-01-21-1701-virtual-keyboard2.jpg)
 
 
-<!--
-### Install git-aware-prompt
+### Install git and related tools
 
+#### Install git and tig
+
+```bash
+sudo apt update
+sudo apt -y install git tig
+```
+
+#### Install gh
+
+```bash
 TODO
->
+```
+
+#### Install [git-aware-prompt](https://github.com/jimeh/git-aware-prompt)
+
+Clone git-aware-prompt sources from GitHub
+
+```bash
+mkdir ~/.bash
+cd ~/.bash
+git clone git://github.com/jimeh/git-aware-prompt.git
+```
+
+and customize the default shell prompt
+
+```bash
+cat <<END >>~/.bash_profile
+export GITAWAREPROMPT=~/.bash/git-aware-prompt
+source "${GITAWAREPROMPT}/main.sh"
+END
+```
+
+Logout and login for applying the changes
 
 <!--
 ### Configure remote access through Visual Studio Code
