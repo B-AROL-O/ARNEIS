@@ -27,16 +27,17 @@ Follow instructions at <https://docs.readthedocs.io/en/stable/intro/getting-star
 Create initial Sphinx configuration
 
 ```bash
-pip3 install sphinx
-PATH=$HOME/.local/bin:$PATH
 cd docs
+python3 -m venv .venv
+source .venv/bin/activate
+pip3 install sphinx
 sphinx-quickstart
 ```
 
 Fill in the required information:
 
 ```text
-gmacario@gmpowerhorse:~/github/B-AROL-O/ARNEIS/docs (feat/issue-29-readthedocs)$ sphinx-quickstart 
+(.venv) gmacario@gmpowerhorse:~/github/B-AROL-O/ARNEIS/docs (feat/issue-29-readthedocs)$ sphinx-quickstart 
 Welcome to the Sphinx 4.4.0 quickstart utility.
 
 Please enter values for the following settings (just press Enter to
@@ -74,10 +75,12 @@ source files. Use the Makefile to build the docs, like so:
    make builder
 where "builder" is one of the supported builders, e.g. html, latex or linkcheck.
 
-gmacario@gmpowerhorse:~/github/B-AROL-O/ARNEIS/docs (feat/issue-29-readthedocs)*$
+(.venv) gmacario@gmpowerhorse:~/github/B-AROL-O/ARNEIS/docs (feat/issue-29-readthedocs)*$
 ```
 
-Test:
+### Locally build the static HTML site
+
+Run the following command:
 
 ```bash
 make html
@@ -86,7 +89,7 @@ make html
 Result:
 
 ```text
-gmacario@gmpowerhorse:~/github/B-AROL-O/ARNEIS/docs (feat/issue-29-readthedocs)*$ make html
+(.venv) gmacario@gmpowerhorse:~/github/B-AROL-O/ARNEIS/docs (feat/issue-29-readthedocs)*$ make html
 Running Sphinx v4.4.0
 making output directory... done
 building [mo]: targets for 0 po files that are out of date
@@ -107,17 +110,71 @@ dumping object inventory... done
 build succeeded.
 
 The HTML pages are in _build/html.
-gmacario@gmpowerhorse:~/github/B-AROL-O/ARNEIS/docs (feat/issue-29-readthedocs)*$
+(.venv) gmacario@gmpowerhorse:~/github/B-AROL-O/ARNEIS/docs (feat/issue-29-readthedocs)*$
 ```
 
-Test:
+#### Test the generated website
+
+Run a simple http server to make the generated pages available on the network:
 
 ```bash
-cd ~/github/B-AROL-O/ARNEIS/docs/_build/html
-python3 -m http.server
+cd ~/github/B-AROL-O/ARNEIS/docs/
+python3 -m http.server --directory _build/html/
 ```
 
-then open <http://localhost:8000/> from your browser
+then if you open <http://localhost:8000/> from your browser, the home page of the generated website should be displayed.
+
+![2022-01-22-0804-docsite-alabaster.png](../images/2022-01-22-0804-docsite-alabaster.png)
+
+All the http requests will also be logged on the terminal where you launched the http server:
+
+```text
+(.venv) gmacario@gmpowerhorse:~/github/B-AROL-O/ARNEIS/docs (feat/docsite-add-links)*$ python3 -m http.server --directory _build/html/
+Serving HTTP on 0.0.0.0 port 8000 (http://0.0.0.0:8000/) ...
+127.0.0.1 - - [22/Jan/2022 07:48:24] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [22/Jan/2022 07:48:24] "GET /_static/pygments.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/Jan/2022 07:48:24] "GET /_static/css/theme.css HTTP/1.1" 304 -
+127.0.0.1 - - [22/Jan/2022 07:48:24] "GET /_static/documentation_options.js HTTP/1.1" 304 -
+127.0.0.1 - - [22/Jan/2022 07:48:24] "GET /_static/js/theme.js HTTP/1.1" 304 -
+127.0.0.1 - - [22/Jan/2022 07:48:25] "GET /_static/css/fonts/lato-normal.woff2?bd03a2cc277bbbc338d464e679fe9942 HTTP/1.1" 304 -
+127.0.0.1 - - [22/Jan/2022 07:48:25] "GET /_static/css/fonts/fontawesome-webfont.woff2?af7ae505a9eed503f8b8e6982036873e HTTP/1.1" 304 -
+127.0.0.1 - - [22/Jan/2022 07:48:25] "GET /_static/css/fonts/lato-bold.woff2?cccb897485813c7c256901dbca54ecf2 HTTP/1.1" 304 -
+127.0.0.1 - - [22/Jan/2022 07:48:25] "GET /_static/css/fonts/Roboto-Slab-Bold.woff2?9984f4a9bda09be08e83f2506954adbe HTTP/1.1" 304 -
+127.0.0.1 - - [22/Jan/2022 07:48:32] "GET /genindex.html HTTP/1.1" 200 -
+127.0.0.1 - - [22/Jan/2022 07:48:36] "GET /index.html HTTP/1.1" 200 -
+```
+
+### Add the Read the Docs Sphinx Theme
+
+Reference: <https://sphinx-rtd-theme.readthedocs.io/>
+
+Make sure the following package is included in `docs/requirements.txt`
+
+```text
+sphinx_rtd_theme==1.0.0
+```
+
+Add the following configuration to `docs/conf.py`
+
+```python
+extensions = ['sphinx_rtd_theme']
+
+html_theme = 'sphinx_rtd_theme'
+```
+
+Test as usual with the following commands
+
+```bash
+cd ~/github/B-AROL-O/ARNEIS/docs/
+python3 -m http.server --directory _build/html/
+```
+
+then open <http://localhost:8000/> from your browser.
+Verify that the Read the Docs Sphinx Theme has been applied to the website:
+
+![2022-01-22-0744-docsite-rtd-theme.png](../images/2022-01-22-0744-docsite-rtd-theme.png)
+
+
 
 ### Adding support for Markdown
 
@@ -136,10 +193,17 @@ extensions = [
 ]
 ```
 
-TODO
+Test as usual with the following commands
 
-Test: Open <https://arneis.readthedocs.io/>
+```bash
+cd ~/github/B-AROL-O/ARNEIS/docs/
+python3 -m http.server --directory _build/html/
+```
 
-TODO
+then open <http://localhost:8000/> from your browser.
+
+Type "HOWTO" into the "Search docs" input field and verify that the Markdown pages have been included as well
+
+![2022-01-22-0821-docsite-search-howto.png](../images/2022-01-22-0821-docsite-search-howto.png)
 
 <!-- EOF -->
