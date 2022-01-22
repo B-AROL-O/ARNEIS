@@ -10,6 +10,9 @@ Welcome to ARNEIS's documentation!
    :maxdepth: 2
    :caption: Contents:
 
+   howto/howto-configure-arneis-readthedocs-io
+   howto/howto-prepare-rpi4b-for-arneis
+
 Indices and tables
 ==================
 
