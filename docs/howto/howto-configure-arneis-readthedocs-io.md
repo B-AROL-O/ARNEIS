@@ -122,9 +122,9 @@ cd ~/github/B-AROL-O/ARNEIS/docs/
 python3 -m http.server --directory _build/html/
 ```
 
-then open <http://localhost:8000/> from your browser. You should see the home page of the generated website:
+then if you open <http://localhost:8000/> from your browser, the home page of the generated website should be displayed.
 
-![2022-01-22-0744-initial-docsite.png](../images/2022-01-22-0744-initial-docsite.png)
+![2022-01-22-0804-docsite-alabaster.png](../images/2022-01-22-0804-docsite-alabaster.png)
 
 All the http requests will also be logged on the terminal where you launched the http server:
 
@@ -143,6 +143,37 @@ Serving HTTP on 0.0.0.0 port 8000 (http://0.0.0.0:8000/) ...
 127.0.0.1 - - [22/Jan/2022 07:48:32] "GET /genindex.html HTTP/1.1" 200 -
 127.0.0.1 - - [22/Jan/2022 07:48:36] "GET /index.html HTTP/1.1" 200 -
 ```
+
+### Add the Read the Docs Sphinx Theme
+
+Reference: <https://sphinx-rtd-theme.readthedocs.io/>
+
+Make sure the following package is included in `docs/requirements.txt`
+
+```text
+sphinx_rtd_theme==1.0.0
+```
+
+Add the following configuration to `docs/conf.py`
+
+```python
+extensions = ['sphinx_rtd_theme']
+
+html_theme = 'sphinx_rtd_theme'
+```
+
+Test as usual with the following commands
+
+```bash
+cd ~/github/B-AROL-O/ARNEIS/docs/
+python3 -m http.server --directory _build/html/
+```
+
+then open <http://localhost:8000/> from your browser.
+Verify that the Read the Docs Sphinx Theme has been applied to the website:
+
+![2022-01-22-0744-docsite-rtd-theme.png](../images/2022-01-22-0744-docsite-rtd-theme.png)
+
 
 
 ### Adding support for Markdown
