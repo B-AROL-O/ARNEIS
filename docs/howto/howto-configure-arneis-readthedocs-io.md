@@ -27,16 +27,17 @@ Follow instructions at <https://docs.readthedocs.io/en/stable/intro/getting-star
 Create initial Sphinx configuration
 
 ```bash
-pip3 install sphinx
-PATH=$HOME/.local/bin:$PATH
 cd docs
+python3 -m venv .venv
+source .venv/bin/activate
+pip3 install sphinx
 sphinx-quickstart
 ```
 
 Fill in the required information:
 
 ```text
-gmacario@gmpowerhorse:~/github/B-AROL-O/ARNEIS/docs (feat/issue-29-readthedocs)$ sphinx-quickstart 
+(.venv) gmacario@gmpowerhorse:~/github/B-AROL-O/ARNEIS/docs (feat/issue-29-readthedocs)$ sphinx-quickstart 
 Welcome to the Sphinx 4.4.0 quickstart utility.
 
 Please enter values for the following settings (just press Enter to
@@ -74,10 +75,12 @@ source files. Use the Makefile to build the docs, like so:
    make builder
 where "builder" is one of the supported builders, e.g. html, latex or linkcheck.
 
-gmacario@gmpowerhorse:~/github/B-AROL-O/ARNEIS/docs (feat/issue-29-readthedocs)*$
+(.venv) gmacario@gmpowerhorse:~/github/B-AROL-O/ARNEIS/docs (feat/issue-29-readthedocs)*$
 ```
 
-Test:
+### Locally build the static HTML site
+
+Run the following command:
 
 ```bash
 make html
@@ -86,7 +89,7 @@ make html
 Result:
 
 ```text
-gmacario@gmpowerhorse:~/github/B-AROL-O/ARNEIS/docs (feat/issue-29-readthedocs)*$ make html
+(.venv) gmacario@gmpowerhorse:~/github/B-AROL-O/ARNEIS/docs (feat/issue-29-readthedocs)*$ make html
 Running Sphinx v4.4.0
 making output directory... done
 building [mo]: targets for 0 po files that are out of date
@@ -107,14 +110,16 @@ dumping object inventory... done
 build succeeded.
 
 The HTML pages are in _build/html.
-gmacario@gmpowerhorse:~/github/B-AROL-O/ARNEIS/docs (feat/issue-29-readthedocs)*$
+(.venv) gmacario@gmpowerhorse:~/github/B-AROL-O/ARNEIS/docs (feat/issue-29-readthedocs)*$
 ```
 
-Test:
+#### Test the generated website
+
+Run a webserver to verify the generated site from another host in the network:
 
 ```bash
-cd ~/github/B-AROL-O/ARNEIS/docs/_build/html
-python3 -m http.server
+cd ~/github/B-AROL-O/ARNEIS/docs/
+python3 -m http.server --directory _build/html/
 ```
 
 then open <http://localhost:8000/> from your browser
