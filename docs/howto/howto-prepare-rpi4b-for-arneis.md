@@ -485,4 +485,8 @@ subprocess.CalledProcessError: Command '"/home/pi/github/luxonis/depthai/.venv/b
 (.venv) pi@rpi4gm35:~/github/luxonis/depthai $
 ```
 
+## Known issues and workarounds
+
+TODO
+
 <!-- EOF -->

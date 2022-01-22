@@ -1,0 +1,15 @@
+
+[ 9184.261306] usb 1-1.2: new high-speed USB device number 8 using xhci_hcd
+[ 9184.391937] usb 1-1.2: New USB device found, idVendor=03e7, idProduct=2485, bcdDevice= 0.01
+[ 9184.391948] usb 1-1.2: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[ 9184.391957] usb 1-1.2: Product: Movidius MyriadX
+[ 9184.391965] usb 1-1.2: Manufacturer: Movidius Ltd.
+[ 9184.391972] usb 1-1.2: SerialNumber: 03e72485
+[ 9184.581500] usb 2-2: USB disconnect, device number 5
+pppp[ 9360.378530] usb 1-1.2: USB disconnect, device number 8
+[ 9361.363616] usb 2-2: new SuperSpeed Gen 1 USB device number 6 using xhci_hcd
+[ 9361.394810] usb 2-2: New USB device found, idVendor=03e7, idProduct=f63b, bcdDevice= 1.00
+[ 9361.394822] usb 2-2: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[ 9361.394829] usb 2-2: Product: Luxonis Device
+[ 9361.394837] usb 2-2: Manufacturer: Intel Corporation
+[ 9361.394844] usb 2-2: SerialNumber: 19443010E106F01200
