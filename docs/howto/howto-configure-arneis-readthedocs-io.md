@@ -193,10 +193,17 @@ extensions = [
 ]
 ```
 
-TODO
+Test as usual with the following commands
 
-Test: Open <https://arneis.readthedocs.io/>
+```bash
+cd ~/github/B-AROL-O/ARNEIS/docs/
+python3 -m http.server --directory _build/html/
+```
 
-TODO
+then open <http://localhost:8000/> from your browser.
+
+Type "HOWTO" into the "Search docs" input field and verify that the Markdown pages have been included as well
+
+![2022-01-22-0821-docsite-search-howto.png](../images/2022-01-22-0821-docsite-search-howto.png)
 
 <!-- EOF -->
