@@ -1,2 +1,0 @@
-
-https://gist.githubusercontent.com/gmacario/73f8c9e6cb704e18d21422710f27fd81/raw/7a7547c759cf60adcba65c9963746a8be6905b0a/2022-01-14-install-depthai-on-alpha.md
