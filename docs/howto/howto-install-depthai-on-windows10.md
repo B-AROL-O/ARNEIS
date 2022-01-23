@@ -2,8 +2,6 @@
 
 <!-- (2022-01-14 18:33 CET) -->
 
-**TODO**: Create a PR to add to https://github.com/B-AROL-O/ARNEIS/tree/main/docs/howto
-
 ## Introduction
 
 The following document explains how to prepare and configure a Windows lapto to be used with the [ARNEIS project](https://github.com/B-AROL-O/ARNEIS/tree/fix/updates-to-howto-rpi4).
@@ -129,10 +127,12 @@ If no OAK-D-Lite is connected a dialog box like this one should be displayed:
 
 > An error occurred
 >
-> File "C:\Users\gmaca\AppData\Local\ProgramsDepthAI\depthai\depthai_demo.py", line 625, in run<br>
->     self.instance.run_all(self.conf)<br>
->     ...<br>
+> ```text
+> File "C:\Users\gmaca\AppData\Local\ProgramsDepthAI\depthai\depthai_demo.py", line 625, in run
+>     self.instance.run_all(self.conf)
+>     ...
 >     No DepthAI device found!
+> ```
 >
 > [OK](TODO)
 
