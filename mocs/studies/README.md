@@ -41,10 +41,11 @@ Main features of this design are:
 
 ![bottle-conveyor](bottle-conveyor-20220122.png)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/BFKyx1COfqk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[![Bottle conveyor assembly](https://img.youtube.com/vi/BFKyx1COfqk/0.jpg)](https://www.youtube.com/watch?v=BFKyx1COfqk)
 
 > **Files**
 >
-> [`bottle-conveyor-20220122.io`](bottle-conveyor-20220122.io) : the lego project in _Bricklink Studio_ CAD. <br/>
-> [`bottle-conveyor-20220122.ldr`](bottle-conveyor-20220122.ldr) :  the lego project exported in [LDraw file format](https://www.ldraw.org/article/218.html).
-> [`bottle-conveyor-20220122.png`](bottle-conveyor-20220122.png) : a rendered version image
+> [`bottle-conveyor-20220122.io`](bottle-conveyor-20220122.io) : the lego project in _Bricklink Studio_ CAD.<br/>
+> [`bottle-conveyor-20220122.ldr`](bottle-conveyor-20220122.ldr) :  the lego project exported in [LDraw file format](https://www.ldraw.org/article/218.html).<br/>
+> [`bottle-conveyor-20220122.png`](bottle-conveyor-20220122.png) : a rendered version image<br/>
+> [`bottle-conveyor-20220122.pdf`](bottle-conveyor-20220122.pdf) : building instruction manual
