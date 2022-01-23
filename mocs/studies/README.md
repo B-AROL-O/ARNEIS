@@ -23,7 +23,7 @@ The chain is not used as a base surface for the bottles for the difficulty of ma
 
 > **Files**
 >
-> [`Conveyor_001.ldr`](Conveyor_001.ldr) :  the lego project exported in [LDraw file format](https://www.ldraw.org/article/218.html).<br/>
+> [`Conveyor_001.ldr`](Conveyor_001.ldr) : the LEGO project exported in [LDraw file format](https://www.ldraw.org/article/218.html).<br/>
 > [`Conveyor_001.png`](Conveyor_001.png) : a rendered version image
 
 ## Bottle Conveyor (2022-01-22)
@@ -45,7 +45,7 @@ Main features of this design are:
 
 > **Files**
 >
-> [`bottle-conveyor-20220122.io`](bottle-conveyor-20220122.io) : the lego project in _Bricklink Studio_ CAD.<br/>
-> [`bottle-conveyor-20220122.ldr`](bottle-conveyor-20220122.ldr) :  the lego project exported in [LDraw file format](https://www.ldraw.org/article/218.html).<br/>
+> [`bottle-conveyor-20220122.io`](bottle-conveyor-20220122.io) : the LEGO project in _Bricklink Studio_ CAD.<br/>
+> [`bottle-conveyor-20220122.ldr`](bottle-conveyor-20220122.ldr) : the LEGO project exported in [LDraw file format](https://www.ldraw.org/article/218.html).<br/>
 > [`bottle-conveyor-20220122.png`](bottle-conveyor-20220122.png) : a rendered version image<br/>
 > [`bottle-conveyor-20220122.pdf`](bottle-conveyor-20220122.pdf) : building instruction manual
