@@ -18,7 +18,7 @@ This document is Copyright (c) 2021-2022 by the [B-AROL-O Team](https://github.c
 * **ARNEIS**: Automated Recognizer, Network-Enabled, Items Sorter. See <https://github.com/B-AROL-O/ARNEIS>
 * **B-AROL-O**: See <https://github.com/B-AROL-O/>
 * **BLE**: Bluetooth Low Energy. See <https://en.wikipedia.org/wiki/Bluetooth_Low_Energy>
-* **Bluetooth&reg;**. See <https://www.bluetooth.com/> 
+* **Bluetooth&reg;**. See <https://www.bluetooth.com/>
 * **BT**: See Bluetooth
 * **LEGO&reg;**: See <https://www.lego.com/>
 * **MOC**: My Own Creation
