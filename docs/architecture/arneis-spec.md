@@ -12,6 +12,25 @@ This document is Copyright (c) 2021-2022 by the [B-AROL-O Team](https://github.c
 
 * [ARNEIS: Automated Recognizer, Network-Enabled, Items Sorter](https://github.com/B-AROL-O/opencv-spatial-ai-contest/blob/main/phase1/arneis-proposal-2021-11-20.pdf) - Project Proposal submitted to the OpenCV Spatial AI Contest, 2021-11-20 (PDF, 5 pages)
 
+### Definitions, acronyms and abbreviations
+
+* **AI**: Artificial Intelligence
+* **ARNEIS**: Automated Recognizer, Network-Enabled, Items Sorter. See <https://github.com/B-AROL-O/ARNEIS>
+* **B-AROL-O**: See <https://github.com/B-AROL-O/>
+* **BLE**: Bluetooth Low Energy. See <https://en.wikipedia.org/wiki/Bluetooth_Low_Energy>
+* **Bluetooth&reg;**. See <https://www.bluetooth.com/> 
+* **BT**: See Bluetooth
+* **LEGO&reg;**: See <https://www.lego.com/>
+* **MOC**: My Own Creation
+* **NFR**: Non-Functional Requirement
+* **OAK**: OpenCV AI Kit
+* **OpenCV**: See <https://opencv.org/>
+* **PDF**: Portable Document Format. See <https://en.wikipedia.org/wiki/PDF>
+* **SysML**: Systems Modeling Language. See <http://www.sysml.org/>
+* **UC**: Use case. See <https://en.wikipedia.org/wiki/Use_case>
+* **UML**: Unified Modeling Language. See <http://uml.org/>
+* **USB**: Universal Serial Bus. See <https://en.wikipedia.org/wiki/USB>
+
 ## Open questions
 
 * Q1: How many types of bottles should be recognized?
