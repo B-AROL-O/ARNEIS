@@ -11,6 +11,7 @@ Welcome to ARNEIS's documentation!
    :caption: Contents:
 
    howto/howto-configure-arneis-readthedocs-io
+   howto/howto-install-depthai-on-windows10
    howto/howto-prepare-rpi4b-for-arneis
 
 Indices and tables
