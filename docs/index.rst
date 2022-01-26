@@ -10,6 +10,8 @@ Welcome to ARNEIS's documentation!
    :maxdepth: 2
    :caption: Contents:
 
+   architecture/arneis-spec
+   
    howto/howto-configure-arneis-readthedocs-io
    howto/howto-install-depthai-on-windows10
    howto/howto-prepare-rpi4b-for-arneis
