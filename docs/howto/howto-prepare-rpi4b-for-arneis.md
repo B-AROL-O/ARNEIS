@@ -353,18 +353,71 @@ Result:
 ![2022-01-21-1701-virtual-keyboard2.jpg](../images/2022-01-21-1701-virtual-keyboard2.jpg)
 
 
-<!--
-### Install git-aware-prompt
+### Install git and related tools
 
+#### Install git and tig
+
+```bash
+sudo apt update
+sudo apt -y install git tig
+```
+
+#### Install git-aware-prompt
+  
+<!-- (2022-01-22 17:15 CET) -->
+
+Reference: <https://github.com/jimeh/git-aware-prompt>
+
+Clone git-aware-prompt sources from GitHub
+
+```bash
+mkdir ~/.bash
+cd ~/.bash
+git clone git://github.com/jimeh/git-aware-prompt.git
+```
+
+and customize the default shell prompt
+
+```bash
+cat <<END >>~/.bashrc
+
+# Configure git-aware-prompt
+export GITAWAREPROMPT=~/.bash/git-aware-prompt
+source "${GITAWAREPROMPT}/main.sh"
+export PS1="\${debian_chroot:+(\$debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\] \[$txtcyn\]\$git_branch\[$txtred\]\$git_dirty\[$txtrst\]\$ "
+END
+```
+
+Logout and login for applying the changes.
+
+Now when inside a directory versioned with git your prompt should show the branch where you are in, as in the following example
+
+```text
+pi@rpi4gm35:~/.bash/git-aware-prompt (master)$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+pi@rpi4gm35:~/.bash/git-aware-prompt (master)$
+```
+
+Notice that the `(master)` branch is part the prompt.
+
+<!--
+#### Install Github CLI
+
+Reference: <https://lindevs.com/install-github-cli-on-raspberry-pi/>
+
+```bash
 TODO
->
+```
+-->
 
 <!--
 ### Configure remote access through Visual Studio Code
 
 TODO
->
-
+-->
 
 ### Clone ARNEIS sources from GitHub
 
