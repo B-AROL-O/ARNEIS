@@ -242,7 +242,7 @@ There are multiple ways to opt out of the advertising on Read the Docs.
    Additionally, Gold members may remove advertising from their projects for all visitors.
 
 2. You can opt out of seeing paid advertisements on documentation pages:
-   * Go to the drop down user menu in the top right of the Read the Docs dashboard and clicking **Settings** (https://readthedocs.org/accounts/edit/).
+   * Go to the drop down user menu in the top right of the Read the Docs dashboard and clicking **Settings** (<https://readthedocs.org/accounts/edit/>).
    * On the **Advertising** tab, you can deselect **See paid advertising**.
   
    You will still see [community ads](https://docs.readthedocs.io/en/stable/advertising/ethical-advertising.html#community-ads) for open source projects and conferences.
