@@ -228,4 +228,33 @@ In order to enable the Pull Request preview feature you should execute the follo
 
    <img width="730" alt="Schermata 2022-01-25 alle 18 52 38" src="https://user-images.githubusercontent.com/25162080/151031987-2e64c678-0638-43a9-90c0-f965b2ede3c4.png">
 
+### Removing the Ads
+
+<!-- (2022-01-27 07:35 CET) -->
+
+References:
+
+* <https://docs.readthedocs.io/en/stable/advertising/ethical-advertising.html>
+
+There are multiple ways to opt out of the advertising on Read the Docs.
+
+1. You can go completely ad-free by becoming a [Gold member](https://readthedocs.org/accounts/gold/) or a [Supporter](https://readthedocs.org/sustainability/#donations).
+   Additionally, Gold members may remove advertising from their projects for all visitors.
+
+2. You can opt out of seeing paid advertisements on documentation pages:
+   * Go to the drop down user menu in the top right of the Read the Docs dashboard and clicking **Settings** (https://readthedocs.org/accounts/edit/).
+   * On the **Advertising** tab, you can deselect **See paid advertising**.
+  
+   You will still see [community ads](https://docs.readthedocs.io/en/stable/advertising/ethical-advertising.html#community-ads) for open source projects and conferences.
+
+3. Project owners can also opt out of paid advertisements for their projects.
+   You can change these options:
+   * Go to your **project** page (`/projects/<slug>/`)
+   * Go to **Admin** > **Advertising**
+   * Change your advertising settings
+
+4. If you are part of a company that uses Read the Docs to host documentation for a commercial product, [Read the Docs for Business](https://docs.readthedocs.io/en/stable/commercial/index.html) offers a completely ad-free experience, additional build resources, and other great features like CDN support and private documentation.
+
+5. If you would like to completely remove advertising from your open source project, but our commercial plans don’t seem like the right fit, you may [get in touc with ReadTheDocs.org](mailto:ads@readthedocs.org) to discuss alternatives to advertising.
+
 <!-- EOF -->
