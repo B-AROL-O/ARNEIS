@@ -223,7 +223,7 @@ sudo raspi-config
 * Select "Yes" to enable SSH
 * Select "3" (Interface Options), then "I3" (VNC)
 * Select "Yes" to enable VNC
-* Reboot if requested
+* Select "Finish" to exit `raspi-config`. Reboot if requested
 
 Verify that the RPi is accessible from the laptop via SSH and VNC
 (you may need to scan the local Wi-Fi network to get the IPv4 address assigned by the router)
@@ -306,7 +306,7 @@ ssh-keygen
 Type the following commands to be able to login to your Raspberry Pi through your public SSH key - for instance:
 
 ```bash
-cat <<END >>$HOME/.ssh/authorized_keys
+cat <<END >>~/.ssh/authorized_keys
 ssh-rsa AAAAB3Nza....W1cG35r8= gpmacario@HW2457
 END
 ```
@@ -373,7 +373,7 @@ Clone git-aware-prompt sources from GitHub
 ```bash
 mkdir ~/.bash
 cd ~/.bash
-git clone git://github.com/jimeh/git-aware-prompt.git
+git clone https://github.com/jimeh/git-aware-prompt.git
 ```
 
 and customize the default shell prompt
@@ -383,7 +383,7 @@ cat <<END >>~/.bashrc
 
 # Configure git-aware-prompt
 export GITAWAREPROMPT=~/.bash/git-aware-prompt
-source "${GITAWAREPROMPT}/main.sh"
+source "\${GITAWAREPROMPT}/main.sh"
 export PS1="\${debian_chroot:+(\$debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\] \[$txtcyn\]\$git_branch\[$txtred\]\$git_dirty\[$txtrst\]\$ "
 END
 ```
@@ -467,8 +467,7 @@ python3 install_requirements.py
 Install some missing binary packages (for some unknown reasons neither pip nor virtualenv automatically install them)
 
 ```bash
-sudo apt-get install libcblas-dev
-sudo apt-get install python3-h5py
+sudo apt-get -y install libatlas-base-dev python3-h5py
 ```
 
 Add a new udev rule for the script to be able to access the OAK-D-Lite device correctly.
@@ -509,33 +508,27 @@ Result: The `depthai_demo.py` program is executed correctly on the Raspberry Pi.
 
 ![2022-01-21-2117-rpi4-depthai-demo.jpg](../images/2022-01-21-2117-rpi4-depthai-demo.jpg)
 
+#### Note 1: First execution of depthai_demo.py
 
-**NOTE**: If `depthai_demo.py` is started from a remote SSH shell, the following error is displayed:
+The first time that `depthai_demo.py` is launched, it may take a few minutes before the camera windows are be displayed.
+
+#### Note 2: Launching depthai_demo.py from a remote shell
+
+The `depthai_demo.py` script should be invoked from a terminal on the main Raspberry Pi display.
+
+If the command is invoked from a remote SSH shell, make sure that the `DISPLAY` environment variable is properly set before launching the demo script.
+
+Example:
 
 ```text
-(.venv) pi@rpi4gm35:~/github/luxonis/depthai $ export DISPLAY=0.0
-(.venv) pi@rpi4gm35:~/github/luxonis/depthai $ python3 depthai_demo.py
-Using depthai module from:  /home/pi/github/luxonis/depthai/.venv/lib/python3.9/site-packages/depthai.cpython-39-arm-linux-gnueabihf.so
+(.venv) pi@rpird102:~/github/luxonis/depthai $ export DISPLAY=:0.0
+(.venv) pi@rpird102:~/github/luxonis/depthai $ python3 depthai_demo.py
+Using depthai module from:  /home/pi/github/luxonis/depthai/.venv/lib/python3.7/site-packages/depthai.cpython-37m-arm-linux-gnueabihf.so
 Depthai version installed:  2.14.1.0.dev+27fa4519f289498e84768ab5229a1a45efb7e4df
 Setting up demo...
 Available devices:
 [0] 19443010E106F01200 [X_LINK_UNBOOTED]
 USB Connection speed: UsbSpeed.SUPER
-Unable to init server: Could not connect: Connection refused
-
-(color:2626): Gtk-WARNING **: 21:11:11.516: cannot open display: 0.0
-python3: ../../libusb/os/threads_posix.h:58: usbi_mutex_destroy: Assertion `pthread_mutex_destroy(mutex) == 0' failed.
-python3: ../../libusb/os/threads_posix.h:46: usbi_mutex_lock: Assertion `pthread_mutex_lock(mutex) == 0' failed.
-Aborted
-Traceback (most recent call last):
-  File "/home/pi/github/luxonis/depthai/depthai_demo.py", line 998, in <module>
-    s.runDemo(args)
-  File "/home/pi/github/luxonis/depthai/depthai_helpers/supervisor.py", line 46, in runDemo
-    subprocess.check_call(' '.join([f'"{sys.executable}"', "depthai_demo.py"] + new_args), env=new_env, shell=True, cwd=repo_root)
-  File "/usr/lib/python3.9/subprocess.py", line 373, in check_call
-    raise CalledProcessError(retcode, cmd)
-subprocess.CalledProcessError: Command '"/home/pi/github/luxonis/depthai/.venv/bin/python3" depthai_demo.py --noSupervisor --guiType cv' returned non-zero exit status 134.
-(.venv) pi@rpi4gm35:~/github/luxonis/depthai $
 ```
 
 <!-- EOF -->
