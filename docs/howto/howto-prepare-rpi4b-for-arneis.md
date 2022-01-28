@@ -353,7 +353,12 @@ Result:
 ![2022-01-21-1701-virtual-keyboard2.jpg](../images/2022-01-21-1701-virtual-keyboard2.jpg)
 
 
-### Install git and related tools
+### Install byobu
+
+```bash
+sudo apt -y install byobu
+```
+
 
 #### Install git and tig
 
