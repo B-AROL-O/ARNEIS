@@ -1,12 +1,10 @@
 # Controlling LEGO Powered Up Hub from a Raspberry Pi
 
-TODO: Create PR and link it to <https://github.com/B-AROL-O/ARNEIS/issues/50>
+## Introduction
 
-Add to links:
+TODO
 
-* <https://magpi.raspberrypi.com/articles/hack-lego-boost-with-raspberry-pi>
-
-<hr>
+## Step-by-step instructions
 
 <!-- (2022-01-27 16:45 CET) -->
 
