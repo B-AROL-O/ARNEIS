@@ -3,8 +3,10 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to ARNEIS's documentation!
-==================================
+Welcome to the ARNEIS Project!
+==============================
+
+`Gianpaolo Macario <https://gmacario.github.io/>`_ publishes regular updates of the ARNEIS project on  `his blog <https://gmacario.github.io/posts>`_.
 
 .. toctree::
    :maxdepth: 2
