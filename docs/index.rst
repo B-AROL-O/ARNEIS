@@ -19,6 +19,7 @@ Testing embedding YouTube video
 -------------------------------
 
 * https://twitter.com/avaresi/status/1486027840533499904
+* https://github.com/sphinx-contrib/video
 * https://gist.github.com/dbrgn/2922648
 
 .. youtube:: anwy2MPT5RE
