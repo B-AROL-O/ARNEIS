@@ -8,6 +8,8 @@
 
 ([Watch the video on YouTube](https://www.youtube.com/watch?v=BFKyx1COfqk))
 
+<a href="https://www.youtube.com/watch?v=BFKyx1COfqk">[![Bottle conveyor 2022-01-22](https://img.youtube.com/vi/BFKyx1COfqk/0.jpg)](https://www.youtube.com/watch?v=BFKyx1COfqk "Bottle conveyor 2022-01-22")</a>
+
 ## Project documentation
 
 The sources for project documentation are maintained inside the `/docs` subfolder of this repository.
