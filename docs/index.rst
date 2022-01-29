@@ -6,6 +6,8 @@
 Welcome to the ARNEIS Project!
 ==============================
 
+The ARNEIS project roadmap is `maintained on GitHub <https://github.com/B-AROL-O/ARNEIS/milestones?direction=asc&sort=due_date&state=open>`_.
+
 `Gianpaolo Macario <https://github.com/gmacario/>`_ publishes regular updates of the ARNEIS project on `his personal blog <https://gmacario.github.io/posts>`_.
 
 Additionally, you may also follow `B-AROL-O Team on Twitter <https://twitter.com/baroloteam>`_ to get notified on the major progress of the project.
