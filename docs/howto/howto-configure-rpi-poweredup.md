@@ -1,5 +1,7 @@
 # Controlling LEGO Powered Up Hub from a Raspberry Pi
 
+**NOTE**: This document is a work-in-progress, further tests postponed until issue [B-AROL-O/ARNEIS#7](https://github.com/B-AROL-O/ARNEIS/issues/7) is resolved.
+
 ## Introduction
 
 TODO
