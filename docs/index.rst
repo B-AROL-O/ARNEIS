@@ -15,6 +15,18 @@ Additionally, you may also follow `B-AROL-O Team on Twitter <https://twitter.com
 Please report bugs and feature requests on https://github.com/B-AROL-O/ARNEIS/issues,
 or DM the `B-AROL-O Team on Twitter <https://twitter.com/baroloteam>`_ about security issues or other non-public topics.
 
+Testing embedding YouTube video
+-------------------------------
+
+* https://twitter.com/avaresi/status/1486027840533499904
+* https://gist.github.com/dbrgn/2922648
+
+.. youtube:: anwy2MPT5RE
+   :height: 315
+   :width: 560
+   :align: left
+
+
 .. toctree::
    :maxdepth: 2
    :caption: Architecture
