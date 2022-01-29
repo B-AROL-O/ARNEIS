@@ -3,15 +3,28 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to ARNEIS's documentation!
-==================================
+Welcome to the ARNEIS Project!
+==============================
+
+The ARNEIS project roadmap is `maintained on GitHub <https://github.com/B-AROL-O/ARNEIS/milestones?direction=asc&sort=due_date&state=open>`_.
+
+`Gianpaolo Macario <https://github.com/gmacario/>`_ publishes regular updates of the ARNEIS project on `his personal blog <https://gmacario.github.io/posts>`_.
+
+Additionally, you may also follow `B-AROL-O Team on Twitter <https://twitter.com/baroloteam>`_ to get notified on the major progress of the project.
+
+Please report bugs and feature requests on https://github.com/B-AROL-O/ARNEIS/issues,
+or DM the `B-AROL-O Team on Twitter <https://twitter.com/baroloteam>`_ about security issues or other non-public topics.
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+   :caption: Architecture
 
    architecture/arneis-spec
    
+.. toctree::
+   :maxdepth: 2
+   :caption: HOWTO
+
    howto/howto-configure-arneis-readthedocs-io
    howto/howto-install-depthai-on-windows10
    howto/howto-prepare-rpi4b-for-arneis
