@@ -10,7 +10,7 @@ Welcome to the ARNEIS Project!
 
 Additionally, you may also follow `B-AROL-O Team on Twitter <https://twitter.com/baroloteam>`_ to get notified on the major progress of the project.
 
-Please report bugs and feature requests on <https://github.com/B-AROL-O/ARNEIS/issues>,
+Please report bugs and feature requests on https://github.com/B-AROL-O/ARNEIS/issues,
 or DM the `B-AROL-O Team on Twitter <https://twitter.com/baroloteam>`_ about security issues or other non-public topics.
 
 .. toctree::
