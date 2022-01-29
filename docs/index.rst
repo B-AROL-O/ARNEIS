@@ -6,9 +6,12 @@
 Welcome to the ARNEIS Project!
 ==============================
 
-`Gianpaolo Macario <https://gmacario.github.io/>`_ publishes regular updates of the ARNEIS project on `his blog <https://gmacario.github.io/posts>`_.
+`Gianpaolo Macario <https://github.com/gmacario/>`_ publishes regular updates of the ARNEIS project on `his personal blog <https://gmacario.github.io/posts>`_.
 
-You may also follow `B-AROL-O Team on Twitter <https://twitter.com/baroloteam>`_.
+Additionally, you may also follow `B-AROL-O Team on Twitter <https://twitter.com/baroloteam>`_ to get notified on the major progress of the project.
+
+Please report bugs and feature requests on <https://github.com/B-AROL-O/ARNEIS/issues>,
+or DM the `B-AROL-O Team on Twitter <https://twitter.com/baroloteam>`_ about security issues or other non-public topics.
 
 .. toctree::
    :maxdepth: 2
