@@ -10,13 +10,13 @@ Welcome to the ARNEIS Project!
 
 .. toctree::
    :maxdepth: 2
-   :caption: Specification:
+   :caption: Architecture
 
    architecture/arneis-spec
    
 .. toctree::
-   :maxdepth: 1
-   :caption: HOWTO:
+   :maxdepth: 2
+   :caption: HOWTO
 
    howto/howto-configure-arneis-readthedocs-io
    howto/howto-install-depthai-on-windows10
