@@ -2,7 +2,9 @@
 
 [![GitHub Super-Linter](https://github.com/B-AROL-O/ARNEIS/workflows/Lint%20Code%20Base/badge.svg)](https://github.com/marketplace/actions/super-linter)
 
-Automated Recognizer, Network-Enabled, Items Sorter.
+`A`utomated `R`ecognizer, `N`etwork-`E`nabled, `I`tems Sorter.
+
+<a href="https://www.youtube.com/watch?v=BFKyx1COfqk">[![Bottle conveyor 2022-01-22](https://img.youtube.com/vi/BFKyx1COfqk/0.jpg)](https://www.youtube.com/watch?v=BFKyx1COfqk "Bottle conveyor 2022-01-22")</a>
 
 ## Project documentation
 
