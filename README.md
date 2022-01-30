@@ -4,7 +4,9 @@
 
 `A`utomated `R`ecognizer, `N`etwork-`E`nabled, `I`tems Sorter.
 
-<a href="https://www.youtube.com/watch?v=BFKyx1COfqk">[![Bottle conveyor 2022-01-22](https://img.youtube.com/vi/BFKyx1COfqk/0.jpg)](https://www.youtube.com/watch?v=BFKyx1COfqk "Bottle conveyor 2022-01-22")</a>
+[![Bottle conveyor 2022-01-22](https://img.youtube.com/vi/BFKyx1COfqk/0.jpg)](https://www.youtube.com/watch?v=BFKyx1COfqk "Bottle conveyor 2022-01-22")
+
+([Watch the video on YouTube](https://www.youtube.com/watch?v=BFKyx1COfqk))
 
 ## Project documentation
 
