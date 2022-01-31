@@ -30,7 +30,7 @@ This document details how to create a Virtual Machine on [Microsoft Azure](https
 - Configure options in section **Instance details**
   - Choose the **Virtual machine name** as `arneis-vm01`
 
-  - Select **Region** (you may leave dewfault "(US) East US" or choose a region which is geographically closer to your clients)
+  - Select **Region** (you may leave default "(US) East US" or choose a region which is geographically closer to your clients)
 
   - In **Availability options** choose "No infrastructure redundancy required"
 
@@ -56,7 +56,7 @@ Now you just have to wait for the deployment to complete:
 
 ### Test the VM
 
-After the machine is deployed and started, the IP address assigned to the VM will be displayed on the VM overview page int the Azure portal.
+After the machine is deployed and started, the IP address assigned to the VM will be displayed on the VM overview page in the Azure portal.
 
 With this information you should be able to remotely log in to the VM via SSH:
 
@@ -72,7 +72,7 @@ htop
 
 ![image](https://user-images.githubusercontent.com/51110452/151774694-89f4b84d-ce23-4d19-ab25-b5ba9854838e.png)
 
-### (Recommmended) Create a public DNS entry
+### (Recommended) Create a public DNS entry
 
 If you have administrative rights to a DNS zone you may choose to access your VM using a symbolic name rather than an IP address.
 
