@@ -61,7 +61,7 @@ After the machine is deployed and started, the IP address assigned to the VM wil
 With this information you should be able to remotely log in to the VM via SSH:
 
 ```bash
-ssh -i <public-ssh-key> azureuser@<vm-public-ip-address>
+ssh -i <private-key-path> azureuser@<vm-public-ip-address>
 ```
 
 Then you may run some commands on the shell, for instance:
