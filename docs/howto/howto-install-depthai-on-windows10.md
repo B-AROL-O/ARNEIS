@@ -1,4 +1,4 @@
-# Installing DepthAI Demo v3.0.9 on Windows 10
+# HOWTO Install DepthAI Demo v3.0.9 on Windows 10
 
 <!-- (2022-01-14 18:33 CET) -->
 

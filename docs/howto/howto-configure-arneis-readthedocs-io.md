@@ -1,6 +1,16 @@
 # HOWTO Configure arneis.readthedocs.io
 
-<https://arneis.readthedocs.io/>
+## Introduction
+
+This document explains the steps performed for preparing the automated deployment
+of site <https://arneis.readthedocs.io/> based on the contents of GitHub repository
+<https://github.com/B-AROL-O/ARNEIS>.
+
+## References
+
+* <https://readthedocs.org/>
+* <https://docs.readthedocs.io/>
+* <https://www.sphinx-doc.org/>
 
 ## Step-by-step instructions
 
@@ -173,8 +183,6 @@ then open <http://localhost:8000/> from your browser.
 Verify that the Read the Docs Sphinx Theme has been applied to the website:
 
 ![2022-01-22-0744-docsite-rtd-theme.png](../images/2022-01-22-0744-docsite-rtd-theme.png)
-
-
 
 ### Adding support for Markdown
 
