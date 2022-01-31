@@ -20,17 +20,25 @@ This document details how to create a Virtual Machine on [Microsoft Azure](https
 
   ![image](https://user-images.githubusercontent.com/51110452/151772083-4b618e60-7141-4503-8560-4ecc4fc3b214.png)
 
-- Set Subscription to **Azure Pass - Sponsorship** and Group to `arneis-rg` (short for "ARNEIS Resource Group")
+- Configure options in section **Project details**
+  - Leave **Subscription** to `Azure Pass - Sponsorship` unless you want to charge expenses to someone else
+
+  - Set **Resource group** to `arneis-rg` (short for "ARNEIS Resource Group")
 
   ![image](https://user-images.githubusercontent.com/51110452/151772456-3480cbc5-a8c4-4e4a-a692-0f8c3973d095.png)
 
-- Choose the **Virtual machine name** as `arneis-vm01`
+- Configure options in section **Instance details**
+  - Choose the **Virtual machine name** as `arneis-vm01`
 
-- Select **Region**
+  - Select **Region** (you may leave dewfault "(US) East US" or choose a region which is geographically closer to your clients)
 
-- No **Redundancy**
+  - In **Availability options** choose "No infrastructure redundancy required"
 
-- Choose **Security type**
+  - Leave **Security type** to "Standard"
+
+  - In field **Image** select "Ubuntu Server 20.04 LTS - Gen2"
+
+  - In field **Size** choose "Standard_E2s_v3 - 2 vcpus, 16 GiB memory (EUR 77.57/month)" unless you have different requirements
 
 - Add your public SSH key if you have one, otherwise let Azure automatically generate one for you
 
@@ -40,13 +48,23 @@ This document details how to create a Virtual Machine on [Microsoft Azure](https
 
 - Review and accept the default values in the following pages: **Disks**, **Networking**, **Management** and **Advanced**
 
+- Click **Create** to start creating the VM
+
 Now you just have to wait for the deployment to complete:
 
 ![image](https://user-images.githubusercontent.com/51110452/151774378-89350506-a4d9-4a03-9efb-e0cd6747f604.png)
 
 ### Test the VM
 
-After the machine is deployed, and you got the correct IP address, you can connect to it through SSH and run:
+After the machine is deployed and started, the IP address assigned to the VM will be displayed on the VM overview page int the Azure portal.
+
+With this information you should be able to remotely log in to the VM via SSH:
+
+```bash
+ssh -i <public-ssh-key> azureuser@<vm-public-ip-address>
+```
+
+Then you may run some commands on the shell, for instance:
 
 ```bash
 htop
@@ -58,7 +76,7 @@ htop
 
 If you have administrative rights to a DNS zone you may choose to access your VM using a symbolic name rather than an IP address.
 
-If so, access your DNS administrative page (in my case, <https://register.it/>) and create an A record to map the name to the IP address assigned to your Raspberry Pi.
+If so, access your DNS administrative page (in my case, <https://register.it/>) and create an A record to map the name to the IP address assigned to your VM.
 
 In my case
 
