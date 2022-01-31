@@ -8,13 +8,21 @@
 
 ([Watch the video on YouTube](https://www.youtube.com/watch?v=BFKyx1COfqk))
 
-<a href="https://www.youtube.com/watch?v=BFKyx1COfqk">[![Bottle conveyor 2022-01-22](https://img.youtube.com/vi/BFKyx1COfqk/0.jpg)](https://www.youtube.com/watch?v=BFKyx1COfqk "Bottle conveyor 2022-01-22")</a>
+## Project Documentation
 
-## Project documentation
+The public documentation of the ARNEIS project is available at <https://arneis.readthedocs.io/>.
 
-The sources for project documentation are maintained inside the `/docs` subfolder of this repository.
+The sources of the ARNEIS project documentation are stored inside the `/docs` subfolder of this repository. Whenever the `main` branch is updated, <https://arneis.readthedocs.io/> is updated accordingly.
 
-The documentation for the main branch and the project releases is automatically published to <https://arneis.readthedocs.io/>.
+### Project Roadmap
+
+The ARNEIS project roadmap is [maintained on GitHub](https://github.com/B-AROL-O/ARNEIS/milestones?direction=asc&sort=due_date&state=open).
+
+[Gianpaolo Macario](https://github.com/gmacario/) publishes regular updates of the ARNEIS project on [his personal blog](https://gmacario.github.io/posts).
+
+Additionally, you may also follow [B-AROL-O Team on Twitter](https://twitter.com/baroloteam) to get notified on the major progress of the project.
+
+Please report bugs and feature requests on <https://github.com/B-AROL-O/ARNEIS/issues>, or DM [B-AROL-O Team on Twitter](https://twitter.com/baroloteam) about security issues or other non-public topics.
 
 ### ARNEIS is an OpenCV Spatial AI Contest Finalist
 
