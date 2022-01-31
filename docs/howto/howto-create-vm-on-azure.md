@@ -10,7 +10,7 @@ This document details how to create a Virtual Machine on [Microsoft Azure](https
 
 - Login to <http://portal.azure.com> using your Azure credentials
 
-- Click on **Virtual Machines**.\
+- Click on **Virtual Machines**
 
 - Click on **+ Create**
 
@@ -20,11 +20,11 @@ This document details how to create a Virtual Machine on [Microsoft Azure](https
 
   ![image](https://user-images.githubusercontent.com/51110452/151772083-4b618e60-7141-4503-8560-4ecc4fc3b214.png)
 
-- Set Subscription to **Azure Pass - Sponsorship** and Group to **Arneis-rg** as Arneis Resource Group.
+- Set Subscription to **Azure Pass - Sponsorship** and Group to `arneis-rg` (short for "ARNEIS Resource Group")
 
   ![image](https://user-images.githubusercontent.com/51110452/151772456-3480cbc5-a8c4-4e4a-a692-0f8c3973d095.png)
 
-- Choose the **Virtual machine name** as arneis-vm01
+- Choose the **Virtual machine name** as `arneis-vm01`
 
 - Select **Region**
 
@@ -32,13 +32,13 @@ This document details how to create a Virtual Machine on [Microsoft Azure](https
 
 - Choose **Security type**
 
-- Add your public SSH key if you have one, otherwise let Azure automatically generate one for you.
+- Add your public SSH key if you have one, otherwise let Azure automatically generate one for you
 
   Result:
 
   ![image](https://user-images.githubusercontent.com/51110452/151773952-0e301a1b-f51b-472c-9836-8d4760c69efc.png)
 
-- Review and accept the default values in the following pages: **Disks**, **Networking**, **Management** and **Advanced**.
+- Review and accept the default values in the following pages: **Disks**, **Networking**, **Management** and **Advanced**
 
 Now you just have to wait for the deployment to complete:
 
