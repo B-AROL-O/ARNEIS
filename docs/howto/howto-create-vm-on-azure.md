@@ -5,7 +5,7 @@
 - Click on **Virtual Machines**.
 
 - Click on **+ Create**
- 
+
 - You will have 2 options: **Virtual Machine** or **Start with a preset configuration**
 
 - We started with _Virtual Machine_
