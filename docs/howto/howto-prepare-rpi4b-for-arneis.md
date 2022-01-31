@@ -1,4 +1,4 @@
-# HOWTO: Preparing a Raspberry Pi 4B for the ARNEIS project
+# HOWTO Prepare a Raspberry Pi 4B for the ARNEIS project
 
 <!-- (2022-01-12 07:44 CET) -->
 
