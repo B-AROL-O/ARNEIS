@@ -63,7 +63,7 @@ If so, access your DNS administrative page (in my case, <https://register.it/>) 
 In my case
 
 ```text
-A arneis01 20.124.132.35
+A arneis-vm01 20.124.132.35
 ```
 
 Wait until the DNS zone is propagated, then verify that the device can be accessed by another host (in our case, our laptop) using the assigned name rather than its IP address:
