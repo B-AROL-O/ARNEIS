@@ -54,4 +54,47 @@ htop
 
 ![image](https://user-images.githubusercontent.com/51110452/151774694-89f4b84d-ce23-4d19-ab25-b5ba9854838e.png)
 
+### (Recommmended) Create a public DNS entry
+
+If you have administrative rights to a DNS zone you may choose to access your VM using a symbolic name rather than an IP address.
+
+If so, access your DNS administrative page (in my case, <https://register.it/>) and create an A record to map the name to the IP address assigned to your Raspberry Pi.
+
+In my case
+
+```text
+A arneis01 20.124.132.35
+```
+
+Wait until the DNS zone is propagated, then verify that the device can be accessed by another host (in our case, our laptop) using the assigned name rather than its IP address:
+
+```text
+gmaca@alpha MINGW64 ~
+$ ssh -i ~/.ssh/gmacario-gmail-com azureuser@arneis-vm01.gmacario.it
+Welcome to Ubuntu 20.04.3 LTS (GNU/Linux 5.11.0-1027-azure x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+  System information as of Mon Jan 31 17:52:17 UTC 2022
+
+  System load:  0.0               Processes:             155
+  Usage of /:   9.8% of 28.90GB   Users logged in:       1
+  Memory usage: 7%                IPv4 address for cni0: 10.42.0.1
+  Swap usage:   0%                IPv4 address for eth0: 10.0.0.4
+
+ * Super-optimized for small spaces - read how we shrank the memory
+   footprint of MicroK8s to make it the smallest full K8s around.
+
+   https://ubuntu.com/blog/microk8s-memory-optimisation
+
+0 updates can be applied immediately.
+
+
+*** System restart required ***
+Last login: Mon Jan 31 17:51:47 2022 from 93.43.242.87
+azureuser@arneis-vm01:~$
+```
+
 <!-- EOF -->
