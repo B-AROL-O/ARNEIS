@@ -28,6 +28,7 @@ or DM the `B-AROL-O Team on Twitter <https://twitter.com/baroloteam>`_ about sec
    howto/howto-configure-arneis-readthedocs-io
    howto/howto-create-vm-on-azure
    howto/howto-install-depthai-on-windows10
+   howto/howto-install-k3s-for-arneis
    howto/howto-prepare-rpi4b-for-arneis
 
 Indices and tables
