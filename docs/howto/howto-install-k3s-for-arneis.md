@@ -18,7 +18,11 @@ TODO
   - Disk: min 8 GiB SSD
   - OS: Ubuntu server 20.04 LTS
   - Fast internet connection (for updating OS and installing software)
-  - Incoming ports: tcp/22 (SSH), TODO
+  - Firewall configured to accept incoming ports:
+    - 22/tcp (SSH)
+    - 80/tcp (HTTP)
+    - 443/tcp (HTTPS)
+    - 6443/tcp,udp (Kubernetes API server)
   - Tested on arneis-vm01 (Virtual Machine on Azure Cloud - See [documentation](howto-create-vm-on-azure.md))
 
 ## Step-by-step instructions
