@@ -297,7 +297,7 @@ $
 
 ### Configure public SSH keypair
 
-Logged in as pi@rpi4gm45, create a public/private SSH keypair:
+Logged in as pi@rpi4gm35, create a public/private SSH keypair:
 
 ```bash
 ssh-keygen
@@ -316,7 +316,7 @@ Test
 
 ```bash
 gpmacario@HW2457 MINGW64 ~
-$ ssh pi@rpi4gm45.gmacario.it
+$ ssh pi@rpi4gm35.gmacario.it
 Linux rpi4gm35 5.10.92-v7l+ #1514 SMP Mon Jan 17 17:38:03 GMT 2022 armv7l
 
 The programs included with the Debian GNU/Linux system are free software;
@@ -334,7 +334,7 @@ pi@rpi4gm35:~ $
 
 Reference: <https://pimylifeup.com/raspberry-pi-on-screen-keyboard/>
 
-Logged in as pi@rpi4gm45, type the following commands to setup the On-Screen Keyboard:
+Logged in as pi@rpi4gm35, type the following commands to setup the On-Screen Keyboard:
 
 ```bash
 sudo apt update
@@ -428,7 +428,7 @@ TODO
 
 <!-- (2022-01-20 09:50 CET) -->
 
-Logged in as pi@rpi4gm45
+Logged in as pi@rpi4gm35
 
 ```bash
 mkdir -p ~/github/B-AROL-O
