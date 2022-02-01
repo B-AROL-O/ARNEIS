@@ -19,7 +19,7 @@ TODO
   - OS: Ubuntu server 20.04 LTS
   - Fast internet connection (for updating OS and installing software)
   - Incoming ports: tcp/22 (SSH), TODO
-  - Tested on arneis-vm01 (Virtual Machine on Azure Cloud - See TODO)
+  - Tested on arneis-vm01 (Virtual Machine on Azure Cloud - See [documentation](howto-create-vm-on-azure.md))
 
 ## Step-by-step instructions
 
