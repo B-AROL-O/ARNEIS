@@ -458,8 +458,8 @@ Now create a Python virtualenv
 
 ```bash
 cd ~/github/luxonis/depthai
-python3 -m venv .venv
-source .venv/bin/activate
+python3 -m venv virtualenv
+source virtualenv/bin/activate
 pip install -U pip
 ```
 
