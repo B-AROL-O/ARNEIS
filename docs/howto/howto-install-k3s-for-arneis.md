@@ -1,4 +1,4 @@
-# HOWTO: Installing a k3s cluster for the ARNEIS project
+# HOWTO Install a k3s cluster for the ARNEIS project
 
 <!-- (2022-01-31 16:30 CET) -->
 
