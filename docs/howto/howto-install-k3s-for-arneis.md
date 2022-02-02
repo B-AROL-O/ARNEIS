@@ -126,6 +126,43 @@ root@arneis-vm01:~#
 
 Once the k3s server is up and running we are ready to attach additional Agent Node(s) to the cluster.
 
+Let's attach host `hw0943` (Ubuntu 21.10)
+
+```text
+gmacario@hw0929:~$ cat /etc/os-release 
+PRETTY_NAME="Ubuntu 21.10"
+NAME="Ubuntu"
+VERSION_ID="21.10"
+VERSION="21.10 (Impish Indri)"
+VERSION_CODENAME=impish
+ID=ubuntu
+ID_LIKE=debian
+HOME_URL="https://www.ubuntu.com/"
+SUPPORT_URL="https://help.ubuntu.com/"
+BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+UBUNTU_CODENAME=impish
+gmacario@hw0929:~$
+```
+
+Logged in as `root@arneis-vm01`, fetch TODO
+
+```bash
+TODO
+```
+
+Logged in as `root@hw0929`, install k3s in agent mode
+
+```bash
+TODO
+```
+
+Result
+
+```text
+TODO
+```
+
 TODO
 
 <!-- EOF -->
