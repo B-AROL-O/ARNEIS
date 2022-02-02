@@ -115,4 +115,32 @@ Last login: Mon Jan 31 17:51:47 2022 from 93.43.242.87
 azureuser@arneis-vm01:~$
 ```
 
+### Configure firewall
+
+<!-- (2022-02-01 23:30 CET) -->
+
+Logged into <https://portal.azure.com/>, select Virtual Machine "arneis-vm01", then in menu "Settings" click **Networking**.
+
+In tab "Inbound port rules", click **Add inbound port rule**, then specify the following:
+
+* **Source**: Any
+* **Source port ranges**: `*`
+* **Destination**: Any
+* **Service**: HTTP
+* **Destination port ranges**: 80
+* **Protocol**: TCP
+* **Action**: Allow
+* **Priority**: (leave default)
+
+then click **Add**.
+
+Repeat for the following ports:
+
+* 443/TCP (HTTPS)
+* 6443/TCP (Kubernetes API Server)
+
+You should obtain the following
+
+![image](https://user-images.githubusercontent.com/75182/152064086-68fb773b-c258-4583-bb38-5f0c9e5fa8f0.png)
+
 <!-- EOF -->
