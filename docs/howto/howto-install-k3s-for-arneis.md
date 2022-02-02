@@ -126,7 +126,7 @@ root@arneis-vm01:~#
 
 Once the k3s server is up and running we are ready to attach additional Agent Node(s) to the cluster.
 
-Let's attach host `hw0943` (Ubuntu 21.10)
+Let's attach host `hw0929` (Ubuntu 21.10)
 
 ```text
 gmacario@hw0929:~$ cat /etc/os-release 
@@ -145,16 +145,26 @@ UBUNTU_CODENAME=impish
 gmacario@hw0929:~$
 ```
 
-Logged in as `root@arneis-vm01`, fetch TODO
+Logged in as `root@arneis-vm01`, display the k3s node-token with the following command:
 
 ```bash
-TODO
+cat /var/lib/rancher/k3s/server/node-token
 ```
 
-Logged in as `root@hw0929`, install k3s in agent mode
+Result (the node-token was anonymized replacing some characters with 'x')
+
+```text
+root@arneis-vm01:~# cat /var/lib/rancher/k3s/server/node-token
+K1009b40xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxd8e16a40::server:f807xxxxxxxxxxxxxxxxxxxxxxxx9f5f
+root@arneis-vm01:~#
+```
+
+Logged in as `root@hw0929`, install k3s in agent mode (you should replace `myserver` with the IP address or the public DNS name of the k3s server, and `mynodetoken` with the actual value obtained from the k3s server node)
 
 ```bash
-TODO
+curl -sfL https://get.k3s.io | \
+    K3S_URL=https://myserver:6443 \
+    K3S_TOKEN=mynodetoken sh -
 ```
 
 Result
