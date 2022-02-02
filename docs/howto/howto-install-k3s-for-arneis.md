@@ -177,6 +177,49 @@ Result:
 TODO
 ```
 
+### Verify accessibility of the k3s API server from the Agent Node
+
+Logged in as `user@<agent-node>` try to access <https://master-node:6443/>
+
+#### Example 1 (using curl)
+
+Command:
+
+```bash
+curl https://arneis-vm01.gmacario.it:6443/
+```
+
+Result:
+
+```text
+root@hw0929:~# curl https://arneis-vm01.gmacario.it:6443/
+curl: (60) SSL certificate problem: unable to get local issuer certificate
+More details here: https://curl.se/docs/sslcerts.html
+
+curl failed to verify the legitimacy of the server and therefore could not
+establish a secure connection to it. To learn more about this situation and
+how to fix it, please visit the web page mentioned above.
+root@hw0929:~#
+```
+
+TODO
+
+#### Example 2 (using a browser)
+
+If you access the K3S API URL from a browser, the following error (on Firefox, you should have a similar error message on other browsers) will let you know that the K3S Server has a self-signed TLS certificate:
+
+![Screenshot from 2022-02-02 10-55-56](https://user-images.githubusercontent.com/75182/152131810-93524272-351d-42b4-8d41-c0439bcd4bf3.png)
+
+If so, click "Advanced..."
+
+![Screenshot from 2022-02-02 10-59-01](https://user-images.githubusercontent.com/75182/152132293-e7568a9c-664a-4fe4-bc41-3bd6c2f44e00.png)
+
+then click "Accept the Risk and Continue".
+
+Once you passed the self-signed certificate warning, you should receive a 401 (Unauthorized) error, but this is correct since we did not provide the node-token - see below.
+
+![Screenshot from 2022-02-02 11-02-09](https://user-images.githubusercontent.com/75182/152132742-4ed66499-9dc1-4f36-8c2e-f073fcee5375.png)
+
 ### TODO
 
 Logged in as `root@arneis-vm01`, display the k3s node-token with the following command:
