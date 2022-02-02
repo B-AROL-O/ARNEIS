@@ -122,29 +122,6 @@ kube-system   job.batch/helm-install-traefik       1/1           39s        2m58
 root@arneis-vm01:~#
 ```
 
-### Install k3s on the Agent Node(s)
-
-Once the k3s server is up and running we are ready to attach additional Agent Node(s) to the cluster.
-
-Let's attach host `hw0929` (Ubuntu 21.10)
-
-```text
-gmacario@hw0929:~$ cat /etc/os-release 
-PRETTY_NAME="Ubuntu 21.10"
-NAME="Ubuntu"
-VERSION_ID="21.10"
-VERSION="21.10 (Impish Indri)"
-VERSION_CODENAME=impish
-ID=ubuntu
-ID_LIKE=debian
-HOME_URL="https://www.ubuntu.com/"
-SUPPORT_URL="https://help.ubuntu.com/"
-BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
-PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
-UBUNTU_CODENAME=impish
-gmacario@hw0929:~$
-```
-
 ### Running a sample Pod on the cluster
 
 TODO
@@ -220,7 +197,32 @@ Once you passed the self-signed certificate warning, you should receive a 401 (U
 
 ![Screenshot from 2022-02-02 11-02-09](https://user-images.githubusercontent.com/75182/152132742-4ed66499-9dc1-4f36-8c2e-f073fcee5375.png)
 
-### Obtain the cluster node-token
+### Install k3s on the Agent Node(s)
+
+Now that our k3s Server is up and running we are ready to attach additional Agent Node(s) to the cluster.
+
+Let's first try attach host `hw0929` (Ubuntu 21.10)
+
+```text
+gmacario@hw0929:~$ cat /etc/os-release 
+PRETTY_NAME="Ubuntu 21.10"
+NAME="Ubuntu"
+VERSION_ID="21.10"
+VERSION="21.10 (Impish Indri)"
+VERSION_CODENAME=impish
+ID=ubuntu
+ID_LIKE=debian
+HOME_URL="https://www.ubuntu.com/"
+SUPPORT_URL="https://help.ubuntu.com/"
+BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+UBUNTU_CODENAME=impish
+gmacario@hw0929:~$
+```
+
+#### Obtain the cluster node-token
+
+The node-token is saved in a file under the folder `/var/lib/rancher/k3s/server` of the k3s server.
 
 Logged in as `root@arneis-vm01`, display the k3s node-token with the following command:
 
@@ -228,7 +230,7 @@ Logged in as `root@arneis-vm01`, display the k3s node-token with the following c
 cat /var/lib/rancher/k3s/server/node-token
 ```
 
-Result (the node-token was anonymized replacing some characters with 'x')
+Result (for security reasons the node-token has been partially anonymized)
 
 ```text
 root@arneis-vm01:~# cat /var/lib/rancher/k3s/server/node-token
@@ -236,9 +238,9 @@ K1009b40xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxd8e16a40::server:f807x
 root@arneis-vm01:~#
 ```
 
-### Install K3S Agent Node
+#### Attach the Agent Node
 
-Logged in as `root@<agent-node>` (in our example, `root@hw0929`) type the following commands
+Logged in as `root@<agent-node>` (in our example, `root@hw0929`) type the following commands to install the required software on the node and connect it to the k3s Server:
 
 ```bash
 export K3S_URL=https://myserver:6443
@@ -249,7 +251,7 @@ curl -sfL https://get.k3s.io | sh -
 replacing
 
 * `myserver` --> `arneis-vm01.gmacario.it`
-* `mynodetoken` --> (See above)
+* `mynodetoken` --> (node-token obtained with the commands shown in the previous section)
 
 Result:
 
@@ -261,9 +263,11 @@ root@hw0929:~# curl -sfL https://get.k3s.io | sh -
 root@hw0929:~#
 ```
 
+**TODO**: The command does not seem to complete successfully.
+
 #### Troubleshooting the script
 
-Let's retry adding the `-x` option to `sh`
+Let's retry adding the `-x` option to `sh`:
 
 ```text
 root@hw0929:~# curl -sfL https://get.k3s.io | sh -x -
