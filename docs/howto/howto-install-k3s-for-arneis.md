@@ -4,23 +4,30 @@
 
 ## Introduction
 
-This document explains how to install a k3s cluster to be used for the ARNEIS project.
+This document explains how to install a [K3s](https://k3s.io/) cluster to be used for the ARNEIS project.
 
-k3s is a simplified instance of the Kubernetes architecture as shown in the following diagram.
+K3s (or "Lightweight Kubernetes) is a simplified installation of the Kubernetes distribution built for IoT and Edge computing.
+
+K3s is an Open Source project started and maintained by [Rancher.com](https://rancher.com/).
+
+### Architecture
+
+The following diagram shows a possible deployment of the K3s architecture:
 
 ![k3s-architecture-single-server.png](../images/k3s-architecture-single-server.png)
 
 (Image credits: <https://rancher.com/docs/k3s/latest/en/architecture/>)
 
-The main host (previously called "master" in Kubernetes literature) will act as both a k3s server and a agent node. This is the minimum possible of a deployment of a k3s cluster. Additionally, there other hosts may be added to the topology to act as Agent Nodes, thus adding redundancy and increasing the computation and storage capacity of the cluster.
+The main host (previously called "master" in Kubernetes literature) will act as both a K3s Server and an Agent (worker) Node. This is the smallest possible deployment of a K3s cluster. Additionally, other machines - either physical or virtual - may be added to the topology to act as Agent Nodes, thus adding redundancy and increasing the computation and storage capacity of the cluster.
 
-## References
+### References
 
+* [Rancher docs](https://rancher.com/docs/)
 * [K3S Installation](https://rancher.com/docs/k3s/latest/en/installation/) - from rancher.com/docs
 
 ## Prerequisites
 
-### Host acting as k3s server
+### Host acting as K3s Server
 
 * Administrative login to a host (physical or virtual) with the following minimum requirements
   - CPU: min 2 cores
