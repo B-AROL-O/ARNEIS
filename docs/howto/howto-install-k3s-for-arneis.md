@@ -220,7 +220,7 @@ Once you passed the self-signed certificate warning, you should receive a 401 (U
 
 ![Screenshot from 2022-02-02 11-02-09](https://user-images.githubusercontent.com/75182/152132742-4ed66499-9dc1-4f36-8c2e-f073fcee5375.png)
 
-### TODO
+### Obtain the cluster node-token
 
 Logged in as `root@arneis-vm01`, display the k3s node-token with the following command:
 
@@ -236,19 +236,195 @@ K1009b40xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxd8e16a40::server:f807x
 root@arneis-vm01:~#
 ```
 
-Logged in as `root@hw0929`, install k3s in agent mode (you should replace `myserver` with the IP address or the public DNS name of the k3s server, and `mynodetoken` with the actual value obtained from the k3s server node)
+### Install K3S Agent Node
+
+Logged in as `root@<agent-node>` (in our example, `root@hw0929`) type the following commands
 
 ```bash
-curl -sfL https://get.k3s.io | \
-    K3S_URL=https://myserver:6443 \
-    K3S_TOKEN=mynodetoken sh -
+export K3S_URL=https://myserver:6443
+export K3S_TOKEN=mynodetoken
+curl -sfL https://get.k3s.io | sh -
 ```
 
-Result
+replacing
+
+* `myserver` --> `arneis-vm01.gmacario.it`
+* `mynodetoken` --> (See above)
+
+Result:
 
 ```text
-TODO
+root@hw0929:~# curl -sfL https://get.k3s.io | sh -
+[INFO]  Finding release for channel stable
+[INFO]  Using v1.22.6+k3s1 as release
+[INFO]  Downloading hash https://github.com/k3s-io/k3s/releases/download/v1.22.6+k3s1/sha256sum-amd64.txt
+root@hw0929:~#
 ```
+
+#### Troubleshooting the script
+
+Let's retry adding the `-x` option to `sh`
+
+```text
+root@hw0929:~# curl -sfL https://get.k3s.io | sh -x -
++ set -e
++ set -o noglob
++ GITHUB_URL=https://github.com/k3s-io/k3s/releases
++ STORAGE_URL=https://storage.googleapis.com/k3s-ci-builds
++ DOWNLOADER=
++ escape 
++ printf %s 
++ sed -e s/\([][!#$%&()*;<=>?\_`{|}]\)/\\\1/g;
++ quote
++ eval set --
++ set --
++ verify_system
++ [ -x /sbin/openrc-run ]
++ [ -x /bin/systemctl ]
++ HAS_SYSTEMD=true
++ return
++ setup_env
++ [ -z https://arneis-vm01.gmacario.it:6443 ]
++ [ -z K1009bxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx26d8e16a40::server:f807dxxxxxxxxxxxxxxx9f5f ]
++ CMD_K3S=agent
++ verify_k3s_url
++ quote_indent
++ printf  \\\n
++ CMD_K3S_EXEC=agent \
++ [ -n  ]
++ [ agent = server ]
++ SYSTEM_NAME=k3s-agent
++ printf %s k3s-agent
++ sed -e s/[][!#$%&()*;<=>?\_`{|}/[:space:]]/^/g;
++ valid_chars=k3s-agent
++ [ k3s-agent != k3s-agent ]
++ SUDO=sudo
++ id -u
++ [ 0 -eq 0 ]
++ SUDO=
++ [ -n  ]
++ [ agent = server ]
++ SYSTEMD_TYPE=exec
++ [ -n  ]
++ BIN_DIR=/usr/local/bin
++ sh -c touch /usr/local/bin/k3s-ro-test && rm -rf /usr/local/bin/k3s-ro-test
++ [ -n  ]
++ SYSTEMD_DIR=/etc/systemd/system
++ SERVICE_K3S=k3s-agent.service
++ UNINSTALL_K3S_SH=/usr/local/bin/k3s-agent-uninstall.sh
++ KILLALL_K3S_SH=/usr/local/bin/k3s-killall.sh
++ [ true = true ]
++ FILE_K3S_SERVICE=/etc/systemd/system/k3s-agent.service
++ FILE_K3S_ENV=/etc/systemd/system/k3s-agent.service.env
++ get_installed_hashes
++ sha256sum /usr/local/bin/k3s /etc/systemd/system/k3s-agent.service /etc/systemd/system/k3s-agent.service.env
++ true
++ PRE_INSTALL_HASHES=sha256sum: /usr/local/bin/k3s: No such file or directory
+sha256sum: /etc/systemd/system/k3s-agent.service: No such file or directory
+sha256sum: /etc/systemd/system/k3s-agent.service.env: No such file or directory
++ [  = true ]
++ INSTALL_K3S_CHANNEL_URL=https://update.k3s.io/v1-release/channels
++ INSTALL_K3S_CHANNEL=stable
++ download_and_verify
++ can_skip_download
++ [  != true ]
++ return 1
++ setup_verify_arch
++ [ -z  ]
++ uname -m
++ ARCH=x86_64
++ ARCH=amd64
++ SUFFIX=
++ verify_downloader curl
++ command -v curl
++ [ -x /snap/bin/curl ]
++ DOWNLOADER=curl
++ return 0
++ setup_tmp
++ mktemp -d -t k3s-install.XXXXXXXXXX
++ TMP_DIR=/tmp/k3s-install.05Pykak7Yf
++ TMP_HASH=/tmp/k3s-install.05Pykak7Yf/k3s.hash
++ TMP_BIN=/tmp/k3s-install.05Pykak7Yf/k3s.bin
++ trap cleanup INT EXIT
++ get_release_version
++ [ -n  ]
++ [ -n  ]
++ info Finding release for channel stable
++ echo [INFO]  Finding release for channel stable
+[INFO]  Finding release for channel stable
++ version_url=https://update.k3s.io/v1-release/channels/stable
++ curl -w %{url_effective} -L -s -S https://update.k3s.io/v1-release/channels/stable -o /dev/null
++ sed -e s|.*/||
++ VERSION_K3S=v1.22.6+k3s1
++ info Using v1.22.6+k3s1 as release
++ echo [INFO]  Using v1.22.6+k3s1 as release
+[INFO]  Using v1.22.6+k3s1 as release
++ download_hash
++ [ -n  ]
++ HASH_URL=https://github.com/k3s-io/k3s/releases/download/v1.22.6+k3s1/sha256sum-amd64.txt
++ info Downloading hash https://github.com/k3s-io/k3s/releases/download/v1.22.6+k3s1/sha256sum-amd64.txt
++ echo [INFO]  Downloading hash https://github.com/k3s-io/k3s/releases/download/v1.22.6+k3s1/sha256sum-amd64.txt
+[INFO]  Downloading hash https://github.com/k3s-io/k3s/releases/download/v1.22.6+k3s1/sha256sum-amd64.txt
++ download /tmp/k3s-install.05Pykak7Yf/k3s.hash https://github.com/k3s-io/k3s/releases/download/v1.22.6+k3s1/sha256sum-amd64.txt
++ [ 2 -eq 2 ]
++ curl -o /tmp/k3s-install.05Pykak7Yf/k3s.hash -sfL https://github.com/k3s-io/k3s/releases/download/v1.22.6+k3s1/sha256sum-amd64.txt
++ cleanup
++ code=23
++ set +e
++ trap - EXIT
++ rm -rf /tmp/k3s-install.05Pykak7Yf
++ exit 23
+root@hw0929:~#
+```
+
+TODO: Maybe is this related to unknown certificate?
+
+#### Testing using server IP address rather than FQDN
+
+<!-- (2022-02-02 12:00 CET) -->
+
+```bash
+export K3S_URL=https://20.124.132.35:6433
+export K3S_TOKEN=K100xxxxxxx
+curl -sfL https://get.k3s.io | sh -
+```
+
+Result:
+
+```text
+root@hw0929:~# curl -sfL https://get.k3s.io | sh -
+[INFO]  Finding release for channel stable
+[INFO]  Using v1.22.6+k3s1 as release
+[INFO]  Downloading hash https://github.com/k3s-io/k3s/releases/download/v1.22.6+k3s1/sha256sum-amd64.txt
+root@hw0929:~#
+```
+
+TODO: Check whether Ubuntu 21.10 is a supported OS
+
+
+```text
+root@hw0929:~# cat /etc/os-release 
+PRETTY_NAME="Ubuntu 21.10"
+NAME="Ubuntu"
+VERSION_ID="21.10"
+VERSION="21.10 (Impish Indri)"
+VERSION_CODENAME=impish
+ID=ubuntu
+ID_LIKE=debian
+HOME_URL="https://www.ubuntu.com/"
+SUPPORT_URL="https://help.ubuntu.com/"
+BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+UBUNTU_CODENAME=impish
+root@hw0929:~#
+```
+
+TODO: Try on udoox86gm1 (Ubuntu 20.04.x LTS 64-bit)
+
+TODO: Notice that versions do conflict
+
+* arneis-vm01 installed k3s v1.22.5+k3s1
+* the Agent Node is attempting to install k3s v1.22.6+k3s1
 
 TODO
 
