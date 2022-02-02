@@ -145,6 +145,40 @@ UBUNTU_CODENAME=impish
 gmacario@hw0929:~$
 ```
 
+### Running a sample Pod on the cluster
+
+TODO
+
+Logged in as `root@arneis-vm01`, create the following file `test.yaml`
+
+```yaml
+apiVersion: v1
+kind: Pod
+metadata:
+  name: busybox-sleep
+spec:
+  containers:
+  - name: busybox
+    image: busybox
+    args:
+    - sleep
+    - "1000000"
+```
+
+then run `kubectl apply -f test.yaml`:
+
+```bash
+kubectl apply -f test.yaml
+```
+
+Result:
+
+```text
+TODO
+```
+
+### TODO
+
 Logged in as `root@arneis-vm01`, display the k3s node-token with the following command:
 
 ```bash
