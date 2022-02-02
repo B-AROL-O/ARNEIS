@@ -4,7 +4,15 @@
 
 ## Introduction
 
-TODO
+This document explains how to install a k3s cluster to be used for the ARNEIS project.
+
+k3s is a simplified instance of the Kubernetes architecture as shown in the following diagram.
+
+![k3s-architecture-single-server.png](../images/k3s-architecture-single-server.png)
+
+(Image credits: <https://rancher.com/docs/k3s/latest/en/architecture/>)
+
+The main host (previously called "master" in Kubernetes literature) will act as both a k3s server and a agent node. This is the minimum possible of a deployment of a k3s cluster. Additionally, there other hosts may be added to the topology to act as Agent Nodes, thus adding redundancy and increasing the computation and storage capacity of the cluster.
 
 ## References
 
@@ -12,9 +20,9 @@ TODO
 
 ## Prerequisites
 
-### Master node
+### Host acting as k3s server
 
-* Administrative login to host (physical or virtual) with the following minimum requirements
+* Administrative login to a host (physical or virtual) with the following minimum requirements
   - CPU: min 2 cores
   - RAM: min 16 GiB
   - Disk: min 8 GiB SSD
@@ -27,15 +35,15 @@ TODO
     - 6443/tcp,udp (Kubernetes API server)
   - Tested on arneis-vm01 (Virtual Machine on Azure Cloud - See [documentation](howto-create-vm-on-azure.md))
 
-### Worker node(s)
+### Host(s) acting as Agent Node(s)
 
-* Administrative login to host (physical or virtual) with the following minimum requirements
+* Administrative login to a host (physical or virtual) with the following minimum requirements
   - TODO
   - Tested on rpi4gm35 (Raspberry Pi 4B - See [documentation](howto-prepare-rpi4b-for-arneis.md))
 
 ## Step-by-step instructions
 
-### Install k3s on master node
+### Install k3s on the main node
 
 Logged in as root@arneis-vm01, install k3s
 
@@ -115,6 +123,8 @@ root@arneis-vm01:~#
 ```
 
 ### Install k3s on worker node(s)
+
+Once the k3s server is up and running
 
 TODO
 
