@@ -12,6 +12,8 @@ TODO
 
 ## Prerequisites
 
+### Master node
+
 * Administrative login to host (physical or virtual) with the following minimum requirements
   - CPU: min 2 cores
   - RAM: min 16 GiB
@@ -25,7 +27,15 @@ TODO
     - 6443/tcp,udp (Kubernetes API server)
   - Tested on arneis-vm01 (Virtual Machine on Azure Cloud - See [documentation](howto-create-vm-on-azure.md))
 
+### Worker node(s)
+
+* Administrative login to host (physical or virtual) with the following minimum requirements
+  - TODO
+  - Tested on rpi4gm35 (Raspberry Pi 4B - See [documentation](howto-prepare-rpi4b-for-arneis.md))
+
 ## Step-by-step instructions
+
+### Install k3s on master node
 
 Logged in as root@arneis-vm01, install k3s
 
@@ -103,6 +113,8 @@ kube-system   job.batch/helm-install-traefik-crd   1/1           23s        2m58
 kube-system   job.batch/helm-install-traefik       1/1           39s        2m58s
 root@arneis-vm01:~#
 ```
+
+### Install k3s on worker node(s)
 
 TODO
 
