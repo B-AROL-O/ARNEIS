@@ -122,9 +122,9 @@ kube-system   job.batch/helm-install-traefik       1/1           39s        2m58
 root@arneis-vm01:~#
 ```
 
-### Install k3s on worker node(s)
+### Install k3s on the Agent Node(s)
 
-Once the k3s server is up and running
+Once the k3s server is up and running we are ready to attach additional Agent Node(s) to the cluster.
 
 TODO
 
