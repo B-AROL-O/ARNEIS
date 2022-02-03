@@ -20,6 +20,7 @@ or DM the `B-AROL-O Team on Twitter <https://twitter.com/baroloteam>`_ about sec
    :caption: Architecture
 
    architecture/arneis-spec
+   architecture/arneis-sysarch
    
 .. toctree::
    :maxdepth: 2
