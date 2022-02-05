@@ -1,4 +1,4 @@
-# How-To train a NN and create deployable model for OAK-D-LITE
+# HOWTO Train a Neural Netwrok and create deployable model for OAK-D-Lite
 
 To be able to train a model to recognize your objects, I have used the notebook at <https://github.com/luxonis/depthai-ml-training/blob/master/colab-notebooks/Easy_Object_Detection_With_Custom_Data_Demo_Training.ipynb>
 
