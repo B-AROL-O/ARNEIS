@@ -24,19 +24,6 @@ Testing raw HTML
         <iframe src="https://www.youtube.com/embed/jpnsTsCGbQk" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
     </div>
 
-Testing embedding YouTube video
--------------------------------
-
-* https://twitter.com/avaresi/status/1486027840533499904
-* https://github.com/sphinx-contrib/video
-* https://gist.github.com/dbrgn/2922648
-
-.. youtube:: anwy2MPT5RE
-   :height: 315
-   :width: 560
-   :align: left
-
-
 .. toctree::
    :maxdepth: 2
    :caption: Architecture
