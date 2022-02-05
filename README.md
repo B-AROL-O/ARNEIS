@@ -10,9 +10,10 @@
 
 ## Project Documentation
 
-The public documentation of the ARNEIS project is available at <https://arneis.readthedocs.io/>.
+The documentation of the ARNEIS project is published at <https://arneis.readthedocs.io/>.
 
-The sources of the ARNEIS project documentation are stored inside the `/docs` subfolder of this repository. Whenever the `main` branch is updated, <https://arneis.readthedocs.io/> is updated accordingly.
+The sources of the ARNEIS project documentation are stored inside the `/docs` subfolder of this repository.<br>
+Whenever the `main` branch is updated, <https://arneis.readthedocs.io/> will be updated accordingly.
 
 ### Project Roadmap
 
