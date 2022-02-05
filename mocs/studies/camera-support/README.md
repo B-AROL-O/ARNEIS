@@ -7,17 +7,24 @@ Main goal of this project is to contruct a mechanical support for the [OAK-D-Lit
 * light and simple frame
 * leaves the dissipation surface uncovered
 * stable fastening
-* quick and easy dis-mounting of the camera
+* quick and easy way to dis/assembly camera from/to the adapter
 * easy access to the usb port
 
 ## Photo gallery
+
+Here is the adapter and the OAK-D-Lite ready to be assembled
+
 ![adapter](/docs/images/oak-d-lite-lego-support-01.jpg)
 
-![unlocked](/docs/images/oak-d-lite-lego-support-02.jpg)
+Just push this pin to lock the camera into the adapter
 
-![locked](/docs/images/oak-d-lite-lego-support-03.jpg)
+![unlocked](/docs/images/oak-d-lite-lego-support-02.jpg) ![locked](/docs/images/oak-d-lite-lego-support-03.jpg)
+
+Here is the camera with the USB cable inserted 
 
 ![front](/docs/images/oak-d-lite-lego-support-04.jpg)
+
+As you can see all the dissipation surface is free to cool
 
 ![back](/docs/images/oak-d-lite-lego-support-05.jpg)
 
