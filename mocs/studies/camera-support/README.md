@@ -11,13 +11,13 @@ Main goal of this project is to contruct a mechanical support for the [OAK-D-Lit
 * easy access to the usb port
 
 ## Photo gallery
-![adapter](/../../docs/images/oak-d-lite-lego-support-01.jpeg)
+![adapter](/docs/images/oak-d-lite-lego-support-01.jpg)
 
-![unlocked](/../../docs/images/oak-d-lite-lego-support-02.jpeg)
+![unlocked](/docs/images/oak-d-lite-lego-support-02.jpg)
 
-![locked](/../../docs/images/oak-d-lite-lego-support-03.jpeg)
+![locked](/docs/images/oak-d-lite-lego-support-03.jpg)
 
-![front](/../../docs/images/oak-d-lite-lego-support-04.jpeg)
+![front](/docs/images/oak-d-lite-lego-support-04.jpg)
 
-![back](/../../docs/images/oak-d-lite-lego-support-05.jpeg)
+![back](/docs/images/oak-d-lite-lego-support-05.jpg)
 
