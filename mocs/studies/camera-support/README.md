@@ -20,7 +20,7 @@ Just push this pin to lock the camera into the adapter
 
 ![unlocked](/docs/images/oak-d-lite-lego-support-02.jpg) ![locked](/docs/images/oak-d-lite-lego-support-03.jpg)
 
-Here is the camera with the USB cable inserted 
+Here is the camera with the USB cable inserted
 
 ![front](/docs/images/oak-d-lite-lego-support-04.jpg)
 
