@@ -10,17 +10,20 @@
 
 ## Project Documentation
 
-The public documentation of the ARNEIS project is available at <https://arneis.readthedocs.io/>.
+The documentation of the ARNEIS project is published at <https://arneis.readthedocs.io/>.
 
-The sources of the ARNEIS project documentation are stored inside the `/docs` subfolder of this repository. Whenever the `main` branch is updated, <https://arneis.readthedocs.io/> is updated accordingly.
+The sources of the ARNEIS project documentation are stored inside the `/docs` subfolder of this repository.<br>
+Whenever the `main` branch is updated, <https://arneis.readthedocs.io/> will be updated accordingly.
 
-### Project Roadmap
+### Latest news
 
 The ARNEIS project roadmap is [maintained on GitHub](https://github.com/B-AROL-O/ARNEIS/milestones?direction=asc&sort=due_date&state=open).
 
 [Gianpaolo Macario](https://github.com/gmacario/) publishes regular updates of the ARNEIS project on [his personal blog](https://gmacario.github.io/posts).
 
-Additionally, you may also follow the [B-AROL-O Team on Twitter](https://twitter.com/baroloteam) to get notified on the major progress of the project.
+You may also follow [twitter.com/baroloteam](https://twitter.com/baroloteam) to get notified about the progress of the project.
+
+### How to get in touch
 
 Please report bugs and feature requests on <https://github.com/B-AROL-O/ARNEIS/issues>, or DM [B-AROL-O Team on Twitter](https://twitter.com/baroloteam) about security issues or other non-public topics.
 
