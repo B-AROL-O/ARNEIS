@@ -12,14 +12,21 @@ Welcome to the ARNEIS Project!
         <iframe src="https://www.youtube.com/embed/BFKyx1COfqk" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
     </div>
 
-Project documentation
----------------------
+You just landed on the **ARNEIS**
+(short for ``A`` utomated ``R`` ecognizer,  ``N`` etwork - ``E`` nabled, ``I`` tems ``S`` orter)
+documentation page.
+
+Latest news
+-----------
 
 The ARNEIS project roadmap is `maintained on GitHub <https://github.com/B-AROL-O/ARNEIS/milestones?direction=asc&sort=due_date&state=open>`_.
 
 `Gianpaolo Macario <https://github.com/gmacario/>`_ publishes regular updates of the ARNEIS project on `his personal blog <https://gmacario.github.io/posts>`_.
 
 Additionally, you may also follow `B-AROL-O Team on Twitter <https://twitter.com/baroloteam>`_ to get notified on the major progress of the project.
+
+How to get in touch
+-------------------
 
 Please report bugs and feature requests on https://github.com/B-AROL-O/ARNEIS/issues,
 or DM the `B-AROL-O Team on Twitter <https://twitter.com/baroloteam>`_ about security issues or other non-public topics.
