@@ -47,6 +47,7 @@ or DM the `B-AROL-O Team on Twitter <https://twitter.com/baroloteam>`_ about sec
    howto/howto-install-depthai-on-windows10
    howto/howto-install-k3s-for-arneis
    howto/howto-prepare-rpi4b-for-arneis
+   howto/howto-train-deploy-NN
 
 Indices and tables
 ==================
