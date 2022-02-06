@@ -49,3 +49,20 @@ Main features of this design are:
 > [`bottle-conveyor-20220122.ldr`](bottle-conveyor-20220122.ldr) : the LEGO project exported in [LDraw file format](https://www.ldraw.org/article/218.html).<br/>
 > [`bottle-conveyor-20220122.png`](bottle-conveyor-20220122.png) : a rendered version image<br/>
 > [`bottle-conveyor-20220122.pdf`](bottle-conveyor-20220122.pdf) : building instruction manual
+
+## Motorized Bottle Conveyor (2022-02-06)
+
+Second evolution of the conveyor idea.
+
+Now a motor and relative gearing is applied to the driving sprocket well.
+
+The parts used in this design still are only from the LEGO&reg; [42100 Liebherr R9800](https://www.bricklink.com/v2/catalog/catalogitem.page?S=42100-1) set.
+
+![motorized sprocket wheel](bottle-conveyor-20220206.png)
+
+> **Files**
+>
+> [`bottle-conveyor-20220206.io`](bottle-conveyor-20220122.io) : the LEGO project in _Bricklink Studio_ CAD.<br/>
+> [`bottle-conveyor-20220206.ldr`](bottle-conveyor-20220122.ldr) : the LEGO project exported in [LDraw file format](https://www.ldraw.org/article/218.html). NOTE: some parts are missing as not ufficially published.<br/>
+> [`bottle-conveyor-20220206.png`](bottle-conveyor-20220122.png) : a rendered version image<br/>
+> [`bottle-conveyor-20220206.pdf`](bottle-conveyor-20220122.pdf) : building instruction manual
