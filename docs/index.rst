@@ -17,7 +17,7 @@ This is the **ARNEIS**
 documentation home.
 
 Latest news
------------
+===========
 
 The ARNEIS project roadmap is `maintained on GitHub <https://github.com/B-AROL-O/ARNEIS/milestones?direction=asc&sort=due_date&state=open>`_.
 
@@ -26,10 +26,16 @@ The ARNEIS project roadmap is `maintained on GitHub <https://github.com/B-AROL-O
 You may also follow `twitter.com/baroloteam <https://twitter.com/baroloteam>`_ to get notified about the progress of the project.
 
 How to get in touch
--------------------
+===================
 
 Please report bugs and feature requests on https://github.com/B-AROL-O/ARNEIS/issues,
 or DM the `B-AROL-O Team on Twitter <https://twitter.com/baroloteam>`_ about security issues or other non-public topics.
+
+Documentation
+=============
+
+Architecture
+------------
 
 .. toctree::
    :maxdepth: 2
@@ -38,6 +44,9 @@ or DM the `B-AROL-O Team on Twitter <https://twitter.com/baroloteam>`_ about sec
    architecture/arneis-spec
    architecture/arneis-sysarch
    
+HOWTOs
+------
+
 .. toctree::
    :maxdepth: 2
    :caption: HOWTO
