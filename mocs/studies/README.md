@@ -54,7 +54,7 @@ Main features of this design are:
 
 Second evolution of the conveyor idea.
 
-Now a motor and relative gearing is applied to the driving sprocket well.
+Now a motor and relative gearing is applied to the driving sprocket wheel.
 
 The parts used in this design still are only from the LEGO&reg; [42100 Liebherr R9800](https://www.bricklink.com/v2/catalog/catalogitem.page?S=42100-1) set.
 
