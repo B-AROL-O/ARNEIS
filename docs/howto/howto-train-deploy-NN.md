@@ -41,6 +41,6 @@ Then follow the code put inside the notebook and you are good to go!
 
 ![image](https://user-images.githubusercontent.com/51110452/152745900-3eb33a6c-1fa2-45bf-a8a2-b25cc525edbd.png)
 
-This is the output of the whole process with the model created. After this step I've used <http://blobconverter.luxonis.com/> to get the BLOB file to use with OAK-D-LITE.
+This is the output of the whole process with the model created. After this step I've used <http://blobconverter.luxonis.com/> to get the BLOB file to use with OAK-D-Lite.
 
 <!-- EOF -->
