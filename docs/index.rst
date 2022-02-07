@@ -34,9 +34,6 @@ or DM the `B-AROL-O Team on Twitter <https://twitter.com/baroloteam>`_ about sec
 Documentation
 =============
 
-Architecture
-------------
-
 .. toctree::
    :maxdepth: 2
    :caption: Architecture
@@ -44,12 +41,9 @@ Architecture
    architecture/arneis-spec
    architecture/arneis-sysarch
    
-HOWTOs
-------
-
 .. toctree::
    :maxdepth: 2
-   :caption: HOWTO
+   :caption: HOWTOs
 
    howto/howto-configure-arneis-readthedocs-io
    howto/howto-create-vm-on-azure
