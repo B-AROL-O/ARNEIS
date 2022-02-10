@@ -8,7 +8,7 @@ The following document explains how to install [Luxonis DepthAI](https://github.
 
 ## Prerequisites
 
-* One [Raspberry Pi](https://www.raspberrypi.org/) prepared as detailed in TODO.
+* One [Raspberry Pi](https://www.raspberrypi.org/) prepared as detailed in "[HOWTO Install DepthAI on a Raspberry Pi 4B for the ARNEIS project](https://arneis.readthedocs.io/en/latest/howto/howto-prepare-rpi4b-for-arneis.html)".
   - Tested on rpi4gm35 ([Raspberry Pi 4B 4GB](https://www.amazon.com/Raspberry-Model-2019-Quad-Bluetooth/dp/B07TC2BK1X))
 * One MicroSD card of at least 4GB.
   - **IMPORTANT**: The card should be blank, or at least should not contain any important data since it will be completely erased.
