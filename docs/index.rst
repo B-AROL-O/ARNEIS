@@ -47,6 +47,7 @@ Documentation
 
    howto/howto-configure-arneis-readthedocs-io
    howto/howto-create-vm-on-azure
+   howto/howto-install-depthai-on-rpi
    howto/howto-install-depthai-on-windows10
    howto/howto-install-k3s-for-arneis
    howto/howto-prepare-rpi4b-for-arneis
