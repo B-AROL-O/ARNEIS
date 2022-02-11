@@ -4,9 +4,9 @@
 
 `A`utomated `R`ecognizer, `N`etwork-`E`nabled, `I`tems Sorter.
 
-[![Bottle conveyor 2022-01-22](https://img.youtube.com/vi/BFKyx1COfqk/0.jpg)](https://www.youtube.com/watch?v=BFKyx1COfqk "Bottle conveyor 2022-01-22")
+[![ARNEIS project by B-AROL-O team - WIP](https://img.youtube.com/vi/7qxbT31U5dE/0.jpg)](https://www.youtube.com/watch?v=7qxbT31U5dE "ARNEIS project by B-AROL-O team - WIP")
 
-([Watch the video on YouTube](https://www.youtube.com/watch?v=BFKyx1COfqk))
+([Watch the video on YouTube](https://www.youtube.com/watch?v=7qxbT31U5dE))
 
 ## Project Documentation
 
