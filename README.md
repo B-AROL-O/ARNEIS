@@ -6,7 +6,7 @@
 
 [![ARNEIS project by B-AROL-O team - WIP](https://img.youtube.com/vi/7qxbT31U5dE/0.jpg)](https://www.youtube.com/watch?v=7qxbT31U5dE "ARNEIS project by B-AROL-O team - WIP")
 
-([Watch the video on YouTube](https://www.youtube.com/watch?v=BFKyx1COfqk))
+([Watch the video on YouTube](https://www.youtube.com/watch?v=7qxbT31U5dE))
 
 ## Project Documentation
 
