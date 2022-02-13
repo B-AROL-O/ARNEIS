@@ -2,7 +2,16 @@
 
 ## Computer Vision and AI
 
+### Articles and blog posts
 * [What the FAQ are AI, ANNs, ML, DL, and DNNs? ](https://www.clivemaxfield.com/fundamentals-ai-anns-ml-dl-and-dnns/)
+
+### Learning Resources
+
+* [LearnOpenCV.com](https://learnopencv.com/)
+
+### Webinars
+
+* [OpenCV Weekly Webinar](https://twitter.com/opencvweekly) hosted by [Dr. Satya Mallick](https://twitter.com/learnopencv) and [Phil Nelson](https://twitter.com/philnelson) 
 
 ## LEGO&reg;
 
