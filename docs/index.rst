@@ -36,7 +36,7 @@ Documentation
 
 .. toctree::
    :hidden:
-   :maxdepth: 0
+   :maxdepth: 1
 
    index
    bibliography
