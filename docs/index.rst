@@ -35,6 +35,13 @@ Documentation
 =============
 
 .. toctree::
+   :hidden:
+   :maxdepth: 1
+
+   index
+   bibliography
+
+.. toctree::
    :maxdepth: 2
    :caption: Architecture
 
