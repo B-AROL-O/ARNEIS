@@ -10,6 +10,19 @@ Main goal of this project is to construct a mechanical support for the [OAK-D-Li
 * quick and easy way to dis/assembly camera from/to the adapter
 * easy access to the usb port
 
+## Project Files
+
+[`oak-d-lite-support.io`](oak-d-lite-support.io): the LEGO project in _Bricklink Studio_ CAD.<br/>
+[`oak-d-lite-support.ldr`](oak-d-lite-support.ldr): the LEGO project exported in [LDraw file format](https://www.ldraw.org/article/218.html).<br/>
+[`oak-d-lite-support.png`](oak-d-lite-support.png): a rendered version image<br/>
+[`oak-d-lite-support.pdf`](oak-d-lite-support.pdf): building instruction manual
+
+>  NOTE :
+> For the realization of the LEGO® project, various software applications and public resources are used. See the [here](../README.md).
+
+## License
+All file, photos, as well as all the [ARNEIS](https://github.com/B-AROL-O/ARNEIS) project, is released under [MIT License](/LICENSE) 
+
 ## Photo gallery
 
 Here is the adapter and the OAK-D-Lite ready to be assembled
@@ -27,4 +40,3 @@ Here is the camera with the USB cable inserted
 As you can see all the dissipation surface is free to cool
 
 ![back](/docs/images/oak-d-lite-lego-support-05.jpg)
-
