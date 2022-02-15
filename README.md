@@ -12,7 +12,7 @@
 
 The documentation of the ARNEIS project is published at <https://arneis.readthedocs.io/>.
 
-The sources of the ARNEIS project documentation are stored inside the `/docs` subfolder of this repository.<br>
+The sources of the ARNEIS project documentation are stored inside the [`/docs`](/docs) subfolder of this repository.<br>
 Whenever the `main` branch is updated, <https://arneis.readthedocs.io/> will be updated accordingly.
 
 ### Latest news
