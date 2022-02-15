@@ -4,24 +4,25 @@ Main goal of this project is to construct a mechanical support for the [OAK-D-Li
 
 ## Main features
 
-* light and simple frame
-* leaves the dissipation surface uncovered
-* stable fastening
-* quick and easy way to dis/assembly camera from/to the adapter
-* easy access to the usb port
+* Light and simple frame
+* Leaves the dissipation surface uncovered
+* Stable fastening
+* Quick and easy way to dis/assemble camera from/to the adapter
+* Easy access to the USB port
 
 ## Project Files
 
-[`oak-d-lite-support.io`](oak-d-lite-support.io): the LEGO project in _Bricklink Studio_ CAD.<br/>
-[`oak-d-lite-support.ldr`](oak-d-lite-support.ldr): the LEGO project exported in [LDraw file format](https://www.ldraw.org/article/218.html).<br/>
-[`oak-d-lite-support.png`](oak-d-lite-support.png): a rendered version image<br/>
-[`oak-d-lite-support.pdf`](oak-d-lite-support.pdf): building instruction manual
+* [`oak-d-lite-support.io`](oak-d-lite-support.io): the LEGO project in _Bricklink Studio_ CAD
+* [`oak-d-lite-support.ldr`](oak-d-lite-support.ldr): the LEGO project exported in [LDraw file format](https://www.ldraw.org/article/218.html)
+* [`oak-d-lite-support.png`](oak-d-lite-support.png): a rendered version image
+* [`oak-d-lite-support.pdf`](oak-d-lite-support.pdf): building instruction manual
 
-> NOTE :
-> For the realization of the LEGO® project, various software applications and public resources are used. See the [here](../README.md).
+**NOTE**:
+For the realization of the LEGO® project, various software applications and public resources are used. See the [here](../README.md) for details.
 
 ## License
-All file, photos, as well as all the [ARNEIS](https://github.com/B-AROL-O/ARNEIS) project, is released under [MIT License](/LICENSE)
+
+All file, photos, as well as all the [ARNEIS](https://github.com/B-AROL-O/ARNEIS) project, is released under the [MIT License](/LICENSE).
 
 ## Photo gallery
 
@@ -40,3 +41,6 @@ Here is the camera with the USB cable inserted
 As you can see all the dissipation surface is free to cool
 
 ![back](/docs/images/oak-d-lite-lego-support-05.jpg)
+
+<!-- EOF -->
+
