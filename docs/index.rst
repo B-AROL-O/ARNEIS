@@ -39,6 +39,7 @@ Documentation
    :maxdepth: 1
 
    index
+   acronyms
    bibliography
 
 .. toctree::
