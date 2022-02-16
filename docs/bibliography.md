@@ -9,7 +9,8 @@
 
 ### Learning Resources
 
-* [LearnOpenCV.com](https://learnopencv.com/)
+* [LearnOpenCV.com](https://learnopencv.com/) hosted by [Dr. Satya Mallick](https://www.linkedin.com/in/satyamallick/)
+* GitHub repository with C++ and Python examples from LearnOpenCV.com: <https://github.com/spmallick/learnopencv>
 
 ### Webinars
 
