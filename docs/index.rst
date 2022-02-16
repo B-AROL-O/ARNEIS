@@ -65,5 +65,8 @@ Indices and tables
 ==================
 
 * :ref:`genindex`
-* :ref:`modindex`
+
+.. comment::
+   * :ref:`modindex`
+
 * :ref:`search`
