@@ -30,7 +30,8 @@
 * Bag 2G - Unnamed (Pirilli blu)
 * Bag 2H - Unnamed (Griglie bianche e grigie)
 
-### Misc
+### Other items in Box 6273597
+
 * Shrink wrap size A4 (2x Manuals plus Stickers)
 
 --------------
@@ -53,7 +54,7 @@
 
 * TODO
 
-## Misc
+## Other loose parts present in the box
 
 * TODO
 
