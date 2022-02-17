@@ -24,48 +24,62 @@ Picture | Qty | Code | Description
 ![55615](https://img.bricklink.com/P/86/55615.jpg) | 2 | [55615](https://www.bricklink.com/v2/catalog/catalogitem.page?P=55615&idColor=86) | Light Bluish Gray Technic, Pin Connector Perpendicular 3 x 3 Bent with 4 Pins
 ![60484](https://img.bricklink.com/P/85/60484.jpg) | 6 | [60484](https://www.bricklink.com/v2/catalog/catalogitem.page?P=60484&idColor=85) | Dark Bluish Gray Technic, Liftarm, Modified T-Shape Thick 3 x 3
 
-##### Sacchetto trasparente (spine nere e blu)
+##### Transparent Baglet 1A1
 
 Picture |  Qty | Code | Description
 --------|-----:|------|---------------
-TODO
+TODO:Spine nere e blu
 
-##### Sacchetto trasparente (spine nere e blu)
+##### Transparent Baglet 1A2
 
 Picture |  Qty | Code | Description
 --------|-----:|------|---------------
-TODO
+TODO:Spine nere e blu
 
-#### Bag 1B - Cod. 251S0 (rettangoli grigi + ralla)
+#### Bag 1B - Cod. 251S0
 
-- ?x [64179](https://www.bricklink.com/v2/catalog/catalogitem.page?P=64179&idColor=86) - Light Bluish Gray Technic, Liftarm, Modified Frame Thick 5 x 7 Open Center
-- TODO
+Picture |  Qty | Code | Description
+--------|-----:|------|---------------
+![64179](TODO) | ? [64179](https://www.bricklink.com/v2/catalog/catalogitem.page?P=64179&idColor=86) | Light Bluish Gray Technic, Liftarm, Modified Frame Thick 5 x 7 Open Center
+TODO: Rettangoli grigi + ralla
 
-#### Bag 1C - Cod. 351S0 (ruote motrici)
+#### Bag 1C - Cod. 351S0
 
-- ?x [42529](https://www.bricklink.com/v2/catalog/catalogitem.page?P=42529&idColor=85) - Dark Bluish Gray Technic Tread Sprocket Wheel Extra Large
-- TODO
+Picture |  Qty | Code | Description
+--------|-----:|------|---------------
+![42559](TODO) | ? | [42529](https://www.bricklink.com/v2/catalog/catalogitem.page?P=42529&idColor=85) | Dark Bluish Gray Technic Tread Sprocket Wheel Extra Large
+TODO: Ruote motrici
 
-##### Sacchetto trasparente (pirilli rossi)
+##### Transparent Baglet 1C1
 
-- TODO
+Picture |  Qty | Code | Description
+--------|-----:|------|---------------
+TODO: Pirilli rossi
 
-#### Bag 1D - Unnamed (Cingoli)
+#### Bag 1D - Unnamed
 
-- ?x [57518](https://www.bricklink.com/v2/catalog/catalogitem.page?P=57518&idColor=85) - Dark Bluish Gray Technic, Link Tread Wide with 2 Pin Holes
-- TODO
+Picture |  Qty | Code | Description
+--------|-----:|------|---------------
+![57518](TODO) | ? [57518](https://www.bricklink.com/v2/catalog/catalogitem.page?P=57518&idColor=85) | Dark Bluish Gray Technic, Link Tread Wide with 2 Pin Holes
+TODO:Cingoli
 
-#### Bag 1E - Unnamed (Gears and Pulleys)
+#### Bag 1E - Unnamed
 
-- TODO
+Picture |  Qty | Code | Description
+--------|-----:|------|---------------
+TODO:Gears and Pulleys
 
-#### Bag 1F - Unnamed (Giunzioni grigie)
+#### Bag 1F - Unnamed
 
-- TODO
+Picture |  Qty | Code | Description
+--------|-----:|------|---------------
+TODO:Giunzioni grigie
 
-#### Bag 1G - Unnamed (Pistolini blu)
+#### Bag 1G - Unnamed
 
-- TODO
+Picture |  Qty | Code | Description
+--------|-----:|------|---------------
+TODO:Pistolini blu
 
 
 ### Set of Bags #2
@@ -84,33 +98,46 @@ TODO
 
 ### Other items in Box 6273597
 
-* Shrink wrap size A4 (2x Manuals plus Stickers)
+Description: Shrink wrap size A4
+
+* 2x Manuals
+* Stickers
 
 --------------
 
 ## Box 6278443
 
 Description: black carton box
-  
-* 4x [bb0959c01](https://www.bricklink.com/v2/catalog/catalogitem.page?P=bb0959c01&idColor=85) - Dark Bluish Gray Electric, Motor Powered Up, L
-* 3x [bb0960c01](https://www.bricklink.com/v2/catalog/catalogitem.page?P=bb0960c01&idColor=85) - Dark Bluish Gray Electric, Motor Powered Up, XL
-* 2x [bb0961c01](https://www.bricklink.com/v2/catalog/catalogitem.page?P=bb0961c01&idColor=86) - Light Bluish Gray Electric Battery Box Powered Up Bluetooth Hub with Dark Bluish Gray Bottom
+
+Picture |  Qty | Code | Description
+--------|-----:|------|---------------
+![bb0959c01](TODO) | 4 | [bb0959c01](https://www.bricklink.com/v2/catalog/catalogitem.page?P=bb0959c01&idColor=85) | Dark Bluish Gray Electric, Motor Powered Up, L
+![bb0960c01](TODO) | 3 | [bb0960c01](https://www.bricklink.com/v2/catalog/catalogitem.page?P=bb0960c01&idColor=85) | Dark Bluish Gray Electric, Motor Powered Up, XL
+![bb0961c01](TODO) | 2 | [bb0961c01](https://www.bricklink.com/v2/catalog/catalogitem.page?P=bb0961c01&idColor=86) | Light Bluish Gray Electric Battery Box Powered Up Bluetooth Hub with Dark Bluish Gray Bottom
 
 ## Set of Bags #3
 
-* TODO
+Picture |  Qty | Code | Description
+--------|-----:|------|---------------
+TODO
 
 ## Set of Bags #4
 
-* TODO
+Picture |  Qty | Code | Description
+--------|-----:|------|---------------
+TODO
 
 ## Set of Bags #5
 
-* TODO
+Picture |  Qty | Code | Description
+--------|-----:|------|---------------
+TODO
 
 ## Other loose parts present in the box
 
-* 1x [46891](https://www.bricklink.com/v2/catalog/catalogitem.page?P=46891&idColor=85) - Dark Bluish Gray Technic Digger Bucket 10 x 19
-* TODO
+Picture |  Qty | Code | Description
+--------|-----:|------|---------------
+![46891](TODO) | * 1x [46891](https://www.bricklink.com/v2/catalog/catalogitem.page?P=46891&idColor=85) - Dark Bluish Gray Technic Digger Bucket 10 x 19
+TODO
 
 <!-- EOF -->
