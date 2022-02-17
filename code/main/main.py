@@ -17,6 +17,7 @@ import depthai as dai
 
 ourblobpath = "../test_depthai/custom_mobilenet"
 ourblobfile = "frozen_inference_graph_7000.blob"
+nnPathDefault = str((Path(__file__).parent / Path(ourblobpath+ourblobfile)).resolve().absolute())
 
 labelMap = [
     "",
