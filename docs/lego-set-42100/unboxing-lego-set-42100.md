@@ -10,18 +10,53 @@ Description: white carton box
 
 ### Set of Bags #1
 
-* Bag 1A - Cod. 151S0 (barre grigie lunghe)
-  - Sacchetto trasparente (spine nere e blu)
-* Bag 1B - Cod. 251S0 (rettangoli grigi + ralla)
-  - ?x [64179](https://www.bricklink.com/v2/catalog/catalogitem.page?P=64179&idColor=86) - Light Bluish Gray Technic, Liftarm, Modified Frame Thick 5 x 7 Open Center
-* Bag 1C - Cod. 351S0 (ruote motrici)
-  - ?x [42529](https://www.bricklink.com/v2/catalog/catalogitem.page?P=42529&idColor=85) - Dark Bluish Gray Technic Tread Sprocket Wheel Extra Large
-  - Sacchetto trasparente (pirilli rossi)
-* Bag 1D - Unnamed (Cingoli)
-  - ?x [57518](https://www.bricklink.com/v2/catalog/catalogitem.page?P=57518&idColor=85) - Dark Bluish Gray Technic, Link Tread Wide with 2 Pin Holes
-* Bag 1E - Unnamed (Gears and Pulleys)
-* Bag 1F - Unnamed (Giunzioni grigie)
-* Bag 1G - Unnamed (Pistolini blu)
+#### Bag 1A - Cod. 151S0
+
+Qty | Code | Picture | Description
+---:|------|---------|----
+  8 | [32278](https://www.bricklink.com/v2/catalog/catalogitem.page?P=32278&idColor=86#T=C&C=86) | ![32278](https://img.bricklink.com/ItemImage/PN/86/32278.png) | Technic, Liftarm Thick 1 x 15
+ 18 | [32140](https://www.bricklink.com/v2/catalog/catalogitem.page?P=32140&idColor=85) | ![32140](https://img.bricklink.com/P/85/32140.jpg) | Dark Bluish Gray Technic, Liftarm, Modified Bent Thick L-Shape 2 x 4
+ 14 | [32316](https://www.bricklink.com/v2/catalog/catalogitem.page?P=32316&idColor=85) | ![32316](https://img.bricklink.com/P/85/32316.jpg) | Dark Bluish Gray Technic, Liftarm Thick 1 x 5
+ 11 | [41239](https://www.bricklink.com/v2/catalog/catalogitem.page?P=41239&idColor=85#T=C&C=85) | ![41239](https://img.bricklink.com/ItemImage/PN/85/41239.png) | Technic, Liftarm Thick 1 x 13
+TODO
+
+##### Sacchetto trasparente (spine nere e blu)
+
+ Qty | Code | Picture | Description
+----:|------|---------|----
+TODO
+
+#### Bag 1B - Cod. 251S0 (rettangoli grigi + ralla)
+
+- ?x [64179](https://www.bricklink.com/v2/catalog/catalogitem.page?P=64179&idColor=86) - Light Bluish Gray Technic, Liftarm, Modified Frame Thick 5 x 7 Open Center
+- TODO
+
+#### Bag 1C - Cod. 351S0 (ruote motrici)
+
+- ?x [42529](https://www.bricklink.com/v2/catalog/catalogitem.page?P=42529&idColor=85) - Dark Bluish Gray Technic Tread Sprocket Wheel Extra Large
+- TODO
+
+##### Sacchetto trasparente (pirilli rossi)
+
+- TODO
+
+#### Bag 1D - Unnamed (Cingoli)
+
+- ?x [57518](https://www.bricklink.com/v2/catalog/catalogitem.page?P=57518&idColor=85) - Dark Bluish Gray Technic, Link Tread Wide with 2 Pin Holes
+- TODO
+
+#### Bag 1E - Unnamed (Gears and Pulleys)
+
+- TODO
+
+#### Bag 1F - Unnamed (Giunzioni grigie)
+
+- TODO
+
+#### Bag 1G - Unnamed (Pistolini blu)
+
+- TODO
+
 
 ### Set of Bags #2
 
