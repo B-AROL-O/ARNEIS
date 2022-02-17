@@ -49,20 +49,29 @@ Picture |  Qty | Code | Description
 ![32793](https://img.bricklink.com/P/3/39793.jpg) | 2 | [32793](https://www.bricklink.com/v2/catalog/catalogitem.page?P=39793&idColor=3) | Yellow Technic, Pin Connector Block, Liftarm 1 x 3 x 3
 ![40490](https://img.bricklink.com/P/85/40490.jpg) | 20 | [40490](https://www.bricklink.com/v2/catalog/catalogitem.page?P=40490&idColor=85) | Dark Bluish Gray Technic, Liftarm Thick 1 x 9
 ![64179](https://img.bricklink.com/P/86/64179.jpg) | 10 | [64179](https://www.bricklink.com/v2/catalog/catalogitem.page?P=64179&idColor=86) | Light Bluish Gray Technic, Liftarm, Modified Frame Thick 5 x 7 Open Center
-TODO: Rettangoli grigi + ralla
 
 #### Bag 1C - Cod. 351S0
 
 Picture |  Qty | Code | Description
 --------|-----:|------|---------------
-![42529](https://img.bricklink.com/P/85/42529.jpg) | ? | [42529](https://www.bricklink.com/v2/catalog/catalogitem.page?P=42529&idColor=85) | Dark Bluish Gray Technic Tread Sprocket Wheel Extra Large
-TODO: Ruote motrici
+![3666](https://img.bricklink.com/P/5/3666.jpg) | 2 | [3666](https://www.bricklink.com/v2/catalog/catalogitem.page?P=3666&idColor=5) | Red Plate 1 x 6
+![15458](https://img.bricklink.com/P/85/15458.jpg) | 5 | [15458](https://www.bricklink.com/v2/catalog/catalogitem.page?P=15458&idColor=85) | Dark Bluish Gray Technic, Panel Plate 3 x 11 x 1
+![18938](https://img.bricklink.com/P/11/18938.jpg) | 1 | [18938](https://www.bricklink.com/v2/catalog/catalogitem.page?P=18938&idColor=11) | Black Technic Turntable Large Type 3 Top, 60 Tooth
+![18939](https://img.bricklink.com/P/86/18939.jpg) | 1 | [18939](https://www.bricklink.com/v2/catalog/catalogitem.page?P=18939&idColor=86) | Light Bluish Gray Technic Turntable Large Type 3 Base
+![32269](https://img.bricklink.com/P/2/32269.jpg) | 7 | [32269](https://www.bricklink.com/v2/catalog/catalogitem.page?P=32269&idColor=2) | Tan Technic, Gear 20 Tooth Double Bevel
+![32523](https://img.bricklink.com/P/3/32523.jpg) | 2 | [32523](https://www.bricklink.com/v2/catalog/catalogitem.page?P=32523&idColor=3) | Yellow Technic, Liftarm Thick 1 x 3
+![32525](https://img.bricklink.com/P/11/32525.jpg) | 12 | [32525](https://www.bricklink.com/v2/catalog/catalogitem.page?P=32525&idColor=11) | Black Technic, Liftarm Thick 1 x 11
+![44294](https://img.bricklink.com/P/86/44294.jpg) | 10 | [44294](https://www.bricklink.com/v2/catalog/catalogitem.page?P=44294&idColor=86) | Light Bluish Gray Technic, Axle 7L
+![42529](https://img.bricklink.com/P/85/42529.jpg) | 4 | [42529](https://www.bricklink.com/v2/catalog/catalogitem.page?P=42529&idColor=85) | Dark Bluish Gray Technic Tread Sprocket Wheel Extra Large
+![46372](https://img.bricklink.com/P/86/46372.jpg) | 2 | [46372](https://www.bricklink.com/v2/catalog/catalogitem.page?P=46372&idColor=86) | Light Bluish Gray Technic, Gear 28 Tooth Double Bevel
+![46835](https://img.bricklink.com/P/85/46835.jpg) | 3 | [46835](https://www.bricklink.com/v2/catalog/catalogitem.page?P=46835&idColor=85) | Dark Bluish Gray Technic, Clutch Connector Male / Inside
+![55013](https://img.bricklink.com/P/85/55013.jpg) | 4 | [55013](https://www.bricklink.com/v2/catalog/catalogitem.page?P=55013&idColor=85) | Dark Bluish Gray Technic, Axle 8L with Stop
 
 ##### Transparent Baglet 1C1
 
 Picture |  Qty | Code | Description
 --------|-----:|------|---------------
-TODO: Pirilli rossi
+TODO:Pirilli rossi
 
 #### Bag 1D - Unnamed
 
