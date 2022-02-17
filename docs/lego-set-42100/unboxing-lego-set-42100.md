@@ -40,7 +40,15 @@ TODO:Spine nere e blu
 
 Picture |  Qty | Code | Description
 --------|-----:|------|---------------
-![64179](https://img.bricklink.com/P/86/64179.jpg) | ? | [64179](https://www.bricklink.com/v2/catalog/catalogitem.page?P=64179&idColor=86) | Light Bluish Gray Technic, Liftarm, Modified Frame Thick 5 x 7 Open Center
+![3648](https://img.bricklink.com/P/85/3648.jpg) | 4 | [3648](https://www.bricklink.com/v2/catalog/catalogitem.page?P=3648&idColor=85) | Dark Bluish Gray Technic, Gear 24 Tooth (2nd Version - 1 Axle Hole)
+![24121](https://img.bricklink.com/P/11/24121.jpg) | 4 | [24121](https://www.bricklink.com/v2/catalog/catalogitem.page?P=24121&idColor=11) | 	Black Technic, Gear Rack 11 x 11 Curved
+![32009](https://img.bricklink.com/P/85/32009.jpg) | 4 | [32009](https://www.bricklink.com/v2/catalog/catalogitem.page?P=32009&idColor=85) | Dark Bluish Gray Technic, Liftarm, Modified Bent Thick 1 x 11.5 Double
+![32498](https://img.bricklink.com/P/11/32498.jpg) | 4 | [32498](https://www.bricklink.com/v2/catalog/catalogitem.page?P=32498&idColor=11) | Black Technic, Gear 36 Tooth Double Bevel
+![32524](https://img.bricklink.com/P/86/32524.jpg) | 10 | [32524](https://www.bricklink.com/v2/catalog/catalogitem.page?P=32524&idColor=86) | Light Bluish Gray Technic, Liftarm Thick 1 x 7
+![32526](https://img.bricklink.com/P/85/32526.jpg) | 8 | [32526](https://www.bricklink.com/v2/catalog/catalogitem.page?P=32526&idColor=85) | Dark Bluish Gray Technic, Liftarm, Modified Bent Thick L-Shape 3 x 5
+![32793](https://img.bricklink.com/P/3/39793.jpg) | 2 | [32793](https://www.bricklink.com/v2/catalog/catalogitem.page?P=39793&idColor=3) | Yellow Technic, Pin Connector Block, Liftarm 1 x 3 x 3
+![40490](https://img.bricklink.com/P/85/40490.jpg) | 20 | [40490](https://www.bricklink.com/v2/catalog/catalogitem.page?P=40490&idColor=85) | Dark Bluish Gray Technic, Liftarm Thick 1 x 9
+![64179](https://img.bricklink.com/P/86/64179.jpg) | 10 | [64179](https://www.bricklink.com/v2/catalog/catalogitem.page?P=64179&idColor=86) | Light Bluish Gray Technic, Liftarm, Modified Frame Thick 5 x 7 Open Center
 TODO: Rettangoli grigi + ralla
 
 #### Bag 1C - Cod. 351S0
