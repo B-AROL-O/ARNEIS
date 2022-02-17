@@ -41,7 +41,7 @@ TODO:Spine nere e blu
 Picture |  Qty | Code | Description
 --------|-----:|------|---------------
 ![3648](https://img.bricklink.com/P/85/3648.jpg) | 4 | [3648](https://www.bricklink.com/v2/catalog/catalogitem.page?P=3648&idColor=85) | Dark Bluish Gray Technic, Gear 24 Tooth (2nd Version - 1 Axle Hole)
-![24121](https://img.bricklink.com/P/11/24121.jpg) | 4 | [24121](https://www.bricklink.com/v2/catalog/catalogitem.page?P=24121&idColor=11) | 	Black Technic, Gear Rack 11 x 11 Curved
+![24121](https://img.bricklink.com/P/11/24121.jpg) | 4 | [24121](https://www.bricklink.com/v2/catalog/catalogitem.page?P=24121&idColor=11) | Black Technic, Gear Rack 11 x 11 Curved
 ![32009](https://img.bricklink.com/P/85/32009.jpg) | 4 | [32009](https://www.bricklink.com/v2/catalog/catalogitem.page?P=32009&idColor=85) | Dark Bluish Gray Technic, Liftarm, Modified Bent Thick 1 x 11.5 Double
 ![32498](https://img.bricklink.com/P/11/32498.jpg) | 4 | [32498](https://www.bricklink.com/v2/catalog/catalogitem.page?P=32498&idColor=11) | Black Technic, Gear 36 Tooth Double Bevel
 ![32524](https://img.bricklink.com/P/86/32524.jpg) | 10 | [32524](https://www.bricklink.com/v2/catalog/catalogitem.page?P=32524&idColor=86) | Light Bluish Gray Technic, Liftarm Thick 1 x 7
