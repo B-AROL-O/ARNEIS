@@ -77,8 +77,8 @@ TODO:Pirilli rossi
 
 Picture |  Qty | Code | Description
 --------|-----:|------|---------------
-![57518](https://img.bricklink.com/P/85/57518.jpg) | ? [57518](https://www.bricklink.com/v2/catalog/catalogitem.page?P=57518&idColor=85) | Dark Bluish Gray Technic, Link Tread Wide with 2 Pin Holes
-TODO:Cingoli
+![57518](https://img.bricklink.com/P/85/57518.jpg) | ? | [57518](https://www.bricklink.com/v2/catalog/catalogitem.page?P=57518&idColor=85) | Dark Bluish Gray Technic, Link Tread Wide with 2 Pin Holes
+TODO
 
 #### Bag 1E - Unnamed
 
@@ -101,17 +101,42 @@ TODO:Pistolini blu
 
 ### Set of Bags #2
 
-* Bag 2A - Unnamed (Quadrati grigi)
-* Bag 2B - Cod. 251S0 (cose piatte + attuatore lineare)
-  - Sacchetto trasparente con spine nere
-* Bag 2C - Cod. 251S0 (idem)
-  - Sacchetto trasparente con spine nere
-* Bag 2D - Cod. 351S0
-  - Sacchetto trasparente con spine blu
-* Bag 2E - Unnamed (Pezzi a L bianchi)
-* Bag 2F - Unnamed (Pirilli rossi)
-* Bag 2G - Unnamed (Pirilli blu)
-* Bag 2H - Unnamed (Griglie bianche e grigie)
+#### Bag 2A - Unnamed
+
+TODO(Quadrati grigi)
+
+#### Bag 2B - Cod. 251S0
+
+TODO (Cose piatte + attuatore lineare)
+
+- Sacchetto trasparente con spine nere
+
+#### Bag 2C - Cod. 251S0 (idem)
+TODO (Cose piatte + attuatore lineare)
+
+- Sacchetto trasparente con spine nere
+
+#### Bag 2D - Cod. 351S0
+
+TODO
+
+- Sacchetto trasparente con spine blu
+
+#### Bag 2E - Unnamed
+
+TODO (Pezzi a L bianchi)
+
+#### Bag 2F - Unnamed
+
+TODO (Pirilli rossi)
+
+#### Bag 2G - Unnamed
+
+TODO (Pirilli blu)
+
+#### Bag 2H - Unnamed
+
+TODO (Griglie bianche e grigie)
 
 ### Other items in Box 6273597
 
