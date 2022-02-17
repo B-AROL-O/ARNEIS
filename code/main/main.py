@@ -4,15 +4,16 @@
 #
 #############
 
-import os
 import contextlib
+import os
 import pathlib
+import xml.etree.cElementTree as ET
 from pathlib import Path
 
-import blobconverter
+# import blobconverter
 import cv2
 import depthai as dai
-import xml.etree.cElementTree as ET
+
 
 ourblobpath = "../test_depthai/custom_mobilenet"
 ourblobfile = "frozen_inference_graph_7000.blob"
@@ -39,42 +40,42 @@ def getPipeline():
     # For the demo, just set a larger RGB preview size for OAK-D
     cam_rgb.setPreviewSize(300, 300)  #(640, 360)
     cam_rgb.setInterleaved(False)
-    #cam_rgb.setFps(40)
+    # cam_rgb.setFps(40)
     cam_rgb.setBoardSocket(dai.CameraBoardSocket.RGB)
     cam_rgb.setResolution(
         dai.ColorCameraProperties.SensorResolution.THE_1080_P)
     cam_rgb.setIspScale(1, 3)
     cam_rgb.setVideoSize(640, 360)
 
-    #detector = pipeline.createMobileNetDetectionNetwork()
-    #detector.setConfidenceThreshold(0.5)
-    #detector.setBlobPath(blobconverter.from_zoo(name="mobilenet-ssd",
+    # detector = pipeline.createMobileNetDetectionNetwork()
+    # detector.setConfidenceThreshold(0.5)
+    # detector.setBlobPath(blobconverter.from_zoo(name="mobilenet-ssd",
     #                                            shaves=6))
-    #cam_rgb.preview.link(detector.input)
+    # cam_rgb.preview.link(detector.input)
 
     nn = pipeline.create(
         dai.node.MobileNetDetectionNetwork)  # working with custom trained NN
     nn.setConfidenceThreshold(0.5)
     nn.setBlobPath(nnPathDefault)
-    #nn.setNumInferenceThreads(2)
+    # nn.setNumInferenceThreads(2)
     nn.input.setBlocking(False)
     cam_rgb.preview.link(nn.input)
 
     # Create output
     xout_rgb = pipeline.createXLinkOut()
     xout_rgb.setStreamName("rgb")
-    #detector.passthrough.link(xout_rgb.input)
+    # detector.passthrough.link(xout_rgb.input)
     nn.passthrough.link(xout_rgb.input)
 
     xout_nn = pipeline.createXLinkOut()
     xout_nn.setStreamName("nn")
-    #detector.out.link(xout_nn.input)
+    # detector.out.link(xout_nn.input)
     nn.out.link(xout_nn.input)
 
     return pipeline
 
 def create_labimg_xml(image_path, filename, label, width, height, xmin, ymin,
-                      xmax, ymax):  #annotation_list):
+                      xmax, ymax):  # annotation_list):
 
     annotation = ET.Element('annotation')
     ET.SubElement(annotation, 'folder').text = str(
@@ -87,9 +88,9 @@ def create_labimg_xml(image_path, filename, label, width, height, xmin, ymin,
     ET.SubElement(source, 'database').text = 'ARNEIS Database'
 
     size = ET.SubElement(annotation, 'size')
-    ET.SubElement(size, 'width').text = str(width)  #str(img.shape[1])
-    ET.SubElement(size, 'height').text = str(height)  #str(img.shape[0])
-    ET.SubElement(size, 'depth').text = str(3)  #str(img.shape[2]) # TODO
+    ET.SubElement(size, 'width').text = str(width)  # str(img.shape[1])
+    ET.SubElement(size, 'height').text = str(height)  # str(img.shape[0])
+    ET.SubElement(size, 'depth').text = str(3)  # str(img.shape[2]) # TODO
 
     ET.SubElement(annotation, 'segmented').text = '0'
 
@@ -106,11 +107,10 @@ def create_labimg_xml(image_path, filename, label, width, height, xmin, ymin,
     ET.SubElement(bndbox, 'ymax').text = str(ymax)
 
     tree = ET.ElementTree(annotation)
-    xml_file_name = image_path + "\\" + filename + ".xml"  #str(image_path+filename+".xml") #image_path.parent / (image_path.name.split('.')[0]+'.xml')
+    xml_file_name = image_path + "\\" + filename + ".xml"  # str(image_path+filename+".xml") # image_path.parent / (image_path.name.split('.')[0]+'.xml')
     print("image path " + str(image_path))
     print("xml_file_name" + str(xml_file_name))
     tree.write(xml_file_name)
-
 
 # https://docs.python.org/3/library/contextlib.html#contextlib.ExitStack
 with contextlib.ExitStack() as stack:
@@ -154,9 +154,9 @@ with contextlib.ExitStack() as stack:
     xmax = None
     ymax = None
     while True:
-        #print("devices: ",devices)
-        #print("\n")
-        #print("devices.items: ",devices.items())
+        # print("devices: ",devices)
+        # print("\n")
+        # print("devices.items: ",devices.items())
         for mxid, q in devices.items():
             if q['nn'].has():
                 dets = q['nn'].get().detections
@@ -169,7 +169,7 @@ with contextlib.ExitStack() as stack:
                     xmin = int(300 * detection.xmin)
                     ymax = int(300 * detection.ymax)
                     xmax = int(300 * detection.xmax)
-                    #print("detection.label: "+str(detection.label)+"\n")
+                    # print("detection.label: "+str(detection.label)+"\n")
                     cv2.putText(frame, labelMap[detection.label],
                                 (xmin + 10, ymin + 20),
                                 cv2.FONT_HERSHEY_SIMPLEX, 1.0, (255, 255, 255))
@@ -178,12 +178,12 @@ with contextlib.ExitStack() as stack:
                                 cv2.FONT_HERSHEY_SIMPLEX, 1.0, (255, 255, 255))
                     cv2.rectangle(frame, (xmin, ymin), (xmax, ymax),
                                   (255, 255, 255), 2)
-                    #print(labelMap[detection.label]+" xmin: "+str(xmin)+" ymin: "+str(ymin)+" xmax: "+str(xmax)+" ymax: "+str(ymax) )
+                    # print(labelMap[detection.label]+" xmin: "+str(xmin)+
+                    # " ymin: "+str(ymin)+" xmax: "+str(xmax)+" ymax: "+str(ymax) )
                     detect_label = labelMap[detection.label]
                     height = frame.shape[0]
                     width = frame.shape[1]
-                  
-
+                    
                 # Show the frame
                 cv2.imshow(f"Preview - {mxid}", frame)
 
@@ -192,7 +192,7 @@ with contextlib.ExitStack() as stack:
         if cv2.waitKey(1) == ord('s'):
             if (pathlib.Path.cwd() / 'images').exists():
                 filelist = os.listdir('images')
-                #index = len(filelist) # used for storing only images
+                # index = len(filelist) # used for storing only images
                 index = int(len(filelist) /
                             2)  # used for storing images and associated xml
             else:
