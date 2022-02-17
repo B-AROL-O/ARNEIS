@@ -1,4 +1,6 @@
-# Unboxing LEGO Set 42100
+# Unboxing LEGO&reg; Set 42100
+
+Reference: [Catalog of LEGO&reg; Set 42100-1](https://www.bricklink.com/catalogItemInv.asp?S=42100-1) - BrickLink.com
 
 <!-- (2022-02-16 22:00 CET) -->
 
@@ -13,11 +15,11 @@ Description: white carton box
 * Bag 1B - Cod. 251S0 (rettangoli grigi + ralla)
   - ?x [64179](https://www.bricklink.com/v2/catalog/catalogitem.page?P=64179&idColor=86) - Light Bluish Gray Technic, Liftarm, Modified Frame Thick 5 x 7 Open Center
 * Bag 1C - Cod. 351S0 (ruote motrici)
+  - ?x [42529](https://www.bricklink.com/v2/catalog/catalogitem.page?P=42529&idColor=85) - Dark Bluish Gray Technic Tread Sprocket Wheel Extra Large
   - Sacchetto trasparente (pirilli rossi)
 * Bag 1D - Unnamed (Cingoli)
   - ?x [57518](https://www.bricklink.com/v2/catalog/catalogitem.page?P=57518&idColor=85) - Dark Bluish Gray Technic, Link Tread Wide with 2 Pin Holes
 * Bag 1E - Unnamed (Gears and Pulleys)
-  - ?x [42529](https://www.bricklink.com/v2/catalog/catalogitem.page?P=42529&idColor=85) - Dark Bluish Gray Technic Tread Sprocket Wheel Extra Large
 * Bag 1F - Unnamed (Giunzioni grigie)
 * Bag 1G - Unnamed (Pistolini blu)
 
