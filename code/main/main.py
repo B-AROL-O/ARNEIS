@@ -171,14 +171,29 @@ with contextlib.ExitStack() as stack:
                     ymax = int(300 * detection.ymax)
                     xmax = int(300 * detection.xmax)
                     # print("detection.label: "+str(detection.label)+"\n")
-                    cv2.putText(frame, labelMap[detection.label],
-                                (xmin + 10, ymin + 20),
-                                cv2.FONT_HERSHEY_SIMPLEX, 1.0, (255, 255, 255))
-                    cv2.putText(frame, f"{int(detection.confidence * 100)}%",
-                                (xmin + 10, ymin + 40),
-                                cv2.FONT_HERSHEY_SIMPLEX, 1.0, (255, 255, 255))
-                    cv2.rectangle(frame, (xmin, ymin), (xmax, ymax),
-                                  (255, 255, 255), 2)
+                    cv2.putText(
+                        frame,
+                        labelMap[detection.label],
+                        (xmin + 10, ymin + 20),
+                        cv2.FONT_HERSHEY_SIMPLEX,
+                        1.0,
+                        (255, 255, 255),
+                    )
+                    cv2.putText(
+                        frame,
+                        f"{int(detection.confidence * 100)}%",
+                        (xmin + 10, ymin + 40),
+                        cv2.FONT_HERSHEY_SIMPLEX,
+                        1.0,
+                        (255, 255, 255),
+                    )
+                    cv2.rectangle(
+                        frame,
+                        (xmin, ymin),
+                        (int(300 * detection.xmax), int(300 * detection.ymax)),
+                        (255, 255, 255),
+                        2,
+                    )
                     # print(labelMap[detection.label]+" xmin: "+str(xmin)+
                     # " ymin: "+str(ymin)+" xmax: "+str(xmax)+" ymax: "+str(ymax) )
                     detect_label = labelMap[detection.label]
