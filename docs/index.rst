@@ -54,12 +54,21 @@ Documentation
    :caption: HOWTOs
 
    howto/howto-configure-arneis-readthedocs-io
+   howto/howto-control-rpi-poweredup
    howto/howto-create-vm-on-azure
    howto/howto-install-depthai-on-rpi
    howto/howto-install-depthai-on-windows10
    howto/howto-install-k3s-for-arneis
    howto/howto-prepare-rpi4b-for-arneis
    howto/howto-train-deploy-NN
+
+.. toctree::
+   :maxdepth: 2
+   :caption: LEGO
+   :hidden:
+   
+   lego-set-42100/README
+   lego-set-42100/unboxing-lego-set-42100
 
 Indices and tables
 ==================
