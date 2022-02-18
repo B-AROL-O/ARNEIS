@@ -74,7 +74,19 @@ def getPipeline():
 def create_labimg_xml(
     image_path, filename, label, width, height, xmin, ymin, xmax, ymax
 ):
-
+    """
+    This function helps create automatically an XML of the detected object.
+    
+    Args:
+        image_path: location of the images folder
+        filename: name of the file to be saved without extension
+        label: name of the detected item
+        width, height
+        xmin: X minimal position of the rectangle containing the object
+        ymin: Y minimal position of the rectangle containing the object
+        xmax: X maximum position of the rectangle containing the object
+        ymax: Y maximum position of the rectangle containing the object
+    """
     annotation = ET.Element('annotation')
     ET.SubElement(annotation, 'folder').text = str(
         image_path
