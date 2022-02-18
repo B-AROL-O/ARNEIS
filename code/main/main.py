@@ -17,7 +17,7 @@ import depthai as dai
 ourblobpath = "../test_depthai/custom_mobilenet"
 ourblobfile = "frozen_inference_graph_7000.blob"
 nnPathDefault = str(
-    (Path(__file__).parent / Path(ourblobpath+ourblobfile)).resolve().absolute()
+    (Path(__file__).parent / Path(ourblobpath + ourblobfile)).resolve().absolute()
 )
 
 labelMap = ["", "savoia", "cora", "montenegro", "sambuca", "zucca"]
@@ -74,7 +74,8 @@ def create_labimg_xml(
 
     annotation = ET.Element('annotation')
     ET.SubElement(annotation, 'folder').text = str(
-        image_path)  #str(image_path.parent.name)
+        image_path
+    )  # str(image_path.parent.name)
     ET.SubElement(annotation, 'filename').text = str(filename)  # str(image_path.name)
     ET.SubElement(annotation, 'path').text = str(image_path)
 
@@ -102,7 +103,7 @@ def create_labimg_xml(
 
     tree = ET.ElementTree(annotation)
     xml_file_name = (
-        image_path + "\\" + filename + ".xml" 
+        image_path + "/" + filename + ".xml" 
     )  # str(image_path+filename+".xml") # image_path.parent / (image_path.name.split('.')[0]+'.xml')
     print("image path " + str(image_path))
     print("xml_file_name" + str(xml_file_name))
@@ -222,6 +223,6 @@ with contextlib.ExitStack() as stack:
                 xmin,
                 ymin,
                 xmax,
-                ymax
+                ymax,
             )
             index = index + 1
