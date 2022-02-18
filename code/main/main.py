@@ -14,37 +14,29 @@ from pathlib import Path
 import cv2
 import depthai as dai
 
-
 ourblobpath = "../test_depthai/custom_mobilenet"
 ourblobfile = "frozen_inference_graph_7000.blob"
-nnPathDefault = str((Path(__file__).parent / Path(ourblobpath+ourblobfile)).resolve().absolute())
+nnPathDefault = str(
+    (Path(__file__).parent / Path(ourblobpath+ourblobfile)).resolve().absolute()
+)
 
-labelMap = [
-    "",
-    "savoia",
-    "cora",
-    "montenegro",
-    "sambuca",
-    "zucca"
-]
+labelMap = ["", "savoia", "cora", "montenegro", "sambuca", "zucca"]
 
 index = 0
-
+images_path = os.path.join(os.getcwd(), 'images')
 
 # This can be customized to pass multiple parameters
 def getPipeline():
-   # Start defining a pipeline
+    # Start defining a pipeline
     pipeline = dai.Pipeline()
 
     # Define a source - color camera
     cam_rgb = pipeline.createColorCamera()
     # For the demo, just set a larger RGB preview size for OAK-D
-    cam_rgb.setPreviewSize(300, 300)  #(640, 360)
+    cam_rgb.setPreviewSize(300, 300)  # (640, 360)
     cam_rgb.setInterleaved(False)
-    # cam_rgb.setFps(40)
     cam_rgb.setBoardSocket(dai.CameraBoardSocket.RGB)
-    cam_rgb.setResolution(
-        dai.ColorCameraProperties.SensorResolution.THE_1080_P)
+    cam_rgb.setResolution(dai.ColorCameraProperties.SensorResolution.THE_1080_P)
     cam_rgb.setIspScale(1, 3)
     cam_rgb.setVideoSize(640, 360)
 
@@ -55,7 +47,8 @@ def getPipeline():
     # cam_rgb.preview.link(detector.input)
 
     nn = pipeline.create(
-        dai.node.MobileNetDetectionNetwork)  # working with custom trained NN
+        dai.node.MobileNetDetectionNetwork
+    )  # working with custom trained NN
     nn.setConfidenceThreshold(0.5)
     nn.setBlobPath(nnPathDefault)
     # nn.setNumInferenceThreads(2)
@@ -75,14 +68,14 @@ def getPipeline():
 
     return pipeline
 
-def create_labimg_xml(image_path, filename, label, width, height, xmin, ymin,
-                      xmax, ymax):  # annotation_list):
+def create_labimg_xml(
+    image_path, filename, label, width, height, xmin, ymin, xmax, ymax
+): 
 
     annotation = ET.Element('annotation')
     ET.SubElement(annotation, 'folder').text = str(
         image_path)  #str(image_path.parent.name)
-    ET.SubElement(annotation,
-                  'filename').text = str(filename)  #str(image_path.name)
+    ET.SubElement(annotation, 'filename').text = str(filename)  # str(image_path.name)
     ET.SubElement(annotation, 'path').text = str(image_path)
 
     source = ET.SubElement(annotation, 'source')
@@ -108,7 +101,9 @@ def create_labimg_xml(image_path, filename, label, width, height, xmin, ymin,
     ET.SubElement(bndbox, 'ymax').text = str(ymax)
 
     tree = ET.ElementTree(annotation)
-    xml_file_name = image_path + "\\" + filename + ".xml"  # str(image_path+filename+".xml") # image_path.parent / (image_path.name.split('.')[0]+'.xml')
+    xml_file_name = (
+        image_path + "\" + filename + ".xml" 
+    )  # str(image_path+filename+".xml") # image_path.parent / (image_path.name.split('.')[0]+'.xml')
     print("image path " + str(image_path))
     print("xml_file_name" + str(xml_file_name))
     tree.write(xml_file_name)
@@ -128,7 +123,8 @@ with contextlib.ExitStack() as stack:
         openvino_version = dai.OpenVINO.Version.VERSION_2021_4
         usb2_mode = False
         device = stack.enter_context(
-            dai.Device(openvino_version, device_info, usb2_mode))
+            dai.Device(openvino_version, device_info, usb2_mode)
+        )
 
         # Note: currently on POE, DeviceInfo.getMxId() and Device.getMxId() are different!
         print("=== Connected to " + device_info.getMxId())
@@ -199,7 +195,7 @@ with contextlib.ExitStack() as stack:
                     detect_label = labelMap[detection.label]
                     height = frame.shape[0]
                     width = frame.shape[1]
-                    
+
                 # Show the frame
                 cv2.imshow(f"Preview - {mxid}", frame)
 
@@ -209,16 +205,23 @@ with contextlib.ExitStack() as stack:
             if (pathlib.Path.cwd() / 'images').exists():
                 filelist = os.listdir('images')
                 # index = len(filelist) # used for storing only images
-                index = int(len(filelist) /
-                            2)  # used for storing images and associated xml
+                index = int(
+                    len(filelist) / 2
+                )  # used for storing images and associated xml
             else:
                 pathlib.Path('images').mkdir(parents=True, exist_ok=True)
 
-            cv2.imwrite("images/capture_" + str(index) + ".jpg",
-                        frame_for_save)
-            cv2.imwrite("images_framed/capture_framed_" + str(index) + ".jpg",
-                        frame)
-            create_labimg_xml(str(images_path), str("capture_" + str(index)),
-                              "ama_savoia", width, height, xmin, ymin, xmax,
-                              ymax)
+            cv2.imwrite("images/capture_" + str(index) + ".jpg", frame_for_save)
+            cv2.imwrite("images_framed/capture_framed_" + str(index) + ".jpg", frame)
+            create_labimg_xml(
+                str(images_path),
+                str("capture_" + str(index)),
+                "ama_savoia",
+                width,
+                height,
+                xmin,
+                ymin,
+                xmax,
+                ymax
+            )
             index = index + 1
