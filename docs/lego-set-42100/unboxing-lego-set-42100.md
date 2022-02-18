@@ -14,10 +14,10 @@ Description: white carton box
 
 Cod. 151S0 (cm 26 x 24h)
 
-Picture | Qty | Code | Description
---------|----:|------|--------------
+Picture | Qty | Code | Description | Color |
+--------|----:|------|-------------|-------|
 ![32278](https://img.bricklink.com/ItemImage/PN/86/32278.png) | 8 | [32278](https://www.bricklink.com/v2/catalog/catalogitem.page?P=32278&idColor=86#T=C&C=86) | Technic, Liftarm Thick 1 x 15
-![32140](https://img.bricklink.com/P/85/32140.jpg) | 18 | [32140](https://www.bricklink.com/v2/catalog/catalogitem.page?P=32140&idColor=85) | Dark Bluish Gray Technic, Liftarm, Modified Bent Thick L-Shape 2 x 4
+![32140](https://img.bricklink.com/P/85/32140.jpg) | 18 | [32140](https://www.brink.com/v2/catalog/catalogitem.page?P=32140&idColor=85) | Dark Bluish Gray Technic, Liftarm, Modified Bent Thick L-Shape 2 x 4
 ![32316](https://img.bricklink.com/P/85/32316.jpg) | 14 | [32316](https://www.bricklink.com/v2/catalog/catalogitem.page?P=32316&idColor=85) | Dark Bluish Gray Technic, Liftarm Thick 1 x 5
 ![32498](https://img.bricklink.com/P/11/32498.jpg) | 3 | [32498](https://www.bricklink.com/v2/catalog/catalogitem.page?P=32498&idColor=11) | Black Technic, Gear 36 Tooth Double Bevel
 ![41239](https://img.bricklink.com/ItemImage/PN/85/41239.png) | 11 | [41239](https://www.bricklink.com/v2/catalog/catalogitem.page?P=41239&idColor=85#T=C&C=85) | Technic, Liftarm Thick 1 x 13
@@ -30,24 +30,24 @@ Picture | Qty | Code | Description
 
 (cm 11w x 8h)
 
-Picture |  Qty | Code | Description
---------|-----:|-----:|---------------
+Picture |  Qty | Code | Description | Color |
+--------|-----:|-----:|-------------|-------|
 TODO    |    ? |    ? | Spine nere e blu
 
 ##### Transparent Baglet 1A2
 
 (cm 11w x 8h)
 
-Picture |  Qty | Code | Description
---------|-----:|-----:|---------------
+Picture |  Qty | Code | Description | Color |
+--------|-----:|-----:|-------------|-------|
 TODO    |    ? |    ? | Spine nere e blu
 
 #### Bag 1B
 
 Cod. 251S0 (cm 26w x 24h)
 
-Picture |  Qty | Code | Description
---------|-----:|-----:|---------------
+Picture |  Qty | Code | Description | Color |
+--------|-----:|-----:|-------------|-------|
 ![3648](https://img.bricklink.com/P/85/3648.jpg) | 4 | [3648](https://www.bricklink.com/v2/catalog/catalogitem.page?P=3648&idColor=85) | Dark Bluish Gray Technic, Gear 24 Tooth (2nd Version - 1 Axle Hole)
 ![24121](https://img.bricklink.com/P/11/24121.jpg) | 4 | [24121](https://www.bricklink.com/v2/catalog/catalogitem.page?P=24121&idColor=11) | Black Technic, Gear Rack 11 x 11 Curved
 ![32009](https://img.bricklink.com/P/85/32009.jpg) | 4 | [32009](https://www.bricklink.com/v2/catalog/catalogitem.page?P=32009&idColor=85) | Dark Bluish Gray Technic, Liftarm, Modified Bent Thick 1 x 11.5 Double
@@ -62,8 +62,8 @@ Picture |  Qty | Code | Description
 
 Cod. 351S0 (cm 23w x 21h)
 
-Picture |  Qty | Code | Description
---------|-----:|-----:|---------------
+Picture |  Qty | Code | Description | Color |
+--------|-----:|-----:|-------------|-------|
 ![3666](https://img.bricklink.com/P/5/3666.jpg) | 2 | [3666](https://www.bricklink.com/v2/catalog/catalogitem.page?P=3666&idColor=5) | Red Plate 1 x 6
 ![15458](https://img.bricklink.com/P/85/15458.jpg) | 5 | [15458](https://www.bricklink.com/v2/catalog/catalogitem.page?P=15458&idColor=85) | Dark Bluish Gray Technic, Panel Plate 3 x 11 x 1
 ![18938](https://img.bricklink.com/P/11/18938.jpg) | 1 | [18938](https://www.bricklink.com/v2/catalog/catalogitem.page?P=18938&idColor=11) | Black Technic Turntable Large Type 3 Top, 60 Tooth
@@ -81,16 +81,16 @@ Picture |  Qty | Code | Description
 
 (cm 11w x 10h)
 
-Picture |  Qty | Code | Description
---------|-----:|-----:|---------------
+Picture |  Qty | Code | Description | Color |
+--------|-----:|-----:|-------------|-------|
 TODO    |    ? |    ? | Pirilli rossi
 
 #### Bag 1D - Unnamed
 
 (cm 17w x 17h)
 
-Picture |  Qty | Code | Description
---------|-----:|-----:|---------------
+Picture |  Qty | Code | Description | Color |
+--------|-----:|-----:|-------------|-------|
 ![57518](https://img.bricklink.com/P/85/57518.jpg) | ? | [57518](https://www.bricklink.com/v2/catalog/catalogitem.page?P=57518&idColor=85) | Dark Bluish Gray Technic, Link Tread Wide with 2 Pin Holes
 TODO
 
@@ -98,24 +98,24 @@ TODO
 
 (cm 14w x 13h)
 
-Picture |  Qty | Code | Description
---------|-----:|-----:|---------------
+Picture |  Qty | Code | Description | Color |
+--------|-----:|-----:|-------------|-------|
 TODO    |    ? |    ? | Gears and Pulleys
 
 #### Bag 1F - Unnamed
 
 (cm 11h x 11h)
 
-Picture |  Qty | Code | Description
---------|-----:|-----:|---------------
+Picture |  Qty | Code | Description | Color |
+--------|-----:|-----:|-------------|-------|
 TODO    |    ? |    ? | Giunzioni grigie
 
 #### Bag 1G - Unnamed
 
 (cm 11w x 11h)
 
-Picture |  Qty | Code | Description
---------|-----:|-----:|---------------
+Picture |  Qty | Code | Description | Color |
+--------|-----:|-----:|-------------|-------|
 TODO    |    ? |    ? | Pistolini blu
 
 
