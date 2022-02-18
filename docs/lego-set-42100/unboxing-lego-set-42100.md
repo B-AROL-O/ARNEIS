@@ -42,9 +42,9 @@ Picture |  Qty | Code | Description | Color |
 
 Picture |  Qty | Code | Description | Color |
 --------|-----:|------|-------------|-------|
-![2780](https://img.bricklink.com/P/11/2780.jpg) | ? | [2780](https://www.bricklink.com/v2/catalog/catalogitem.page?P=2780&idColor=11) | Technic, Pin with Friction Ridges | Black
-![43093](https://img.bricklink.com/P/7/43093.jpg) | ? | [43093](https://www.bricklink.com/v2/catalog/catalogitem.page?P=43093&idColor=7) | Technic, Axle 1L with Pin with Friction Ridges | Blue
-![62462](https://img.bricklink.com/P/1/62462.jpg) | ? | [62462](https://www.bricklink.com/v2/catalog/catalogitem.page?P=62462&idColor=1) | Technic, Pin Connector Round 2L with Slot (Pin Joiner Round) | White
+![2780](https://img.bricklink.com/P/11/2780.jpg) | 74 | [2780](https://www.bricklink.com/v2/catalog/catalogitem.page?P=2780&idColor=11) | Technic, Pin with Friction Ridges | Black
+![43093](https://img.bricklink.com/P/7/43093.jpg) | 36 | [43093](https://www.bricklink.com/v2/catalog/catalogitem.page?P=43093&idColor=7) | Technic, Axle 1L with Pin with Friction Ridges | Blue
+![62462](https://img.bricklink.com/P/1/62462.jpg) | 4 | [62462](https://www.bricklink.com/v2/catalog/catalogitem.page?P=62462&idColor=1) | Technic, Pin Connector Round 2L with Slot (Pin Joiner Round) | White
 
 #### Bag 1B
 
@@ -87,7 +87,14 @@ Picture |  Qty | Code | Description | Color |
 
 Picture |  Qty | Code | Description | Color |
 --------|-----:|------|-------------|-------|
-TODO    |    ? |    ? | Pirilli rossi
+![11214](https://img.bricklink.com/P/5/11214.jpg) | 41 | [11214](https://www.bricklink.com/v2/catalog/catalogitem.page?P=11214&idColor=5) | Technic, Axle 1L with Pin 2L with Friction Ridges | Red
+![32054](https://img.bricklink.com/P/4/32054.jpg) | 2 | [32054](https://www.bricklink.com/v2/catalog/catalogitem.page?P=32054&idColor=4) | Technic, Pin 3L with Friction Ridges and Stop Bush | Orange
+![32062](https://img.bricklink.com/P/5/32062.jpg) | 11 | [32062](https://www.bricklink.com/v2/catalog/catalogitem.page?P=32062&idColor=5) | Axle 2L Notched | Red
+![32270](https://img.bricklink.com/P/11/32270.jpg) | 10 | [32270](https://www.bricklink.com/v2/catalog/catalogitem.page?P=32270&idColor=11) | Technic, Gear 12 Tooth Double Beve | Black
+![3713](https://img.bricklink.com/P/5/3713.jpg) | 19 | [3713](https://www.bricklink.com/v2/catalog/catalogitem.page?P=3713&idColor=5) | Technic Bush | Red
+![43093](https://img.bricklink.com/P/7/43093.jpg) | 3 | [43093](https://www.bricklink.com/v2/catalog/catalogitem.page?P=43093&idColor=7) | Technic, Axle 1L with Pin with Friction Ridges | Blue
+![60483](https://img.bricklink.com/P/1/60483.jpg) | 6 | [60483](https://www.bricklink.com/v2/catalog/catalogitem.page?P=60483&idColor=1) | Technic, Liftarm Thick 1 x 2 - Axle Hole | White
+![6536](https://img.bricklink.com/P/85/6536.jpg) | 14 | [6536](https://www.bricklink.com/v2/catalog/catalogitem.page?P=6536&idColor=85) | Technic, Axle and Pin Connector Perpendicular | Dark Bluish Gray
 
 #### Bag 1D - Unnamed
 
