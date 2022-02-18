@@ -59,12 +59,11 @@
 
 ### Computer Vision devices
 
-* **CAM1**: OAK-D-LITE (fixed focus)
-  - Connected via USB-C to RPI4
-  - TODO: Also connected to Power Supply via USB-C?
-* (TBV) **CAM2**: OAK-D-LITE (fixed focus)
-* (TBV) **CAM3**: OAK-D-LITE (fixed focus)
-* (TBV) **CAM4**: OAK-D-LITE (auto focus)
+* **CAM1**: [OAK-D-Lite](https://docs.luxonis.com/projects/hardware/en/latest/pages/DM9095.html) (Auto Focus)
+  - Connected via a USB-A to USB-C cable (USB 3.0 or later) to RPI4
+* (TBV) **CAM2**: [OAK-D-Lite](https://docs.luxonis.com/projects/hardware/en/latest/pages/DM9095.html) (Auto Focus)
+* (TBV) **CAM3**: [OAK-D-Lite](https://docs.luxonis.com/projects/hardware/en/latest/pages/DM9095.html) (Auto Focus)
+* (TBV) **CAM4**: [OAK-D-Lite](https://docs.luxonis.com/projects/hardware/en/latest/pages/DM9095.html) (Auto Focus)
 
 ### Actuators
 
