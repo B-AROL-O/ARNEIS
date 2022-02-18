@@ -76,7 +76,7 @@ def create_labimg_xml(
 ):
     """
     This function helps create automatically an XML of the detected object.
-    
+
     Args:
         image_path: location of the images folder
         filename: name of the file to be saved without extension
