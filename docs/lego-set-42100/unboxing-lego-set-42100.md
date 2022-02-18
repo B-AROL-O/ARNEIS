@@ -10,7 +10,9 @@ Description: white carton box
 
 ### Set of Bags #1
 
-#### Bag 1A - Cod. 151S0
+#### Bag 1A
+
+Cod. 151S0 (cm 26 x 24h)
 
 Picture | Qty | Code | Description
 --------|----:|------|--------------
@@ -26,17 +28,23 @@ Picture | Qty | Code | Description
 
 ##### Transparent Baglet 1A1
 
+(cm 11w x 8h)
+
 Picture |  Qty | Code | Description
 --------|-----:|-----:|---------------
 TODO    |    ? |    ? | Spine nere e blu
 
 ##### Transparent Baglet 1A2
 
+(cm 11w x 8h)
+
 Picture |  Qty | Code | Description
 --------|-----:|-----:|---------------
 TODO    |    ? |    ? | Spine nere e blu
 
-#### Bag 1B - Cod. 251S0
+#### Bag 1B
+
+Cod. 251S0 (cm 26w x 24h)
 
 Picture |  Qty | Code | Description
 --------|-----:|-----:|---------------
@@ -50,7 +58,9 @@ Picture |  Qty | Code | Description
 ![40490](https://img.bricklink.com/P/85/40490.jpg) | 20 | [40490](https://www.bricklink.com/v2/catalog/catalogitem.page?P=40490&idColor=85) | Dark Bluish Gray Technic, Liftarm Thick 1 x 9
 ![64179](https://img.bricklink.com/P/86/64179.jpg) | 10 | [64179](https://www.bricklink.com/v2/catalog/catalogitem.page?P=64179&idColor=86) | Light Bluish Gray Technic, Liftarm, Modified Frame Thick 5 x 7 Open Center
 
-#### Bag 1C - Cod. 351S0
+#### Bag 1C
+
+Cod. 351S0 (cm 23w x 21h)
 
 Picture |  Qty | Code | Description
 --------|-----:|-----:|---------------
@@ -69,11 +79,15 @@ Picture |  Qty | Code | Description
 
 ##### Transparent Baglet 1C1
 
+(cm 11w x 10h)
+
 Picture |  Qty | Code | Description
 --------|-----:|-----:|---------------
 TODO    |    ? |    ? | Pirilli rossi
 
 #### Bag 1D - Unnamed
+
+(cm 17w x 17h)
 
 Picture |  Qty | Code | Description
 --------|-----:|-----:|---------------
@@ -82,17 +96,23 @@ TODO
 
 #### Bag 1E - Unnamed
 
+(cm 14w x 13h)
+
 Picture |  Qty | Code | Description
 --------|-----:|-----:|---------------
 TODO    |    ? |    ? | Gears and Pulleys
 
 #### Bag 1F - Unnamed
 
+(cm 11h x 11h)
+
 Picture |  Qty | Code | Description
 --------|-----:|-----:|---------------
 TODO    |    ? |    ? | Giunzioni grigie
 
 #### Bag 1G - Unnamed
+
+(cm 11w x 11h)
 
 Picture |  Qty | Code | Description
 --------|-----:|-----:|---------------
