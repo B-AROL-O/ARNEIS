@@ -61,6 +61,14 @@ Documentation
    howto/howto-prepare-rpi4b-for-arneis
    howto/howto-train-deploy-NN
 
+.. toctree::
+   :maxdepth: 2
+   :caption: LEGO
+   :hidden:
+   
+   lego-set-42100/README
+   lego-set-42100/unboxing-lego-set-42100
+
 Indices and tables
 ==================
 
