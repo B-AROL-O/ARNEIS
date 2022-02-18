@@ -1,4 +1,4 @@
-# Controlling LEGO Powered Up Hub from a Raspberry Pi
+# HOWTO Control a LEGO Powered Up Hub from a Raspberry Pi
 
 ## Introduction
 
