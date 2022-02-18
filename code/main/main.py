@@ -25,6 +25,7 @@ labelMap = ["", "savoia", "cora", "montenegro", "sambuca", "zucca"]
 index = 0
 images_path = os.path.join(os.getcwd(), 'images')
 
+
 # This can be customized to pass multiple parameters
 def getPipeline():
 
