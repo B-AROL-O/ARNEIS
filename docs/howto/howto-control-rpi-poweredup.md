@@ -13,6 +13,12 @@ Install the "LEGO&reg; TECHNIC&trade; CONTROL+" app from
 * Google Play Store: <https://play.google.com/store/apps/details?id=com.lego.technic.controlplus>
 * Apple Store: TODO
 
+Launch the app and select set "Liebherr 9800".
+
+Connect 2x XL motor and 1x L motor to the Hub.
+
+Follow the instructions displayed by the app and update the firmware if requested.
+
 TODO
 
 ### Install undera/pylgbst
