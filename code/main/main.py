@@ -27,7 +27,7 @@ images_path = os.path.join(os.getcwd(), 'images')
 
 # This can be customized to pass multiple parameters
 def getPipeline():
-    
+
     # Start defining a pipeline
     pipeline = dai.Pipeline()
 
