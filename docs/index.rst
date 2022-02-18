@@ -54,6 +54,7 @@ Documentation
    :caption: HOWTOs
 
    howto/howto-configure-arneis-readthedocs-io
+   howto/howto-control-rpi-poweredup
    howto/howto-create-vm-on-azure
    howto/howto-install-depthai-on-rpi
    howto/howto-install-depthai-on-windows10
