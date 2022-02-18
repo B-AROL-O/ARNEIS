@@ -6,6 +6,17 @@ This document explains how to install a use a Python script to control a LEGO Po
 
 ## Step-by-step instructions
 
+### Install "LEGO&reg; TECHNIC&trade; CONTROL+" App
+
+Install the "LEGO&reg; TECHNIC&trade; CONTROL+" app from
+
+* Google Play Store: <https://play.google.com/store/apps/details?id=com.lego.technic.controlplus>
+* Apple Store: TODO
+
+TODO
+
+### Install undera/pylgbst
+
 <!-- (2022-01-27 16:45 CET) -->
 
 Logged in as pi@rpi4gm35
