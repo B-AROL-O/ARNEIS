@@ -27,6 +27,7 @@ images_path = os.path.join(os.getcwd(), 'images')
 
 # This can be customized to pass multiple parameters
 def getPipeline():
+    
     # Start defining a pipeline
     pipeline = dai.Pipeline()
 
@@ -71,7 +72,7 @@ def getPipeline():
 
 def create_labimg_xml(
     image_path, filename, label, width, height, xmin, ymin, xmax, ymax
-): 
+):
 
     annotation = ET.Element('annotation')
     ET.SubElement(annotation, 'folder').text = str(
@@ -104,7 +105,7 @@ def create_labimg_xml(
 
     tree = ET.ElementTree(annotation)
     xml_file_name = (
-        image_path + "/" + filename + ".xml" 
+        image_path + "/" + filename + ".xml"
     )  # str(image_path+filename+".xml") # image_path.parent / (image_path.name.split('.')[0]+'.xml')
     print("image path " + str(image_path))
     print("xml_file_name" + str(xml_file_name))
