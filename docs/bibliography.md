@@ -24,7 +24,7 @@
 
 * [LEGO&reg; Powered UP](https://www.lego.com/en-it/themes/powered-up/about) Official Homepage
 * [LEGO Powered Up basic tutorials - 01 - Introduction & history](https://www.youtube.com/watch?v=MIpcyS4xzsw) - RacingBrick, 2021-01-11
-* [Powered Up - A tear down...](https://www.youtube.com/watch?v=MIpcyS4xzsw) - Eurobricks Forum, 2018-06-07
+* [Powered Up - A tear down...](https://www.eurobricks.com/forum/index.php?/forums/topic/162288-powered-up-a-tear-down/) - Eurobricks Forum, 2018-06-07
 * Reverse Engineering the LEGO BOOST Move Hub: <https://github.com/JorgePe/BOOSTreveng>
 * Python for LEGO BOOST: <https://github.com/JorgePe/pyb00st>
 * [Build and Code Creative Robots with LEGO BOOST](https://www.packtpub.com/product/build-and-code-creative-robots-with-lego-boost/9781801075572) by Ashwin Shah. Packt Publishing, November 2021
