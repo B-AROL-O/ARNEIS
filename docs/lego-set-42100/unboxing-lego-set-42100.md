@@ -102,7 +102,7 @@ Picture |  Qty | Code | Description | Color |
 
 Picture |  Qty | Code | Description | Color |
 --------|-----:|------|-------------|-------|
-![57518](https://img.bricklink.com/P/85/57518.jpg) | ? | [57518](https://www.bricklink.com/v2/catalog/catalogitem.page?P=57518&idColor=85) | Dark Bluish Gray Technic, Link Tread Wide with 2 Pin Holes
+![57518](https://img.bricklink.com/P/85/57518.jpg) | ? | [57518](https://www.bricklink.com/v2/catalog/catalogitem.page?P=57518&idColor=85) | Technic, Link Tread Wide with 2 Pin Holes | Dark Bluish Gray
 TODO
 
 #### Bag 1E - Unnamed
@@ -111,7 +111,10 @@ TODO
 
 Picture |  Qty | Code | Description | Color |
 --------|-----:|------|-------------|-------|
-TODO    |    ? |    ? | Gears and Pulleys
+![4185](https://img.bricklink.com/P/85/4185.jpg) | ? | [4185](https://www.bricklink.com/v2/catalog/catalogitem.page?P=4185&idColor=85) | Technic Wedge Belt Wheel (Pulley) | Dark Bluish Gray
+![42003](https://img.bricklink.com/P/86/42003.jpg)| ? | [42003](https://www.bricklink.com/v2/catalog/catalogitem.page?P=42003&idColor=86) | Technic, Axle and Pin Connector Perpendicular 3L with 2 Pin Holes | Light Bluish Gray
+![87407](https://img.bricklink.com/P/86/87407.jpg) | ? | [87407](https://www.bricklink.com/v2/catalog/catalogitem.page?P=87407&idColor=86) | Technic, Gear 20 Tooth Bevel with Pin Hole | Light Bluish Gray
+TODO
 
 #### Bag 1F - Unnamed
 
@@ -119,7 +122,15 @@ TODO    |    ? |    ? | Gears and Pulleys
 
 Picture |  Qty | Code | Description | Color |
 --------|-----:|------|-------------|-------|
-TODO    |    ? |    ? | Giunzioni grigie
+![15100](https://img.bricklink.com/P/3/15100.jpg) | ? | [15100](https://www.bricklink.com/v2/catalog/catalogitem.page?P=15100&idColor=3) | Technic, Pin with Friction Ridges and Pin Hole | Yellow
+![32039](https://img.bricklink.com/P/85/32039.jpg) | ? | [32039](https://www.bricklink.com/v2/catalog/catalogitem.page?P=32039&idColor=85) | Technic, Axle Connector with Axle Hole | Dark Bluish Gray
+![32054](https://img.bricklink.com/P/86/32054.jpg) | ? | [32054]() | Technic, Pin 3L with Friction Ridges and Stop Bush | Light Bluish Gray
+![32184](https://img.bricklink.com/P/85/32184.jpg) | ? | [32184](https://www.bricklink.com/v2/catalog/catalogitem.page?P=32184&idColor=85) | Technic, Axle and Pin Connector Perpendicular 3L with Center Pin Hole | Dark Bluish Gray
+![32523](https://img.bricklink.com/P/85/32523.jpg) | ? | [32523](https://www.bricklink.com/v2/catalog/catalogitem.page?P=32523&idColor=85) | Liftarm Thick 1 x 3 | Dark Bluish Gray
+![4274](https://img.bricklink.com/P/86/4274.jpg) | ? | [4274](https://www.bricklink.com/v2/catalog/catalogitem.page?P=4274&idColor=86) | Technic, Pin 1/2 without Friction Ridges | Light Bluish Gray
+![4519](https://img.bricklink.com/P/86/4519.jpg) | ? | [4519](https://www.bricklink.com/v2/catalog/catalogitem.page?P=4519&idColor=86) | Technic, Axle 3L | Light Bluish Gray
+![49283](https://img.bricklink.com/P/3/49283.jpg) | ? | [49283](https://www.bricklink.com/v2/catalog/catalogitem.page?P=49283&idColor=3) | Technic, Axle and Wire Connector | Yellow
+TODO
 
 #### Bag 1G - Unnamed
 
@@ -127,8 +138,13 @@ TODO    |    ? |    ? | Giunzioni grigie
 
 Picture |  Qty | Code | Description | Color |
 --------|-----:|------|-------------|-------|
-TODO    |    ? |    ? | Pistolini blu
-
+![32523](https://img.bricklink.com/P/5/32523.jpg) | ? | [32523](https://www.bricklink.com/v2/catalog/catalogitem.page?P=32523&idColor=5) | Liftarm Thick 1 x 3 | Red
+![4265c](https://img.bricklink.com/P/86/4265c.jpg) | ? | [4265c](https://www.bricklink.com/v2/catalog/catalogitem.page?P=4265c&idColor=86) | Technic Bush 1/2 Smooth | Light Bluish Gray
+![49283](https://img.bricklink.com/P/5/49283.jpg) | ? | [49283](https://www.bricklink.com/v2/catalog/catalogitem.page?P=49283&idColor=5) | Technic, Axle and Wire Connector | Red
+![49283](https://img.bricklink.com/P/6/49283.jpg) | ? | [49283](https://www.bricklink.com/v2/catalog/catalogitem.page?P=49283&idColor=6) | Technic, Axle and Wire Connector | Green
+![63864](https://img.bricklink.com/P/85/63864.jpg) | ? | [63864](https://www.bricklink.com/v2/catalog/catalogitem.page?P=63864&idColor=85) | Tile 1 x 3 | Dark Bluish Gray
+![6558](https://img.bricklink.com/P/7/6558.jpg) | ? | [6558](https://www.bricklink.com/v2/catalog/catalogitem.page?P=6558&idColor=7) | Technic, Pin 3L with Friction Ridges | Blue
+![99008](https://img.bricklink.com/P/2/99008.jpg) | ? | [99008](https://www.bricklink.com/v2/catalog/catalogitem.page?P=99008&idColor=2) | Technic, Axle 4L with Center Stop | Tan
 
 ### Set of Bags #2
 
