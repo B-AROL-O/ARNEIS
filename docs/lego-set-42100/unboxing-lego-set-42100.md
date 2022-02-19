@@ -145,13 +145,14 @@ TODO
 
 Picture |  Qty | Code | Description | Color |
 --------|-----:|------|-------------|-------|
-![32523](https://img.bricklink.com/P/5/32523.jpg) | ? | [32523](https://www.bricklink.com/v2/catalog/catalogitem.page?P=32523&idColor=5) | Liftarm Thick 1 x 3 | Red
-![4265c](https://img.bricklink.com/P/86/4265c.jpg) | ? | [4265c](https://www.bricklink.com/v2/catalog/catalogitem.page?P=4265c&idColor=86) | Technic Bush 1/2 Smooth | Light Bluish Gray
-![49283](https://img.bricklink.com/P/5/49283.jpg) | ? | [49283](https://www.bricklink.com/v2/catalog/catalogitem.page?P=49283&idColor=5) | Technic, Axle and Wire Connector | Red
-![49283](https://img.bricklink.com/P/6/49283.jpg) | ? | [49283](https://www.bricklink.com/v2/catalog/catalogitem.page?P=49283&idColor=6) | Technic, Axle and Wire Connector | Green
-![63864](https://img.bricklink.com/P/85/63864.jpg) | ? | [63864](https://www.bricklink.com/v2/catalog/catalogitem.page?P=63864&idColor=85) | Tile 1 x 3 | Dark Bluish Gray
-![6558](https://img.bricklink.com/P/7/6558.jpg) | ? | [6558](https://www.bricklink.com/v2/catalog/catalogitem.page?P=6558&idColor=7) | Technic, Pin 3L with Friction Ridges | Blue
-![99008](https://img.bricklink.com/P/2/99008.jpg) | ? | [99008](https://www.bricklink.com/v2/catalog/catalogitem.page?P=99008&idColor=2) | Technic, Axle 4L with Center Stop | Tan
+![2780](https://img.bricklink.com/P/11/2780.jpg) | 4 | [2780](https://www.bricklink.com/v2/catalog/catalogitem.page?P=2780&idColor=11) | Technic, Pin with Friction Ridges | Black
+![32523](https://img.bricklink.com/P/5/32523.jpg) | 2 | [32523](https://www.bricklink.com/v2/catalog/catalogitem.page?P=32523&idColor=5) | Liftarm Thick 1 x 3 | Red
+![4265c](https://img.bricklink.com/P/86/4265c.jpg) | 17 | [4265c](https://www.bricklink.com/v2/catalog/catalogitem.page?P=4265c&idColor=86) | Technic Bush 1/2 Smooth | Light Bluish Gray
+![49283](https://img.bricklink.com/P/5/49283.jpg) | 2 | [49283](https://www.bricklink.com/v2/catalog/catalogitem.page?P=49283&idColor=5) | Technic, Axle and Wire Connector | Red
+![49283](https://img.bricklink.com/P/6/49283.jpg) | 2 | [49283](https://www.bricklink.com/v2/catalog/catalogitem.page?P=49283&idColor=6) | Technic, Axle and Wire Connector | Green
+![63864](https://img.bricklink.com/P/85/63864.jpg) | 2 | [63864](https://www.bricklink.com/v2/catalog/catalogitem.page?P=63864&idColor=85) | Tile 1 x 3 | Dark Bluish Gray
+![6558](https://img.bricklink.com/P/7/6558.jpg) | 86 | [6558](https://www.bricklink.com/v2/catalog/catalogitem.page?P=6558&idColor=7) | Technic, Pin 3L with Friction Ridges | Blue
+![99008](https://img.bricklink.com/P/2/99008.jpg) | 3 | [99008](https://www.bricklink.com/v2/catalog/catalogitem.page?P=99008&idColor=2) | Technic, Axle 4L with Center Stop | Tan
 
 ### Set of Bags #2
 
