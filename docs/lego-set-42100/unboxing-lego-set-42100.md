@@ -129,15 +129,17 @@ Picture |  Qty | Code | Description | Color |
 
 Picture |  Qty | Code | Description | Color |
 --------|-----:|------|-------------|-------|
-![15100](https://img.bricklink.com/P/3/15100.jpg) | ? | [15100](https://www.bricklink.com/v2/catalog/catalogitem.page?P=15100&idColor=3) | Technic, Pin with Friction Ridges and Pin Hole | Yellow
-![32039](https://img.bricklink.com/P/85/32039.jpg) | ? | [32039](https://www.bricklink.com/v2/catalog/catalogitem.page?P=32039&idColor=85) | Technic, Axle Connector with Axle Hole | Dark Bluish Gray
-![32054](https://img.bricklink.com/P/86/32054.jpg) | ? | [32054](https://www.bricklink.com/v2/catalog/catalogitem.page?P=32054&idColor=86) | Technic, Pin 3L with Friction Ridges and Stop Bush | Light Bluish Gray
-![32184](https://img.bricklink.com/P/85/32184.jpg) | ? | [32184](https://www.bricklink.com/v2/catalog/catalogitem.page?P=32184&idColor=85) | Technic, Axle and Pin Connector Perpendicular 3L with Center Pin Hole | Dark Bluish Gray
-![32523](https://img.bricklink.com/P/85/32523.jpg) | ? | [32523](https://www.bricklink.com/v2/catalog/catalogitem.page?P=32523&idColor=85) | Liftarm Thick 1 x 3 | Dark Bluish Gray
-![4274](https://img.bricklink.com/P/86/4274.jpg) | ? | [4274](https://www.bricklink.com/v2/catalog/catalogitem.page?P=4274&idColor=86) | Technic, Pin 1/2 without Friction Ridges | Light Bluish Gray
-![4519](https://img.bricklink.com/P/86/4519.jpg) | ? | [4519](https://www.bricklink.com/v2/catalog/catalogitem.page?P=4519&idColor=86) | Technic, Axle 3L | Light Bluish Gray
-![49283](https://img.bricklink.com/P/3/49283.jpg) | ? | [49283](https://www.bricklink.com/v2/catalog/catalogitem.page?P=49283&idColor=3) | Technic, Axle and Wire Connector | Yellow
-TODO
+![10928](https://img.bricklink.com/P/85/10928.jpg) | 2 | [10928](https://www.bricklink.com/v2/catalog/catalogitem.page?P=10928&idColor=85) | Technic, Gear 8 Tooth with Dual Face | Dark Bluish Gray
+![15100](https://img.bricklink.com/P/3/15100.jpg) | 8 | [15100](https://www.bricklink.com/v2/catalog/catalogitem.page?P=15100&idColor=3) | Technic, Pin with Friction Ridges and Pin Hole | Yellow
+![18651](https://img.bricklink.com/P/11/18651.jpg) | 4 | [18651](https://www.bricklink.com/v2/catalog/catalogitem.page?P=18651&idColor=11) | Technic, Axle 2L with Pin with Friction Ridges | Black
+![24316](https://img.bricklink.com/P/88/15462.jpg) | 7 | [24316](https://www.bricklink.com/v2/catalog/catalogitem.page?P=24316&idColor=88) | Technic, Axle 3L with Stop | Reddish Brown
+![32039](https://img.bricklink.com/P/85/32039.jpg) | 12 | [32039](https://www.bricklink.com/v2/catalog/catalogitem.page?P=32039&idColor=85) | Technic, Axle Connector with Axle Hole | Dark Bluish Gray
+![32054](https://img.bricklink.com/P/86/32054.jpg) | 16 | [32054](https://www.bricklink.com/v2/catalog/catalogitem.page?P=32054&idColor=86) | Technic, Pin 3L with Friction Ridges and Stop Bush | Light Bluish Gray
+![32184](https://img.bricklink.com/P/85/32184.jpg) | 29 | [32184](https://www.bricklink.com/v2/catalog/catalogitem.page?P=32184&idColor=85) | Technic, Axle and Pin Connector Perpendicular 3L with Center Pin Hole | Dark Bluish Gray
+![32523](https://img.bricklink.com/P/85/32523.jpg) | 16 | [32523](https://www.bricklink.com/v2/catalog/catalogitem.page?P=32523&idColor=85) | Liftarm Thick 1 x 3 | Dark Bluish Gray
+![4274](https://img.bricklink.com/P/86/4274.jpg) | 19 | [4274](https://www.bricklink.com/v2/catalog/catalogitem.page?P=4274&idColor=86) | Technic, Pin 1/2 without Friction Ridges | Light Bluish Gray
+![4519](https://img.bricklink.com/P/86/4519.jpg) | 3 | [4519](https://www.bricklink.com/v2/catalog/catalogitem.page?P=4519&idColor=86) | Technic, Axle 3L | Light Bluish Gray
+![49283](https://img.bricklink.com/P/3/49283.jpg) | 2 | [49283](https://www.bricklink.com/v2/catalog/catalogitem.page?P=49283&idColor=3) | Technic, Axle and Wire Connector | Yellow
 
 #### Bag 1G - Unnamed
 
