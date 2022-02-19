@@ -6,13 +6,14 @@ Reference: [Catalog of LEGO&reg; Set 42100-1](https://www.bricklink.com/catalogI
 
 ## Box 6273597
 
-Description: white carton box
+* Description: White carton box
 
 ### Set of Bags #1
 
 #### Bag 1A
 
-Cod. 151S0 (cm 26 x 24h)
+* Code: 151S0
+* Size: cm 26 x 24h
 
 Picture | Qty | Code | Description | Color |
 --------|----:|------|-------------|-------|
@@ -28,7 +29,7 @@ Picture | Qty | Code | Description | Color |
 
 ##### Transparent Baglet 1A1
 
-(cm 11w x 8h)
+* Size: cm 11w x 8h
 
 Picture |  Qty | Code | Description | Color |
 --------|-----:|------|-------------|-------|
@@ -38,7 +39,7 @@ Picture |  Qty | Code | Description | Color |
 
 ##### Transparent Baglet 1A2
 
-(cm 11w x 8h)
+* Size: cm 11w x 8h
 
 Picture |  Qty | Code | Description | Color |
 --------|-----:|------|-------------|-------|
@@ -48,7 +49,9 @@ Picture |  Qty | Code | Description | Color |
 
 #### Bag 1B
 
-Cod. 251S0 (cm 26w x 24h)
+* Code: 251S0
+* QRCode: ?
+* Size: cm 26w x 24h
 
 Picture |  Qty | Code | Description | Color |
 --------|-----:|------|-------------|-------|
@@ -64,7 +67,9 @@ Picture |  Qty | Code | Description | Color |
 
 #### Bag 1C
 
-Cod. 351S0 (cm 23w x 21h)
+* Code: 351S0
+* QRCode: ?
+* Size: cm 23w x 21h
 
 Picture |  Qty | Code | Description | Color |
 --------|-----:|------|-------------|-------|
@@ -83,7 +88,7 @@ Picture |  Qty | Code | Description | Color |
 
 ##### Transparent Baglet 1C1
 
-(cm 11w x 10h)
+* Size: cm 11w x 10h
 
 Picture |  Qty | Code | Description | Color |
 --------|-----:|------|-------------|-------|
@@ -96,18 +101,22 @@ Picture |  Qty | Code | Description | Color |
 ![60483](https://img.bricklink.com/P/1/60483.jpg) | 6 | [60483](https://www.bricklink.com/v2/catalog/catalogitem.page?P=60483&idColor=1) | Technic, Liftarm Thick 1 x 2 - Axle Hole | White
 ![6536](https://img.bricklink.com/P/85/6536.jpg) | 14 | [6536](https://www.bricklink.com/v2/catalog/catalogitem.page?P=6536&idColor=85) | Technic, Axle and Pin Connector Perpendicular | Dark Bluish Gray
 
-#### Bag 1D - Unnamed
+#### Bag 1D
 
-(cm 17w x 17h)
+* Unnamed
+* QRCode: ?
+* Size: cm 17w x 17h
 
 Picture |  Qty | Code | Description | Color |
 --------|-----:|------|-------------|-------|
 ![57518](https://img.bricklink.com/P/85/57518.jpg) | ? | [57518](https://www.bricklink.com/v2/catalog/catalogitem.page?P=57518&idColor=85) | Technic, Link Tread Wide with 2 Pin Holes | Dark Bluish Gray
 TODO
 
-#### Bag 1E - Unnamed
+#### Bag 1E
 
-(cm 14w x 13h)
+* Unnamed
+* QRCode: ?
+* Size: cm 14w x 13h
 
 Picture |  Qty | Code | Description | Color |
 --------|-----:|------|-------------|-------|
@@ -123,9 +132,11 @@ Picture |  Qty | Code | Description | Color |
 ![87407](https://img.bricklink.com/P/86/87407.jpg) | 28 | [87407](https://www.bricklink.com/v2/catalog/catalogitem.page?P=87407&idColor=86) | Technic, Gear 20 Tooth Bevel with Pin Hole | Light Bluish Gray
 ![94925](https://img.bricklink.com/P/86/94925.jpg) | 2 | [94925](https://www.bricklink.com/v2/catalog/catalogitem.page?P=94925&idColor=86) | Technic, Gear 16 Tooth (Second Version - Reinforced) | Light Bluish Gray
 
-#### Bag 1F - Unnamed
+#### Bag 1F
 
-(cm 11h x 11h)
+* Unnamed
+* QRCode: 6230059
+* Size: cm 11w x 11h
 
 Picture |  Qty | Code | Description | Color |
 --------|-----:|------|-------------|-------|
@@ -141,9 +152,11 @@ Picture |  Qty | Code | Description | Color |
 ![4519](https://img.bricklink.com/P/86/4519.jpg) | 3 | [4519](https://www.bricklink.com/v2/catalog/catalogitem.page?P=4519&idColor=86) | Technic, Axle 3L | Light Bluish Gray
 ![49283](https://img.bricklink.com/P/3/49283.jpg) | 2 | [49283](https://www.bricklink.com/v2/catalog/catalogitem.page?P=49283&idColor=3) | Technic, Axle and Wire Connector | Yellow
 
-#### Bag 1G - Unnamed
+#### Bag 1G
 
-(cm 11w x 11h)
+* Unnamed
+* QRCode: ?
+* Size: cm 11w x 11h
 
 Picture |  Qty | Code | Description | Color |
 --------|-----:|------|-------------|-------|
@@ -158,7 +171,9 @@ Picture |  Qty | Code | Description | Color |
 
 ### Set of Bags #2
 
-#### Bag 2A - QRCod. 6171966
+#### Bag 2A
+
+* QRCode: 6171966
 
 Picture | Qty | Code | Description | Color |
 --------|----:|------|-------------|-------|
@@ -167,7 +182,9 @@ Picture | Qty | Code | Description | Color |
 ![4185](https://img.bricklink.com/P/85/4185.jpg)| 8 | [4185](https://www.bricklink.com/v2/catalog/catalogitem.page?P=4185&idColor=85) | Technic Wedge Belt Wheel (Pulley) | Dark Bluish Gray
 ![64179](https://img.bricklink.com/P/86/64179.jpg)| 17 | [64179](https://www.bricklink.com/v2/catalog/catalogitem.page?P=64179&idColor=86) | Technic, Liftarm, Modified Frame Thick 5 x 7 Open Center | Light Bluish Gray
 
-#### Bag 2B - Cod. 251S0 (238S1)
+#### Bag 2B
+
+* Code: 251S0 (238S1)
 
 Picture | Qty | Code | Description | Color |
 --------|----:|------|-------------|-------|
@@ -200,7 +217,9 @@ Picture | Qty | Code | Description | Color |
 --------|----:|------|-------------|-------|
 ![2780](https://img.bricklink.com/P/11/2780.jpg)| 121 | [2780](https://www.bricklink.com/v2/catalog/catalogitem.page?P=2780&idColor=11) | Technic, Pin with Friction Ridges | Black
 
-#### Bag 2C - Cod. 251S0 (238S1)
+#### Bag 2C
+
+* Code: 251S0 (238S1)
 
 Picture | Qty | Code | Description | Color |
 --------|----:|------|-------------|-------|
@@ -233,7 +252,9 @@ Picture | Qty | Code | Description | Color |
 --------|----:|------|-------------|-------|
 ![2780](https://img.bricklink.com/P/11/2780.jpg)| 121 | [2780](https://www.bricklink.com/v2/catalog/catalogitem.page?P=2780&idColor=11) | Technic, Pin with Friction Ridges | Black
 
-#### Bag 2D - Cod. 351S0
+#### Bag 2D
+
+* Code: 351S0
 
 Picture | Qty | Code | Description | Color |
 --------|----:|------|-------------|-------|
@@ -272,7 +293,9 @@ Picture | Qty | Code | Description | Color |
 ![4073](https://img.bricklink.com/P/95/4073.jpg)| 15 | [4073](https://www.bricklink.com/v2/catalog/catalogitem.page?P=4073&idColor=95) | Plate, Round 1 x 1 | Flat Silver
 ![6536](https://img.bricklink.com/P/85/6536.jpg)| 3 | [6536](https://www.bricklink.com/v2/catalog/catalogitem.page?P=6536&idColor=85) | Technic, Axle and Pin Connector Perpendicular | Dark Bluish Gray
 
-#### Bag 2E - QRCod. 6171966
+#### Bag 2E
+
+* QRCode: 6171966
 
 Picture | Qty | Code | Description | Color |
 --------|----:|------|-------------|-------|
@@ -290,7 +313,9 @@ Picture | Qty | Code | Description | Color |
 ![87079](https://img.bricklink.com/P/1/87079.jpg)| 3 | [87079](https://www.bricklink.com/v2/catalog/catalogitem.page?P=87079&idColor=1) | Tile 2 x 4 | White
 ![94925](https://img.bricklink.com/P/86/94925.jpg)| 4 | [94925](https://www.bricklink.com/v2/catalog/catalogitem.page?P=94925&idColor=86) | Technic, Gear 16 Tooth (Second Version - Reinforced) | Light Bluish Gray
 
-#### Bag 2F - QRCod. 6230069
+#### Bag 2F
+
+* QRCode: 6230069
 
 Picture | Qty | Code | Description | Color |
 --------|----:|------|-------------|-------|
@@ -314,13 +339,17 @@ Picture | Qty | Code | Description | Color |
 ![87407](https://img.bricklink.com/P/86/87407.jpg)| 2 | [87407](https://www.bricklink.com/v2/catalog/catalogitem.page?P=87407&idColor=86) | Technic, Gear 20 Tooth Bevel with Pin Hole | Light Bluish Gray
 ![99008](https://img.bricklink.com/P/2/99008.jpg)| 4 | [99008](https://www.bricklink.com/v2/catalog/catalogitem.page?P=99008&idColor=2) | Technic, Axle  4L with Center Stop | Tan
 
-#### Bag 2G - QRCod. 6230066
+#### Bag 2G
+
+* QRCode: 6230066
 
 Picture | Qty | Code | Description | Color |
 --------|----:|------|-------------|-------|
 ![6558](https://img.bricklink.com/P/7/6558.jpg)| 111 | [6558](https://www.bricklink.com/v2/catalog/catalogitem.page?P=6558&idColor=7) | Technic, Pin 3L with Friction Ridges | Blue
 
-#### Bag 2H - QRCod. 6230066
+#### Bag 2H
+
+* QRCode: 6230066
 
 Picture | Qty | Code | Description | Color |
 --------|----:|------|-------------|-------|
@@ -351,13 +380,13 @@ Picture | Qty | Code | Description | Color |
 
 ## Box 6278443
 
-Description: black carton box
+* Description: Black carton box
 
 Picture |  Qty | Code | Description | Color |
 --------|-----:|------|-------------|-------|
-![bb0959c01](https://img.bricklink.com/P/85/bb0959c01.jpg) | 4 | [bb0959c01](https://www.bricklink.com/v2/catalog/catalogitem.page?P=bb0959c01&idColor=85) | Dark Bluish Gray Electric, Motor Powered Up, L
-![bb0960c01](https://img.bricklink.com/P/85/bb0960c01.jpg) | 3 | [bb0960c01](https://www.bricklink.com/v2/catalog/catalogitem.page?P=bb0960c01&idColor=85) | Dark Bluish Gray Electric, Motor Powered Up, XL
-![bb0961c01](https://img.bricklink.com/P/86/bb0961c01.jpg) | 2 | [bb0961c01](https://www.bricklink.com/v2/catalog/catalogitem.page?P=bb0961c01&idColor=86) | Light Bluish Gray Electric Battery Box Powered Up Bluetooth Hub with Dark Bluish Gray Bottom
+![bb0959c01](https://img.bricklink.com/P/85/bb0959c01.jpg) | 4 | [bb0959c01](https://www.bricklink.com/v2/catalog/catalogitem.page?P=bb0959c01&idColor=85) | Electric, Motor Powered Up, L | Dark Bluish Gray
+![bb0960c01](https://img.bricklink.com/P/85/bb0960c01.jpg) | 3 | [bb0960c01](https://www.bricklink.com/v2/catalog/catalogitem.page?P=bb0960c01&idColor=85) | Electric, Motor Powered Up, XL | Dark Bluish Gray
+![bb0961c01](https://img.bricklink.com/P/86/bb0961c01.jpg) | 2 | [bb0961c01](https://www.bricklink.com/v2/catalog/catalogitem.page?P=bb0961c01&idColor=86) | Electric Battery Box Powered Up Bluetooth Hub with Dark Bluish Gray Bottom | Light Bluish Gray
 
 ## Set of Bags #3
 
@@ -381,7 +410,7 @@ TODO
 
 Picture |  Qty | Code | Description | Color |
 --------|-----:|------|-------------|-------|
-![46891](https://img.bricklink.com/P/85/46891.jpg) | 1 | [46891](https://www.bricklink.com/v2/catalog/catalogitem.page?P=46891&idColor=85) - Dark Bluish Gray Technic Digger Bucket 10 x 19
+![46891](https://img.bricklink.com/P/85/46891.jpg) | 1 | [46891](https://www.bricklink.com/v2/catalog/catalogitem.page?P=46891&idColor=85) | Technic Digger Bucket 10 x 19 | Dark Bluish Gray
 TODO
 
 <!-- EOF -->
