@@ -13,6 +13,7 @@ Reference: [Catalog of LEGO&reg; Set 42100-1](https://www.bricklink.com/catalogI
 #### Bag 1A
 
 * Code: 151S0
+* QRCode: 6172092
 * Size: cm 26 x 24h
 
 Picture | Qty | Code | Description | Color |
@@ -50,7 +51,7 @@ Picture |  Qty | Code | Description | Color |
 #### Bag 1B
 
 * Code: 251S0
-* QRCode: ?
+* QRCode: 6172092
 * Size: cm 26w x 24h
 
 Picture |  Qty | Code | Description | Color |
@@ -68,7 +69,7 @@ Picture |  Qty | Code | Description | Color |
 #### Bag 1C
 
 * Code: 351S0
-* QRCode: ?
+* QRCode: 6172090
 * Size: cm 23w x 21h
 
 Picture |  Qty | Code | Description | Color |
@@ -104,18 +105,17 @@ Picture |  Qty | Code | Description | Color |
 #### Bag 1D
 
 * Unnamed
-* QRCode: ?
+* QRCode: (unreadable)
 * Size: cm 17w x 17h
 
 Picture |  Qty | Code | Description | Color |
 --------|-----:|------|-------------|-------|
-![57518](https://img.bricklink.com/P/85/57518.jpg) | ? | [57518](https://www.bricklink.com/v2/catalog/catalogitem.page?P=57518&idColor=85) | Technic, Link Tread Wide with 2 Pin Holes | Dark Bluish Gray
-TODO
+![57518](https://img.bricklink.com/P/85/57518.jpg) | 104 | [57518](https://www.bricklink.com/v2/catalog/catalogitem.page?P=57518&idColor=85) | Technic, Link Tread Wide with 2 Pin Holes | Dark Bluish Gray
 
 #### Bag 1E
 
 * Unnamed
-* QRCode: ?
+* QRCode: 6230060
 * Size: cm 14w x 13h
 
 Picture |  Qty | Code | Description | Color |
