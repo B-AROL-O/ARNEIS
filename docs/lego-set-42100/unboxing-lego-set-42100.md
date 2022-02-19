@@ -111,10 +111,17 @@ TODO
 
 Picture |  Qty | Code | Description | Color |
 --------|-----:|------|-------------|-------|
-![4185](https://img.bricklink.com/P/85/4185.jpg) | ? | [4185](https://www.bricklink.com/v2/catalog/catalogitem.page?P=4185&idColor=85) | Technic Wedge Belt Wheel (Pulley) | Dark Bluish Gray
-![42003](https://img.bricklink.com/P/86/42003.jpg)| ? | [42003](https://www.bricklink.com/v2/catalog/catalogitem.page?P=42003&idColor=86) | Technic, Axle and Pin Connector Perpendicular 3L with 2 Pin Holes | Light Bluish Gray
-![87407](https://img.bricklink.com/P/86/87407.jpg) | ? | [87407](https://www.bricklink.com/v2/catalog/catalogitem.page?P=87407&idColor=86) | Technic, Gear 20 Tooth Bevel with Pin Hole | Light Bluish Gray
-TODO
+![26287](https://img.bricklink.com/P/86/26287.jpg) | 2 | [26287](https://www.bricklink.com/v2/catalog/catalogitem.page?P=26287&idColor=86) | Technic, Axle Connector 3L | Light Bluish Gray
+![32073](https://img.bricklink.com/P/3/32073.jpg) | 7 | [32073](https://www.bricklink.com/v2/catalog/catalogitem.page?P=32073&idColor=3) | Technic, Axle 5L | Yellow
+![32209](https://img.bricklink.com/P/85/32209.jpg) | 1 | [32209](https://www.bricklink.com/v2/catalog/catalogitem.page?P=32209&idColor=85) | Technic, Axle 5.5L with Stop | Dark Bluish Gray
+![3705](https://img.bricklink.com/P/11/3705.jpg) | 8 | [3705](https://www.bricklink.com/v2/catalog/catalogitem.page?P=3705&idColor=11) | Technic, Axle 4L | Black
+![3706](https://img.bricklink.com/P/5/3706.jpg) | 3 | [3706](https://www.bricklink.com/v2/catalog/catalogitem.page?P=3706&idColor=5) | Axle 6L | Red
+![4185](https://img.bricklink.com/P/85/4185.jpg) | 16 | [4185](https://www.bricklink.com/v2/catalog/catalogitem.page?P=4185&idColor=85) | Technic Wedge Belt Wheel (Pulley) | Dark Bluish Gray
+![42003](https://img.bricklink.com/P/86/42003.jpg)| 22 | [42003](https://www.bricklink.com/v2/catalog/catalogitem.page?P=42003&idColor=86) | Technic, Axle and Pin Connector Perpendicular 3L with 2 Pin Holes | Light Bluish Gray
+![6636](https://img.bricklink.com/P/5/6636.jpg) | 2 | [6636](https://www.bricklink.com/v2/catalog/catalogitem.page?P=6636&idColor=5) | Tile 1 x 6 | Red
+![87083](https://img.bricklink.com/P/85/87083.jpg) | 4 | [87083](https://www.bricklink.com/v2/catalog/catalogitem.page?P=87083&idColor=85) | Technic, Axle 4L with Stop | Dark Bluish Gray
+![87407](https://img.bricklink.com/P/86/87407.jpg) | 28 | [87407](https://www.bricklink.com/v2/catalog/catalogitem.page?P=87407&idColor=86) | Technic, Gear 20 Tooth Bevel with Pin Hole | Light Bluish Gray
+![94925](https://img.bricklink.com/P/86/94925.jpg) | 2 | [94925](https://www.bricklink.com/v2/catalog/catalogitem.page?P=94925&idColor=86) | Technic, Gear 16 Tooth (Second Version - Reinforced) | Light Bluish Gray
 
 #### Bag 1F - Unnamed
 
