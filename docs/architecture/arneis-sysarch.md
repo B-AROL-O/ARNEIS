@@ -32,13 +32,14 @@
 
 ### CPU and network devices
 
-* **RPI4**: Raspberry Pi 4
-  - USB0: Connected to CAM1 via USB-A to USB-C cable
-  - USB1: TODO
-  - USB2: TODO
-  - USB3: TODO
+* **RPI4**: Raspberry Pi 4. Acting as main controller and gateway to cameras, sensors and actuators, as well as edge server to communicate with the services on the cloud
+  - USB0: USB 3.0 Port #1. Connected to CAM1 via USB-A to USB-C cable
+  - USB1: USB 3.0 Port #2. TODO
+  - USB2: USB 2.0 Port #1. Connect to a USB keyboard (for debug purposes)
+  - USB3: USB 2.0 Port #2. Connect to a USB mouse (for debug purposes)
+  - MicroHDMI0: Connect to a HDMI display using a MicroHDMI-to-HDMI cable (for debug purposes)
   - Acting as BLE central
-  - Connected to AP1 via Wi-Fi (or RJ45 for wired Ethenet)
+  - Connected to AP1 using wired Ethernet through a RJ-45 cable. In case wired Ethernet is not available, connect to AP1 through Wi-Fi
   - Services: SSH, http, others?
 * **AP1**: Access Point and internet router
   - Reference model: [Linksys WRT54GL](https://downloads.linksys.com/downloads/userguide/WRT54GL_V11_UG_C-Web.pdf)
@@ -59,12 +60,11 @@
 
 ### Computer Vision devices
 
-* **CAM1**: OAK-D-LITE (fixed focus)
-  - Connected via USB-C to RPI4
-  - TODO: Also connected to Power Supply via USB-C?
-* (TBV) **CAM2**: OAK-D-LITE (fixed focus)
-* (TBV) **CAM3**: OAK-D-LITE (fixed focus)
-* (TBV) **CAM4**: OAK-D-LITE (auto focus)
+* **CAM1**: [OAK-D-Lite](https://docs.luxonis.com/projects/hardware/en/latest/pages/DM9095.html) (Auto Focus)
+  - Connected via a USB-A to USB-C cable (USB 3.0 or later) to RPI4
+* (TBV) **CAM2**: [OAK-D-Lite](https://docs.luxonis.com/projects/hardware/en/latest/pages/DM9095.html) (Auto Focus)
+* (TBV) **CAM3**: [OAK-D-Lite](https://docs.luxonis.com/projects/hardware/en/latest/pages/DM9095.html) (Auto Focus)
+* (TBV) **CAM4**: [OAK-D-Lite](https://docs.luxonis.com/projects/hardware/en/latest/pages/DM9095.html) (Auto Focus)
 
 ### Actuators
 
