@@ -2,11 +2,23 @@
 
 This document details the planned Software Architecture that will be developed for the ARNEIS project.
 
-The architecture will be deployed using microservices running on the ARNEIS Kubernetes cluster.
+The software architecture of the ARNEIS project will be based on microservices running on the ARNEIS Kubernetes cluster.
 
-## Architecture of the ARNEIS Kubernetes cluster
+<!-- TODO: Add reference documents -->
 
-Deployed using K3s
+<!-- TODO: Add links to definitions and acronyms -->
+
+## Architecture of the ARNEIS cluster
+
+<!-- TODO: Add diagram -->
+
+The ARNEIS cluster is based on [Kubernetes](https://kubernetes.io/).
+
+For simplicity we chose to deploy the ARNEIS cluster using [K3s](https://k3s.io/).
+
+K3s (or “Lightweight Kubernetes”) is a simplified installation of the Kubernetes distribution built for IoT and Edge computing.
+
+K3s is an Open Source project started and maintained by Rancher.com.
 
 * Servers
   - VM arneis-vm01
