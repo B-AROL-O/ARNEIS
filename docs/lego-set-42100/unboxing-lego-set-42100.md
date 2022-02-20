@@ -12,9 +12,9 @@ Reference: [Catalog of LEGO&reg; Set 42100-1](https://www.bricklink.com/catalogI
 
 #### Bag 1A
 
-* Code: 151S0
+* Code: 151S0 (238S1)
 * QRCode: 6172092
-* Size: cm 26 x 24h
+* Size: cm 26w x 24h
 
 Picture | Qty | Code | Description | Color |
 --------|----:|------|-------------|-------|
@@ -50,7 +50,7 @@ Picture |  Qty | Code | Description | Color |
 
 #### Bag 1B
 
-* Code: 251S0
+* Code: 251S0 (337S1)
 * QRCode: 6172092
 * Size: cm 26w x 24h
 
@@ -68,7 +68,7 @@ Picture |  Qty | Code | Description | Color |
 
 #### Bag 1C
 
-* Code: 351S0
+* Code: 351S0 (138S1)
 * QRCode: 6172090
 * Size: cm 23w x 21h
 
@@ -105,7 +105,7 @@ Picture |  Qty | Code | Description | Color |
 #### Bag 1D
 
 * Unnamed
-* QRCode: (unreadable)
+* QRCode: 6201713
 * Size: cm 17w x 17h
 
 Picture |  Qty | Code | Description | Color |
@@ -155,8 +155,8 @@ Picture |  Qty | Code | Description | Color |
 #### Bag 1G
 
 * Unnamed
-* QRCode: ?
-* Size: cm 11w x 11h
+* QRCode: 6230060
+* Size: cm 14w x 11h
 
 Picture |  Qty | Code | Description | Color |
 --------|-----:|------|-------------|-------|
