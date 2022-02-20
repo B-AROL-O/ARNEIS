@@ -1,4 +1,4 @@
-# ARNEIS Software Architecture
+# ARNEIS - Software Architecture
 
 This document details the planned Software Architecture that will be developed for the ARNEIS project.
 
