@@ -17,7 +17,7 @@ This is the **ARNEIS**
 documentation home.
 
 Latest news
-===========
+-----------
 
 The ARNEIS project roadmap is `maintained on GitHub <https://github.com/B-AROL-O/ARNEIS/milestones?direction=asc&sort=due_date&state=open>`_.
 
@@ -26,56 +26,57 @@ The ARNEIS project roadmap is `maintained on GitHub <https://github.com/B-AROL-O
 You may also follow `twitter.com/baroloteam <https://twitter.com/baroloteam>`_ to get notified about the progress of the project.
 
 How to get in touch
-===================
+-------------------
 
 Please report bugs and feature requests on https://github.com/B-AROL-O/ARNEIS/issues,
 or DM the `B-AROL-O Team on Twitter <https://twitter.com/baroloteam>`_ about security issues or other non-public topics.
 
-Documentation
-=============
+Indices and tables
+------------------
+
+* :ref:`genindex`
+* :ref:`search`
+
+.. comment
+   * :ref:`modindex`
 
 .. toctree::
+   :caption: Home
+   :maxdepth: 2
    :hidden:
-   :maxdepth: 1
 
-   index
+   self
+
+.. toctree::
+   :caption: Documentation
+   :maxdepth: 1
+   :hidden:
+
    acronyms
    bibliography
 
 .. toctree::
-   :maxdepth: 2
    :caption: Architecture
+   :maxdepth: 1
+   :hidden:
 
    architecture/arneis-spec
    architecture/arneis-sysarch
    
 .. toctree::
-   :maxdepth: 2
    :caption: HOWTOs
+   :maxdepth: 1
+   :glob:
+   :hidden:
 
-   howto/howto-configure-arneis-readthedocs-io
-   howto/howto-control-rpi-poweredup
-   howto/howto-create-vm-on-azure
-   howto/howto-install-depthai-on-rpi
-   howto/howto-install-depthai-on-windows10
-   howto/howto-install-k3s-for-arneis
-   howto/howto-prepare-rpi4b-for-arneis
-   howto/howto-train-deploy-NN
+   howto/*
 
 .. toctree::
-   :maxdepth: 2
-   :caption: LEGO
+   :caption: LEGO®
+   :maxdepth: 1
    :hidden:
    
    lego-set-42100/README
    lego-set-42100/unboxing-lego-set-42100
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-
-.. comment::
-   * :ref:`modindex`
-
-* :ref:`search`
+   lego/studies
+   lego/camera-support
