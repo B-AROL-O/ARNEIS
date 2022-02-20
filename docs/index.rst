@@ -48,6 +48,7 @@ Documentation
 
    architecture/arneis-spec
    architecture/arneis-sysarch
+   architecture/arneis-swarch
    
 .. toctree::
    :maxdepth: 2
