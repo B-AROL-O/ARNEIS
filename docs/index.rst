@@ -80,3 +80,4 @@ Indices and tables
    lego-set-42100/unboxing-lego-set-42100
    lego/studies
    lego/camera-support
+   lego/conveyor-wip
