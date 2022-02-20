@@ -36,6 +36,6 @@ K3s is an Open Source project started and maintained by Rancher.com.
 * ARNEIS backend service (Node.js + Koa - based on some public boilerplate)
 * ARNEIS customer frontend (static site developed in Next.js)
 * Service running on the RPI4 for controlling the OAK-D-Lite (Python3?)
-* Service running on the RPI3 for controlling the LEGO&reg; Technics Bluetooth Hub (Python3?)
+* Service running on the RPI4 for controlling the LEGO&reg; Technics Bluetooth Hub (Python3?)
 
 <!-- EOF -->
