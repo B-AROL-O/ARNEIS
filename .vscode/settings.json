@@ -1,5 +1,5 @@
 {
-    "restructuredtext.confPath": "${workspaceFolder}",
     "python.formatting.provider": "black",
-    "restructuredtext.linter.disabled": true
+    "restructuredtext.linter.disabled": true,
+    "restructuredtext.confPath": "${workspaceFolder}/docs"
 }
