@@ -5,7 +5,7 @@ This code is required to run our program/example.
 You have to put the blob file inside the folder
 
 ```bash
-../test_depthai/custom_mobilenet
+../custom_mobilenet/
 ```
 
 Then you can run the program by using
