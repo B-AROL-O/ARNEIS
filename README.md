@@ -1,6 +1,7 @@
 # ARNEIS
 
 [![GitHub Super-Linter](https://github.com/B-AROL-O/ARNEIS/workflows/Lint%20Code%20Base/badge.svg)](https://github.com/marketplace/actions/super-linter)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/B-AROL-O/ARNEIS)
 
 `A`utomated `R`ecognizer, `N`etwork-`E`nabled, `I`tems Sorter.
 
