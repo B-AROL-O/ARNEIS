@@ -377,11 +377,6 @@ Picture | Qty | Code | Description | Color |
 
 Picture | Qty | Code | Description | Color |
 --------|----:|------|-------------|-------|
-
-TODO
-
-Picture | Qty | Code | Description | Color |
---------|----:|------|-------------|-------|
 ![14719](https://img.bricklink.com/P/1/14719.jpg)| 2 | [14719](https://www.bricklink.com/v2/catalog/catalogitem.page?P=14719&idColor=1) | Tile 2 x 2 Corner | White
 ![20482](https://img.bricklink.com/P/5/20482.jpg)| 3 | [20482](https://www.bricklink.com/v2/catalog/catalogitem.page?P=20482&idColor=5) | Tile, Round 1 x 1 with Bar and Pin Holder | Red
 ![20482](https://img.bricklink.com/P/153/20482.jpg)| 3 | [20482](https://www.bricklink.com/v2/catalog/catalogitem.page?P=20482&idColor=153) | Tile, Round 1 x 1 with Bar and Pin Holder | Dark Azure
