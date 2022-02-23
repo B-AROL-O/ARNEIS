@@ -104,7 +104,7 @@ Picture |  Qty | Code | Description | Color |
 
 #### Bag 1D
 
-* Unnamed
+* Code: Unnamed
 * QRCode: 6201713
 * Size: cm 17w x 17h
 
@@ -114,7 +114,7 @@ Picture |  Qty | Code | Description | Color |
 
 #### Bag 1E
 
-* Unnamed
+* Code: Unnamed
 * QRCode: 6230060
 * Size: cm 14w x 13h
 
@@ -134,7 +134,7 @@ Picture |  Qty | Code | Description | Color |
 
 #### Bag 1F
 
-* Unnamed
+* Code: Unnamed
 * QRCode: 6230059
 * Size: cm 11w x 11h
 
@@ -154,7 +154,7 @@ Picture |  Qty | Code | Description | Color |
 
 #### Bag 1G
 
-* Unnamed
+* Code: Unnamed
 * QRCode: 6230060
 * Size: cm 14w x 11h
 
@@ -173,6 +173,7 @@ Picture |  Qty | Code | Description | Color |
 
 #### Bag 2A
 
+* Code: ?
 * QRCode: 6171966
 * Size: cm 20w x 20h
 
@@ -315,6 +316,7 @@ Picture | Qty | Code | Description | Color |
 
 #### Bag 2E
 
+* Code: ?
 * QRCode: 6171966
 * Size: cm 20w x 18h
 
@@ -336,6 +338,7 @@ Picture | Qty | Code | Description | Color |
 
 #### Bag 2F
 
+* Code: ?
 * QRCode: 6230069
 * Size: cm 14w x 12h
 
@@ -363,6 +366,7 @@ Picture | Qty | Code | Description | Color |
 
 #### Bag 2G
 
+* Code: ?
 * QRCode: 6230066
 * Size: cm 11w x 10h
 
@@ -372,6 +376,7 @@ Picture | Qty | Code | Description | Color |
 
 #### Bag 2H
 
+* Code: ?
 * QRCode: 6230066
 * Size: cm 11w x 10h
 
@@ -391,7 +396,7 @@ Picture | Qty | Code | Description | Color |
 
 ### Shrink wrap bag
 
-Size: A4
+* Size: A4
 
 Picture | Qty | Code | Description | Color |
 --------|----:|------|-------------|-------|
@@ -416,9 +421,9 @@ Picture |  Qty | Code | Description | Color |
 
 ### Bag 3A
 
-* 638S1
-* QRCode:
-* Size: cm w x h
+* Code: 638S1
+* QRCode: ?
+* Size: cm ?w x ?h
 
 Picture | Qty | Code | Description | Color |
 --------|----:|------|-------------|-------|
@@ -436,9 +441,9 @@ Picture | Qty | Code | Description | Color |
 
 ### Bag 3B
 
-* 538S1
-* QRCode:
-* Size: cm w x h
+* Code: 538S1
+* QRCode: ?
+* Size: cm ?w x ?h
 
 Picture | Qty | Code | Description | Color |
 --------|----:|------|-------------|-------|
@@ -456,9 +461,9 @@ Picture | Qty | Code | Description | Color |
 
 ### Bag 3C
 
-* Unnamed
+* Code: Unnamed
 * QRCode: 6171968
-* Size: cm w x h
+* Size: cm ?w x ?h
 
 Picture | Qty | Code | Description | Color |
 --------|----:|------|-------------|-------|
@@ -474,9 +479,9 @@ Picture | Qty | Code | Description | Color |
 
 #### Bag 3C1
 
-* Unnamed
-* QRCode:
-* Size: cm w x h
+* Code: Unnamed
+* QRCode: ?
+* Size: cm ?w x ?h
 
 Picture | Qty | Code | Description | Color |
 --------|----:|------|-------------|-------|
@@ -500,9 +505,9 @@ Picture | Qty | Code | Description | Color |
 
 ### Bag 3D
 
-* Unnamed
+* Code: Unnamed
 * QRCode: 6171968
-* Size: cm w x h
+* Size: cm ?w x ?h
 
 Picture | Qty | Code | Description | Color |
 --------|----:|------|-------------|-------|
@@ -529,9 +534,9 @@ Picture | Qty | Code | Description | Color |
 
 ### Bag 3E
 
-* 638S1
-* QRCode:
-* Size: cm w x h
+* Code: 638S1
+* QRCode: ?
+* Size: cm ?w x ?h
 
 Picture | Qty | Code | Description | Color |
 --------|----:|------|-------------|-------|
@@ -558,9 +563,9 @@ Picture | Qty | Code | Description | Color |
 
 #### Bag 3E1
 
-* Unnamed
-* QRCode:
-* Size: cm w x h
+* Code: Unnamed
+* QRCode: ?
+* Size: cm ?w x ?h
 
 Picture | Qty | Code | Description | Color |
 --------|----:|------|-------------|-------|
@@ -572,9 +577,9 @@ Picture | Qty | Code | Description | Color |
 
 #### Bag 3E2
 
-* Unnamed
-* QRCode:
-* Size: cm w x h
+* Code: Unnamed
+* QRCode: ?
+* Size: cm ?w x ?h
 
 Picture | Qty | Code | Description | Color |
 --------|----:|------|-------------|-------|
@@ -586,9 +591,9 @@ Picture | Qty | Code | Description | Color |
 
 ### Bag 3F
 
-* Unnamed
+* Code: Unnamed
 * QRCode: 6231597
-* Size: cm w x h
+* Size: cm ?w x ?h
 
 Picture | Qty | Code | Description | Color |
 --------|----:|------|-------------|-------|
