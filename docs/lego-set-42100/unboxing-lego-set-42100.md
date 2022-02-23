@@ -393,7 +393,7 @@ Picture |  Qty | Code | Description | Color |
 ### Bag 3A
 
 * 638S1
-* QRCode: 
+* QRCode:
 * Size: cm w x h
 
 Picture | Qty | Code | Description | Color |
@@ -413,7 +413,7 @@ Picture | Qty | Code | Description | Color |
 ### Bag 3B
 
 * 538S1
-* QRCode: 
+* QRCode:
 * Size: cm w x h
 
 Picture | Qty | Code | Description | Color |
@@ -506,7 +506,7 @@ Picture | Qty | Code | Description | Color |
 ### Bag 3E
 
 * 638S1
-* QRCode: 
+* QRCode:
 * Size: cm w x h
 
 Picture | Qty | Code | Description | Color |
@@ -535,7 +535,7 @@ Picture | Qty | Code | Description | Color |
 #### Bag 3E1
 
 * Unnamed
-* QRCode: 
+* QRCode:
 * Size: cm w x h
 
 Picture | Qty | Code | Description | Color |
@@ -549,7 +549,7 @@ Picture | Qty | Code | Description | Color |
 #### Bag 3E2
 
 * Unnamed
-* QRCode: 
+* QRCode:
 * Size: cm w x h
 
 Picture | Qty | Code | Description | Color |
@@ -571,10 +571,6 @@ Picture | Qty | Code | Description | Color |
 ![4274](https://img.bricklink.com/P/86/4274.jpg)| 2 | [4274](https://www.bricklink.com/v2/catalog/catalogitem.page?P=4274&idColor=86) | Technic, Pin 1/2 without Friction Ridges | Light Bluish Gray
 ![49283](https://img.bricklink.com/P/3/49283.jpg)| 1 | [49283](https://www.bricklink.com/v2/catalog/catalogitem.page?P=49283&idColor=3) | Technic, Axle and Wire Connector | Yellow
 ![6558](https://img.bricklink.com/P/7/6558.jpg)| 122 | [6558](https://www.bricklink.com/v2/catalog/catalogitem.page?P=6558&idColor=7) | Technic, Pin 3L with Friction Ridges | Blue
-
-Picture |  Qty | Code | Description | Color |
---------|-----:|------|-------------|-------|
-TODO
 
 ## Set of Bags #4
 
