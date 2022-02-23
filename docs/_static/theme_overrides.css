@@ -1,0 +1,17 @@
+/* override table width restrictions */
+@media screen and (min-width: 767px) {
+  .wy-table-responsive table td {
+    /* !important prevents the common CSS stylesheets from
+      overriding this as on RTD they are loaded after this stylesheet */
+    white-space: normal !important;
+  }
+
+  .wy-table-responsive {
+    overflow: visible !important;
+  }
+
+  .rst-content tr td img {
+    /* image inside first cell of each row of a table is limited to 50px max-width */
+    max-width: 50px !important;
+  }
+}

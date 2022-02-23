@@ -54,6 +54,6 @@ jobs:
           DEFAULT_BRANCH: main
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           # Do not lint downloaded code - see https://github.com/github/super-linter
-          FILTER_REGEX_EXCLUDE: .*/download/.*
+          FILTER_REGEX_EXCLUDE: .*/download/.*|layout.html
 
 # EOF
