@@ -1,6 +1,9 @@
 # ARNEIS - Acronyms
 
-* **BLE**: Bluetooth&reg; Low Energy. See <https://www.bluetooth.com/>
+* **AI**: Artificial Intelligence
+* **ARNEIS**: Automated Recognizer, Network-Enabled, Items Sorter. See <https://github.com/B-AROL-O/ARNEIS>
+* **B-AROL-O**: See <https://github.com/B-AROL-O/>
+* **BLE**: Bluetooth Low Energy. See <https://en.wikipedia.org/wiki/Bluetooth_Low_Energy>
 * **BT**: Bluetooth&reg;. See <https://www.bluetooth.com/>
 * **CPU**: Central Processing Unit
 * **DNS**: Domain Name System. See <https://en.wikipedia.org/wiki/Domain_Name_System>
@@ -12,8 +15,14 @@
 * **HW**: Hardware
 * **K3S**: Lightweight Kubernetes. See <https://k3s.io/>
 * **K8S**: Kubernetes. See <https://kubernetes.io/>
+* **LEGO&reg;**: See <https://www.lego.com/>
+* **MOC**: My Own Creation
 * **MQTT**: See <https://mqtt.org/>
+* **OAK**: OpenCV AI Kit
+* **PDF**: Portable Document Format. See <https://en.wikipedia.org/wiki/PDF>
 * **SSH**: Secure Shell Protocol. See <https://en.wikipedia.org/wiki/Secure_Shell>
 * **SW**: Software
+* **UML**: Unified Modeling Language. See <http://uml.org/>
+* **USB**: Universal Serial Bus. See <https://en.wikipedia.org/wiki/USB>
 
 <!-- EOF -->
