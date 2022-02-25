@@ -17,7 +17,7 @@ sensor.light.off()
 while True:
     # Set the speed based on sensor distance
     dist = sensor.distance()
-    # sensor.light.on(Color.RED)
+    sensor.light.on(Color.RED)
     speed = dist * 5
     if abs(speed) < 100:
         speed = 0
