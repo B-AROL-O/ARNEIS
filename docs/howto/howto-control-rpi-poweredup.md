@@ -4,9 +4,7 @@
 
 This document explains how to install a use a Python script to control a LEGO Powered Up Hub through BLE.
 
-## Step-by-step instructions
-
-### Install "LEGO&reg; TECHNIC&trade; CONTROL+" App
+## Using the "LEGO&reg; TECHNIC&trade; CONTROL+" App
 
 Install the "LEGO&reg; TECHNIC&trade; CONTROL+" app from
 
@@ -21,7 +19,31 @@ Follow the instructions displayed by the app and update the firmware if requeste
 
 TODO
 
-### Install undera/pylgbst
+## Using Pybricks
+
+### Install the Pybricks firmware
+
+Instructions at <https://pybricks.com/install/technic-boost-city/>
+
+Before you begin, turn the hub off. The update works best with fresh batteries.
+If you use the City Hub, you must unplug all motors and sensors. Follow these steps:
+
+1. Go to [Pybricks Code](https://code.pybricks.com/).
+2. Press and hold the hub button. Wait for a blinking pink light.
+3. While you hold it, click the _firmware update_ button.
+4. Select the _LEGO Bootloader_ and click _Pair_.
+5. Wait until the light turns off, and then blinks red/green/blue.
+6. Release the button and wait for the installation to finish.
+
+### Load some Python program
+
+From the [Pybricks Code](https://code.pybricks.com/) web interface, upload to the LEGO Technics BT Hub the Python sources at TODO.
+
+TODO
+
+## Controlling using the Raspberrry Pi
+
+### Install undera/pylgbst on the Raspberry Pi
 
 <!-- (2022-01-27 16:45 CET) -->
 
