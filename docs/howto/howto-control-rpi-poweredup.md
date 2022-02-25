@@ -1,4 +1,4 @@
-# HOWTO Control a LEGO Powered Up Hub from a Raspberry Pi
+# HOWTO Control a LEGO Powered Up Hub for the ARNEIS Project
 
 ## Introduction
 
@@ -41,7 +41,7 @@ From the [Pybricks Code](https://code.pybricks.com/) web interface, upload to th
 
 TODO
 
-## Controlling using the Raspberrry Pi
+## Controlling from a Raspberrry Pi
 
 ### Install undera/pylgbst on the Raspberry Pi
 
