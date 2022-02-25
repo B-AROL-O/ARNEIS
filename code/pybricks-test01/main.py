@@ -1,10 +1,7 @@
-from pybricks.pupdevices import Motor
-from pybricks.pupdevices import ColorDistanceSensor
-from pybricks.parameters import Port, Stop
+from pybricks.parameters import Port
+from pybricks.pupdevices import ColorDistanceSensor, Motor
 from pybricks.tools import wait
 
-# We'll use two motors. One is a dial
-# to set the speed of the other motor.
 motor = Motor(Port.A)
 # dial = Motor(Port.A)
 sensor = ColorDistanceSensor(Port.B)
@@ -16,12 +13,13 @@ print("Hello, Pybricks!")
 # dial.run_target(500, 0, Stop.COAST)
 
 while True:
-    # Set the speed based on dial angle
+    # Set the speed based on sensor distance
     dist = sensor.distance()
-    speed = dist * 5 # dial.angle()*3
+    speed = dist * 5
     if abs(speed) < 100:
         speed = 0
     print("dist=", dist, ", speed=", speed)
+    # speed = dial.angle() * 3
 
     # Run motor at desired speed
     motor.run(speed)
