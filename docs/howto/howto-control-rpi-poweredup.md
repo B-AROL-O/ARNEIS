@@ -37,7 +37,7 @@ If you use the City Hub, you must unplug all motors and sensors. Follow these st
 
 ### Load some Python program
 
-From the [Pybricks Code](https://code.pybricks.com/) web interface, upload to the LEGO Technics BT Hub the Python sources at TODO.
+From the [Pybricks Code](https://code.pybricks.com/) web interface, create or open a MicroPython source file and upload it to the LEGO Technics BT Hub. You may find some examples under the `/code` folder of the [ARNEIS repository on GitHub](https://github.com/B-AROL-O/ARNEIS).
 
 TODO
 
