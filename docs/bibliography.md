@@ -30,6 +30,9 @@
 * [Build and Code Creative Robots with LEGO BOOST](https://www.packtpub.com/product/build-and-code-creative-robots-with-lego-boost/9781801075572) by Ashwin Shah. Packt Publishing, November 2021
 * [Glossario by Italian LEGO&reg; Users Group](https://itlug.org/glossario/)
 * [Smart Robotics with LEGO MINDSTORMS Robot Inventor](https://www.packtpub.com/product/smart-robotics-with-lego-mindstorms-robot-inventor/9781800568402) by Aaron Maurer. Packt Publishing, May 2021
+* <https://magpi.raspberrypi.com/articles/hack-lego-boost-with-raspberry-pi>
+* <https://www.bricklink.com/v2/catalog/catalogitem.page?P=bb0961c01#T=C>
+* <https://LEGO.com/devicecheck>
 
 ### Controlling LEGO via Bluetooth
 
