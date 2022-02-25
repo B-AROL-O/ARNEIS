@@ -1,4 +1,4 @@
-from pybricks.parameters import Port, Color
+from pybricks.parameters import Color, Port
 from pybricks.pupdevices import ColorDistanceSensor, Motor
 from pybricks.tools import wait
 
