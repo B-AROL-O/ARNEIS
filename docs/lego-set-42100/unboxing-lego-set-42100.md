@@ -657,11 +657,10 @@ Picture | Qty | Code | Description | Color |
 
 * Code: ?
 * QRCode: 6171970
-* Size: cm ?w x ?h
+* Size: cm 20w x 20h
 
 Picture | Qty | Code | Description | Color |
 --------|----:|------|-------------|-------|
-TODO
 ![25214](https://img.bricklink.com/P/77/25214.jpg)| 8 | [25214](https://www.bricklink.com/v2/catalog/catalogitem.page?P=25214&idColor=77) | Brick, Round 1 x 1 d. 90 Degree Elbow - No Stud - Type 2 - Axle Hole | Pearl Dark Gray
 ![26287](https://img.bricklink.com/P/86/26287.jpg)| 4 | [26287](https://www.bricklink.com/v2/catalog/catalogitem.page?P=26287&idColor=86) | Technic, Axle Connector 3L | Light Bluish Gray
 ![3004](https://img.bricklink.com/P/85/3004.jpg)| 4 | [3004](https://www.bricklink.com/v2/catalog/catalogitem.page?P=3004&idColor=85) | Brick 1 x 2 | Dark Bluish Gray
