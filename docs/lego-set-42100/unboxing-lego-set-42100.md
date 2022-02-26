@@ -933,7 +933,7 @@ Picture | Qty | Code | Description | Color |
 * Code: ?
 * QRCode: ?
 * Size: cm ?w x ?h
- 
+
 TODO
 
 ## Other loose parts present in the box
