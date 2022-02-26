@@ -568,13 +568,10 @@ Picture | Qty | Code | Description | Color |
 
 #### Transparent Baglet 3E1
 
-* Code: Unnamed
-* QRCode: ?
-* Size: cm ?w x ?h
+* Size: cm 11w x 9h
 
 Picture | Qty | Code | Description | Color |
 --------|----:|------|-------------|-------|
-TODO
 ![2780](https://img.bricklink.com/P/11/2780.jpg)| 67 | [2780](https://www.bricklink.com/v2/catalog/catalogitem.page?P=2780&idColor=11) | Technic, Pin with Friction Ridges | Black
 ![32054](https://img.bricklink.com/P/4/32054.jpg)| 4 | [32054](https://www.bricklink.com/v2/catalog/catalogitem.page?P=32054&idColor=4) | Technic, Pin 3L with Friction Ridges and Stop Bush | Orange
 ![3713](https://img.bricklink.com/P/5/3713.jpg)| 7 | [3713](https://www.bricklink.com/v2/catalog/catalogitem.page?P=3713&idColor=5) | Technic Bush | Red
@@ -583,12 +580,11 @@ TODO
 
 #### Transparent Baglet 3E2
 
-* Code: Unnamed
-* QRCode: ?
 * Size: cm ?w x ?h
 
 Picture | Qty | Code | Description | Color |
 --------|----:|------|-------------|-------|
+TODO
 ![2780](https://img.bricklink.com/P/11/2780.jpg)| 67 | [2780](https://www.bricklink.com/v2/catalog/catalogitem.page?P=2780&idColor=11) | Technic, Pin with Friction Ridges | Black
 ![32054](https://img.bricklink.com/P/4/32054.jpg)| 4 | [32054](https://www.bricklink.com/v2/catalog/catalogitem.page?P=32054&idColor=4) | Technic, Pin 3L with Friction Ridges and Stop Bush | Orange
 ![3713](https://img.bricklink.com/P/5/3713.jpg)| 7 | [3713](https://www.bricklink.com/v2/catalog/catalogitem.page?P=3713&idColor=5) | Technic Bush | Red
