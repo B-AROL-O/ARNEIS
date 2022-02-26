@@ -636,13 +636,10 @@ Picture | Qty | Code | Description | Color |
 
 #### Transparent Baglet 4A1
 
-* Code: ?
-* QRCode: ?
-* Size: cm ?w x ?h
+* Size: cm 11w x 9h
 
 Picture | Qty | Code | Description | Color |
 --------|----:|------|-------------|-------|
-TODO
 ![18651](https://img.bricklink.com/P/11/18651.jpg)| 10 | [18651](https://www.bricklink.com/v2/catalog/catalogitem.page?P=18651&idColor=11) | Technic, Axle  2L with Pin with Friction Ridges | Black
 ![2412b](https://img.bricklink.com/P/1/2412b.jpg)| 12 | [2412b](https://www.bricklink.com/v2/catalog/catalogitem.page?P=2412b&idColor=1) | Tile, Modified 1 x 2 Grille with Bottom Groove / Lip | White
 ![3069b](https://img.bricklink.com/P/85/3069b.jpg)| 4 | [3069b](https://www.bricklink.com/v2/catalog/catalogitem.page?P=3069b&idColor=85) | Tile 1 x 2 with Groove | Dark Bluish Gray
@@ -653,7 +650,7 @@ TODO
 ![4274](https://img.bricklink.com/P/86/4274.jpg)| 9 | [4274](https://www.bricklink.com/v2/catalog/catalogitem.page?P=4274&idColor=86) | Technic, Pin 1/2 without Friction Ridges | Light Bluish Gray
 ![43093](https://img.bricklink.com/P/7/43093.jpg)| 21 | [43093](https://www.bricklink.com/v2/catalog/catalogitem.page?P=43093&idColor=7) | Technic, Axle  1L with Pin with Friction Ridges | Blue
 ![62462](https://img.bricklink.com/P/95/62462.jpg)| 2 | [62462](https://www.bricklink.com/v2/catalog/catalogitem.page?P=62462&idColor=95) | Technic, Pin Connector Round 2L with Slot (Pin Joiner Round) | Flat Silver
-![6558](https://img.bricklink.com/P/7/6558.jpg)| 6 | [6558](https://www.bricklink.com/v2/catalog/catalogitem.page?P=6558&idColor=7) | Technic, Pin 3L with Friction Ridges | Blue
+![6558](https://img.bricklink.com/P/7/6558.jpg)| 7 | [6558](https://www.bricklink.com/v2/catalog/catalogitem.page?P=6558&idColor=7) | Technic, Pin 3L with Friction Ridges | Blue
 ![98138](https://img.bricklink.com/P/86/98138.jpg)| 8 | [98138](https://www.bricklink.com/v2/catalog/catalogitem.page?P=98138&idColor=86) | Tile, Round 1 x 1 | Light Bluish Gray
 
 ### Bag 4B
