@@ -643,8 +643,8 @@ Picture | Qty | Code | Description | Color |
 
 #### Transparent Baglet 4A1
 
-* Code:
-* QRCode: 
+* Code: ?
+* QRCode: ?
 * Size: cm ?w x ?h
 
 Picture | Qty | Code | Description | Color |
@@ -691,7 +691,7 @@ Picture | Qty | Code | Description | Color |
 #### Transparent Baglet 4B1
 
 * Code: ?
-* QRCode: ? 
+* QRCode: ?
 * Size: cm ?w x ?h
 
 Picture | Qty | Code | Description | Color |
