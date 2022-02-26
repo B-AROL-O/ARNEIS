@@ -655,7 +655,7 @@ Picture | Qty | Code | Description | Color |
 
 ### Bag 4B
 
-* Code: ?
+* Code: Unnamed
 * QRCode: 6171970
 * Size: cm 20w x 20h
 
@@ -681,13 +681,10 @@ Picture | Qty | Code | Description | Color |
 
 #### Transparent Baglet 4B1
 
-* Code: ?
-* QRCode: ?
-* Size: cm ?w x ?h
+* Size: cm 9w x 8h
 
 Picture | Qty | Code | Description | Color |
 --------|----:|------|-------------|-------|
-TODO
 ![2780](https://img.bricklink.com/P/11/2780.jpg)| 46 | [2780](https://www.bricklink.com/v2/catalog/catalogitem.page?P=2780&idColor=11) | Technic, Pin with Friction Ridges | Black
 
 ### Bag 4C
