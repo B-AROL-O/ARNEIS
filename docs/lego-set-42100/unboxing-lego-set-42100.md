@@ -606,9 +606,9 @@ Picture | Qty | Code | Description | Color |
 
 ### Bag 4A
 
-* Code: 438S1
-* QRCode:
-* Size: cm ?w x ?h
+* Code: 252S0 (438S1)
+* QRCode: 6172092
+* Size: cm 26w x 23h
 
 Picture | Qty | Code | Description | Color |
 --------|----:|------|-------------|-------|
@@ -642,6 +642,7 @@ Picture | Qty | Code | Description | Color |
 
 Picture | Qty | Code | Description | Color |
 --------|----:|------|-------------|-------|
+TODO
 ![18651](https://img.bricklink.com/P/11/18651.jpg)| 10 | [18651](https://www.bricklink.com/v2/catalog/catalogitem.page?P=18651&idColor=11) | Technic, Axle  2L with Pin with Friction Ridges | Black
 ![2412b](https://img.bricklink.com/P/1/2412b.jpg)| 12 | [2412b](https://www.bricklink.com/v2/catalog/catalogitem.page?P=2412b&idColor=1) | Tile, Modified 1 x 2 Grille with Bottom Groove / Lip | White
 ![3069b](https://img.bricklink.com/P/85/3069b.jpg)| 4 | [3069b](https://www.bricklink.com/v2/catalog/catalogitem.page?P=3069b&idColor=85) | Tile 1 x 2 with Groove | Dark Bluish Gray
@@ -663,6 +664,7 @@ Picture | Qty | Code | Description | Color |
 
 Picture | Qty | Code | Description | Color |
 --------|----:|------|-------------|-------|
+TODO
 ![25214](https://img.bricklink.com/P/77/25214.jpg)| 8 | [25214](https://www.bricklink.com/v2/catalog/catalogitem.page?P=25214&idColor=77) | Brick, Round 1 x 1 d. 90 Degree Elbow - No Stud - Type 2 - Axle Hole | Pearl Dark Gray
 ![26287](https://img.bricklink.com/P/86/26287.jpg)| 4 | [26287](https://www.bricklink.com/v2/catalog/catalogitem.page?P=26287&idColor=86) | Technic, Axle Connector 3L | Light Bluish Gray
 ![3004](https://img.bricklink.com/P/85/3004.jpg)| 4 | [3004](https://www.bricklink.com/v2/catalog/catalogitem.page?P=3004&idColor=85) | Brick 1 x 2 | Dark Bluish Gray
@@ -689,6 +691,7 @@ Picture | Qty | Code | Description | Color |
 
 Picture | Qty | Code | Description | Color |
 --------|----:|------|-------------|-------|
+TODO
 ![2780](https://img.bricklink.com/P/11/2780.jpg)| 46 | [2780](https://www.bricklink.com/v2/catalog/catalogitem.page?P=2780&idColor=11) | Technic, Pin with Friction Ridges | Black
 
 ### Bag 4C
@@ -699,6 +702,7 @@ Picture | Qty | Code | Description | Color |
 
 Picture | Qty | Code | Description | Color |
 --------|----:|------|-------------|-------|
+TODO
 ![11214](https://img.bricklink.com/P/5/11214.jpg)| 6 | [11214](https://www.bricklink.com/v2/catalog/catalogitem.page?P=11214&idColor=5) | Technic, Axle  1L with Pin 2L with Friction Ridges | Red
 ![14769](https://img.bricklink.com/P/5/14769.jpg)| 8 | [14769](https://www.bricklink.com/v2/catalog/catalogitem.page?P=14769&idColor=5) | Tile, Round 2 x 2 with Bottom Stud Holder | Red
 ![15100](https://img.bricklink.com/P/11/15100.jpg)| 7 | [15100](https://www.bricklink.com/v2/catalog/catalogitem.page?P=15100&idColor=11) | Technic, Pin with Friction Ridges and Pin Hole | Black
@@ -737,6 +741,7 @@ TODO
 Picture |  Qty | Code | Description | Color |
 --------|-----:|------|-------------|-------|
 TODO
+![3941](https://img.bricklink.com/P/85/3941.jpg)| ? | [3941](https://www.bricklink.com/v2/catalog/catalogitem.page?P=3941&idColor=85) | Brick, Round 2 x 2 with Axle Hole | Dark Bluish Gray
 
 ## Other loose parts present in the box
 
