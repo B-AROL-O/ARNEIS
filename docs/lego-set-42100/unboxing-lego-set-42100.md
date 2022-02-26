@@ -527,13 +527,10 @@ Picture | Qty | Code | Description | Color |
 
 #### Transparent Baglet 3D1
 
-* Code: Unnamed
-* QRCode: ?
-* Size: cm ?w x ?h
+* Size: cm 9w x 9h
 
 Picture | Qty | Code | Description | Color |
 --------|----:|------|-------------|-------|
-TODO
 ![18651](https://img.bricklink.com/P/11/18651.jpg)| 18 | [18651](https://www.bricklink.com/v2/catalog/catalogitem.page?P=18651&idColor=11) | Technic, Axle  2L with Pin with Friction Ridges | Black
 ![18654](https://img.bricklink.com/P/85/18654.jpg)| 3 | [18654](https://www.bricklink.com/v2/catalog/catalogitem.page?P=18654&idColor=85) | Technic, Liftarm Thick 1 x 1 (Spacer) | Dark Bluish Gray
 ![27940](https://img.bricklink.com/P/85/27940.jpg)| 2 | [27940](https://www.bricklink.com/v2/catalog/catalogitem.page?P=27940&idColor=85) | Technic, Axle and Pin Connector Hub with 2 Axles | Dark Bluish Gray
@@ -548,6 +545,7 @@ TODO
 
 Picture | Qty | Code | Description | Color |
 --------|----:|------|-------------|-------|
+TODO
 ![11947](https://img.bricklink.com/P/1/11947.jpg)| 1 | [11947](https://www.bricklink.com/v2/catalog/catalogitem.page?P=11947&idColor=1) | Technic, Panel Fairing #22 Very Small Smooth, Side A | White
 ![18946](https://img.bricklink.com/P/5/18946.jpg)| 5 | [18946](https://www.bricklink.com/v2/catalog/catalogitem.page?P=18946&idColor=5) | Technic, Gear 16 Tooth with Clutch on Both Sides | Red
 ![26287](https://img.bricklink.com/P/86/26287.jpg)| 1 | [26287](https://www.bricklink.com/v2/catalog/catalogitem.page?P=26287&idColor=86) | Technic, Axle Connector 3L | Light Bluish Gray
