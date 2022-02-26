@@ -539,13 +539,12 @@ Picture | Qty | Code | Description | Color |
 
 ### Bag 3E
 
-* Code: 638S1
-* QRCode: ?
-* Size: cm ?w x ?h
+* Code: 152S0 (638S1)
+* QRCode: 6172092
+* Size: cm 26w x 21h
 
 Picture | Qty | Code | Description | Color |
 --------|----:|------|-------------|-------|
-TODO
 ![11947](https://img.bricklink.com/P/1/11947.jpg)| 1 | [11947](https://www.bricklink.com/v2/catalog/catalogitem.page?P=11947&idColor=1) | Technic, Panel Fairing #22 Very Small Smooth, Side A | White
 ![18946](https://img.bricklink.com/P/5/18946.jpg)| 5 | [18946](https://www.bricklink.com/v2/catalog/catalogitem.page?P=18946&idColor=5) | Technic, Gear 16 Tooth with Clutch on Both Sides | Red
 ![26287](https://img.bricklink.com/P/86/26287.jpg)| 1 | [26287](https://www.bricklink.com/v2/catalog/catalogitem.page?P=26287&idColor=86) | Technic, Axle Connector 3L | Light Bluish Gray
@@ -575,6 +574,7 @@ TODO
 
 Picture | Qty | Code | Description | Color |
 --------|----:|------|-------------|-------|
+TODO
 ![2780](https://img.bricklink.com/P/11/2780.jpg)| 67 | [2780](https://www.bricklink.com/v2/catalog/catalogitem.page?P=2780&idColor=11) | Technic, Pin with Friction Ridges | Black
 ![32054](https://img.bricklink.com/P/4/32054.jpg)| 4 | [32054](https://www.bricklink.com/v2/catalog/catalogitem.page?P=32054&idColor=4) | Technic, Pin 3L with Friction Ridges and Stop Bush | Orange
 ![3713](https://img.bricklink.com/P/5/3713.jpg)| 7 | [3713](https://www.bricklink.com/v2/catalog/catalogitem.page?P=3713&idColor=5) | Technic Bush | Red
