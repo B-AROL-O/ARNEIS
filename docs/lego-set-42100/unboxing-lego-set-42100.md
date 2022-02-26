@@ -527,13 +527,10 @@ Picture | Qty | Code | Description | Color |
 
 #### Transparent Baglet 3D1
 
-* Code: Unnamed
-* QRCode: ?
-* Size: cm ?w x ?h
+* Size: cm 9w x 9h
 
 Picture | Qty | Code | Description | Color |
 --------|----:|------|-------------|-------|
-TODO
 ![18651](https://img.bricklink.com/P/11/18651.jpg)| 18 | [18651](https://www.bricklink.com/v2/catalog/catalogitem.page?P=18651&idColor=11) | Technic, Axle  2L with Pin with Friction Ridges | Black
 ![18654](https://img.bricklink.com/P/85/18654.jpg)| 3 | [18654](https://www.bricklink.com/v2/catalog/catalogitem.page?P=18654&idColor=85) | Technic, Liftarm Thick 1 x 1 (Spacer) | Dark Bluish Gray
 ![27940](https://img.bricklink.com/P/85/27940.jpg)| 2 | [27940](https://www.bricklink.com/v2/catalog/catalogitem.page?P=27940&idColor=85) | Technic, Axle and Pin Connector Hub with 2 Axles | Dark Bluish Gray
@@ -542,9 +539,9 @@ TODO
 
 ### Bag 3E
 
-* Code: 638S1
-* QRCode: ?
-* Size: cm ?w x ?h
+* Code: 152S0 (638S1)
+* QRCode: 6172092
+* Size: cm 26w x 21h
 
 Picture | Qty | Code | Description | Color |
 --------|----:|------|-------------|-------|
@@ -571,9 +568,7 @@ Picture | Qty | Code | Description | Color |
 
 #### Transparent Baglet 3E1
 
-* Code: Unnamed
-* QRCode: ?
-* Size: cm ?w x ?h
+* Size: cm 11w x 9h
 
 Picture | Qty | Code | Description | Color |
 --------|----:|------|-------------|-------|
@@ -585,9 +580,7 @@ Picture | Qty | Code | Description | Color |
 
 #### Transparent Baglet 3E2
 
-* Code: Unnamed
-* QRCode: ?
-* Size: cm ?w x ?h
+* Size: cm 11w x 9h
 
 Picture | Qty | Code | Description | Color |
 --------|----:|------|-------------|-------|
@@ -601,7 +594,7 @@ Picture | Qty | Code | Description | Color |
 
 * Code: Unnamed
 * QRCode: 6231597
-* Size: cm ?w x ?h
+* Size: cm 11w x 11h
 
 Picture | Qty | Code | Description | Color |
 --------|----:|------|-------------|-------|
@@ -613,9 +606,9 @@ Picture | Qty | Code | Description | Color |
 
 ### Bag 4A
 
-* Code: 438S1
-* QRCode:
-* Size: cm ?w x ?h
+* Code: 252S0 (438S1)
+* QRCode: 6172092
+* Size: cm 26w x 23h
 
 Picture | Qty | Code | Description | Color |
 --------|----:|------|-------------|-------|
@@ -643,9 +636,7 @@ Picture | Qty | Code | Description | Color |
 
 #### Transparent Baglet 4A1
 
-* Code: ?
-* QRCode: ?
-* Size: cm ?w x ?h
+* Size: cm 11w x 9h
 
 Picture | Qty | Code | Description | Color |
 --------|----:|------|-------------|-------|
@@ -659,14 +650,14 @@ Picture | Qty | Code | Description | Color |
 ![4274](https://img.bricklink.com/P/86/4274.jpg)| 9 | [4274](https://www.bricklink.com/v2/catalog/catalogitem.page?P=4274&idColor=86) | Technic, Pin 1/2 without Friction Ridges | Light Bluish Gray
 ![43093](https://img.bricklink.com/P/7/43093.jpg)| 21 | [43093](https://www.bricklink.com/v2/catalog/catalogitem.page?P=43093&idColor=7) | Technic, Axle  1L with Pin with Friction Ridges | Blue
 ![62462](https://img.bricklink.com/P/95/62462.jpg)| 2 | [62462](https://www.bricklink.com/v2/catalog/catalogitem.page?P=62462&idColor=95) | Technic, Pin Connector Round 2L with Slot (Pin Joiner Round) | Flat Silver
-![6558](https://img.bricklink.com/P/7/6558.jpg)| 6 | [6558](https://www.bricklink.com/v2/catalog/catalogitem.page?P=6558&idColor=7) | Technic, Pin 3L with Friction Ridges | Blue
+![6558](https://img.bricklink.com/P/7/6558.jpg)| 7 | [6558](https://www.bricklink.com/v2/catalog/catalogitem.page?P=6558&idColor=7) | Technic, Pin 3L with Friction Ridges | Blue
 ![98138](https://img.bricklink.com/P/86/98138.jpg)| 8 | [98138](https://www.bricklink.com/v2/catalog/catalogitem.page?P=98138&idColor=86) | Tile, Round 1 x 1 | Light Bluish Gray
 
 ### Bag 4B
 
-* Code: ?
+* Code: Unnamed
 * QRCode: 6171970
-* Size: cm ?w x ?h
+* Size: cm 20w x 20h
 
 Picture | Qty | Code | Description | Color |
 --------|----:|------|-------------|-------|
@@ -690,9 +681,7 @@ Picture | Qty | Code | Description | Color |
 
 #### Transparent Baglet 4B1
 
-* Code: ?
-* QRCode: ?
-* Size: cm ?w x ?h
+* Size: cm 9w x 8h
 
 Picture | Qty | Code | Description | Color |
 --------|----:|------|-------------|-------|
@@ -700,9 +689,9 @@ Picture | Qty | Code | Description | Color |
 
 ### Bag 4C
 
-* Code: ?
+* Code: Unnamed
 * QRCode: 6231618
-* Size: cm ?w x ?h
+* Size: cm 14w x 12h
 
 Picture | Qty | Code | Description | Color |
 --------|----:|------|-------------|-------|
@@ -732,6 +721,19 @@ Picture | Qty | Code | Description | Color |
 Picture |  Qty | Code | Description | Color |
 --------|-----:|------|-------------|-------|
 TODO
+
+## Set of Bags #6
+
+### Bag 6A
+
+* Code: Unnamed
+* QRCode: ?
+* Size: cm 17w x 14h
+
+Picture |  Qty | Code | Description | Color |
+--------|-----:|------|-------------|-------|
+TODO
+![3941](https://img.bricklink.com/P/85/3941.jpg)| ? | [3941](https://www.bricklink.com/v2/catalog/catalogitem.page?P=3941&idColor=85) | Brick, Round 2 x 2 with Axle Hole | Dark Bluish Gray
 
 ## Other loose parts present in the box
 
