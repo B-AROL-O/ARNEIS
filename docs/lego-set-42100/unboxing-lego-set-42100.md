@@ -919,16 +919,6 @@ Picture | Qty | Code | Description | Color |
 
 ### Bag 6A
 
-* Code: ?
-* QRCode: ?
-* Size: cm ?w x ?h
-
-TODO
-
-## Set of Bags #6
-
-### Bag 6A
-
 * Code: Unnamed
 * QRCode: ?
 * Size: cm 17w x 14h
@@ -943,6 +933,5 @@ TODO
 Picture |  Qty | Code | Description | Color |
 --------|-----:|------|-------------|-------|
 ![46891](https://img.bricklink.com/P/85/46891.jpg) | 1 | [46891](https://www.bricklink.com/v2/catalog/catalogitem.page?P=46891&idColor=85) | Technic Digger Bucket 10 x 19 | Dark Bluish Gray
-TODO
 
 <!-- EOF -->
