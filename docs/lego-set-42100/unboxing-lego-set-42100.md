@@ -594,11 +594,10 @@ Picture | Qty | Code | Description | Color |
 
 * Code: Unnamed
 * QRCode: 6231597
-* Size: cm ?w x ?h
+* Size: cm 11w x 11h
 
 Picture | Qty | Code | Description | Color |
 --------|----:|------|-------------|-------|
-TODO
 ![4274](https://img.bricklink.com/P/86/4274.jpg)| 2 | [4274](https://www.bricklink.com/v2/catalog/catalogitem.page?P=4274&idColor=86) | Technic, Pin 1/2 without Friction Ridges | Light Bluish Gray
 ![49283](https://img.bricklink.com/P/3/49283.jpg)| 1 | [49283](https://www.bricklink.com/v2/catalog/catalogitem.page?P=49283&idColor=3) | Technic, Axle and Wire Connector | Yellow
 ![6558](https://img.bricklink.com/P/7/6558.jpg)| 122 | [6558](https://www.bricklink.com/v2/catalog/catalogitem.page?P=6558&idColor=7) | Technic, Pin 3L with Friction Ridges | Blue
