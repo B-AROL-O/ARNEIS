@@ -726,6 +726,18 @@ Picture |  Qty | Code | Description | Color |
 --------|-----:|------|-------------|-------|
 TODO
 
+## Set of Bags #6
+
+### Bag 6A
+
+* Code: Unnamed
+* QRCode: ?
+* Size: cm 17w x 14h
+
+Picture |  Qty | Code | Description | Color |
+--------|-----:|------|-------------|-------|
+TODO
+
 ## Other loose parts present in the box
 
 Picture |  Qty | Code | Description | Color |
