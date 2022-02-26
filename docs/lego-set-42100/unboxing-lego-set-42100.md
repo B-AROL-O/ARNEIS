@@ -580,11 +580,10 @@ Picture | Qty | Code | Description | Color |
 
 #### Transparent Baglet 3E2
 
-* Size: cm ?w x ?h
+* Size: cm 11w x 9h
 
 Picture | Qty | Code | Description | Color |
 --------|----:|------|-------------|-------|
-TODO
 ![2780](https://img.bricklink.com/P/11/2780.jpg)| 67 | [2780](https://www.bricklink.com/v2/catalog/catalogitem.page?P=2780&idColor=11) | Technic, Pin with Friction Ridges | Black
 ![32054](https://img.bricklink.com/P/4/32054.jpg)| 4 | [32054](https://www.bricklink.com/v2/catalog/catalogitem.page?P=32054&idColor=4) | Technic, Pin 3L with Friction Ridges and Stop Bush | Orange
 ![3713](https://img.bricklink.com/P/5/3713.jpg)| 7 | [3713](https://www.bricklink.com/v2/catalog/catalogitem.page?P=3713&idColor=5) | Technic Bush | Red
@@ -599,6 +598,7 @@ TODO
 
 Picture | Qty | Code | Description | Color |
 --------|----:|------|-------------|-------|
+TODO
 ![4274](https://img.bricklink.com/P/86/4274.jpg)| 2 | [4274](https://www.bricklink.com/v2/catalog/catalogitem.page?P=4274&idColor=86) | Technic, Pin 1/2 without Friction Ridges | Light Bluish Gray
 ![49283](https://img.bricklink.com/P/3/49283.jpg)| 1 | [49283](https://www.bricklink.com/v2/catalog/catalogitem.page?P=49283&idColor=3) | Technic, Axle and Wire Connector | Yellow
 ![6558](https://img.bricklink.com/P/7/6558.jpg)| 122 | [6558](https://www.bricklink.com/v2/catalog/catalogitem.page?P=6558&idColor=7) | Technic, Pin 3L with Friction Ridges | Blue
