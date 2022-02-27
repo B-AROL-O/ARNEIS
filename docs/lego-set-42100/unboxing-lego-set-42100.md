@@ -720,9 +720,9 @@ Picture | Qty | Code | Description | Color |
 
 ### Bag 5A
 
-* Code: 634S1
-* QRCode: ?
-* Size: cm ?w x ?h
+* Code: 551S0 (634S1)
+* QRCode: 6172090
+* Size: cm 23w x 23h
 
 Picture | Qty | Code | Description | Color |
 --------|----:|------|-------------|-------|
@@ -730,7 +730,8 @@ Picture | Qty | Code | Description | Color |
 ![15458](https://img.bricklink.com/P/1/15458.jpg)| 2 | [15458](https://www.bricklink.com/v2/catalog/catalogitem.page?P=15458&idColor=1) | Technic, Panel Plate 3 x 11 x 1 | White
 ![23948](https://img.bricklink.com/P/86/23948.jpg)| 2 | [23948](https://www.bricklink.com/v2/catalog/catalogitem.page?P=23948&idColor=86) | Technic, Axle 11L | Light Bluish Gray
 ![24119](https://img.bricklink.com/P/1/24119.jpg)| 3 | [24119](https://www.bricklink.com/v2/catalog/catalogitem.page?P=24119&idColor=1) | Technic, Panel Curved 7 x 3 with 2 Pin Holes through Panel Surface | White
-![3001](https://img.bricklink.com/P/85/3001.jpg)| 4 | [3001](https://www.bricklink.com/v2/catalog/catalogitem.page?P=3001&idColor=85) | Brick 2 x 4 | Dark Bluish Gray
+![3001](https://img.bricklink.com/P/85/3001.jpg)| 3 | [3001](https://www.bricklink.com/v2/catalog/catalogitem.page?P=3001&idColor=85) | Brick 2 x 4 | Dark Bluish Gray
+![3002](https://img.bricklink.com/P/85/3002.jpg)| 1 | [3002](https://www.bricklink.com/v2/catalog/catalogitem.page?P=3002#T=C&C=85) | Brick 2 x 3 | Dark Bluish Gray
 ![32140](https://img.bricklink.com/P/1/32140.jpg)| 1 | [32140](https://www.bricklink.com/v2/catalog/catalogitem.page?P=32140&idColor=1) | Technic, Liftarm, Modified Bent Thick L-Shape 2 x 4 | White
 ![32316](https://img.bricklink.com/P/1/32316.jpg)| 1 | [32316](https://www.bricklink.com/v2/catalog/catalogitem.page?P=32316&idColor=1) | Technic, Liftarm Thick 1 x 5 | White
 ![32524](https://img.bricklink.com/P/1/32524.jpg)| 4 | [32524](https://www.bricklink.com/v2/catalog/catalogitem.page?P=32524&idColor=1) | Technic, Liftarm Thick 1 x 7 | White
