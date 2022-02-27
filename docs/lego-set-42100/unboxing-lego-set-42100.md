@@ -757,11 +757,10 @@ Picture | Qty | Code | Description | Color |
 
 #### Transparent Baglet 5A2
 
-* Size: cm ?w x ?h
+* Size: cm 9w x 9h
 
 Picture | Qty | Code | Description | Color |
 --------|----:|------|-------------|-------|
-TODO
 ![18654](https://img.bricklink.com/P/85/18654.jpg)| 15 | [18654](https://www.bricklink.com/v2/catalog/catalogitem.page?P=18654&idColor=85) | Technic, Liftarm Thick 1 x 1 (Spacer) | Dark Bluish Gray
 ![2780](https://img.bricklink.com/P/11/2780.jpg)| 19 | [2780](https://www.bricklink.com/v2/catalog/catalogitem.page?P=2780&idColor=11) | Technic, Pin with Friction Ridges | Black
 ![32062](https://img.bricklink.com/P/5/32062.jpg)| 17 | [32062](https://www.bricklink.com/v2/catalog/catalogitem.page?P=32062&idColor=5) | Technic, Axle  2L Notched | Red
@@ -776,6 +775,7 @@ TODO
 
 Picture | Qty | Code | Description | Color |
 --------|----:|------|-------------|-------|
+TODO
 ![2431](https://img.bricklink.com/P/85/2431.jpg)| 1 | [2431](https://www.bricklink.com/v2/catalog/catalogitem.page?P=2431&idColor=85) | Tile 1 x 4 | Dark Bluish Gray
 ![2476](https://img.bricklink.com/P/86/2476.jpg)| 2 | [2476](https://www.bricklink.com/v2/catalog/catalogitem.page?P=2476&idColor=86) | Plate, Modified 2 x 2 with Pin on Bottom | Light Bluish Gray
 ![26287](https://img.bricklink.com/P/86/26287.jpg)| 1 | [26287](https://www.bricklink.com/v2/catalog/catalogitem.page?P=26287&idColor=86) | Technic, Axle Connector 3L | Light Bluish Gray
@@ -807,6 +807,7 @@ Picture | Qty | Code | Description | Color |
 
 Picture | Qty | Code | Description | Color |
 --------|----:|------|-------------|-------|
+TODO
 ![15100](https://img.bricklink.com/P/11/15100.jpg)| 12 | [15100](https://www.bricklink.com/v2/catalog/catalogitem.page?P=15100&idColor=11) | Technic, Pin with Friction Ridges and Pin Hole | Black
 ![18654](https://img.bricklink.com/P/1/18654.jpg)| 1 | [18654](https://www.bricklink.com/v2/catalog/catalogitem.page?P=18654&idColor=1) | Technic, Liftarm Thick 1 x 1 (Spacer) | White
 ![24316](https://img.bricklink.com/P/88/24316.jpg)| 1 | [24316](https://www.bricklink.com/v2/catalog/catalogitem.page?P=24316&idColor=88) | Technic, Axle  3L with Stop | Reddish Brown
@@ -832,6 +833,7 @@ Picture | Qty | Code | Description | Color |
 
 Picture | Qty | Code | Description | Color |
 --------|----:|------|-------------|-------|
+TODO
 ![10197](https://img.bricklink.com/P/85/10197.jpg)| 8 | [10197](https://www.bricklink.com/v2/catalog/catalogitem.page?P=10197&idColor=85) | Technic, Axle and Pin Connector Hub with 2 Perpendicular Axles | Dark Bluish Gray
 ![32065](https://img.bricklink.com/P/1/32065.jpg)| 10 | [32065](https://www.bricklink.com/v2/catalog/catalogitem.page?P=32065&idColor=1) | Technic, Liftarm Thin 1 x 7 | White
 ![32065](https://img.bricklink.com/P/11/32065.jpg)| 2 | [32065](https://www.bricklink.com/v2/catalog/catalogitem.page?P=32065&idColor=11) | Technic, Liftarm Thin 1 x 7 | Black
@@ -854,6 +856,7 @@ Picture | Qty | Code | Description | Color |
 
 Picture | Qty | Code | Description | Color |
 --------|----:|------|-------------|-------|
+TODO
 ![18654](https://img.bricklink.com/P/85/18654.jpg)| 15 | [18654](https://www.bricklink.com/v2/catalog/catalogitem.page?P=18654&idColor=85) | Technic, Liftarm Thick 1 x 1 (Spacer) | Dark Bluish Gray
 ![2780](https://img.bricklink.com/P/11/2780.jpg)| 19 | [2780](https://www.bricklink.com/v2/catalog/catalogitem.page?P=2780&idColor=11) | Technic, Pin with Friction Ridges | Black
 ![32062](https://img.bricklink.com/P/5/32062.jpg)| 17 | [32062](https://www.bricklink.com/v2/catalog/catalogitem.page?P=32062&idColor=5) | Technic, Axle  2L Notched | Red
@@ -868,6 +871,7 @@ Picture | Qty | Code | Description | Color |
 
 Picture | Qty | Code | Description | Color |
 --------|----:|------|-------------|-------|
+TODO
 ![11214](https://img.bricklink.com/P/5/11214.jpg)| 22 | [11214](https://www.bricklink.com/v2/catalog/catalogitem.page?P=11214&idColor=5) | Technic, Axle  1L with Pin 2L with Friction Ridges | Red
 ![18651](https://img.bricklink.com/P/11/18651.jpg)| 4 | [18651](https://www.bricklink.com/v2/catalog/catalogitem.page?P=18651&idColor=11) | Technic, Axle  2L with Pin with Friction Ridges | Black
 ![22961](https://img.bricklink.com/P/86/22961.jpg)| 4 | [22961](https://www.bricklink.com/v2/catalog/catalogitem.page?P=22961&idColor=86) | Technic, Axle and Pin Connector Hub with 1 Axle | Light Bluish Gray
@@ -891,6 +895,7 @@ Picture | Qty | Code | Description | Color |
 
 Picture | Qty | Code | Description | Color |
 --------|----:|------|-------------|-------|
+TODO
 ![4274](https://img.bricklink.com/P/86/4274.jpg)| 22 | [4274](https://www.bricklink.com/v2/catalog/catalogitem.page?P=4274&idColor=86) | Technic, Pin 1/2 without Friction Ridges | Light Bluish Gray
 ![6538c](https://img.bricklink.com/P/85/6538c.jpg)| 83 | [6538c](https://www.bricklink.com/v2/catalog/catalogitem.page?P=6538c&idColor=85) | Technic, Axle Connector 2L (Smooth with x Hole + Orientation) | Dark Bluish Gray
 ![62462](https://img.bricklink.com/P/11/62462.jpg)| 2 | [62462](https://www.bricklink.com/v2/catalog/catalogitem.page?P=62462&idColor=11) | Technic, Pin Connector Round 2L with Slot (Pin Joiner Round) | Black
@@ -904,6 +909,7 @@ Picture | Qty | Code | Description | Color |
 
 Picture | Qty | Code | Description | Color |
 --------|----:|------|-------------|-------|
+TODO
 ![32039](https://img.bricklink.com/P/85/32039.jpg)| 57 | [32039](https://www.bricklink.com/v2/catalog/catalogitem.page?P=32039&idColor=85) | Technic, Axle Connector with Axle Hole | Dark Bluish Gray
 ![99021](https://img.bricklink.com/P/85/99021.jpg)| 42 | [99021](https://www.bricklink.com/v2/catalog/catalogitem.page?P=99021&idColor=85) | Pneumatic Hose Connector with Axle Connector | Dark Bluish Gray
 
@@ -913,6 +919,7 @@ Picture | Qty | Code | Description | Color |
 
 Picture | Qty | Code | Description | Color |
 --------|----:|------|-------------|-------|
+TODO
 ![5102c13](https://img.bricklink.com/P/11/5102c13.jpg)| 8 | [5102c13](https://www.bricklink.com/v2/catalog/catalogitem.page?P=5102c13&idColor=11) | Technic Pneumatic Tube 13L | Black
 ![5102c17](https://img.bricklink.com/P/11/5102c17.jpg)| 8 | [5102c17](https://www.bricklink.com/v2/catalog/catalogitem.page?P=5102c17&idColor=11) | Technic Pneumatic Tube 17L | Black
 ![5102c21](https://img.bricklink.com/P/11/5102c21.jpg)| 8 | [5102c21](https://www.bricklink.com/v2/catalog/catalogitem.page?P=5102c21&idColor=11) | Technic Pneumatic Tube 21L | Black
