@@ -41,7 +41,7 @@ From the [Pybricks Code](https://code.pybricks.com/) web interface, create or op
 
 TODO
 
-## Controlling from a Raspberrry Pi
+## Controlling from a Raspberry Pi
 
 ### Install undera/pylgbst on the Raspberry Pi
 
