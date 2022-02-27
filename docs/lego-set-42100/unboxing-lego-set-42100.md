@@ -769,13 +769,12 @@ Picture | Qty | Code | Description | Color |
 
 ### Bag 5B
 
-* Code: ?
+* Code: Unnamed
 * QRCode: 6171972
-* Size: cm ?w x ?h
+* Size: cm 20w x 20h
 
 Picture | Qty | Code | Description | Color |
 --------|----:|------|-------------|-------|
-TODO
 ![2431](https://img.bricklink.com/P/85/2431.jpg)| 1 | [2431](https://www.bricklink.com/v2/catalog/catalogitem.page?P=2431&idColor=85) | Tile 1 x 4 | Dark Bluish Gray
 ![2476](https://img.bricklink.com/P/86/2476.jpg)| 2 | [2476](https://www.bricklink.com/v2/catalog/catalogitem.page?P=2476&idColor=86) | Plate, Modified 2 x 2 with Pin on Bottom | Light Bluish Gray
 ![26287](https://img.bricklink.com/P/86/26287.jpg)| 1 | [26287](https://www.bricklink.com/v2/catalog/catalogitem.page?P=26287&idColor=86) | Technic, Axle Connector 3L | Light Bluish Gray
