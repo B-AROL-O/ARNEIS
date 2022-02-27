@@ -849,11 +849,10 @@ Picture | Qty | Code | Description | Color |
 
 #### Transparent Baglet 5C1
 
-* Size: cm ?w x ?h
+* Size: cm 9w x 9h
 
 Picture | Qty | Code | Description | Color |
 --------|----:|------|-------------|-------|
-TODO
 ![18654](https://img.bricklink.com/P/85/18654.jpg)| 15 | [18654](https://www.bricklink.com/v2/catalog/catalogitem.page?P=18654&idColor=85) | Technic, Liftarm Thick 1 x 1 (Spacer) | Dark Bluish Gray
 ![2780](https://img.bricklink.com/P/11/2780.jpg)| 19 | [2780](https://www.bricklink.com/v2/catalog/catalogitem.page?P=2780&idColor=11) | Technic, Pin with Friction Ridges | Black
 ![32062](https://img.bricklink.com/P/5/32062.jpg)| 17 | [32062](https://www.bricklink.com/v2/catalog/catalogitem.page?P=32062&idColor=5) | Technic, Axle  2L Notched | Red
