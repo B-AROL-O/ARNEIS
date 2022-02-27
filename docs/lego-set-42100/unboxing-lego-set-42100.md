@@ -923,10 +923,9 @@ Picture | Qty | Code | Description | Color |
 * QRCode: ?
 * Size: cm 17w x 14h
 
-Picture |  Qty | Code | Description | Color |
---------|-----:|------|-------------|-------|
-TODO
-![3941](https://img.bricklink.com/P/85/3941.jpg)| ? | [3941](https://www.bricklink.com/v2/catalog/catalogitem.page?P=3941&idColor=85) | Brick, Round 2 x 2 with Axle Hole | Dark Bluish Gray
+Picture | Qty | Code | Description | Color |
+--------|----:|------|-------------|-------|
+![3941](https://img.bricklink.com/P/85/3941.jpg)| 100 | [3941](https://www.bricklink.com/v2/catalog/catalogitem.page?P=3941&idColor=85) | Brick, Round 2 x 2 with Axle Hole | Dark Bluish Gray
 
 ## Other loose parts present in the box
 
