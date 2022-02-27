@@ -27,7 +27,7 @@
 * [Powered Up - A tear down...](https://www.eurobricks.com/forum/index.php?/forums/topic/162288-powered-up-a-tear-down/) - Eurobricks Forum, 2018-06-07
 * Reverse Engineering the LEGO BOOST Move Hub: <https://github.com/JorgePe/BOOSTreveng>
 * Python for LEGO BOOST: <https://github.com/JorgePe/pyb00st>
-* [Build and Code Creative Robots with LEGO BOOST](https://www.packtpub.com/product/build-and-code-creative-robots-with-lego-boost/9781801075572) by Ashwin Shah. Packt Publishing, November 2021
+* Book: [Build and Code Creative Robots with LEGO BOOST](https://www.packtpub.com/product/build-and-code-creative-robots-with-lego-boost/9781801075572) by Ashwin Shah. Packt Publishing, November 2021
 * [Glossario by Italian LEGO&reg; Users Group](https://itlug.org/glossario/)
 * [Smart Robotics with LEGO MINDSTORMS Robot Inventor](https://www.packtpub.com/product/smart-robotics-with-lego-mindstorms-robot-inventor/9781800568402) by Aaron Maurer. Packt Publishing, May 2021
 
@@ -36,6 +36,22 @@
 * [Controlling the Lego Technics Hub (Hub 2) via Bluetooth (btle) using a Rasperry Pi 4B](https://dietrichchristopeit.github.io/lego-pi-docs/#controlling-the-lego-technics-hub-hub-2-via-bluetooth-btle-using-a-rasperry-pi-4b)
 * [LEGO Wireless Protocol 3.0.00](https://lego.github.io/lego-ble-wireless-protocol-docs/index.html#document-index)
 * [Python library to interact with Move Hub / PoweredUp Hubs](https://github.com/undera/pylgbst)
+
+New links to check and sort out:
+
+* Google Search: "[Powered Up Python library](https://www.google.com/search?q=Powered+Up+Python+library&oq=powered+up+Python+library)"
+* Thread on StackExchange.com: [Which programming environments or APIs are available for the LEGO BOOST?](https://bricks.stackexchange.com/questions/10786/which-programming-environments-or-apis-are-available-for-the-lego-boost)
+* [Hack Lego Boost with Raspberry Pi](https://magpi.raspberrypi.com/articles/hack-lego-boost-with-raspberry-pi) - The MagPi Magazine, 2019-xx-xx
+* **pylgbst** - Python library to interact with Move Hub / PoweredUp Hubs
+  - GitHub repository: <https://github.com/undera/pylgbst>
+  - LibHunt: Pylgbst Alternatives: <https://www.libhunt.com/r/pylgbst>
+* **BrickNil** - A Python async library for PoweredUp/Boost
+  - GitHub repository: <https://virantha.github.io/bricknil>
+  - Discussion on Eurobricks.com: <https://www.eurobricks.com/forum/index.php?/forums/topic/170945-bricknil-a-python-async-library-for-poweredupboost/>
+* <https://github.com/DietrichChristopeit/project-cimino/>
+* <https://magpi.raspberrypi.com/articles/hack-lego-boost-with-raspberry-pi>
+* <https://www.bricklink.com/v2/catalog/catalogitem.page?P=bb0961c01#T=C>
+* <https://LEGO.com/devicecheck>
 
 ## Python and Machine Learning
 

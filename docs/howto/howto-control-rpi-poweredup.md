@@ -1,10 +1,49 @@
-# HOWTO Control a LEGO Powered Up Hub from a Raspberry Pi
+# HOWTO Control a LEGO Powered Up Hub for the ARNEIS Project
 
 ## Introduction
 
 This document explains how to install a use a Python script to control a LEGO Powered Up Hub through BLE.
 
-## Step-by-step instructions
+## Using the "LEGO&reg; TECHNIC&trade; CONTROL+" App
+
+Install the "LEGO&reg; TECHNIC&trade; CONTROL+" app from
+
+* Google Play Store: <https://play.google.com/store/apps/details?id=com.lego.technic.controlplus>
+* Apple Store: TODO
+
+Launch the app and select set "Liebherr 9800".
+
+Connect 2x XL motor and 1x L motor to the Hub.
+
+Follow the instructions displayed by the app and update the firmware if requested.
+
+TODO
+
+## Using Pybricks
+
+### Install the Pybricks firmware
+
+Instructions at <https://pybricks.com/install/technic-boost-city/>
+
+Before you begin, turn the hub off. The update works best with fresh batteries.
+If you use the City Hub, you must unplug all motors and sensors. Follow these steps:
+
+1. Go to [Pybricks Code](https://code.pybricks.com/).
+2. Press and hold the hub button. Wait for a blinking pink light.
+3. While you hold it, click the _firmware update_ button.
+4. Select the _LEGO Bootloader_ and click _Pair_.
+5. Wait until the light turns off, and then blinks red/green/blue.
+6. Release the button and wait for the installation to finish.
+
+### Load some Python program
+
+From the [Pybricks Code](https://code.pybricks.com/) web interface, create or open a MicroPython source file and upload it to the LEGO Technics BT Hub. You may find some examples under the `/code` folder of the [ARNEIS repository on GitHub](https://github.com/B-AROL-O/ARNEIS).
+
+TODO
+
+## Controlling from a Raspberrry Pi
+
+### Install undera/pylgbst on the Raspberry Pi
 
 <!-- (2022-01-27 16:45 CET) -->
 
