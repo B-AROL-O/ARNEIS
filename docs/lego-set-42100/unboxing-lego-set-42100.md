@@ -825,13 +825,12 @@ Picture | Qty | Code | Description | Color |
 
 ### Bag 5C
 
-* Code: ?
+* Code: Unnamed
 * QRCode: 6171972
-* Size: cm ?w x ?h
+* Size: cm 10w x 19h
 
 Picture | Qty | Code | Description | Color |
 --------|----:|------|-------------|-------|
-TODO
 ![10197](https://img.bricklink.com/P/85/10197.jpg)| 8 | [10197](https://www.bricklink.com/v2/catalog/catalogitem.page?P=10197&idColor=85) | Technic, Axle and Pin Connector Hub with 2 Perpendicular Axles | Dark Bluish Gray
 ![32065](https://img.bricklink.com/P/1/32065.jpg)| 10 | [32065](https://www.bricklink.com/v2/catalog/catalogitem.page?P=32065&idColor=1) | Technic, Liftarm Thin 1 x 7 | White
 ![32065](https://img.bricklink.com/P/11/32065.jpg)| 2 | [32065](https://www.bricklink.com/v2/catalog/catalogitem.page?P=32065&idColor=11) | Technic, Liftarm Thin 1 x 7 | Black
