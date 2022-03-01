@@ -26,7 +26,7 @@
 * [Glossario by Italian LEGO&reg; Users Group](https://itlug.org/glossario/)
 * [LEGO&reg; Customer Service - Device Check](https://LEGO.com/devicecheck) - provided by [lego.com](https://lego.com/)
 * [LEGO&reg; Powered UP](https://www.lego.com/en-it/themes/powered-up/about) Official Homepage
-* [LEGO Powered Up basic tutorials - 01 - Introduction & history](https://www.youtube.com/watch?v=MIpcyS4xzsw) - RacingBrick, 2021-01-11
+* [LEGO&reg; Powered Up basic tutorials - 01 - Introduction & history](https://www.youtube.com/watch?v=MIpcyS4xzsw) - RacingBrick, 2021-01-11
 * [LEGO&reg; Powered Up Connector](https://www.biasedlogic.com/index.php/lego-powered-up-connector/) - Marek's microsite, 2022-09-26
 * [LEGO&reg; Set 42100 (Liebherr R 9800 Excavator)](https://arneis.readthedocs.io/en/latest/lego-set-42100) includes 2x [LEGO&reg; Technics Bluetooth Hub](https://www.bricklink.com/v2/catalog/catalogitem.page?P=bb0961c01#T=C) (LEGO&reg; Part bb0961c01).
 * [Powered Up - A tear down...](https://www.eurobricks.com/forum/index.php?/forums/topic/162288-powered-up-a-tear-down/) - Eurobricks Forum, 2018-06-07
