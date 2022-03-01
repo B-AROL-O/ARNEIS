@@ -126,6 +126,61 @@ hci0:   Type: Primary  Bus: UART
 (.venv) pi@rpird102:~/github/undera/pylgbst/examples $
 ```
 
-TODO
+## Interfacing an input sensor
+
+This chapter discusses several alternatives we have in case we need to interface one or more input sensors to the Edge Controller of ARNEIS.
+The alternatives presented here are the following:
+
+- Direct GPIO input pin of the Raspberry Pi
+- Input sensors connected to the LEGO Powered Up Hub
+- Input sensors connected to the SBrick Plus
+- etc.
+
+### Direct GPIO input pin of the Raspberry Pi
+
+This is probably the most flexible option in terms of sensor interfacing.
+
+In the internet there is abundance of tutorials, videos and blog posts which explain how to interface an input sensor to the GPIO pins of the Raspberry Pi and write a program to check the sensor state. Google is your friend.
+
+Some quick links:
+
+- [#369 Definitive Guide to Attaching Sensors to the Raspberry Pi (Tutorial)](https://www.youtube.com/watch?v=gnE4v-PcYKQ) - YouTube video by Andreas Speiss, 2021-01-24
+
+On the other hand, this option has the disadvantage that the feedback loop sensor/actuator will be slower since a longer path (Sensor --> Raspberry Pi --> BLE --> Technics Hub --> Actuator) should be followed.
+
+### Input sensors connected to the LEGO&reg; Powered Up Hub
+
+At the moment only few types of input sensors with Powered Up interface are available:
+
+- [LEGO Powered Up Color &amp; Distance Sensor](https://www.lego.com/en-it/product/color-distance-sensor-88007) - Code 88007
+- [LEGO WeDo Tilt Sensor](https://www.brickowl.com/catalog/lego-wedo-tilt-sensor-63522) - Code 63522
+- Infrared Sensor - Code TODO
+
+Those sensors are directly usable with LEGO&reg; Technics BT Hub using different languages, including [Pybricks](https://pybricks.com/):
+
+- <https://docs.pybricks.com/en/stable/pupdevices/colordistancesensor.html>
+- <https://docs.pybricks.com/en/stable/pupdevices/tiltsensor.html>
+- <https://docs.pybricks.com/en/stable/pupdevices/infraredsensor.html>
+
+As an added bonus, the [ColorDistanceSensor](https://docs.pybricks.com/en/stable/pupdevices/colordistancesensor.html#pybricks.pupdevices.ColorDistanceSensor) can send infrared signals to control Power Functions infrared receivers. You can use this technique to control medium, large, extra large, and train motors. You can find more details at <https://docs.pybricks.com/en/stable/pupdevices/pfmotor.html>.
+
+Provided that the available sensors are good enough for the use case, this option is probably the one which guarantees the quickest feedback loop (Sensor --> Technics Hub --> Actuator)
+
+### Input sensors connected to the SBrick Plus
+
+Another possible option is to connect and interface LEGO&reg; Power Functions sensors.
+
+The LEGO&reg; Power Functions family provides a richer set of input sensors with respect to the relatively newer Powered Up family:
+
+- TODO
+
+To interface Power Functions components including input sensors and control them from either a mobile app or a Python scripts running on a Raspberry Pi the [SBrick Plus](TODO) brick can be used.
+
+Additionally, we may use the RXTX mode of the Powered Up Color Sensor which allows to communicate with a Power Functions infrared receiver and thus control motors of the Power Functions family. Unfortunately this solution only works for actuators, not for sensors.
+
+You may find more details at the following links:
+
+- [Using Power Functions with the Powered Up app](https://www.lego.com/en-in/service/help/apps_video_games_device_guides/using-power-functions-with-the-powered-up-app-kA009000001dckrCAA) - LEGO&reg; Customer Service
+- [LEGO Powered Up app with Power Functions and remote support! Too good to be true?](https://www.youtube.com/watch?v=scvifoxEbWs) - RacingBrick, 2020-03-21
 
 <!-- EOF -->
