@@ -884,13 +884,12 @@ Picture | Qty | Code | Description | Color |
 
 ### Bag 5E
 
-* Code: ?
+* Code: Unnamed
 * QRCode: 6231628
-* Size: cm ?w x ?h
+* Size: cm 11w x 11h
 
 Picture | Qty | Code | Description | Color |
 --------|----:|------|-------------|-------|
-TODO
 ![4274](https://img.bricklink.com/P/86/4274.jpg)| 22 | [4274](https://www.bricklink.com/v2/catalog/catalogitem.page?P=4274&idColor=86) | Technic, Pin 1/2 without Friction Ridges | Light Bluish Gray
 ![6538c](https://img.bricklink.com/P/85/6538c.jpg)| 83 | [6538c](https://www.bricklink.com/v2/catalog/catalogitem.page?P=6538c&idColor=85) | Technic, Axle Connector 2L (Smooth with x Hole + Orientation) | Dark Bluish Gray
 ![62462](https://img.bricklink.com/P/11/62462.jpg)| 2 | [62462](https://www.bricklink.com/v2/catalog/catalogitem.page?P=62462&idColor=11) | Technic, Pin Connector Round 2L with Slot (Pin Joiner Round) | Black
