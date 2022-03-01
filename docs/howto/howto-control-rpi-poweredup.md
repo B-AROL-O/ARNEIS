@@ -134,7 +134,7 @@ The alternatives presented here are the following:
 - Direct GPIO input pin of the Raspberry Pi
 - Input sensors connected to the LEGO Powered Up Hub
 - Input sensors connected to the SBrick Plus
-- etc. 
+- etc.
 
 ### Direct GPIO input pin of the Raspberry Pi
 
@@ -144,7 +144,7 @@ In the internet there is abundance of tutorials, videos and blog posts which exp
 
 Some quick links:
 
-- [[#369](https://www.youtube.com/hashtag/369) Definitive Guide to Attaching Sensors to the Raspberry Pi (Tutorial)](https://www.youtube.com/watch?v=gnE4v-PcYKQ&vl=en) - YouTube video by Andreas Speiss, 2021-01-24
+- [#369 Definitive Guide to Attaching Sensors to the Raspberry Pi (Tutorial)](https://www.youtube.com/watch?v=gnE4v-PcYKQ) - YouTube video by Andreas Speiss, 2021-01-24
 
 On the other hand, this option has the disadvantage that the feedback loop sensor/actuator will be slower since a longer path (Sensor --> Raspberry Pi --> BLE --> Technics Hub --> Actuator) should be followed.
 
@@ -152,17 +152,17 @@ On the other hand, this option has the disadvantage that the feedback loop senso
 
 At the moment only few types of input sensors with Powered Up interface are available:
 
-- [Color &amp; Distance Sensor](https://www.lego.com/en-it/product/color-distance-sensor-88007) - Code 88007
-- Tilt Sensor - Code TODO
+- [LEGO Powered Up Color &amp; Distance Sensor](https://www.lego.com/en-it/product/color-distance-sensor-88007) - Code 88007
+- [LEGO WeDo Tilt Sensor](https://www.brickowl.com/catalog/lego-wedo-tilt-sensor-63522) - Code 63522
 - Infrared Sensor - Code TODO
 
 Those sensors are directly usable with LEGO&reg; Technics BT Hub using different languages, including [Pybricks](https://pybricks.com/):
 
-- https://docs.pybricks.com/en/stable/pupdevices/colordistancesensor.html
-- https://docs.pybricks.com/en/stable/pupdevices/tiltsensor.html
-- https://docs.pybricks.com/en/stable/pupdevices/infraredsensor.html
+- <https://docs.pybricks.com/en/stable/pupdevices/colordistancesensor.html>
+- <https://docs.pybricks.com/en/stable/pupdevices/tiltsensor.html>
+- <https://docs.pybricks.com/en/stable/pupdevices/infraredsensor.html>
 
-As an added bonus, the [ColorDistanceSensor](https://docs.pybricks.com/en/stable/pupdevices/colordistancesensor.html#pybricks.pupdevices.ColorDistanceSensor) can send infrared signals to control Power Functions infrared receivers. You can use this technique to control medium, large, extra large, and train motors. You can find more details at https://docs.pybricks.com/en/stable/pupdevices/pfmotor.html
+As an added bonus, the [ColorDistanceSensor](https://docs.pybricks.com/en/stable/pupdevices/colordistancesensor.html#pybricks.pupdevices.ColorDistanceSensor) can send infrared signals to control Power Functions infrared receivers. You can use this technique to control medium, large, extra large, and train motors. You can find more details at <https://docs.pybricks.com/en/stable/pupdevices/pfmotor.html>.
 
 Provided that the available sensors are good enough for the use case, this option is probably the one which guarantees the quickest feedback loop (Sensor --> Technics Hub --> Actuator)
 
