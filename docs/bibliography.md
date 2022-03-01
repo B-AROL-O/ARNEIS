@@ -25,33 +25,29 @@
 * [LEGO&reg; Powered UP](https://www.lego.com/en-it/themes/powered-up/about) Official Homepage
 * [LEGO Powered Up basic tutorials - 01 - Introduction & history](https://www.youtube.com/watch?v=MIpcyS4xzsw) - RacingBrick, 2021-01-11
 * [Powered Up - A tear down...](https://www.eurobricks.com/forum/index.php?/forums/topic/162288-powered-up-a-tear-down/) - Eurobricks Forum, 2018-06-07
-* Reverse Engineering the LEGO BOOST Move Hub: <https://github.com/JorgePe/BOOSTreveng>
-* Python for LEGO BOOST: <https://github.com/JorgePe/pyb00st>
 * Book: [Build and Code Creative Robots with LEGO BOOST](https://www.packtpub.com/product/build-and-code-creative-robots-with-lego-boost/9781801075572) by Ashwin Shah. Packt Publishing, November 2021
+* [LEGO&reg; Customer Service - Device Check](https://LEGO.com/devicecheck) - provided by [lego.com](https://lego.com/)
 * [Glossario by Italian LEGO&reg; Users Group](https://itlug.org/glossario/)
+* [LEGO Powered Up Connector](https://www.biasedlogic.com/index.php/lego-powered-up-connector/) - Marek's microsite, 2022-09-26
+* [LEGO Set 42100 (Liebherr R 9800 Excavator)](https://arneis.readthedocs.io/en/latest/lego-set-42100) includes 2x [LEGO&reg; Technics Bluetooth Hub](https://www.bricklink.com/v2/catalog/catalogitem.page?P=bb0961c01#T=C) (LEGO&reg; Part bb0961c01).
 * [Smart Robotics with LEGO MINDSTORMS Robot Inventor](https://www.packtpub.com/product/smart-robotics-with-lego-mindstorms-robot-inventor/9781800568402) by Aaron Maurer. Packt Publishing, May 2021
 
 ### Controlling LEGO via Bluetooth
 
 * [Controlling the Lego Technics Hub (Hub 2) via Bluetooth (btle) using a Rasperry Pi 4B](https://dietrichchristopeit.github.io/lego-pi-docs/#controlling-the-lego-technics-hub-hub-2-via-bluetooth-btle-using-a-rasperry-pi-4b)
-* [LEGO Wireless Protocol 3.0.00](https://lego.github.io/lego-ble-wireless-protocol-docs/index.html#document-index)
-* [Python library to interact with Move Hub / PoweredUp Hubs](https://github.com/undera/pylgbst)
-
-New links to check and sort out:
-
-* Google Search: "[Powered Up Python library](https://www.google.com/search?q=Powered+Up+Python+library&oq=powered+up+Python+library)"
-* Thread on StackExchange.com: [Which programming environments or APIs are available for the LEGO BOOST?](https://bricks.stackexchange.com/questions/10786/which-programming-environments-or-apis-are-available-for-the-lego-boost)
 * [Hack Lego Boost with Raspberry Pi](https://magpi.raspberrypi.com/articles/hack-lego-boost-with-raspberry-pi) - The MagPi Magazine, 2019-xx-xx
-* **pylgbst** - Python library to interact with Move Hub / PoweredUp Hubs
-  - GitHub repository: <https://github.com/undera/pylgbst>
-  - LibHunt: Pylgbst Alternatives: <https://www.libhunt.com/r/pylgbst>
-* **BrickNil** - A Python async library for PoweredUp/Boost
+* [LEGO Wireless Protocol 3.0.00](https://lego.github.io/lego-ble-wireless-protocol-docs/index.html#document-index)
+* **BrickNil**: A Python async library for PoweredUp/Boost
   - GitHub repository: <https://virantha.github.io/bricknil>
   - Discussion on Eurobricks.com: <https://www.eurobricks.com/forum/index.php?/forums/topic/170945-bricknil-a-python-async-library-for-poweredupboost/>
-* <https://github.com/DietrichChristopeit/project-cimino/>
-* <https://magpi.raspberrypi.com/articles/hack-lego-boost-with-raspberry-pi>
-* <https://www.bricklink.com/v2/catalog/catalogitem.page?P=bb0961c01#T=C>
-* <https://LEGO.com/devicecheck>
+* **legoBTLE4PI**: A school project that shows how to control a Lego Jeep with Bluetooth on the Raspberrypi 4B.
+  - GitHub repository: <https://github.com/DietrichChristopeit/legoBTLE4PI>
+* **pylgbst**: Python library to interact with Move Hub / PoweredUp Hubs
+  - GitHub repository: <https://github.com/undera/pylgbst>
+  - LibHunt: Pylgbst Alternatives: <https://www.libhunt.com/r/pylgbst>
+* Python for LEGO BOOST: <https://github.com/JorgePe/pyb00st>
+* Reverse Engineering the LEGO BOOST Move Hub: <https://github.com/JorgePe/BOOSTreveng>
+* Thread on StackExchange.com: [Which programming environments or APIs are available for the LEGO BOOST?](https://bricks.stackexchange.com/questions/10786/which-programming-environments-or-apis-are-available-for-the-lego-boost)
 
 ## Python and Machine Learning
 
