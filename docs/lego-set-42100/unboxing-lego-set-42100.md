@@ -906,9 +906,9 @@ Picture | Qty | Code | Description | Color |
 ![32039](https://img.bricklink.com/P/85/32039.jpg)| 57 | [32039](https://www.bricklink.com/v2/catalog/catalogitem.page?P=32039&idColor=85) | Technic, Axle Connector with Axle Hole | Dark Bluish Gray
 ![99021](https://img.bricklink.com/P/85/99021.jpg)| 42 | [99021](https://www.bricklink.com/v2/catalog/catalogitem.page?P=99021&idColor=85) | Pneumatic Hose Connector with Axle Connector | Dark Bluish Gray
 
-### Bag 5G
+### Transparent Bag 5G
 
-* Size: cm ?w x ?h
+* Size: cm 9w x 27h
 
 Picture | Qty | Code | Description | Color |
 --------|----:|------|-------------|-------|
@@ -922,7 +922,7 @@ TODO
 ### Bag 6A
 
 * Code: Unnamed
-* QRCode: ?
+* QRCode: 6201721
 * Size: cm 17w x 14h
 
 Picture | Qty | Code | Description | Color |
