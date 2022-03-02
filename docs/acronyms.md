@@ -5,6 +5,7 @@
 * **B-AROL-O**: See <https://github.com/B-AROL-O/>
 * **BLE**: Bluetooth Low Energy. See <https://en.wikipedia.org/wiki/Bluetooth_Low_Energy>
 * **BT**: Bluetooth&reg;. See <https://www.bluetooth.com/>
+* **CLI**: Command-Line Interface
 * **CPU**: Central Processing Unit
 * **DNS**: Domain Name System. See <https://en.wikipedia.org/wiki/Domain_Name_System>
 * **FPU**: Floating Point Unit
