@@ -439,12 +439,36 @@ TODO: Notice that versions do conflict
 
 TODO
 
-## Install k9s
+## Control your k3s cluster using k9s
+
+[K9s](https://k9scli.io/) is a terminal based UI to interact with your Kubernetes clusters.
+The aim of this project is to make it easier to navigate, observe and manage your deployed applications in the wild.
+K9s continually watches Kubernetes for changes and offers subsequent commands to interact with your observed resources.
+
+Compared to the official `kubectl` command-line tool, `k9s` is a much easier way for monitoring and controlling your Kubernetes cluster.
+
+## Installing k9s
+
+The page at <https://k9scli.io/topics/install/> provides instructions for installing k9s on the most popular Operating Systems.
+
+For instance, you can install k9s on the master node of the cluster typing the following command when logged in as `root@arneis-vm01`:
 
 ```bash
-TODO
+curl -sS https://webinstall.dev/k9s | bash
 ```
 
-TODO:Screenshot
+### Using k9s
+
+Logged in as `root@arneis-vm` you can launch k9s by providing the `--kubeconfig` option to specify the `k3s.yaml` file:
+
+```bash
+k9s --kubeconfig /etc/rancher/k3s/k3s.yaml
+```
+
+Result:
+
+![Screenshot](https://user-images.githubusercontent.com/75182/156438924-cc54a80b-19b2-4300-8b68-4a32083e4759.png)
+
+The <https://k9scli.io/topics/commands/> page provides a comprehensive list of the available CLI arguments and key bindings.
 
 <!-- EOF -->
