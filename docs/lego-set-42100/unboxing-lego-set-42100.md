@@ -720,9 +720,9 @@ Picture | Qty | Code | Description | Color |
 
 ### Bag 5A
 
-* Code: 634S1
-* QRCode: ?
-* Size: cm ?w x ?h
+* Code: 551S0 (634S1)
+* QRCode: 6172090
+* Size: cm 23w x 23h
 
 Picture | Qty | Code | Description | Color |
 --------|----:|------|-------------|-------|
@@ -730,7 +730,8 @@ Picture | Qty | Code | Description | Color |
 ![15458](https://img.bricklink.com/P/1/15458.jpg)| 2 | [15458](https://www.bricklink.com/v2/catalog/catalogitem.page?P=15458&idColor=1) | Technic, Panel Plate 3 x 11 x 1 | White
 ![23948](https://img.bricklink.com/P/86/23948.jpg)| 2 | [23948](https://www.bricklink.com/v2/catalog/catalogitem.page?P=23948&idColor=86) | Technic, Axle 11L | Light Bluish Gray
 ![24119](https://img.bricklink.com/P/1/24119.jpg)| 3 | [24119](https://www.bricklink.com/v2/catalog/catalogitem.page?P=24119&idColor=1) | Technic, Panel Curved 7 x 3 with 2 Pin Holes through Panel Surface | White
-![3001](https://img.bricklink.com/P/85/3001.jpg)| 4 | [3001](https://www.bricklink.com/v2/catalog/catalogitem.page?P=3001&idColor=85) | Brick 2 x 4 | Dark Bluish Gray
+![3001](https://img.bricklink.com/P/85/3001.jpg)| 3 | [3001](https://www.bricklink.com/v2/catalog/catalogitem.page?P=3001&idColor=85) | Brick 2 x 4 | Dark Bluish Gray
+![3002](https://img.bricklink.com/P/85/3002.jpg)| 1 | [3002](https://www.bricklink.com/v2/catalog/catalogitem.page?P=3002#T=C&C=85) | Brick 2 x 3 | Dark Bluish Gray
 ![32140](https://img.bricklink.com/P/1/32140.jpg)| 1 | [32140](https://www.bricklink.com/v2/catalog/catalogitem.page?P=32140&idColor=1) | Technic, Liftarm, Modified Bent Thick L-Shape 2 x 4 | White
 ![32316](https://img.bricklink.com/P/1/32316.jpg)| 1 | [32316](https://www.bricklink.com/v2/catalog/catalogitem.page?P=32316&idColor=1) | Technic, Liftarm Thick 1 x 5 | White
 ![32524](https://img.bricklink.com/P/1/32524.jpg)| 4 | [32524](https://www.bricklink.com/v2/catalog/catalogitem.page?P=32524&idColor=1) | Technic, Liftarm Thick 1 x 7 | White
@@ -744,7 +745,7 @@ Picture | Qty | Code | Description | Color |
 
 #### Transparent Baglet 5A1
 
-* Size: cm ?w x ?h
+* Size: cm 9w x 9h
 
 Picture | Qty | Code | Description | Color |
 --------|----:|------|-------------|-------|
@@ -756,7 +757,7 @@ Picture | Qty | Code | Description | Color |
 
 #### Transparent Baglet 5A2
 
-* Size: cm ?w x ?h
+* Size: cm 9w x 9h
 
 Picture | Qty | Code | Description | Color |
 --------|----:|------|-------------|-------|
@@ -768,9 +769,9 @@ Picture | Qty | Code | Description | Color |
 
 ### Bag 5B
 
-* Code: ?
+* Code: Unnamed
 * QRCode: 6171972
-* Size: cm ?w x ?h
+* Size: cm 20w x 20h
 
 Picture | Qty | Code | Description | Color |
 --------|----:|------|-------------|-------|
@@ -801,7 +802,7 @@ Picture | Qty | Code | Description | Color |
 
 #### Transparent Baglet 5B1
 
-* Size: cm ?w x ?h
+* Size: cm 9w x 9h
 
 Picture | Qty | Code | Description | Color |
 --------|----:|------|-------------|-------|
@@ -824,9 +825,9 @@ Picture | Qty | Code | Description | Color |
 
 ### Bag 5C
 
-* Code: ?
+* Code: Unnamed
 * QRCode: 6171972
-* Size: cm ?w x ?h
+* Size: cm 10w x 19h
 
 Picture | Qty | Code | Description | Color |
 --------|----:|------|-------------|-------|
@@ -848,7 +849,7 @@ Picture | Qty | Code | Description | Color |
 
 #### Transparent Baglet 5C1
 
-* Size: cm ?w x ?h
+* Size: cm 9w x 9h
 
 Picture | Qty | Code | Description | Color |
 --------|----:|------|-------------|-------|
@@ -860,9 +861,9 @@ Picture | Qty | Code | Description | Color |
 
 ### Bag 5D
 
-* Code: ?
+* Code: Unnamed
 * QRCode: 6231628
-* Size: cm ?w x ?h
+* Size: cm 11w x 10h
 
 Picture | Qty | Code | Description | Color |
 --------|----:|------|-------------|-------|
@@ -883,9 +884,9 @@ Picture | Qty | Code | Description | Color |
 
 ### Bag 5E
 
-* Code: ?
+* Code: Unnamed
 * QRCode: 6231628
-* Size: cm ?w x ?h
+* Size: cm 11w x 11h
 
 Picture | Qty | Code | Description | Color |
 --------|----:|------|-------------|-------|
@@ -896,21 +897,22 @@ Picture | Qty | Code | Description | Color |
 
 ### Bag 5F
 
-* Code: ?
+* Code: Unnamed
 * QRCode: 6231628
-* Size: cm ?w x ?h
+* Size: cm 11w x 11h
 
 Picture | Qty | Code | Description | Color |
 --------|----:|------|-------------|-------|
 ![32039](https://img.bricklink.com/P/85/32039.jpg)| 57 | [32039](https://www.bricklink.com/v2/catalog/catalogitem.page?P=32039&idColor=85) | Technic, Axle Connector with Axle Hole | Dark Bluish Gray
 ![99021](https://img.bricklink.com/P/85/99021.jpg)| 42 | [99021](https://www.bricklink.com/v2/catalog/catalogitem.page?P=99021&idColor=85) | Pneumatic Hose Connector with Axle Connector | Dark Bluish Gray
 
-### Bag 5G
+### Transparent Bag 5G
 
-* Size: cm ?w x ?h
+* Size: cm 9w x 27h
 
 Picture | Qty | Code | Description | Color |
 --------|----:|------|-------------|-------|
+TODO
 ![5102c13](https://img.bricklink.com/P/11/5102c13.jpg)| 8 | [5102c13](https://www.bricklink.com/v2/catalog/catalogitem.page?P=5102c13&idColor=11) | Technic Pneumatic Tube 13L | Black
 ![5102c17](https://img.bricklink.com/P/11/5102c17.jpg)| 8 | [5102c17](https://www.bricklink.com/v2/catalog/catalogitem.page?P=5102c17&idColor=11) | Technic Pneumatic Tube 17L | Black
 ![5102c21](https://img.bricklink.com/P/11/5102c21.jpg)| 8 | [5102c21](https://www.bricklink.com/v2/catalog/catalogitem.page?P=5102c21&idColor=11) | Technic Pneumatic Tube 21L | Black
@@ -920,7 +922,7 @@ Picture | Qty | Code | Description | Color |
 ### Bag 6A
 
 * Code: Unnamed
-* QRCode: ?
+* QRCode: 6201721
 * Size: cm 17w x 14h
 
 Picture | Qty | Code | Description | Color |
