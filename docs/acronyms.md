@@ -8,16 +8,18 @@
 * **CPU**: Central Processing Unit
 * **DNS**: Domain Name System. See <https://en.wikipedia.org/wiki/Domain_Name_System>
 * **FPU**: Floating Point Unit
+* **HTTP**: Hypertext Transfer Protocol. See <https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol>
+* **HW**: Hardware
 * **JS**: JavaScript. See <https://www.javascript.com/>
 * **JSON**: JavaScript Object Notation. See <https://www.json.org/>
 * **JWT**: JSON Web Tokens. See <https://jwt.io/>
-* **HTTP**: Hypertext Transfer Protocol. See <https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol>
-* **HW**: Hardware
 * **K3S**: Lightweight Kubernetes. See <https://k3s.io/>
 * **K8S**: Kubernetes. See <https://kubernetes.io/>
 * **LEGO&reg;**: See <https://www.lego.com/>
+* **LUG**: LEGO&reg; User Group
 * **MOC**: My Own Creation
 * **MQTT**: See <https://mqtt.org/>
+* **NN**: Neural Network
 * **OAK**: OpenCV AI Kit
 * **PDF**: Portable Document Format. See <https://en.wikipedia.org/wiki/PDF>
 * **SSH**: Secure Shell Protocol. See <https://en.wikipedia.org/wiki/Secure_Shell>
