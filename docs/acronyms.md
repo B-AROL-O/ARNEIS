@@ -5,6 +5,7 @@
 * **B-AROL-O**: See <https://github.com/B-AROL-O/>
 * **BLE**: Bluetooth Low Energy. See <https://en.wikipedia.org/wiki/Bluetooth_Low_Energy>
 * **BT**: Bluetooth&reg;. See <https://www.bluetooth.com/>
+* **CLI**: Command-Line Interface
 * **CPU**: Central Processing Unit
 * **DNS**: Domain Name System. See <https://en.wikipedia.org/wiki/Domain_Name_System>
 * **FPU**: Floating Point Unit
@@ -15,6 +16,7 @@
 * **JWT**: JSON Web Tokens. See <https://jwt.io/>
 * **K3S**: Lightweight Kubernetes. See <https://k3s.io/>
 * **K8S**: Kubernetes. See <https://kubernetes.io/>
+* **K9S**: See <https://k9scli.io/>
 * **LEGO&reg;**: See <https://www.lego.com/>
 * **LUG**: LEGO&reg; User Group
 * **MOC**: My Own Creation
@@ -25,6 +27,7 @@
 * **SSH**: Secure Shell Protocol. See <https://en.wikipedia.org/wiki/Secure_Shell>
 * **SW**: Software
 * **UML**: Unified Modeling Language. See <http://uml.org/>
+* **UI**: User Interface
 * **USB**: Universal Serial Bus. See <https://en.wikipedia.org/wiki/USB>
 
 <!-- EOF -->

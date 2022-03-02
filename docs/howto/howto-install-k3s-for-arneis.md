@@ -48,7 +48,7 @@ The main host (previously called "master" in Kubernetes literature) will act as 
   - TODO
   - Tested on rpi4gm35 (Raspberry Pi 4B - See [documentation](howto-prepare-rpi4b-for-arneis.md))
 
-## Step-by-step instructions
+## Preparing the cluster
 
 ### Install k3s on the main node
 
@@ -129,9 +129,9 @@ kube-system   job.batch/helm-install-traefik       1/1           39s        2m58
 root@arneis-vm01:~#
 ```
 
-### Running a sample Pod on the cluster
+### Run a sample Pod on the cluster
 
-TODO
+The purpose of this section is to verify that the cluster has been installed and is operating correctly.
 
 Logged in as `root@arneis-vm01`, create the following file `test.yaml`
 
@@ -438,5 +438,44 @@ TODO: Notice that versions do conflict
 * the Agent Node is attempting to install k3s v1.22.6+k3s1
 
 TODO
+
+## Controlling the cluster using k9s
+
+Quoting <https://k9scli.io/>
+
+> [K9s](https://k9scli.io/) is a terminal based UI to interact with your Kubernetes clusters.
+> The aim of this project is to make it easier to navigate, observe and manage your deployed applications in the wild.
+> K9s continually watches Kubernetes for changes and offers subsequent commands to interact with your observed resources.
+
+Compared to the official `kubectl` command-line tool, `k9s` is a much easier way for monitoring and controlling your Kubernetes cluster.
+
+### Install k9s
+
+The page at <https://k9scli.io/topics/install/> provides instructions for installing k9s on the most popular Operating Systems.
+
+For instance, you can install k9s on the main node of your cluster by executing the following command when logged in as `root@arneis-vm01`:
+
+```bash
+curl -sS https://webinstall.dev/k9s | bash
+```
+
+then follow the instructions that will be shown on the terminal.
+For instance, you may be asked to append the `$HOME/.local/bin` directory to your `PATH` environment variable.
+
+For further details on `webi`, please check <https://webinstall.dev/> or its source repository on GitHub: <https://github.com/webinstall/webi-installers>
+
+### Using k9s
+
+Logged in as `root@arneis-vm` you can launch k9s by providing the `--kubeconfig` option to specify the `k3s.yaml` file:
+
+```bash
+k9s --kubeconfig /etc/rancher/k3s/k3s.yaml
+```
+
+Result:
+
+![Screenshot](https://user-images.githubusercontent.com/75182/156438924-cc54a80b-19b2-4300-8b68-4a32083e4759.png)
+
+For further details about what you can do using the k9s command-line interface, the <https://k9scli.io/topics/commands/> page provides a comprehensive list of the available CLI arguments and key bindings.
 
 <!-- EOF -->
