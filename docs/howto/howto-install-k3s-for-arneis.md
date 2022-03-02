@@ -457,6 +457,11 @@ For instance, you can install k9s on the main node of your cluster by executing 
 curl -sS https://webinstall.dev/k9s | bash
 ```
 
+then follow the instructions that will be shown on the terminal.
+For instance, you may be asked to append the `$HOME/.local/bin` directory to your `PATH` environment variable.
+
+For further details on `webi`, please check <https://webinstall.dev/> or its source repository on GitHub: <https://github.com/webinstall/webi-installers>
+
 ### Using k9s
 
 Logged in as `root@arneis-vm` you can launch k9s by providing the `--kubeconfig` option to specify the `k3s.yaml` file:
