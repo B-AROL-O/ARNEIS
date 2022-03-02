@@ -439,4 +439,12 @@ TODO: Notice that versions do conflict
 
 TODO
 
+## Install k9s
+
+```bash
+TODO
+```
+
+TODO:Screenshot
+
 <!-- EOF -->
