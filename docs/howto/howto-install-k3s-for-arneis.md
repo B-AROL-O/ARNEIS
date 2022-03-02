@@ -129,9 +129,9 @@ kube-system   job.batch/helm-install-traefik       1/1           39s        2m58
 root@arneis-vm01:~#
 ```
 
-### Running a sample Pod on the cluster
+### Run a sample Pod on the cluster
 
-TODO
+The purpose of this section is to verify that the cluster has been installed and is operating correctly.
 
 Logged in as `root@arneis-vm01`, create the following file `test.yaml`
 
