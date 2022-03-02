@@ -19,7 +19,7 @@
 * **LUG**: LEGO&reg; User Group
 * **MOC**: My Own Creation
 * **MQTT**: See <https://mqtt.org/>
-* **NN**: Neural Network 
+* **NN**: Neural Network
 * **OAK**: OpenCV AI Kit
 * **PDF**: Portable Document Format. See <https://en.wikipedia.org/wiki/PDF>
 * **SSH**: Secure Shell Protocol. See <https://en.wikipedia.org/wiki/Secure_Shell>
