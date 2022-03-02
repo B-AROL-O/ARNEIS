@@ -48,7 +48,7 @@ The main host (previously called "master" in Kubernetes literature) will act as 
   - TODO
   - Tested on rpi4gm35 (Raspberry Pi 4B - See [documentation](howto-prepare-rpi4b-for-arneis.md))
 
-## Step-by-step instructions
+## Preparing the cluster
 
 ### Install k3s on the main node
 
@@ -439,7 +439,7 @@ TODO: Notice that versions do conflict
 
 TODO
 
-## Control your k3s cluster using k9s
+## Controlling the cluster using k9s
 
 [K9s](https://k9scli.io/) is a terminal based UI to interact with your Kubernetes clusters.
 The aim of this project is to make it easier to navigate, observe and manage your deployed applications in the wild.
@@ -447,11 +447,11 @@ K9s continually watches Kubernetes for changes and offers subsequent commands to
 
 Compared to the official `kubectl` command-line tool, `k9s` is a much easier way for monitoring and controlling your Kubernetes cluster.
 
-## Installing k9s
+### Install k9s
 
 The page at <https://k9scli.io/topics/install/> provides instructions for installing k9s on the most popular Operating Systems.
 
-For instance, you can install k9s on the master node of the cluster typing the following command when logged in as `root@arneis-vm01`:
+For instance, you can install k9s on the main node of your cluster by executing the following command when logged in as `root@arneis-vm01`:
 
 ```bash
 curl -sS https://webinstall.dev/k9s | bash
@@ -469,6 +469,6 @@ Result:
 
 ![Screenshot](https://user-images.githubusercontent.com/75182/156438924-cc54a80b-19b2-4300-8b68-4a32083e4759.png)
 
-The <https://k9scli.io/topics/commands/> page provides a comprehensive list of the available CLI arguments and key bindings.
+For further details about what you can do using the k9s command-line interface, the <https://k9scli.io/topics/commands/> page provides a comprehensive list of the available CLI arguments and key bindings.
 
 <!-- EOF -->
