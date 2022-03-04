@@ -56,6 +56,7 @@
 ## Python and Machine Learning
 
 * Book: [Advanced Deep Learning with Python](https://www.packtpub.com/product/advanced-deep-learning-with-python/9781789956177) by Ivan Vasilev. Packt Publishing, December 2019
+* Free course: [Intro to Machine Learning using Microsoft Azure](https://www.udacity.com/course/introduction-to-machine-learning-using-microsoft-azure--ud00333) by Udacity in collaboration with Microsoft Azure
 * Book: [Learn Python Programming - Third Edition](https://www.packtpub.com/product/learn-python-programming-third-edition/9781801815093) by Fabrizio Romano, Heinrich Kruger. Packt Publishing, October 2021
 * Book: [Mobile Deep Learning with TensorFlow Lite, ML Kit and Flutter](https://www.packtpub.com/product/mobile-deep-learning-with-tensorflow-lite-ml-kit-and-flutter/9781789611212) by Anubhav Singh, Rimjhim Bhadani. Packt Publishing, April 2020
 * Book: [Practical Python Programming for IoT](https://www.packtpub.com/product/practical-python-programming-for-iot/9781838982461) by Gary Smart. Packt Publishing, November 2020
