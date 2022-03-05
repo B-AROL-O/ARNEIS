@@ -1,9 +1,9 @@
-# LEGO&reg; Partlists CSV to MD converter
+# LEGO&reg; Partlists CSV to Markdown converter
 
 This tool is used to create a Markdown part list from a BOM (Bill Of Materials) as
 exported to CSV file from [Stud.IO CAD](https://www.bricklink.com/v3/studio/download.page).
 
-The tool is written in a Python [Jupyther Notebook](https://jupyter.org) and can be run directly inside [Visual Studio Code](https://code.visualstudio.com).
+The tool is written in a Python [Jupyter Notebook](https://jupyter.org) and can be run directly inside [Visual Studio Code](https://code.visualstudio.com).
 
 ## Python environment
 Obviously you need to have `python3` installed on your system. In case you haven't it you can follow instructions from [python.org](https://www.python.org) or any tutorial you can find in internet.
