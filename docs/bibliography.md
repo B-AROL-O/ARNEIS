@@ -30,6 +30,8 @@
 * [LEGO&reg; Powered Up Connector](https://www.biasedlogic.com/index.php/lego-powered-up-connector/) - Marek's microsite, 2022-09-26
 * [LEGO&reg; Set 42100 (Liebherr R 9800 Excavator)](https://arneis.readthedocs.io/en/latest/lego-set-42100) includes 2x [LEGO&reg; Technics Bluetooth Hub](https://www.bricklink.com/v2/catalog/catalogitem.page?P=bb0961c01#T=C) (LEGO&reg; Part bb0961c01).
 * [Powered Up - A tear down...](https://www.eurobricks.com/forum/index.php?/forums/topic/162288-powered-up-a-tear-down/) - Eurobricks Forum, 2018-06-07
+* [Programming the Lego NXT using Mathematica with Math4NXT](http://web5.uottawa.ca/www5/dcousineau/home/Others/Math4NXT/index.html) by Denis Cousineau
+* [RWTH - Mindstorms EV3 Toolbox for MATLAB](https://git.rwth-aachen.de/mindstorms/ev3-toolbox-matlab): This toolbox was designed to simplify controlling LEGO MINDSTORMS EV3 robots live using MATLAB.
 * [Smart Robotics with LEGO MINDSTORMS Robot Inventor](https://www.packtpub.com/product/smart-robotics-with-lego-mindstorms-robot-inventor/9781800568402) by Aaron Maurer. Packt Publishing, May 2021
 
 ### Controlling LEGO via Bluetooth
@@ -54,7 +56,9 @@
 ## Python and Machine Learning
 
 * Book: [Advanced Deep Learning with Python](https://www.packtpub.com/product/advanced-deep-learning-with-python/9781789956177) by Ivan Vasilev. Packt Publishing, December 2019
+* Free course: [Intro to Machine Learning using Microsoft Azure](https://www.udacity.com/course/introduction-to-machine-learning-using-microsoft-azure--ud00333) by Udacity in collaboration with Microsoft Azure
 * Book: [Learn Python Programming - Third Edition](https://www.packtpub.com/product/learn-python-programming-third-edition/9781801815093) by Fabrizio Romano, Heinrich Kruger. Packt Publishing, October 2021
+* Tutorial: [MicroPython: Program ESP32/ESP8266 using Mu Editor](https://randomnerdtutorials.com/micropython-program-esp32-esp8266-mu-editor/) by Random Nerd Tutorials
 * Book: [Mobile Deep Learning with TensorFlow Lite, ML Kit and Flutter](https://www.packtpub.com/product/mobile-deep-learning-with-tensorflow-lite-ml-kit-and-flutter/9781789611212) by Anubhav Singh, Rimjhim Bhadani. Packt Publishing, April 2020
 * Book: [Practical Python Programming for IoT](https://www.packtpub.com/product/practical-python-programming-for-iot/9781838982461) by Gary Smart. Packt Publishing, November 2020
 * Book: [The Machine Learning Solutions Architect Handbook](https://www.packtpub.com/product/the-machine-learning-solutions-architect-handbook/9781801072168) by David Ping. Packt Publishing, January 2022
