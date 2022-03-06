@@ -41,7 +41,7 @@
   - GitHub repository: <https://virantha.github.io/bricknil>
   - Discussion on Eurobricks.com: <https://www.eurobricks.com/forum/index.php?/forums/topic/170945-bricknil-a-python-async-library-for-poweredupboost/>
 * [Controlling the Lego Technics Hub (Hub 2) via Bluetooth (btle) using a Raspberry Pi 4B](https://dietrichchristopeit.github.io/lego-pi-docs/#controlling-the-lego-technics-hub-hub-2-via-bluetooth-btle-using-a-rasperry-pi-4b)
-* Article: [How to Set Up Bluetooth on the Raspberry Pi for a LEGO@reg; Spike](https://medium.com/jj-innovative-results/how-to-set-up-bluetooth-on-the-raspberry-pi-for-a-lego-spike-61b137f98673) - Medium.com
+* Article: [How to Set Up Bluetooth on the Raspberry Pi for a LEGO@reg; Spike](https://medium.com/jj-innovative-results/how-to-set-up-bluetooth-on-the-raspberry-pi-for-a-lego-spike-61b137f98673) - Jason Jurotich on Medium.com, 2020-05-23
 * [Lego Boost Roboter mit Python steuern](https://www.tec.reutlingen-university.de/fileadmin/user_upload/Fakultaet_TEC/LegoBoostPython_V3_180618.pdf) - Reutlingen University (language: German; format: PDF, 21 pages)
 * **legoBTLE4PI**: A school project that shows how to control a Lego Jeep with Bluetooth on the Raspberrypi 4B.
   - GitHub repository: <https://github.com/DietrichChristopeit/legoBTLE4PI>
