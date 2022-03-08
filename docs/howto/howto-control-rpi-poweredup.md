@@ -25,15 +25,25 @@ Install the "LEGO&reg; POWERED UP" app from
 
 After launching the app the user can choose an official set.
 
-Additionally, by selecting the "Create" mode, the app can be used to develop a custom HMI to control original constructions and MOCs.
+Additionally, the app has a "Create" mode which can be used to develop a custom HMI to control original constructions and MOCs.
+
+After selecting the "Create" mode, you must provide a name for your project, then choose a project type between:
+
+- Controller
+- Coding
+
+After tapping "Controller" you will be asked to choose a them, then you will be able to place buttons and other widgets on your own controller
 
 TODO
+
+LEGO Powered Up basic tutorials: <https://www.youtube.com/watch?v=MIpcyS4xzsw>
 
 ## Using the "LEGO&reg; TECHNIC&reg; CONTROL+" App
 
 This app provides an out-of-the box experience for official LEGO sets, most notably the [LEGO Set 42100 (Leibherr R 9800 Excavator)](https://arneis.readthedocs.io/en/latest/lego-set-42100/README.html#), which include LEGO Powered Up Bluetooth Hubs.
 
-**NOTE**: This app is very intuitive and user-friendly, although it is aimed only at controlling official designs by LEGO. For much higher flexibility we recommend other options, such as the "LEGO&reg; Powered Up" App described in the previous chapter.
+**NOTE**: This app is very intuitive and user-friendly, although its goal is only to act as a remote control for official LEGO designs.
+For much higher flexibility we recommend other options, such as the "LEGO&reg; Powered Up" App described in the previous chapter.
 
 Install the "LEGO&reg; TECHNIC&reg; CONTROL+" app from
 
