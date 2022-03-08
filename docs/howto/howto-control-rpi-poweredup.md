@@ -33,18 +33,20 @@ Install the "LEGO&reg; POWERED UP" app from
 
 After launching the app, you can choose an official set to play with.
 
-### Predefined controller modes
+### Create your own program
 
-On top of using the app for controlling the official LEGO sets, the "LEGO&reg; Powered Up" app has also a "Create" mode which can be used to develop a custom HMI to control original constructions and MOCs.
+Beyond using the app for controlling the official LEGO sets, the "LEGO&reg; Powered Up" app has also a "Create" mode which can be used to develop a custom HMI to control original constructions and MOCs.
 
 ### Create mode
 
 After selecting the "Create" mode, you must provide a name for your project, then select the aspect you want to configure:
 
-- Controller: Place your buttons and widgets to mimic a remote controller
-- Coding: Place your elements to control the flow of your program
+- Controller: Place buttons and widgets on the controller
+- Coding: Place the elements to control the flow of your program
 
 After tapping "Controller" you will be asked to choose a theme, then you will be able to place buttons and other widgets of your virtual controller.
+
+In the "Coding" view you may stack the elements to create the correct execution flow.
 
 TODO
 
