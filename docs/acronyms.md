@@ -17,6 +17,7 @@
 * **K3S**: Lightweight Kubernetes. See <https://k3s.io/>
 * **K8S**: Kubernetes. See <https://kubernetes.io/>
 * **K9S**: See <https://k9scli.io/>
+* **LED**: Light Emitting Diode
 * **LEGO&reg;**: See <https://www.lego.com/>
 * **LUG**: LEGO&reg; User Group
 * **MOC**: My Own Creation
