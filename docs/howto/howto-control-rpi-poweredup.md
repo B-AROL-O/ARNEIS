@@ -16,24 +16,47 @@ The following chapters of this document examine the possible options which may b
 
 ## Using the "LEGO&reg; Powered Up" App
 
+This app may be used to control official LEGO sets based on Powered Up hubs using a mobile device such as a smartphone or a tablet.
+
+Install the "LEGO&reg; POWERED UP" app from
+
+* Google Play Store: <https://play.google.com/store/apps/details?id=com.lego.common.poweredup>
+* Apple App Store: <https://apps.apple.com/it/app/lego-powered-up/id1367846574>
+
+After launching the app the user can choose an official set.
+
+Additionally, by selecting the "Create" mode, the app can be used to develop a custom HMI to control original constructions and MOCs.
+
 TODO
 
-## Using the "LEGO&reg; TECHNIC&trade; CONTROL+" App
+## Using the "LEGO&reg; TECHNIC&reg; CONTROL+" App
 
-Install the "LEGO&reg; TECHNIC&trade; CONTROL+" app from
+This app provides an out-of-the box experience for official LEGO sets, most notably the [LEGO Set 42100 (Leibherr R 9800 Excavator)](https://arneis.readthedocs.io/en/latest/lego-set-42100/README.html#), which include LEGO Powered Up Bluetooth Hubs.
+
+**NOTE**: This app is very intuitive and user-friendly, although it is aimed only at controlling official designs by LEGO. For much higher flexibility we recommend other options, such as the "LEGO&reg; Powered Up" App described in the previous chapter.
+
+Install the "LEGO&reg; TECHNIC&reg; CONTROL+" app from
 
 * Google Play Store: <https://play.google.com/store/apps/details?id=com.lego.technic.controlplus>
-* Apple Store: TODO
+* Apple App Store: <https://apps.apple.com/us/app/lego-technic-control/id1465808291>
 
-Launch the app and select set "Liebherr 9800".
+Launch the app and select set "Liebherr R 9800".
 
 Connect 2x XL motor and 1x L motor to the Hub.
 
-Follow the instructions displayed by the app and update the firmware if requested.
+Follow the instructions displayed by the app to make sure that all the motors are wired to the correct port of the Hub.
 
-TODO
+The app will also check the version of the firmware on the Hub, and propose the update the firmware if needed.
+
+Repeat the steps for the second hub in the set.
+
+After all the checks are succesful, the app is ready and can be used to control the excavator and have hours of entertainment with the LEGO set.
 
 ## Using Pybricks
+
+Pybricks is Python coding for smart LEGO® hubs. Run MicroPython scripts directly on the hub, and get full control of your motors and sensors.
+
+Pybricks is used by students, teachers, and hobbyists all around the world. It’s free, open source, and supported by a community of robotics experts.
 
 ### Install the Pybricks firmware
 
