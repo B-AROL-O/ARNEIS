@@ -16,29 +16,39 @@ The following chapters of this document examine the possible options which may b
 
 ## Using the "LEGO&reg; Powered Up" App
 
-This app may be used to control official LEGO sets based on Powered Up hubs using a mobile device such as a smartphone or a tablet.
+This app may be used to control official LEGO sets based on Powered Up hubs using a mobile device such as a phone or a tablet.
+
+### Tutorials
+
+LEGO Powered Up basic tutorials: <https://www.youtube.com/watch?v=MIpcyS4xzsw>
+
+### Installing the app
 
 Install the "LEGO&reg; POWERED UP" app from
 
 * Google Play Store: <https://play.google.com/store/apps/details?id=com.lego.common.poweredup>
 * Apple App Store: <https://apps.apple.com/it/app/lego-powered-up/id1367846574>
 
-After launching the app the user can choose an official set.
+### Predefined controller modes
 
-Additionally, the app has a "Create" mode which can be used to develop a custom HMI to control original constructions and MOCs.
+After launching the app, you can choose an official set to play with.
 
-After selecting the "Create" mode, you must provide a name for your project, then choose a project type between:
+### Predefined controller modes
 
-- Controller
-- Coding
+On top of using the app for controlling the official LEGO sets, the "LEGO&reg; Powered Up" app has also a "Create" mode which can be used to develop a custom HMI to control original constructions and MOCs.
 
-After tapping "Controller" you will be asked to choose a them, then you will be able to place buttons and other widgets on your own controller
+### Create mode
+
+After selecting the "Create" mode, you must provide a name for your project, then select the aspect you want to configure:
+
+- Controller: Place your buttons and widgets to mimic a remote controller
+- Coding: Place your elements to control the flow of your program
+
+After tapping "Controller" you will be asked to choose a theme, then you will be able to place buttons and other widgets of your virtual controller.
 
 TODO
 
-LEGO Powered Up basic tutorials: <https://www.youtube.com/watch?v=MIpcyS4xzsw>
-
-## Using the "LEGO&reg; TECHNIC&reg; CONTROL+" App
+## Using the "LEGO&reg; Technic&reg; Control+" App
 
 This app provides an out-of-the box experience for official LEGO sets, most notably the [LEGO Set 42100 (Leibherr R 9800 Excavator)](https://arneis.readthedocs.io/en/latest/lego-set-42100/README.html#), which include LEGO Powered Up Bluetooth Hubs.
 
