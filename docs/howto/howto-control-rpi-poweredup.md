@@ -2,7 +2,21 @@
 
 ## Introduction
 
-This document explains how to install a use a Python script to control a LEGO Powered Up Hub through BLE.
+This document illustrates the available options to control a LEGO&reg; Powered Up Hub (LEGO Item No [bb0961c01](https://www.bricklink.com/v2/catalog/catalogitem.page?P=bb0961c01&idColor=86)).
+
+The LEGO Powered Up Hub is an embedded device based on a small microcontroller which can control up to four LEGO Powered Up devices such as motor, lights and sensors.
+In addition to a button and a multicolor programmable LED, the Hub is provided with a Bluetooth Low Energy interface which allows the Hub to act as a BLE Peripheral device and communicate with a BLE Central device such as a mobile phone, a laptop or even a Raspberry Pi.
+
+The LEGO Group has released a few official apps for the iOS&trade; and Android&trade; operating systems.
+Those apps can be downloaded and installed from the respective app stores (App Store for iOS devices, Google Play for Android devices) and provide a seamless user experience for controlling official LEGO sets and MOCs.
+
+Additionally, a few open source projects such as [Pybricks](https://pybricks.com/) have been developed to simplify programming of the LEGO Powered Up Hubs.
+
+The following chapters of this document examine the possible options which may be used to program and control the Hubs.
+
+## Using the "LEGO&reg; Powered Up" App
+
+TODO
 
 ## Using the "LEGO&reg; TECHNIC&trade; CONTROL+" App
 
