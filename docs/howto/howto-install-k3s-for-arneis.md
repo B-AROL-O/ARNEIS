@@ -921,7 +921,7 @@ root@arneis-vm02:~#
 
 <!-- (2022-03-09 14:11 CET) -->
 
-Logged in as `root@<server-node>` (in our case, `root@arneis-vm01`), check all the assigned IPv4 addresses, as well as the routing table: 
+Logged in as `root@<server-node>` (in our case, `root@arneis-vm01`), check all the assigned IPv4 addresses, as well as the routing table:
 
 ```bash
 ip addr | grep -w inet
@@ -959,7 +959,7 @@ root@arneis-vm01:~#
 
 <!-- (2022-03-09 14:33 CET) -->
 
-Logged in as `root@<agent-node>` (in our case, `root@arneis-vm02`), check all the assigned IPv4 addresses, as well as the routing table: 
+Logged in as `root@<agent-node>` (in our case, `root@arneis-vm02`), check all the assigned IPv4 addresses, as well as the routing table:
 
 ```bash
 ip addr | grep -w inet
