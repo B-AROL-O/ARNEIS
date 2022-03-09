@@ -85,7 +85,8 @@ Created symlink /etc/systemd/system/multi-user.target.wants/k3s.service → /etc
 root@arneis-vm01:~#
 ```
 
-Wait a few minutes for all the services to be installed, then type the following command to list all the nodes which have joined the cluster:
+The installation of the cluster might take a few minutes.
+Verify the progress listing all the nodes which have joined the cluster:
 
 ```bash
 kubectl get nodes
@@ -146,56 +147,10 @@ kube-system   job.batch/helm-install-traefik       1/1           41s        57s
 root@arneis-vm01:~#
 ```
 
-### Run a sample Pod on the cluster
+Make sure that all the pods in `NAMESPACE=kube-system` have `STATUS=Running`, with the exception of the pods whose name begins with  `helm-install-`.
+Those are one-time pods used for installing other Kubernetes resources; in this case, make sure they have `STATUS=Completed`.
 
-<!-- (2022-03-09 11:55 CET) -->
-
-The commands shown in this section have the purpose to verify that the cluster is ready to execute a simple workload.
-
-Logged in as `root@arneis-vm01`, create a file `test.yaml` with the following contents:
-
-```yaml
-apiVersion: v1
-kind: Pod
-metadata:
-  name: busybox-sleep
-spec:
-  containers:
-  - name: busybox
-    image: busybox
-    args:
-    - sleep
-    - "1000000"
-```
-
-then run `kubectl apply -f test.yaml`:
-
-```bash
-kubectl apply -f test.yaml
-```
-
-Result:
-
-```text
-root@arneis-vm01:~# kubectl apply -f test.yaml
-pod/busybox-sleep created
-root@arneis-vm01:~#
-```
-
-Now check that the new Pod is up and running
-
-```bash
-kubectl get pods
-```
-
-Result:
-
-```text
-root@arneis-vm01:~# kubectl get pods
-NAME            READY   STATUS    RESTARTS   AGE
-busybox-sleep   1/1     Running   0          59s
-root@arneis-vm01:~#
-```
+**TODO**: Why LoadBalancer `service/traefik` has `EXTERNAL-IP=10.0.0.4`??? This is a private (non-routable) IP Address!
 
 #### Check the TLS certificates installed on the K3s server
 
@@ -244,6 +199,57 @@ drwxr-xr-x 2 root root 4096 Mar  9 10:49 etcd
 -rw------- 1 root root  227 Mar  9 10:49 serving-kube-apiserver.key
 -rw------- 1 root root  227 Mar  9 10:49 serving-kubelet.key
 drwx------ 2 root root 4096 Mar  9 10:49 temporary-certs
+root@arneis-vm01:~#
+```
+
+### Run a sample Pod on the cluster
+
+<!-- (2022-03-09 11:55 CET) -->
+
+The commands shown in this section have the purpose to verify that the cluster is ready to execute a simple workload.
+
+Logged in as `root@arneis-vm01`, create a file `test.yaml` with the following contents:
+
+```yaml
+apiVersion: v1
+kind: Pod
+metadata:
+  name: busybox-sleep
+spec:
+  containers:
+  - name: busybox
+    image: busybox
+    args:
+    - sleep
+    - "1000000"
+```
+
+then run `kubectl apply -f test.yaml`:
+
+```bash
+kubectl apply -f test.yaml
+```
+
+Result:
+
+```text
+root@arneis-vm01:~# kubectl apply -f test.yaml
+pod/busybox-sleep created
+root@arneis-vm01:~#
+```
+
+Now check that the new Pod is up and running
+
+```bash
+kubectl get pods
+```
+
+Result:
+
+```text
+root@arneis-vm01:~# kubectl get pods
+NAME            READY   STATUS    RESTARTS   AGE
+busybox-sleep   1/1     Running   0          59s
 root@arneis-vm01:~#
 ```
 
