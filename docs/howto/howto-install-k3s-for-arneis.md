@@ -796,7 +796,7 @@ ip addr | grep -w inet
 
 Result:
 
-```
+```text
 root@arneis-vm01:~# ip addr | grep -w inet
     inet 127.0.0.1/8 scope host lo
     inet 10.0.0.4/24 brd 10.0.0.255 scope global eth0
@@ -813,6 +813,16 @@ TODO
 
 ```text
 TODO
+```
+
+However the public IP address of `arneis-vm01` is the correct one
+
+```text
+root@arneis-vm01:~# curl ifconfig.co
+20.124.132.35
+root@arneis-vm01:~# host arneis-vm01.gmacario.it
+arneis-vm01.gmacario.it has address 20.124.132.35
+root@arneis-vm01:~#
 ```
 
 TODO
