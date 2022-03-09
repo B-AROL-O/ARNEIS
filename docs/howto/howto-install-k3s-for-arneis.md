@@ -29,7 +29,7 @@ The main host (previously called "master" in Kubernetes literature) will act as 
 
 ### Host acting as K3s Server
 
-* Administrative login to a host (physical or virtual) with the following minimum requirements
+* Administrative login to a host (physical or virtual) with the following minimum requirements:
   - CPU: min 2 cores
   - RAM: min 16 GiB
   - Disk: min 8 GiB SSD
@@ -40,19 +40,22 @@ The main host (previously called "master" in Kubernetes literature) will act as 
     - 80/tcp (HTTP)
     - 443/tcp (HTTPS)
     - 6443/tcp,udp (Kubernetes API server)
-  - Tested on arneis-vm01 (Virtual Machine on Azure Cloud - See [documentation](howto-create-vm-on-azure.md))
+  - Tested on `arneis-vm01` (Virtual Machine on Azure Cloud - See [documentation](howto-create-vm-on-azure.md))
 
 ### Host(s) acting as Agent Node(s)
 
-* Administrative login to a host (physical or virtual) with the following minimum requirements
+* Administrative login to a host (physical or virtual) with the following minimum requirements:
   - TODO
-  - Tested on rpi4gm35 (Raspberry Pi 4B - See [documentation](howto-prepare-rpi4b-for-arneis.md))
+  - Tested on `arneis-vm02` (Virtual Machine on Azure Cloud - See [documentation](howto-create-vm-on-azure.md))
+  - Also tested on `rpi4gm35` (Raspberry Pi 4B - See [documentation](howto-prepare-rpi4b-for-arneis.md))
 
 ## Preparing the cluster
 
-### Install k3s on the main node
+### Install k3s on the main (Server+Agent) Node
 
-Logged in as root@arneis-vm01, install k3s
+<!-- (2022-03-09 11:49 CET) -->
+
+Logged in as `root@arneis-vm01`, install k3s
 
 ```bash
 curl -sfL https://get.k3s.io | sh -
@@ -63,9 +66,9 @@ Result:
 ```text
 root@arneis-vm01:~# curl -sfL https://get.k3s.io | sh -
 [INFO]  Finding release for channel stable
-[INFO]  Using v1.22.5+k3s1 as release
-[INFO]  Downloading hash https://github.com/k3s-io/k3s/releases/download/v1.22.5+k3s1/sha256sum-amd64.txt
-[INFO]  Downloading binary https://github.com/k3s-io/k3s/releases/download/v1.22.5+k3s1/k3s
+[INFO]  Using v1.22.7+k3s1 as release
+[INFO]  Downloading hash https://github.com/k3s-io/k3s/releases/download/v1.22.7+k3s1/sha256sum-amd64.txt
+[INFO]  Downloading binary https://github.com/k3s-io/k3s/releases/download/v1.22.7+k3s1/k3s
 [INFO]  Verifying binary download
 [INFO]  Installing k3s to /usr/local/bin/k3s
 [INFO]  Skipping installation of SELinux RPM
@@ -82,10 +85,24 @@ Created symlink /etc/systemd/system/multi-user.target.wants/k3s.service → /etc
 root@arneis-vm01:~#
 ```
 
-Verify that after a few minutes all the k3s services are up and running
+Wait a few minutes for all the services to be installed, then check that the cluster is alive with the following command:
 
 ```bash
 kubectl get nodes
+```
+
+Since the cluster has just been created only one node should be displayed as shown:
+
+```text
+root@arneis-vm01:~# kubectl get nodes
+NAME          STATUS   ROLES                  AGE   VERSION
+arneis-vm01   Ready    control-plane,master   48s   v1.22.7+k3s1
+root@arneis-vm01:~#
+```
+
+If the result is the same, type the following command to check that all the services are up and running:
+
+```bash
 kubectl get all --all-namespaces
 ```
 
@@ -93,45 +110,47 @@ Result
 
 ```text
 root@arneis-vm01:~# kubectl get all --all-namespaces
-NAMESPACE     NAME                                         READY   STATUS      RESTARTS   AGE
-kube-system   pod/coredns-85cb69466-7gm6x                  1/1     Running     0          2m49s
-kube-system   pod/metrics-server-9cf544f65-ztddz           1/1     Running     0          2m49s
-kube-system   pod/local-path-provisioner-64ffb68fd-g4cgw   1/1     Running     0          2m49s
-kube-system   pod/helm-install-traefik-crd--1-fgbjx        0/1     Completed   0          2m50s
-kube-system   pod/helm-install-traefik--1-w6c9h            0/1     Completed   2          2m50s
-kube-system   pod/svclb-traefik-bdvfw                      2/2     Running     0          2m11s
-kube-system   pod/traefik-786ff64748-9w7v6                 1/1     Running     0          2m12s
+NAMESPACE     NAME                                          READY   STATUS      RESTARTS   AGE
+kube-system   pod/local-path-provisioner-84bb864455-zlqqm   1/1     Running     0          48s
+kube-system   pod/coredns-96cc4f57d-dsv74                   1/1     Running     0          48s
+kube-system   pod/helm-install-traefik-crd--1-kldlb         0/1     Completed   0          48s
+kube-system   pod/metrics-server-ff9dbcb6c-2wh9z            1/1     Running     0          48s
+kube-system   pod/helm-install-traefik--1-ndkrh             0/1     Completed   2          48s
+kube-system   pod/svclb-traefik-b9tvv                       2/2     Running     0          8s
+kube-system   pod/traefik-56c4b88c4b-hxn24                  0/1     Running     0          8s
 
-NAMESPACE     NAME                     TYPE           CLUSTER-IP     EXTERNAL-IP   PORT(S)                      AGE
-default       service/kubernetes       ClusterIP      10.43.0.1      <none>        443/TCP                      3m4s
-kube-system   service/kube-dns         ClusterIP      10.43.0.10     <none>        53/UDP,53/TCP,9153/TCP       3m
-kube-system   service/metrics-server   ClusterIP      10.43.46.89    <none>        443/TCP                      2m59s
-kube-system   service/traefik          LoadBalancer   10.43.193.71   10.0.0.4      80:32593/TCP,443:30697/TCP   2m12s
+NAMESPACE     NAME                     TYPE           CLUSTER-IP      EXTERNAL-IP   PORT(S)                      AGE
+default       service/kubernetes       ClusterIP      10.43.0.1       <none>        443/TCP                      63s
+kube-system   service/kube-dns         ClusterIP      10.43.0.10      <none>        53/UDP,53/TCP,9153/TCP       60s
+kube-system   service/metrics-server   ClusterIP      10.43.137.232   <none>        443/TCP                      59s
+kube-system   service/traefik          LoadBalancer   10.43.115.89    10.0.0.4      80:30032/TCP,443:32150/TCP   8s
 
 NAMESPACE     NAME                           DESIRED   CURRENT   READY   UP-TO-DATE   AVAILABLE   NODE SELECTOR   AGE
-kube-system   daemonset.apps/svclb-traefik   1         1         1       1            1           <none>          2m11s
+kube-system   daemonset.apps/svclb-traefik   1         1         1       1            1           <none>          8s
 
 NAMESPACE     NAME                                     READY   UP-TO-DATE   AVAILABLE   AGE
-kube-system   deployment.apps/coredns                  1/1     1            1           3m
-kube-system   deployment.apps/metrics-server           1/1     1            1           3m
-kube-system   deployment.apps/local-path-provisioner   1/1     1            1           3m
-kube-system   deployment.apps/traefik                  1/1     1            1           2m12s
+kube-system   deployment.apps/local-path-provisioner   1/1     1            1           60s
+kube-system   deployment.apps/coredns                  1/1     1            1           60s
+kube-system   deployment.apps/metrics-server           1/1     1            1           59s
+kube-system   deployment.apps/traefik                  0/1     1            0           8s
 
-NAMESPACE     NAME                                               DESIRED   CURRENT   READY   AGE
-kube-system   replicaset.apps/coredns-85cb69466                  1         1         1       2m49s
-kube-system   replicaset.apps/metrics-server-9cf544f65           1         1         1       2m49s
-kube-system   replicaset.apps/local-path-provisioner-64ffb68fd   1         1         1       2m49s
-kube-system   replicaset.apps/traefik-786ff64748                 1         1         1       2m12s
+NAMESPACE     NAME                                                DESIRED   CURRENT   READY   AGE
+kube-system   replicaset.apps/local-path-provisioner-84bb864455   1         1         1       48s
+kube-system   replicaset.apps/coredns-96cc4f57d                   1         1         1       48s
+kube-system   replicaset.apps/metrics-server-ff9dbcb6c            1         1         1       48s
+kube-system   replicaset.apps/traefik-56c4b88c4b                  1         1         0       8s
 
 NAMESPACE     NAME                                 COMPLETIONS   DURATION   AGE
-kube-system   job.batch/helm-install-traefik-crd   1/1           23s        2m58s
-kube-system   job.batch/helm-install-traefik       1/1           39s        2m58s
+kube-system   job.batch/helm-install-traefik-crd   1/1           24s        57s
+kube-system   job.batch/helm-install-traefik       1/1           41s        57s
 root@arneis-vm01:~#
 ```
 
 ### Run a sample Pod on the cluster
 
-The purpose of this section is to verify that the cluster has been installed and is operating correctly.
+<!-- (2022-03-09 11:55 CET) -->
+
+The commands shown in this section have the purpose to verify that the cluster is ready to execute a simple workload.
 
 Logged in as `root@arneis-vm01`, create the following file `test.yaml`
 
@@ -158,7 +177,24 @@ kubectl apply -f test.yaml
 Result:
 
 ```text
-TODO
+root@arneis-vm01:~# kubectl apply -f test.yaml
+pod/busybox-sleep created
+root@arneis-vm01:~#
+```
+
+Now check that the new Pod is up and running
+
+```bash
+kubectl get pods
+```
+
+Result:
+
+```text
+root@arneis-vm01:~# kubectl get pods
+NAME            READY   STATUS    RESTARTS   AGE
+busybox-sleep   1/1     Running   0          59s
+root@arneis-vm01:~#
 ```
 
 ### Verify accessibility of the k3s API server from the Agent Node
@@ -207,6 +243,8 @@ Once you passed the self-signed certificate warning, you should receive a 401 (U
 ### Install k3s on the Agent Node(s)
 
 Now that our k3s Server is up and running we are ready to attach additional Agent Node(s) to the cluster.
+
+TODO
 
 Let's first try attach host `hw0929` (Ubuntu 21.10)
 
