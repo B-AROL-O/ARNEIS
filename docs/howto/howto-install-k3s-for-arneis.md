@@ -379,9 +379,11 @@ root@arneis-vm02:~#
 
 **FIXME**: The command does not seem to complete successfully.
 
-#### Troubleshooting the agent install script
+### Troubleshooting the agent install script
 
 <!-- (2022-03-09 13:50 CET) -->
+
+#### Run the agent install script in verbose mode
 
 Let's retry adding the `-x` option to `sh`:
 
@@ -736,6 +738,70 @@ Created symlink /etc/systemd/system/multi-user.target.wants/k3s-agent.service �
 root@arneis-vm02:~#
 ```
 
+#### Check processes on the server node
+
+<!-- (2022-03-09 14:25 CET) -->
+
+Logged in as `root@<server-node>` (in our case, `root@arneis-vm01`), make sure there is one `k3s` process running:
+
+Check whether service `k3s.service` is running correctly
+
+```bash
+systemctl status k3s.service
+```
+
+Result:
+
+```text
+root@arneis-vm01:~# systemctl status k3s.service
+● k3s.service - Lightweight Kubernetes
+     Loaded: loaded (/etc/systemd/system/k3s.service; enabled; vendor preset: enabled)
+     Active: active (running) since Wed 2022-03-09 10:49:20 UTC; 2h 32min ago
+       Docs: https://k3s.io
+    Process: 1279 ExecStartPre=/bin/sh -xc ! /usr/bin/systemctl is-enabled --quiet nm-cloud-setup.service (code=exited, status=0/SUCCESS)
+    Process: 1281 ExecStartPre=/sbin/modprobe br_netfilter (code=exited, status=0/SUCCESS)
+    Process: 1283 ExecStartPre=/sbin/modprobe overlay (code=exited, status=0/SUCCESS)
+   Main PID: 1288 (k3s-server)
+      Tasks: 129
+     Memory: 1.5G
+     CGroup: /system.slice/k3s.service
+             ├─1288 /usr/local/bin/k3s server
+             ├─1344 containerd
+             ├─1927 /var/lib/rancher/k3s/data/31ff0fd447a47323a7c863dbb0a3cd452e12b45f1ec67dc55efa575503c2c3ac/bin/containerd-shim-runc-v2 -namespace k8s.io -id 2d3eb89ad0348830e1695cd39df2>
+             ├─1956 /pause
+             ├─2118 /var/lib/rancher/k3s/data/31ff0fd447a47323a7c863dbb0a3cd452e12b45f1ec67dc55efa575503c2c3ac/bin/containerd-shim-runc-v2 -namespace k8s.io -id d2d99e90d65b431b8b29ce1837f1>
+             ├─2140 /pause
+             ├─2163 /var/lib/rancher/k3s/data/31ff0fd447a47323a7c863dbb0a3cd452e12b45f1ec67dc55efa575503c2c3ac/bin/containerd-shim-runc-v2 -namespace k8s.io -id 6a589841e9e0dab8eb072ec10cd7>
+             ├─2185 /pause
+             ├─2310 local-path-provisioner start --config /etc/config/config.json
+             ├─2332 /metrics-server --cert-dir=/tmp --secure-port=4443 --kubelet-preferred-address-types=InternalIP,ExternalIP,Hostname --kubelet-use-node-status-port --metric-resolution=15s
+             ├─2386 /coredns -conf /etc/coredns/Corefile
+             ├─3375 /var/lib/rancher/k3s/data/31ff0fd447a47323a7c863dbb0a3cd452e12b45f1ec67dc55efa575503c2c3ac/bin/containerd-shim-runc-v2 -namespace k8s.io -id 80865e63f2f0a03c7ccc756c2357>
+             ├─3402 /pause
+             ├─3411 /var/lib/rancher/k3s/data/31ff0fd447a47323a7c863dbb0a3cd452e12b45f1ec67dc55efa575503c2c3ac/bin/containerd-shim-runc-v2 -namespace k8s.io -id 4d23dfe4c6359855af86763fae78>
+             ├─3439 /pause
+             ├─3613 /bin/sh /usr/bin/entry
+             ├─3656 /bin/sh /usr/bin/entry
+             ├─3749 traefik traefik --global.checknewversion --global.sendanonymoususage --entrypoints.metrics.address=:9100/tcp --entrypoints.traefik.address=:9000/tcp --entrypoints.web.ad>
+             ├─4088 /var/lib/rancher/k3s/data/31ff0fd447a47323a7c863dbb0a3cd452e12b45f1ec67dc55efa575503c2c3ac/bin/containerd-shim-runc-v2 -namespace k8s.io -id 1abb65ceb22a7d7f06870f851056>
+             ├─4110 /pause
+             └─4152 sleep 1000000
+
+Mar 09 10:50:27 arneis-vm01 k3s[1288]: E0309 10:50:27.285999    1288 remote_runtime.go:334] "ContainerStatus from runtime service failed" err="rpc error: code = NotFound desc = an error occ>
+Mar 09 10:50:27 arneis-vm01 k3s[1288]: I0309 10:50:27.286030    1288 kuberuntime_gc.go:361] "Error getting ContainerStatus for containerID" containerID="8038952f3c91bcd4ae626d9886bd95dd14ce>
+Mar 09 10:56:50 arneis-vm01 k3s[1288]: I0309 10:56:50.155034    1288 topology_manager.go:200] "Topology Admit Handler"
+Mar 09 10:56:50 arneis-vm01 k3s[1288]: I0309 10:56:50.200279    1288 reconciler.go:225] "operationExecutor.VerifyControllerAttachedVolume started for volume \"kube-api-access-kq6v2\" (Uniqu>
+Mar 09 11:00:30 arneis-vm01 k3s[1288]: time="2022-03-09T11:00:30Z" level=info msg="certificate CN=k3s,O=k3s signed by CN=k3s-server-ca@1646822958: notBefore=2022-03-09 10:49:18 +0000 UTC no>
+Mar 09 11:00:30 arneis-vm01 k3s[1288]: time="2022-03-09T11:00:30Z" level=info msg="Updating TLS secret for k3s-serving (count: 10): map[listener.cattle.io/cn-10.0.0.4:10.0.0.4 listener.catt>
+Mar 09 11:00:30 arneis-vm01 k3s[1288]: time="2022-03-09T11:00:30Z" level=info msg="Active TLS secret k3s-serving (ver=855) (count 10): map[listener.cattle.io/cn-10.0.0.4:10.0.0.4 listener.c>
+Mar 09 11:00:30 arneis-vm01 k3s[1288]: time="2022-03-09T11:00:30Z" level=info msg="Updating TLS secret for k3s-serving (count: 10): map[listener.cattle.io/cn-10.0.0.4:10.0.0.4 listener.catt>
+Mar 09 12:47:28 arneis-vm01 k3s[1288]: time="2022-03-09T12:47:28Z" level=info msg="certificate CN=arneis-vm02 signed by CN=k3s-server-ca@1646822958: notBefore=2022-03-09 10:49:18 +0000 UTC >
+Mar 09 12:47:28 arneis-vm01 k3s[1288]: time="2022-03-09T12:47:28Z" level=info msg="certificate CN=system:node:arneis-vm02,O=system:nodes signed by CN=k3s-client-ca@1646822958: notBefore=202>
+root@arneis-vm01:~#
+```
+
+#### Check processes on the agent node
+
 <!-- (2022-03-09 14:05 CET) -->
 
 Logged in as `root@<agent-node>` (in our case, `root@arneis-vm02`), make sure there is one `k3s` process running:
@@ -757,6 +823,8 @@ Let's check whether service `k3s-agent.service` is running correctly
 ```bash
 systemctl status k3s-agent.service
 ```
+
+Result:
 
 ```text
 root@arneis-vm02:~# systemctl status k3s-agent.service
@@ -786,12 +854,15 @@ root@arneis-vm02:~#
 
 **TODO**: Why is the agent trying to connect to proxy via URL `wss://10.0.0.4:6443/v1-k3s/connect`???
 
+#### Check network configuration on the server node
+
 <!-- (2022-03-09 14:11 CET) -->
 
-Logged in as `root@<server-node>` (in our case, `root@arneis-vm01`), check the IPv4 addresses assigned to all the network interfaces
+Logged in as `root@<server-node>` (in our case, `root@arneis-vm01`), check all the assigned IPv4 addresses, as well as the routing table: 
 
 ```bash
 ip addr | grep -w inet
+ip route
 ```
 
 Result:
@@ -802,20 +873,16 @@ root@arneis-vm01:~# ip addr | grep -w inet
     inet 10.0.0.4/24 brd 10.0.0.255 scope global eth0
     inet 10.42.0.0/32 scope global flannel.1
     inet 10.42.0.1/24 brd 10.42.0.255 scope global cni0
+root@arneis-vm01:~# ip route
+default via 10.0.0.1 dev eth0 proto dhcp src 10.0.0.4 metric 100
+10.0.0.0/24 dev eth0 proto kernel scope link src 10.0.0.4
+10.42.0.0/24 dev cni0 proto kernel scope link src 10.42.0.1
+168.63.129.16 via 10.0.0.1 dev eth0 proto dhcp src 10.0.0.4 metric 100
+169.254.169.254 via 10.0.0.1 dev eth0 proto dhcp src 10.0.0.4 metric 100
 root@arneis-vm01:~#
 ```
 
-By the way, IPv4 address `10.0.0.4` is also TODO
-
-```bash
-TODO
-```
-
-```text
-TODO
-```
-
-However the public IP address of `arneis-vm01` is the correct one
+**NOTE**: IPv4 address `10.0.0.4` is from an internal (private) network, while the public IP address of `arneis-vm01` is the following:
 
 ```text
 root@arneis-vm01:~# curl ifconfig.co
@@ -825,7 +892,32 @@ arneis-vm01.gmacario.it has address 20.124.132.35
 root@arneis-vm01:~#
 ```
 
-TODO
+#### Check network configuration on the agent node
+
+<!-- (2022-03-09 14:33 CET) -->
+
+Logged in as `root@<agent-node>` (in our case, `root@arneis-vm02`), check all the assigned IPv4 addresses, as well as the routing table: 
+
+```bash
+ip addr | grep -w inet
+ip route
+```
+
+Result:
+
+```text
+root@arneis-vm02:~# ip addr | grep -w inet
+    inet 127.0.0.1/8 scope host lo
+    inet 10.2.0.4/24 brd 10.2.0.255 scope global eth0
+root@arneis-vm02:~# ip route
+default via 10.2.0.1 dev eth0 proto dhcp src 10.2.0.4 metric 100
+10.2.0.0/24 dev eth0 proto kernel scope link src 10.2.0.4
+168.63.129.16 via 10.2.0.1 dev eth0 proto dhcp src 10.2.0.4 metric 100
+169.254.169.254 via 10.2.0.1 dev eth0 proto dhcp src 10.2.0.4 metric 100
+root@arneis-vm02:~#
+```
+
+TODO TODO TODO
 
 #### Testing using server IP address rather than FQDN
 
