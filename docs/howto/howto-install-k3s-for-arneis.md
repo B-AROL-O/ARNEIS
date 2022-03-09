@@ -53,28 +53,31 @@ The main host (previously called "master" in Kubernetes literature) will act as 
 
 ### Install k3s on the main (Server+Agent) Node
 
-<!-- (2022-03-09 11:49 CET) -->
+<!-- (2022-03-09 16:16 CET) -->
 
 Logged in as `root@arneis-vm01`, install k3s
 
 ```bash
-curl -sfL https://get.k3s.io | sh -
+curl -sfL https://get.k3s.io | \
+    INSTALL_K3S_EXEC="--node-external-ip $(curl ifconfig.co)" sh -
 ```
 
 Result:
 
 ```text
-root@arneis-vm01:~# curl -sfL https://get.k3s.io | sh -
+root@arneis-vm01:~# curl -sfL https://get.k3s.io | \
+>     INSTALL_K3S_EXEC="--node-external-ip $(curl ifconfig.co)" sh -
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100    14  100    14    0     0    145      0 --:--:-- --:--:-- --:--:--   145
 [INFO]  Finding release for channel stable
 [INFO]  Using v1.22.7+k3s1 as release
 [INFO]  Downloading hash https://github.com/k3s-io/k3s/releases/download/v1.22.7+k3s1/sha256sum-amd64.txt
-[INFO]  Downloading binary https://github.com/k3s-io/k3s/releases/download/v1.22.7+k3s1/k3s
-[INFO]  Verifying binary download
-[INFO]  Installing k3s to /usr/local/bin/k3s
+[INFO]  Skipping binary downloaded, installed k3s matches hash
 [INFO]  Skipping installation of SELinux RPM
-[INFO]  Creating /usr/local/bin/kubectl symlink to k3s
-[INFO]  Creating /usr/local/bin/crictl symlink to k3s
-[INFO]  Creating /usr/local/bin/ctr symlink to k3s
+[INFO]  Skipping /usr/local/bin/kubectl symlink to k3s, already exists
+[INFO]  Skipping /usr/local/bin/crictl symlink to k3s, already exists
+[INFO]  Skipping /usr/local/bin/ctr symlink to k3s, already exists
 [INFO]  Creating killall script /usr/local/bin/k3s-killall.sh
 [INFO]  Creating uninstall script /usr/local/bin/k3s-uninstall.sh
 [INFO]  env: Creating environment file /etc/systemd/system/k3s.service.env
@@ -84,6 +87,11 @@ Created symlink /etc/systemd/system/multi-user.target.wants/k3s.service → /etc
 [INFO]  systemd: Starting k3s
 root@arneis-vm01:~#
 ```
+
+**NOTE**: The `--node-external-ip ...` option is required for some hosts such as Azure VMs.
+This option will make sure that the K3s API Server will advertise its public IP address.
+
+The page at <https://rancher.com/docs/k3s/latest/en/installation/install-options/server-config/> provides more detail about the `--node-external-ip value` option.
 
 The installation of the cluster might take a few minutes.
 Verify the progress listing all the nodes which have joined the cluster:
@@ -112,65 +120,48 @@ Result
 ```text
 root@arneis-vm01:~# kubectl get all --all-namespaces
 NAMESPACE     NAME                                          READY   STATUS      RESTARTS   AGE
-kube-system   pod/local-path-provisioner-84bb864455-zlqqm   1/1     Running     0          48s
-kube-system   pod/coredns-96cc4f57d-dsv74                   1/1     Running     0          48s
-kube-system   pod/helm-install-traefik-crd--1-kldlb         0/1     Completed   0          48s
-kube-system   pod/metrics-server-ff9dbcb6c-2wh9z            1/1     Running     0          48s
-kube-system   pod/helm-install-traefik--1-ndkrh             0/1     Completed   2          48s
-kube-system   pod/svclb-traefik-b9tvv                       2/2     Running     0          8s
-kube-system   pod/traefik-56c4b88c4b-hxn24                  0/1     Running     0          8s
+kube-system   pod/local-path-provisioner-84bb864455-zlqqm   1/1     Running     0          4h29m
+kube-system   pod/helm-install-traefik-crd--1-kldlb         0/1     Completed   0          4h29m
+kube-system   pod/helm-install-traefik--1-ndkrh             0/1     Completed   2          4h29m
+kube-system   pod/svclb-traefik-b9tvv                       2/2     Running     0          4h29m
+default       pod/busybox-sleep                             1/1     Running     0          4h22m
+kube-system   pod/metrics-server-ff9dbcb6c-2wh9z            1/1     Running     0          4h29m
+kube-system   pod/coredns-96cc4f57d-dsv74                   1/1     Running     0          4h29m
+kube-system   pod/traefik-56c4b88c4b-hxn24                  1/1     Running     0          4h29m
+kube-system   pod/svclb-traefik-zf9lj                       2/2     Running     0          61s
 
-NAMESPACE     NAME                     TYPE           CLUSTER-IP      EXTERNAL-IP   PORT(S)                      AGE
-default       service/kubernetes       ClusterIP      10.43.0.1       <none>        443/TCP                      63s
-kube-system   service/kube-dns         ClusterIP      10.43.0.10      <none>        53/UDP,53/TCP,9153/TCP       60s
-kube-system   service/metrics-server   ClusterIP      10.43.137.232   <none>        443/TCP                      59s
-kube-system   service/traefik          LoadBalancer   10.43.115.89    10.0.0.4      80:30032/TCP,443:32150/TCP   8s
+NAMESPACE     NAME                     TYPE           CLUSTER-IP      EXTERNAL-IP     PORT(S)                      AGE
+default       service/kubernetes       ClusterIP      10.43.0.1       <none>          443/TCP                      4h30m
+kube-system   service/kube-dns         ClusterIP      10.43.0.10      <none>          53/UDP,53/TCP,9153/TCP       4h30m
+kube-system   service/metrics-server   ClusterIP      10.43.137.232   <none>          443/TCP                      4h30m
+kube-system   service/traefik          LoadBalancer   10.43.115.89    20.124.132.35   80:30032/TCP,443:32150/TCP   4h29m
 
 NAMESPACE     NAME                           DESIRED   CURRENT   READY   UP-TO-DATE   AVAILABLE   NODE SELECTOR   AGE
-kube-system   daemonset.apps/svclb-traefik   1         1         1       1            1           <none>          8s
+kube-system   daemonset.apps/svclb-traefik   2         2         2       2            2           <none>          4h29m
 
 NAMESPACE     NAME                                     READY   UP-TO-DATE   AVAILABLE   AGE
-kube-system   deployment.apps/local-path-provisioner   1/1     1            1           60s
-kube-system   deployment.apps/coredns                  1/1     1            1           60s
-kube-system   deployment.apps/metrics-server           1/1     1            1           59s
-kube-system   deployment.apps/traefik                  0/1     1            0           8s
+kube-system   deployment.apps/local-path-provisioner   1/1     1            1           4h30m
+kube-system   deployment.apps/coredns                  1/1     1            1           4h30m
+kube-system   deployment.apps/metrics-server           1/1     1            1           4h30m
+kube-system   deployment.apps/traefik                  1/1     1            1           4h29m
 
 NAMESPACE     NAME                                                DESIRED   CURRENT   READY   AGE
-kube-system   replicaset.apps/local-path-provisioner-84bb864455   1         1         1       48s
-kube-system   replicaset.apps/coredns-96cc4f57d                   1         1         1       48s
-kube-system   replicaset.apps/metrics-server-ff9dbcb6c            1         1         1       48s
-kube-system   replicaset.apps/traefik-56c4b88c4b                  1         1         0       8s
+kube-system   replicaset.apps/local-path-provisioner-84bb864455   1         1         1       4h29m
+kube-system   replicaset.apps/coredns-96cc4f57d                   1         1         1       4h29m
+kube-system   replicaset.apps/metrics-server-ff9dbcb6c            1         1         1       4h29m
+kube-system   replicaset.apps/traefik-56c4b88c4b                  1         1         1       4h29m
 
 NAMESPACE     NAME                                 COMPLETIONS   DURATION   AGE
-kube-system   job.batch/helm-install-traefik-crd   1/1           24s        57s
-kube-system   job.batch/helm-install-traefik       1/1           41s        57s
+kube-system   job.batch/helm-install-traefik-crd   1/1           24s        4h30m
+kube-system   job.batch/helm-install-traefik       1/1           41s        4h30m
 root@arneis-vm01:~#
 ```
 
 Make sure that all the pods in `NAMESPACE=kube-system` have `STATUS=Running`, with the exception of the pods whose name begins with  `helm-install-`.
 Those are one-time pods used for installing other Kubernetes resources; in this case, make sure they have `STATUS=Completed`.
 
-**TODO**: Why LoadBalancer `service/traefik` has `EXTERNAL-IP=10.0.0.4`??? This is a private (non-routable) IP Address!
-
-Compare this to what happens on another cluster (here the main node runs on a Droplet on Digital Ocean)
-
-```text
-root@k3s-gmacario1:~# kubectl get svc --all-namespaces
-NAMESPACE          NAME                TYPE           CLUSTER-IP      EXTERNAL-IP                                  PORT(S)                      AGE
-default            kubernetes          ClusterIP      10.43.0.1       <none>                                       443/TCP                      207d
-kube-system        kube-dns            ClusterIP      10.43.0.10      <none>                                       53/UDP,53/TCP,9153/TCP       207d
-kube-system        metrics-server      ClusterIP      10.43.151.249   <none>                                       443/TCP                      207d
-spring-petclinic   api-gateway         NodePort       10.43.150.123   <none>                                       80:32001/TCP                 85d
-spring-petclinic   customers-service   ClusterIP      10.43.155.238   <none>                                       8080/TCP                     85d
-spring-petclinic   vets-service        ClusterIP      10.43.3.152     <none>                                       8080/TCP                     85d
-spring-petclinic   visits-service      ClusterIP      10.43.67.158    <none>                                       8080/TCP                     85d
-kube-system        traefik             LoadBalancer   10.43.105.109   192.168.64.220,192.168.69.34,68.183.75.239   80:32663/TCP,443:30465/TCP   207d
-root@k3s-gmacario1:~#
-```
-
-There is a similar issue here: <https://github.com/k3s-io/k3s/issues/2178>
-
-TODO: Check <https://rancher.com/docs/k3s/latest/en/installation/install-options/server-config/> for detail about `--node-external-ip value`.
+Please also verify that LoadBalancer `service/traefik` has a publicly accessible `EXTERNAL-IP` address, and not a private (non-routable) IP Address.
+Refer to the explanation about `--node-external-ip addr` option earlier in this document.
 
 TODO TODO TODO
 
