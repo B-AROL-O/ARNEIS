@@ -197,7 +197,9 @@ busybox-sleep   1/1     Running   0          59s
 root@arneis-vm01:~#
 ```
 
-### Verify accessibility of the k3s API server from the Agent Node
+### Verify accessibility of the K3s API server from the Agent Node
+
+<!-- (2022-03-09 12:00 CET) -->
 
 Logged in as `user@<agent-node>` try to access <https://master-node:6443/>
 
@@ -212,17 +214,17 @@ curl https://arneis-vm01.gmacario.it:6443/
 Result:
 
 ```text
-root@hw0929:~# curl https://arneis-vm01.gmacario.it:6443/
+root@arneis-vm02:~# curl https://arneis-vm01.gmacario.it:6443/
 curl: (60) SSL certificate problem: unable to get local issuer certificate
-More details here: https://curl.se/docs/sslcerts.html
+More details here: https://curl.haxx.se/docs/sslcerts.html
 
 curl failed to verify the legitimacy of the server and therefore could not
 establish a secure connection to it. To learn more about this situation and
 how to fix it, please visit the web page mentioned above.
-root@hw0929:~#
+root@arneis-vm02:~#
 ```
 
-TODO
+TODO: Figure out how to obtain and specify the TLS certificate used by the k3s server.
 
 #### Example 2 (using a browser)
 
