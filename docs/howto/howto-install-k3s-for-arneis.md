@@ -294,27 +294,27 @@ Once you passed the self-signed certificate warning, you should receive a 401 (U
 
 ### Install k3s on the Agent Node(s)
 
+<!-- (2022-03-09 13:40 CET) -->
+
 Now that our k3s Server is up and running we are ready to attach additional Agent Node(s) to the cluster.
 
-TODO
-
-Let's first try attach host `hw0929` (Ubuntu 21.10)
+Let's try adding host `arneis-vm02` (Ubuntu 21.10) as a K3s Agent Node:
 
 ```text
-gmacario@hw0929:~$ cat /etc/os-release 
-PRETTY_NAME="Ubuntu 21.10"
+root@arneis-vm02:~# cat /etc/os-release
 NAME="Ubuntu"
-VERSION_ID="21.10"
-VERSION="21.10 (Impish Indri)"
-VERSION_CODENAME=impish
+VERSION="20.04.4 LTS (Focal Fossa)"
 ID=ubuntu
 ID_LIKE=debian
+PRETTY_NAME="Ubuntu 20.04.4 LTS"
+VERSION_ID="20.04"
 HOME_URL="https://www.ubuntu.com/"
 SUPPORT_URL="https://help.ubuntu.com/"
 BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
 PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
-UBUNTU_CODENAME=impish
-gmacario@hw0929:~$
+VERSION_CODENAME=focal
+UBUNTU_CODENAME=focal
+root@arneis-vm02:~#
 ```
 
 #### Obtain the cluster node-token
@@ -327,55 +327,74 @@ Logged in as `root@arneis-vm01`, display the k3s node-token with the following c
 cat /var/lib/rancher/k3s/server/node-token
 ```
 
-Result (for security reasons the node-token has been partially anonymized)
+Result (for security reasons the node-token has partially been anonymized)
 
 ```text
 root@arneis-vm01:~# cat /var/lib/rancher/k3s/server/node-token
-K1009b40xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxd8e16a40::server:f807xxxxxxxxxxxxxxxxxxxxxxxx9f5f
+K1015exxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxf06408::server:f22587xxxxxxxxxxxxxxxxxxxxx8672c3
 root@arneis-vm01:~#
 ```
 
 #### Attach the Agent Node
 
-Logged in as `root@<agent-node>` (in our example, `root@hw0929`) type the following commands to install the required software on the node and connect it to the k3s Server:
+Logged in as `root@<agent-node>` (in our example, `root@arneis-vm02`) type the following commands to install the required software on the node and connect it to the k3s Server
+
+Make sure you replace the placeholders
+
+* `<myserver>` --> `arneis-vm01.gmacario.it`
+* `<mynodetoken>` --> (result of the command in the previous section)
+
 
 ```bash
-export K3S_URL=https://myserver:6443
-export K3S_TOKEN=mynodetoken
+export K3S_URL=https://<myserver>:6443
+export K3S_TOKEN=<mynodetoken>
 curl -sfL https://get.k3s.io | sh -
 ```
-
-replacing
-
-* `myserver` --> `arneis-vm01.gmacario.it`
-* `mynodetoken` --> (node-token obtained with the commands shown in the previous section)
 
 Result:
 
 ```text
-root@hw0929:~# curl -sfL https://get.k3s.io | sh -
+root@arneis-vm02:~# export K3S_URL=https://arneis-vm01.gmacario.it:6443
+root@arneis-vm02:~# export K3S_TOKEN=K1015exxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxf06408::server:f22587xxxxxxxxxxxxxxxxxxxx8672c3
+root@arneis-vm02:~# curl -sfL https://get.k3s.io | sh -
 [INFO]  Finding release for channel stable
-[INFO]  Using v1.22.6+k3s1 as release
-[INFO]  Downloading hash https://github.com/k3s-io/k3s/releases/download/v1.22.6+k3s1/sha256sum-amd64.txt
-root@hw0929:~#
+[INFO]  Using v1.22.7+k3s1 as release
+[INFO]  Downloading hash https://github.com/k3s-io/k3s/releases/download/v1.22.7+k3s1/sha256sum-amd64.txt
+[INFO]  Downloading binary https://github.com/k3s-io/k3s/releases/download/v1.22.7+k3s1/k3s
+[INFO]  Verifying binary download
+[INFO]  Installing k3s to /usr/local/bin/k3s
+[INFO]  Skipping installation of SELinux RPM
+[INFO]  Creating /usr/local/bin/kubectl symlink to k3s
+[INFO]  Creating /usr/local/bin/crictl symlink to k3s
+[INFO]  Creating /usr/local/bin/ctr symlink to k3s
+[INFO]  Creating killall script /usr/local/bin/k3s-killall.sh
+[INFO]  Creating uninstall script /usr/local/bin/k3s-agent-uninstall.sh
+[INFO]  env: Creating environment file /etc/systemd/system/k3s-agent.service.env
+[INFO]  systemd: Creating service file /etc/systemd/system/k3s-agent.service
+[INFO]  systemd: Enabling k3s-agent unit
+Created symlink /etc/systemd/system/multi-user.target.wants/k3s-agent.service → /etc/systemd/system/k3s-agent.service.
+[INFO]  systemd: Starting k3s-agent
+root@arneis-vm02:~#
 ```
 
-**TODO**: The command does not seem to complete successfully.
+**FIXME**: The command does not seem to complete successfully.
 
-#### Troubleshooting the script
+#### Troubleshooting the agent install script
+
+<!-- (2022-03-09 13:50 CET) -->
 
 Let's retry adding the `-x` option to `sh`:
 
 ```text
-root@hw0929:~# curl -sfL https://get.k3s.io | sh -x -
+root@arneis-vm02:~# curl -sfL https://get.k3s.io | sh -x -
 + set -e
 + set -o noglob
 + GITHUB_URL=https://github.com/k3s-io/k3s/releases
 + STORAGE_URL=https://storage.googleapis.com/k3s-ci-builds
 + DOWNLOADER=
-+ escape 
-+ printf %s 
++ escape
 + sed -e s/\([][!#$%&()*;<=>?\_`{|}]\)/\\\1/g;
++ printf %s
 + quote
 + eval set --
 + set --
@@ -386,7 +405,7 @@ root@hw0929:~# curl -sfL https://get.k3s.io | sh -x -
 + return
 + setup_env
 + [ -z https://arneis-vm01.gmacario.it:6443 ]
-+ [ -z K1009bxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx26d8e16a40::server:f807dxxxxxxxxxxxxxxx9f5f ]
++ [ -z K1015exxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxf06408::server:f22587xxxxxxxxxxxxxxxxxxxx8672c3 ]
 + CMD_K3S=agent
 + verify_k3s_url
 + quote_indent
@@ -395,8 +414,8 @@ root@hw0929:~# curl -sfL https://get.k3s.io | sh -x -
 + [ -n  ]
 + [ agent = server ]
 + SYSTEM_NAME=k3s-agent
-+ printf %s k3s-agent
-+ sed -e s/[][!#$%&()*;<=>?\_`{|}/[:space:]]/^/g;
++ printf %s k3s-agent+
+sed -e s/[][!#$%&()*;<=>?\_`{|}/[:space:]]/^/g;
 + valid_chars=k3s-agent
 + [ k3s-agent != k3s-agent ]
 + SUDO=sudo
@@ -419,10 +438,9 @@ root@hw0929:~# curl -sfL https://get.k3s.io | sh -x -
 + FILE_K3S_ENV=/etc/systemd/system/k3s-agent.service.env
 + get_installed_hashes
 + sha256sum /usr/local/bin/k3s /etc/systemd/system/k3s-agent.service /etc/systemd/system/k3s-agent.service.env
-+ true
-+ PRE_INSTALL_HASHES=sha256sum: /usr/local/bin/k3s: No such file or directory
-sha256sum: /etc/systemd/system/k3s-agent.service: No such file or directory
-sha256sum: /etc/systemd/system/k3s-agent.service.env: No such file or directory
++ PRE_INSTALL_HASHES=da1a566c6b3d470102ce431afdb921275ebe663659219562ac4d9854e5bbdf38  /usr/local/bin/k3s
+592ab27950afde56cde608c071201c498c70d1f031a18d41f4c40d48ffb91ccf  /etc/systemd/system/k3s-agent.service
+4ed99b900d46582af831a1858036cf2baf1205db18d6ac5391d35a75db4db0d8  /etc/systemd/system/k3s-agent.service.env
 + [  = true ]
 + INSTALL_K3S_CHANNEL_URL=https://update.k3s.io/v1-release/channels
 + INSTALL_K3S_CHANNEL=stable
@@ -438,14 +456,14 @@ sha256sum: /etc/systemd/system/k3s-agent.service.env: No such file or directory
 + SUFFIX=
 + verify_downloader curl
 + command -v curl
-+ [ -x /snap/bin/curl ]
++ [ -x /usr/bin/curl ]
 + DOWNLOADER=curl
 + return 0
 + setup_tmp
 + mktemp -d -t k3s-install.XXXXXXXXXX
-+ TMP_DIR=/tmp/k3s-install.05Pykak7Yf
-+ TMP_HASH=/tmp/k3s-install.05Pykak7Yf/k3s.hash
-+ TMP_BIN=/tmp/k3s-install.05Pykak7Yf/k3s.bin
++ TMP_DIR=/tmp/k3s-install.pGUb5wqYIH
++ TMP_HASH=/tmp/k3s-install.pGUb5wqYIH/k3s.hash
++ TMP_BIN=/tmp/k3s-install.pGUb5wqYIH/k3s.bin
 + trap cleanup INT EXIT
 + get_release_version
 + [ -n  ]
@@ -454,33 +472,275 @@ sha256sum: /etc/systemd/system/k3s-agent.service.env: No such file or directory
 + echo [INFO]  Finding release for channel stable
 [INFO]  Finding release for channel stable
 + version_url=https://update.k3s.io/v1-release/channels/stable
-+ curl -w %{url_effective} -L -s -S https://update.k3s.io/v1-release/channels/stable -o /dev/null
-+ sed -e s|.*/||
-+ VERSION_K3S=v1.22.6+k3s1
-+ info Using v1.22.6+k3s1 as release
-+ echo [INFO]  Using v1.22.6+k3s1 as release
-[INFO]  Using v1.22.6+k3s1 as release
++ curl -w %{url_effective}+ sed -e s|.*/||
+ -L -s -S https://update.k3s.io/v1-release/channels/stable -o /dev/null
++ VERSION_K3S=v1.22.7+k3s1
++ info Using v1.22.7+k3s1 as release
++ echo [INFO]  Using v1.22.7+k3s1 as release
+[INFO]  Using v1.22.7+k3s1 as release
 + download_hash
 + [ -n  ]
-+ HASH_URL=https://github.com/k3s-io/k3s/releases/download/v1.22.6+k3s1/sha256sum-amd64.txt
-+ info Downloading hash https://github.com/k3s-io/k3s/releases/download/v1.22.6+k3s1/sha256sum-amd64.txt
-+ echo [INFO]  Downloading hash https://github.com/k3s-io/k3s/releases/download/v1.22.6+k3s1/sha256sum-amd64.txt
-[INFO]  Downloading hash https://github.com/k3s-io/k3s/releases/download/v1.22.6+k3s1/sha256sum-amd64.txt
-+ download /tmp/k3s-install.05Pykak7Yf/k3s.hash https://github.com/k3s-io/k3s/releases/download/v1.22.6+k3s1/sha256sum-amd64.txt
++ HASH_URL=https://github.com/k3s-io/k3s/releases/download/v1.22.7+k3s1/sha256sum-amd64.txt
++ info Downloading hash https://github.com/k3s-io/k3s/releases/download/v1.22.7+k3s1/sha256sum-amd64.txt
++ echo [INFO]  Downloading hash https://github.com/k3s-io/k3s/releases/download/v1.22.7+k3s1/sha256sum-amd64.txt
+[INFO]  Downloading hash https://github.com/k3s-io/k3s/releases/download/v1.22.7+k3s1/sha256sum-amd64.txt
++ download /tmp/k3s-install.pGUb5wqYIH/k3s.hash https://github.com/k3s-io/k3s/releases/download/v1.22.7+k3s1/sha256sum-amd64.txt
 + [ 2 -eq 2 ]
-+ curl -o /tmp/k3s-install.05Pykak7Yf/k3s.hash -sfL https://github.com/k3s-io/k3s/releases/download/v1.22.6+k3s1/sha256sum-amd64.txt
++ curl -o /tmp/k3s-install.pGUb5wqYIH/k3s.hash -sfL https://github.com/k3s-io/k3s/releases/download/v1.22.7+k3s1/sha256sum-amd64.txt
++ [ 0 -eq 0 ]
++ grep  k3s$ /tmp/k3s-install.pGUb5wqYIH/k3s.hash
++ HASH_EXPECTED=da1a566c6b3d470102ce431afdb921275ebe663659219562ac4d9854e5bbdf38  k3s
++ HASH_EXPECTED=da1a566c6b3d470102ce431afdb921275ebe663659219562ac4d9854e5bbdf38
++ installed_hash_matches
++ [ -x /usr/local/bin/k3s ]
++ sha256sum /usr/local/bin/k3s
++ HASH_INSTALLED=da1a566c6b3d470102ce431afdb921275ebe663659219562ac4d9854e5bbdf38  /usr/local/bin/k3s
++ HASH_INSTALLED=da1a566c6b3d470102ce431afdb921275ebe663659219562ac4d9854e5bbdf38
++ [ da1a566c6b3d470102ce431afdb921275ebe663659219562ac4d9854e5bbdf38 = da1a566c6b3d470102ce431afdb921275ebe663659219562ac4d9854e5bbdf38 ]
++ return
++ info Skipping binary downloaded, installed k3s matches hash
++ echo [INFO]  Skipping binary downloaded, installed k3s matches hash
+[INFO]  Skipping binary downloaded, installed k3s matches hash
++ return
++ setup_selinux
++ rpm_channel=stable
++ rpm_site=rpm.rancher.io
++ [ stable = testing ]
++ [ -r /etc/os-release ]
++ . /etc/os-release
++ NAME=Ubuntu
++ VERSION=20.04.4 LTS (Focal Fossa)
++ ID=ubuntu
++ ID_LIKE=debian
++ PRETTY_NAME=Ubuntu 20.04.4 LTS
++ VERSION_ID=20.04
++ HOME_URL=https://www.ubuntu.com/
++ SUPPORT_URL=https://help.ubuntu.com/
++ BUG_REPORT_URL=https://bugs.launchpad.net/ubuntu/
++ PRIVACY_POLICY_URL=https://www.ubuntu.com/legal/terms-and-policies/privacy-policy
++ VERSION_CODENAME=focal
++ UBUNTU_CODENAME=focal
++ [ debian = suse ]
++ [ 20 = 7 ]
++ rpm_target=el8
++ rpm_site_infix=centos/8
++ package_installer=yum
++ [ yum = yum ]
++ [ -x /usr/bin/dnf ]
++ policy_hint=please install:
+    yum install -y container-selinux
+    yum install -y https://rpm.rancher.io/k3s/stable/common/centos/8/noarch/k3s-selinux-0.4-1.el8.noarch.rpm
+
++ [  = true ]
++ can_skip_download
++ [  != true ]
++ return 1
++ [ ! -d /usr/share/selinux ]
++ info Skipping installation of SELinux RPM
++ echo [INFO]  Skipping installation of SELinux RPM
+[INFO]  Skipping installation of SELinux RPM
++ policy_error=fatal
++ [  = true ]
++ [ debian = coreos ]
++ [  = coreos ]
++ chcon -u system_u -r object_r -t container_runtime_exec_t /usr/local/bin/k3s
++ grep ^\s*SELINUX=enforcing /etc/selinux/config
++ create_symlinks
++ [  = true ]
++ [  = skip ]
++ [ ! -e /usr/local/bin/kubectl ]
++ [  = force ]
++ info Skipping /usr/local/bin/kubectl symlink to k3s, already exists
++ echo [INFO]  Skipping /usr/local/bin/kubectl symlink to k3s, already exists
+[INFO]  Skipping /usr/local/bin/kubectl symlink to k3s, already exists
++ [ ! -e /usr/local/bin/crictl ]
++ [  = force ]
++ info Skipping /usr/local/bin/crictl symlink to k3s, already exists
++ echo [INFO]  Skipping /usr/local/bin/crictl symlink to k3s, already exists
+[INFO]  Skipping /usr/local/bin/crictl symlink to k3s, already exists
++ [ ! -e /usr/local/bin/ctr ]
++ [  = force ]
++ info Skipping /usr/local/bin/ctr symlink to k3s, already exists
++ echo [INFO]  Skipping /usr/local/bin/ctr symlink to k3s, already exists
+[INFO]  Skipping /usr/local/bin/ctr symlink to k3s, already exists
++ create_killall
++ [  = true ]
++ info Creating killall script /usr/local/bin/k3s-killall.sh
++ echo [INFO]  Creating killall script /usr/local/bin/k3s-killall.sh
+[INFO]  Creating killall script /usr/local/bin/k3s-killall.sh
++ tee /usr/local/bin/k3s-killall.sh
++ chmod 755 /usr/local/bin/k3s-killall.sh
++ chown root:root /usr/local/bin/k3s-killall.sh
++ create_uninstall
++ [  = true ]
++ info Creating uninstall script /usr/local/bin/k3s-agent-uninstall.sh
++ echo [INFO]  Creating uninstall script /usr/local/bin/k3s-agent-uninstall.sh
+[INFO]  Creating uninstall script /usr/local/bin/k3s-agent-uninstall.sh
++ tee /usr/local/bin/k3s-agent-uninstall.sh
++ chmod 755 /usr/local/bin/k3s-agent-uninstall.sh
++ chown root:root /usr/local/bin/k3s-agent-uninstall.sh
++ systemd_disable
++ systemctl disable k3s-agent
++ rm -f /etc/systemd/system/k3s-agent.service
++ rm -f /etc/systemd/system/k3s-agent.service.env
++ create_env_file
++ info env: Creating environment file /etc/systemd/system/k3s-agent.service.env
++ echo [INFO]  env: Creating environment file /etc/systemd/system/k3s-agent.service.env
+[INFO]  env: Creating environment file /etc/systemd/system/k3s-agent.service.env
++ touch /etc/systemd/system/k3s-agent.service.env
++ chmod 0600 /etc/systemd/system/k3s-agent.service.env
++ tee /etc/systemd/system/k3s-agent.service.env
++ grep -E ^(K3S|CONTAINERD)_
++ read x v
++ sh -c export
++ echo HOME='/root'
++ read x v
++ echo K3S_TOKEN='K1015exxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxf06408::server:f22587xxxxxxxxxxxxxxxxxxxx8672c3'
++ read x v
++ echo K3S_URL='https://arneis-vm01.gmacario.it:6443'
++ read x v
++ echo LANG='C.UTF-8'
++ read x v
++ echo LESSCLOSE='/usr/bin/lesspipe %s %s'
++ read x v
++ echo LESSOPEN='| /usr/bin/lesspipe %s'
++ read x v
++ echo LOGNAME='root'
++ read x v
++ echo LS_COLORS='rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
++ read x v
++ echo MAIL='/var/mail/root'
++ read x v
++ echo PATH='/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
++ read x v
++ echo PWD='/root'
++ read x v
++ echo SGX_AESM_ADDR='1'
++ read x v
++ echo SHELL='/bin/bash'
++ read x v
++ echo SHLVL='0'
++ read x v
++ echo SUDO_COMMAND='/bin/bash'
++ read x v
++ echo SUDO_GID='1000'
++ read x v
++ echo SUDO_UID='1000'
++ read x v
++ echo SUDO_USER='azureuser'
++ read x v
++ echo TERM='xterm'
++ read x v
++ echo USER='root'
++ read x v
++ echo XDG_DATA_DIRS='/usr/local/share:/usr/share:/var/lib/snapd/desktop'
++ read x v
++ echo _='/usr/bin/sh'
++ read x v
++ sh -c export
++ tee -a /etc/systemd/system/k3s-agent.service.env
++ grep -Ei ^(NO|HTTP|HTTPS)_PROXY
++ read x v
++ echo HOME='/root'
++ read x v
++ echo K3S_TOKEN='K1015exxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxf06408::server:f22587xxxxxxxxxxxxxxxxxxxx8672c3'
++ read x v
++ echo K3S_URL='https://arneis-vm01.gmacario.it:6443'
++ read x v
++ echo LANG='C.UTF-8'
++ read x v
++ echo LESSCLOSE='/usr/bin/lesspipe %s %s'
++ read x v
++ echo LESSOPEN='| /usr/bin/lesspipe %s'
++ read x v
++ echo LOGNAME='root'
++ read x v
++ echo LS_COLORS='rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
++ read x v
++ echo MAIL='/var/mail/root'
++ read x v
++ echo PATH='/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
++ read x v
++ echo PWD='/root'
++ read x v
++ echo SGX_AESM_ADDR='1'
++ read x v
++ echo SHELL='/bin/bash'
++ read x v
++ echo SHLVL='0'
++ read x v
++ echo SUDO_COMMAND='/bin/bash'
++ read x v
++ echo SUDO_GID='1000'
++ read x v
++ echo SUDO_UID='1000'
++ read x v
++ echo SUDO_USER='azureuser'
++ read x v
++ echo TERM='xterm'
++ read x v
++ echo USER='root'
++ read x v
++ echo XDG_DATA_DIRS='/usr/local/share:/usr/share:/var/lib/snapd/desktop'
++ read x v
++ echo _='/usr/bin/sh'
++ read x v
++ create_service_file
++ [ true = true ]
++ create_systemd_service_file
++ info systemd: Creating service file /etc/systemd/system/k3s-agent.service
++ echo [INFO]  systemd: Creating service file /etc/systemd/system/k3s-agent.service
+[INFO]  systemd: Creating service file /etc/systemd/system/k3s-agent.service
++ tee /etc/systemd/system/k3s-agent.service
++ [  = true ]
++ return 0
++ service_enable_and_start
++ [ -f /proc/cgroups ]
++ grep memory /proc/cgroups
++ read -r n n n enabled
++ echo 1
++ read -r n n n enabled
++ [ 1 -eq 0 ]
++ [  = true ]
++ [ true = true ]
++ systemd_enable
++ info systemd: Enabling k3s-agent unit
++ echo [INFO]  systemd: Enabling k3s-agent unit
+[INFO]  systemd: Enabling k3s-agent unit
++ systemctl enable /etc/systemd/system/k3s-agent.service
+Created symlink /etc/systemd/system/multi-user.target.wants/k3s-agent.service → /etc/systemd/system/k3s-agent.service.
++ systemctl daemon-reload
++ [  = true ]
++ [  = true ]
++ get_installed_hashes
++ sha256sum /usr/local/bin/k3s /etc/systemd/system/k3s-agent.service /etc/systemd/system/k3s-agent.service.env
++ POST_INSTALL_HASHES=da1a566c6b3d470102ce431afdb921275ebe663659219562ac4d9854e5bbdf38  /usr/local/bin/k3s
+592ab27950afde56cde608c071201c498c70d1f031a18d41f4c40d48ffb91ccf  /etc/systemd/system/k3s-agent.service
+4ed99b900d46582af831a1858036cf2baf1205db18d6ac5391d35a75db4db0d8  /etc/systemd/system/k3s-agent.service.env
++ [ da1a566c6b3d470102ce431afdb921275ebe663659219562ac4d9854e5bbdf38  /usr/local/bin/k3s
+592ab27950afde56cde608c071201c498c70d1f031a18d41f4c40d48ffb91ccf  /etc/systemd/system/k3s-agent.service
+4ed99b900d46582af831a1858036cf2baf1205db18d6ac5391d35a75db4db0d8  /etc/systemd/system/k3s-agent.service.env = da1a566c6b3d470102ce431afdb921275ebe663659219562ac4d9854e5bbdf38  /usr/local/bin/k3s
+592ab27950afde56cde608c071201c498c70d1f031a18d41f4c40d48ffb91ccf  /etc/systemd/system/k3s-agent.service
+4ed99b900d46582af831a1858036cf2baf1205db18d6ac5391d35a75db4db0d8  /etc/systemd/system/k3s-agent.service.env ]
++ [  != true ]
++ info No change detected so skipping service start
++ echo [INFO]  No change detected so skipping service start
+[INFO]  No change detected so skipping service start
++ return
 + cleanup
-+ code=23
++ code=0
 + set +e
 + trap - EXIT
-+ rm -rf /tmp/k3s-install.05Pykak7Yf
-+ exit 23
-root@hw0929:~#
++ rm -rf /tmp/k3s-install.pGUb5wqYIH
++ exit 0
+root@arneis-vm02:~#
 ```
 
 TODO: Maybe is this related to unknown certificate?
 
 #### Testing using server IP address rather than FQDN
+
+TODO
 
 <!-- (2022-02-02 12:00 CET) -->
 
