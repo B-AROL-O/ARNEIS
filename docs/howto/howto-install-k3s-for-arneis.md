@@ -29,7 +29,7 @@ The main host (previously called "master" in Kubernetes literature) will act as 
 
 ### Host acting as K3s Server
 
-* Administrative login to a host (physical or virtual) with the following minimum requirements:
+* Administrative login to a host (either physical or virtual) with the following minimum requirements:
   - CPU: min 2 cores
   - RAM: min 16 GiB
   - Disk: min 8 GiB SSD
@@ -44,7 +44,7 @@ The main host (previously called "master" in Kubernetes literature) will act as 
 
 ### Host(s) acting as Agent Node(s)
 
-* Administrative login to a host (physical or virtual) with the following minimum requirements:
+* Administrative login to a host (either physical or virtual) with the following minimum requirements:
   - TODO
   - Tested on `arneis-vm02` (Virtual Machine on Azure Cloud - See [documentation](howto-create-vm-on-azure.md))
   - Also tested on `rpi4gm35` (Raspberry Pi 4B - See [documentation](howto-prepare-rpi4b-for-arneis.md))
@@ -85,13 +85,13 @@ Created symlink /etc/systemd/system/multi-user.target.wants/k3s.service → /etc
 root@arneis-vm01:~#
 ```
 
-Wait a few minutes for all the services to be installed, then check that the cluster is alive with the following command:
+Wait a few minutes for all the services to be installed, then type the following command to list all the nodes which have joined the cluster:
 
 ```bash
 kubectl get nodes
 ```
 
-Since the cluster has just been created only one node should be displayed as shown:
+Since the cluster has just been created, only one node should be displayed as shown below:
 
 ```text
 root@arneis-vm01:~# kubectl get nodes
@@ -100,7 +100,7 @@ arneis-vm01   Ready    control-plane,master   48s   v1.22.7+k3s1
 root@arneis-vm01:~#
 ```
 
-If the result is the same, type the following command to check that all the services are up and running:
+If the result is the same, type the following command to very that all the K3S core services are up and running:
 
 ```bash
 kubectl get all --all-namespaces
@@ -152,7 +152,7 @@ root@arneis-vm01:~#
 
 The commands shown in this section have the purpose to verify that the cluster is ready to execute a simple workload.
 
-Logged in as `root@arneis-vm01`, create the following file `test.yaml`
+Logged in as `root@arneis-vm01`, create a file `test.yaml` with the following contents:
 
 ```yaml
 apiVersion: v1
@@ -247,13 +247,16 @@ drwx------ 2 root root 4096 Mar  9 10:49 temporary-certs
 root@arneis-vm01:~#
 ```
 
-### Verify accessibility of the K3s API server from the Agent Node
+### Verify that the K3s API server is accessible
 
 <!-- (2022-03-09 12:00 CET) -->
 
-Logged in as `root@<agent-node>` try to access <https://master-node:6443/>
+Logged in as `root@<agent-node>` try to access <https://main-node:6443/> to make sure that the network connectivity to the cluster API server is properly established and there are no blocking firewalls in between. You can verify this in several ways, for instance:
 
-#### Example 1 (using curl)
+1. Using curl
+2. Using a web browser
+
+#### Example 1: Using curl
 
 Command:
 
@@ -274,9 +277,69 @@ how to fix it, please visit the web page mentioned above.
 root@arneis-vm02:~#
 ```
 
-TODO: Figure out how to obtain and specify the TLS certificate used by the k3s server.
+**NOTE**: The error is expected since the server uses a self-signed certificate (available under `/var/lib/rancher/k3s/server/tls`) which should be known to both client and server.
 
-#### Example 2 (using a browser)
+As a workaround, try adding the `-k` option to `curl` (we also suggest to added `-v` option to increase verbosity):
+
+```text
+root@arneis-vm02:~# curl -v -k https://arneis-vm01.gmacario.it:6443/
+*   Trying 20.124.132.35:6443...
+* TCP_NODELAY set
+* Connected to arneis-vm01.gmacario.it (20.124.132.35) port 6443 (#0)
+* ALPN, offering h2
+* ALPN, offering http/1.1
+* successfully set certificate verify locations:
+*   CAfile: /etc/ssl/certs/ca-certificates.crt
+  CApath: /etc/ssl/certs
+* TLSv1.3 (OUT), TLS handshake, Client hello (1):
+* TLSv1.3 (IN), TLS handshake, Server hello (2):
+* TLSv1.3 (IN), TLS handshake, Encrypted Extensions (8):
+* TLSv1.3 (IN), TLS handshake, Request CERT (13):
+* TLSv1.3 (IN), TLS handshake, Certificate (11):
+* TLSv1.3 (IN), TLS handshake, CERT verify (15):
+* TLSv1.3 (IN), TLS handshake, Finished (20):
+* TLSv1.3 (OUT), TLS change cipher, Change cipher spec (1):
+* TLSv1.3 (OUT), TLS handshake, Certificate (11):
+* TLSv1.3 (OUT), TLS handshake, Finished (20):
+* SSL connection using TLSv1.3 / TLS_AES_256_GCM_SHA384
+* ALPN, server did not agree to a protocol
+* Server certificate:
+*  subject: O=k3s; CN=k3s
+*  start date: Mar  9 10:49:18 2022 GMT
+*  expire date: Mar  9 11:00:30 2023 GMT
+*  issuer: CN=k3s-server-ca@1646822958
+*  SSL certificate verify result: unable to get local issuer certificate (20), continuing anyway.
+> GET / HTTP/1.1
+> Host: arneis-vm01.gmacario.it:6443
+> User-Agent: curl/7.68.0
+> Accept: */*
+>
+* TLSv1.3 (IN), TLS handshake, Newsession Ticket (4):
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 401 Unauthorized
+< Audit-Id: 307e410b-4bdf-4161-9854-782851903eaf
+< Cache-Control: no-cache, private
+< Content-Type: application/json
+< Date: Wed, 09 Mar 2022 13:48:30 GMT
+< Content-Length: 165
+<
+{
+  "kind": "Status",
+  "apiVersion": "v1",
+  "metadata": {
+
+  },
+  "status": "Failure",
+  "message": "Unauthorized",
+  "reason": "Unauthorized",
+  "code": 401
+* Connection #0 to host arneis-vm01.gmacario.it left intact
+}root@arneis-vm02:~#
+```
+
+Again, HTTP error code 401 is expected since the K3s API server requires authentication.
+
+#### Example 2: Using a web browser
 
 If you access the K3S API URL from a browser, the following error (on Firefox, you should have a similar error message on other browsers) will let you know that the K3S Server has a self-signed TLS certificate:
 
