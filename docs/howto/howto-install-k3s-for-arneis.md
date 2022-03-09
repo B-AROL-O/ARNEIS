@@ -51,7 +51,7 @@ The main host (previously called "master" in Kubernetes literature) will act as 
 
 ## Preparing the cluster
 
-### Install k3s on the main (Server+Agent) Node
+### Install K3s on the main (Server+Agent) Node
 
 <!-- (2022-03-09 16:16 CET) -->
 
@@ -88,13 +88,20 @@ Created symlink /etc/systemd/system/multi-user.target.wants/k3s.service â†’ /etc
 root@arneis-vm01:~#
 ```
 
-**NOTE**: The `--node-external-ip ...` option is required for some hosts such as Azure VMs.
+**NOTE**: The `--node-external-ip addr` option is required for some hosts such as Azure VMs.
 This option will make sure that the K3s API Server will advertise its public IP address.
 
 The page at <https://rancher.com/docs/k3s/latest/en/installation/install-options/server-config/> provides more detail about the `--node-external-ip value` option.
 
+### Verify the installation of the main node
+
 The installation of the cluster might take a few minutes.
-Verify the progress listing all the nodes which have joined the cluster:
+
+#### Check the nodes in the cluster
+
+<!-- (2022-03-09 16:37 CET) -->
+
+Logged in as `root@<server-node>`, type the following command to list all the nodes which have joined the cluster:
 
 ```bash
 kubectl get nodes
@@ -109,7 +116,13 @@ arneis-vm01   Ready    control-plane,master   48s   v1.22.7+k3s1
 root@arneis-vm01:~#
 ```
 
-If the result is the same, type the following command to very that all the K3S core services are up and running:
+If the result is the same, proceed with the next check.
+
+#### Check the K3s core services
+
+<!-- (2022-03-09 16:40 CET) -->
+
+Logged in as `root@<server-node>`, type the following command to verify that all the K3S core services are up and running:
 
 ```bash
 kubectl get all --all-namespaces
@@ -163,11 +176,9 @@ Those are one-time pods used for installing other Kubernetes resources; in this 
 Please also verify that LoadBalancer `service/traefik` has a publicly accessible `EXTERNAL-IP` address, and not a private (non-routable) IP Address.
 Refer to the explanation about `--node-external-ip addr` option earlier in this document.
 
-TODO TODO TODO
-
 #### Check the TLS certificates installed on the K3s server
 
-<!-- (2022-03-09 12:30 CET) -->
+<!-- (2022-03-09 16:42 CET) -->
 
 Logged in as `root@<k3s-server>`, type the following command:
 
@@ -181,7 +192,7 @@ Result:
 root@arneis-vm01:~# ls -la /var/lib/rancher/k3s/server/tls/
 total 128
 drwx------ 4 root root 4096 Mar  9 10:49 .
-drwx------ 7 root root 4096 Mar  9 10:49 ..
+drwx------ 7 root root 4096 Mar  9 15:16 ..
 -rw-r--r-- 1 root root 1173 Mar  9 10:49 client-admin.crt
 -rw------- 1 root root  227 Mar  9 10:49 client-admin.key
 -rw-r--r-- 1 root root 1178 Mar  9 10:49 client-auth-proxy.crt
@@ -201,23 +212,23 @@ drwx------ 7 root root 4096 Mar  9 10:49 ..
 -rw------- 1 root root  227 Mar  9 10:49 client-kubelet.key
 -rw-r--r-- 1 root root 1153 Mar  9 10:49 client-scheduler.crt
 -rw------- 1 root root  227 Mar  9 10:49 client-scheduler.key
--rw-r--r-- 1 root root 3103 Mar  9 11:00 dynamic-cert.json
+-rw-r--r-- 1 root root 3213 Mar  9 13:57 dynamic-cert.json
 drwxr-xr-x 2 root root 4096 Mar  9 10:49 etcd
 -rw-r--r-- 1 root root  591 Mar  9 10:49 request-header-ca.crt
 -rw------- 1 root root  227 Mar  9 10:49 request-header-ca.key
 -rw-r--r-- 1 root root  570 Mar  9 10:49 server-ca.crt
 -rw------- 1 root root  227 Mar  9 10:49 server-ca.key
 -rw------- 1 root root 1679 Mar  9 10:49 service.key
--rw-r--r-- 1 root root 1348 Mar  9 10:49 serving-kube-apiserver.crt
--rw------- 1 root root  227 Mar  9 10:49 serving-kube-apiserver.key
+-rw-r--r-- 1 root root 1356 Mar  9 15:16 serving-kube-apiserver.crt
+-rw------- 1 root root  227 Mar  9 15:16 serving-kube-apiserver.key
 -rw------- 1 root root  227 Mar  9 10:49 serving-kubelet.key
 drwx------ 2 root root 4096 Mar  9 10:49 temporary-certs
 root@arneis-vm01:~#
 ```
 
-### Run a sample Pod on the cluster
+#### Run a sample Pod on the cluster
 
-<!-- (2022-03-09 11:55 CET) -->
+<!-- (2022-03-09 16:43 CET) -->
 
 The commands shown in this section have the purpose to verify that the cluster is ready to execute a simple workload.
 
@@ -268,7 +279,7 @@ root@arneis-vm01:~#
 
 ### Verify that the K3s API server is accessible
 
-<!-- (2022-03-09 12:00 CET) -->
+<!-- (2022-03-09 16:45 CET) -->
 
 Logged in as `root@<agent-node>` try to access <https://main-node:6443/> to make sure that the network connectivity to the cluster API server is properly established and there are no blocking firewalls in between. You can verify this in several ways, for instance:
 
@@ -325,7 +336,7 @@ root@arneis-vm02:~# curl -v -k https://arneis-vm01.gmacario.it:6443/
 * Server certificate:
 *  subject: O=k3s; CN=k3s
 *  start date: Mar  9 10:49:18 2022 GMT
-*  expire date: Mar  9 11:00:30 2023 GMT
+*  expire date: Mar  9 13:57:56 2023 GMT
 *  issuer: CN=k3s-server-ca@1646822958
 *  SSL certificate verify result: unable to get local issuer certificate (20), continuing anyway.
 > GET / HTTP/1.1
@@ -336,10 +347,10 @@ root@arneis-vm02:~# curl -v -k https://arneis-vm01.gmacario.it:6443/
 * TLSv1.3 (IN), TLS handshake, Newsession Ticket (4):
 * Mark bundle as not supporting multiuse
 < HTTP/1.1 401 Unauthorized
-< Audit-Id: 307e410b-4bdf-4161-9854-782851903eaf
+< Audit-Id: 49df68d0-efe8-4e1b-91ca-65070259bc52
 < Cache-Control: no-cache, private
 < Content-Type: application/json
-< Date: Wed, 09 Mar 2022 13:48:30 GMT
+< Date: Wed, 09 Mar 2022 15:48:42 GMT
 < Content-Length: 165
 <
 {
@@ -459,13 +470,33 @@ Created symlink /etc/systemd/system/multi-user.target.wants/k3s-agent.service â†
 root@arneis-vm02:~#
 ```
 
-**FIXME**: The command does not seem to complete successfully.
+#### Check the the Agent Node has joined the cluster
 
-### Troubleshooting the agent install script
+<!-- (2022-03-09 16:52 CET) -->
+
+Logged in as `root@<server-node>`, type the following command to list all the nodes of the cluster:
+
+```bash
+kubectl get nodes
+```
+
+```text
+root@arneis-vm01:~# kubectl get nodes
+NAME          STATUS   ROLES                  AGE    VERSION
+arneis-vm02   Ready    <none>                 34m    v1.22.7+k3s1
+arneis-vm01   Ready    control-plane,master   5h3m   v1.22.7+k3s1
+root@arneis-vm01:~#
+```
+
+Verify that the new Agent Node is listed. If not, refer to the section "Troubleshooting the agent install script" below.
+
+## Troubleshooting the agent install script
+
+This section lists a few methods to troubleshoot possible installation problems.
 
 <!-- (2022-03-09 13:50 CET) -->
 
-#### Run the agent install script in verbose mode
+### Run the agent install script in verbose mode
 
 Let's retry adding the `-x` option to `sh`:
 
@@ -820,7 +851,7 @@ Created symlink /etc/systemd/system/multi-user.target.wants/k3s-agent.service â†
 root@arneis-vm02:~#
 ```
 
-#### Check processes on the server node
+### Check processes on the server node
 
 <!-- (2022-03-09 14:25 CET) -->
 
@@ -882,7 +913,7 @@ Mar 09 12:47:28 arneis-vm01 k3s[1288]: time="2022-03-09T12:47:28Z" level=info ms
 root@arneis-vm01:~#
 ```
 
-#### Check processes on the agent node
+### Check processes on the agent node
 
 <!-- (2022-03-09 14:05 CET) -->
 
@@ -936,7 +967,7 @@ root@arneis-vm02:~#
 
 **TODO**: Why is the agent trying to connect to proxy via URL `wss://10.0.0.4:6443/v1-k3s/connect`???
 
-#### Check network configuration on the server node
+### Check network configuration on the server node
 
 <!-- (2022-03-09 14:11 CET) -->
 
@@ -974,7 +1005,7 @@ arneis-vm01.gmacario.it has address 20.124.132.35
 root@arneis-vm01:~#
 ```
 
-#### Check network configuration on the agent node
+### Check network configuration on the agent node
 
 <!-- (2022-03-09 14:33 CET) -->
 
@@ -1001,9 +1032,7 @@ root@arneis-vm02:~#
 
 TODO TODO TODO
 
-#### Testing using server IP address rather than FQDN
-
-TODO
+### Test with server IP address rather than FQDN
 
 <!-- (2022-02-02 12:00 CET) -->
 
