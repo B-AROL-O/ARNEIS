@@ -786,16 +786,36 @@ root@arneis-vm02:~#
 
 **TODO**: Why is the agent trying to connect to proxy via URL `wss://10.0.0.4:6443/v1-k3s/connect`???
 
+<!-- (2022-03-09 14:11 CET) -->
+
+Logged in as `root@<server-node>` (in our case, `root@arneis-vm01`), check the IPv4 addresses assigned to all the network interfaces
+
+```bash
+ip addr | grep -w inet
+```
+
+Result:
+
+```
+root@arneis-vm01:~# ip addr | grep -w inet
+    inet 127.0.0.1/8 scope host lo
+    inet 10.0.0.4/24 brd 10.0.0.255 scope global eth0
+    inet 10.42.0.0/32 scope global flannel.1
+    inet 10.42.0.1/24 brd 10.42.0.255 scope global cni0
+root@arneis-vm01:~#
+```
+
+By the way, IPv4 address `10.0.0.4` is also TODO
+
+```bash
 TODO
+```
 
-Logged in as `root@<server-node>` (in our case, `root@arneis-vm01`), TODO
+```text
+TODO
+```
 
-
-
-
-
-
-TODO: Maybe is this related to unknown certificate?
+TODO
 
 #### Testing using server IP address rather than FQDN
 
