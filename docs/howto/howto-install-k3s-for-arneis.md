@@ -152,6 +152,28 @@ Those are one-time pods used for installing other Kubernetes resources; in this 
 
 **TODO**: Why LoadBalancer `service/traefik` has `EXTERNAL-IP=10.0.0.4`??? This is a private (non-routable) IP Address!
 
+Compare this to what happens on another cluster (here the main node runs on a Droplet on Digital Ocean)
+
+```text
+root@k3s-gmacario1:~# kubectl get svc --all-namespaces
+NAMESPACE          NAME                TYPE           CLUSTER-IP      EXTERNAL-IP                                  PORT(S)                      AGE
+default            kubernetes          ClusterIP      10.43.0.1       <none>                                       443/TCP                      207d
+kube-system        kube-dns            ClusterIP      10.43.0.10      <none>                                       53/UDP,53/TCP,9153/TCP       207d
+kube-system        metrics-server      ClusterIP      10.43.151.249   <none>                                       443/TCP                      207d
+spring-petclinic   api-gateway         NodePort       10.43.150.123   <none>                                       80:32001/TCP                 85d
+spring-petclinic   customers-service   ClusterIP      10.43.155.238   <none>                                       8080/TCP                     85d
+spring-petclinic   vets-service        ClusterIP      10.43.3.152     <none>                                       8080/TCP                     85d
+spring-petclinic   visits-service      ClusterIP      10.43.67.158    <none>                                       8080/TCP                     85d
+kube-system        traefik             LoadBalancer   10.43.105.109   192.168.64.220,192.168.69.34,68.183.75.239   80:32663/TCP,443:30465/TCP   207d
+root@k3s-gmacario1:~#
+```
+
+There is a similar issue here: <https://github.com/k3s-io/k3s/issues/2178>
+
+TODO: Check <https://rancher.com/docs/k3s/latest/en/installation/install-options/server-config/> for detail about `--node-external-ip value`.
+
+TODO TODO TODO
+
 #### Check the TLS certificates installed on the K3s server
 
 <!-- (2022-03-09 12:30 CET) -->
