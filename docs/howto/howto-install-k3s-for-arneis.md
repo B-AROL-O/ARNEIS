@@ -197,11 +197,61 @@ busybox-sleep   1/1     Running   0          59s
 root@arneis-vm01:~#
 ```
 
+#### Check the TLS certificates installed on the K3s server
+
+<!-- (2022-03-09 12:30 CET) -->
+
+Logged in as `root@<k3s-server>`, type the following command:
+
+```bash
+ls -la /var/lib/rancher/k3s/server/tls/
+```
+
+Result:
+
+```text
+root@arneis-vm01:~# ls -la /var/lib/rancher/k3s/server/tls/
+total 128
+drwx------ 4 root root 4096 Mar  9 10:49 .
+drwx------ 7 root root 4096 Mar  9 10:49 ..
+-rw-r--r-- 1 root root 1173 Mar  9 10:49 client-admin.crt
+-rw------- 1 root root  227 Mar  9 10:49 client-admin.key
+-rw-r--r-- 1 root root 1178 Mar  9 10:49 client-auth-proxy.crt
+-rw------- 1 root root  227 Mar  9 10:49 client-auth-proxy.key
+-rw-r--r-- 1 root root  570 Mar  9 10:49 client-ca.crt
+-rw------- 1 root root  227 Mar  9 10:49 client-ca.key
+-rw-r--r-- 1 root root 1165 Mar  9 10:49 client-controller.crt
+-rw------- 1 root root  227 Mar  9 10:49 client-controller.key
+-rw-r--r-- 1 root root 1161 Mar  9 10:49 client-k3s-cloud-controller.crt
+-rw------- 1 root root  227 Mar  9 10:49 client-k3s-cloud-controller.key
+-rw-r--r-- 1 root root 1153 Mar  9 10:49 client-k3s-controller.crt
+-rw------- 1 root root  227 Mar  9 10:49 client-k3s-controller.key
+-rw-r--r-- 1 root root 1144 Mar  9 10:49 client-kube-apiserver.crt
+-rw------- 1 root root  227 Mar  9 10:49 client-kube-apiserver.key
+-rw-r--r-- 1 root root 1144 Mar  9 10:49 client-kube-proxy.crt
+-rw------- 1 root root  227 Mar  9 10:49 client-kube-proxy.key
+-rw------- 1 root root  227 Mar  9 10:49 client-kubelet.key
+-rw-r--r-- 1 root root 1153 Mar  9 10:49 client-scheduler.crt
+-rw------- 1 root root  227 Mar  9 10:49 client-scheduler.key
+-rw-r--r-- 1 root root 3103 Mar  9 11:00 dynamic-cert.json
+drwxr-xr-x 2 root root 4096 Mar  9 10:49 etcd
+-rw-r--r-- 1 root root  591 Mar  9 10:49 request-header-ca.crt
+-rw------- 1 root root  227 Mar  9 10:49 request-header-ca.key
+-rw-r--r-- 1 root root  570 Mar  9 10:49 server-ca.crt
+-rw------- 1 root root  227 Mar  9 10:49 server-ca.key
+-rw------- 1 root root 1679 Mar  9 10:49 service.key
+-rw-r--r-- 1 root root 1348 Mar  9 10:49 serving-kube-apiserver.crt
+-rw------- 1 root root  227 Mar  9 10:49 serving-kube-apiserver.key
+-rw------- 1 root root  227 Mar  9 10:49 serving-kubelet.key
+drwx------ 2 root root 4096 Mar  9 10:49 temporary-certs
+root@arneis-vm01:~#
+```
+
 ### Verify accessibility of the K3s API server from the Agent Node
 
 <!-- (2022-03-09 12:00 CET) -->
 
-Logged in as `user@<agent-node>` try to access <https://master-node:6443/>
+Logged in as `root@<agent-node>` try to access <https://master-node:6443/>
 
 #### Example 1 (using curl)
 
