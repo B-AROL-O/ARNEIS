@@ -736,6 +736,65 @@ Created symlink /etc/systemd/system/multi-user.target.wants/k3s-agent.service �
 root@arneis-vm02:~#
 ```
 
+<!-- (2022-03-09 14:05 CET) -->
+
+Logged in as `root@<agent-node>` (in our case, `root@arneis-vm02`), make sure there is one `k3s` process running:
+
+```bash
+ps ax | grep k3s
+```
+
+```text
+root@arneis-vm02:~# ps ax | grep k3s
+   3013 ?        Ssl    0:03 /usr/local/bin/k3s agent
+   3444 pts/0    S+     0:00 grep --color=auto k3s
+root@arneis-vm02:~#
+```
+
+The service is up and running, but there is no `arneis-vm02` node listed as a result of `kubectl get nodes`.
+Let's check whether service `k3s-agent.service` is running correctly
+
+```bash
+systemctl status k3s-agent.service
+```
+
+```text
+root@arneis-vm02:~# systemctl status k3s-agent.service
+● k3s-agent.service - Lightweight Kubernetes
+     Loaded: loaded (/etc/systemd/system/k3s-agent.service; enabled; vendor preset: enabled)
+     Active: active (running) since Wed 2022-03-09 12:47:25 UTC; 20min ago
+       Docs: https://k3s.io
+   Main PID: 3013 (k3s-agent)
+      Tasks: 18
+     Memory: 253.1M
+     CGroup: /system.slice/k3s-agent.service
+             ├─3013 /usr/local/bin/k3s agent
+             └─3032 containerd
+
+Mar 09 13:01:03 arneis-vm02 k3s[3013]: time="2022-03-09T13:01:03Z" level=info msg="Connecting to proxy" url="wss://10.0.0.4:6443/v1-k3s/connect"
+Mar 09 13:03:14 arneis-vm02 k3s[3013]: time="2022-03-09T13:03:14Z" level=error msg="Failed to connect to proxy" error="dial tcp 10.0.0.4:6443: connect: connection timed out"
+Mar 09 13:03:14 arneis-vm02 k3s[3013]: time="2022-03-09T13:03:14Z" level=error msg="Remotedialer proxy error" error="dial tcp 10.0.0.4:6443: connect: connection timed out"
+Mar 09 13:03:19 arneis-vm02 k3s[3013]: time="2022-03-09T13:03:19Z" level=info msg="Connecting to proxy" url="wss://10.0.0.4:6443/v1-k3s/connect"
+Mar 09 13:05:29 arneis-vm02 k3s[3013]: time="2022-03-09T13:05:29Z" level=error msg="Failed to connect to proxy" error="dial tcp 10.0.0.4:6443: connect: connection timed out"
+Mar 09 13:05:29 arneis-vm02 k3s[3013]: time="2022-03-09T13:05:29Z" level=error msg="Remotedialer proxy error" error="dial tcp 10.0.0.4:6443: connect: connection timed out"
+Mar 09 13:05:34 arneis-vm02 k3s[3013]: time="2022-03-09T13:05:34Z" level=info msg="Connecting to proxy" url="wss://10.0.0.4:6443/v1-k3s/connect"
+Mar 09 13:07:44 arneis-vm02 k3s[3013]: time="2022-03-09T13:07:44Z" level=error msg="Failed to connect to proxy" error="dial tcp 10.0.0.4:6443: connect: connection timed out"
+Mar 09 13:07:44 arneis-vm02 k3s[3013]: time="2022-03-09T13:07:44Z" level=error msg="Remotedialer proxy error" error="dial tcp 10.0.0.4:6443: connect: connection timed out"
+Mar 09 13:07:49 arneis-vm02 k3s[3013]: time="2022-03-09T13:07:49Z" level=info msg="Connecting to proxy" url="wss://10.0.0.4:6443/v1-k3s/connect"
+root@arneis-vm02:~#
+```
+
+**TODO**: Why is the agent trying to connect to proxy via URL `wss://10.0.0.4:6443/v1-k3s/connect`???
+
+TODO
+
+Logged in as `root@<server-node>` (in our case, `root@arneis-vm01`), TODO
+
+
+
+
+
+
 TODO: Maybe is this related to unknown certificate?
 
 #### Testing using server IP address rather than FQDN
