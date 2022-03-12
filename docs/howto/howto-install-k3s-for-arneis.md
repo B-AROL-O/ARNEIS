@@ -30,6 +30,7 @@ The main host (previously called "master" in Kubernetes literature) will act as 
 ### Host acting as K3s Server
 
 * Administrative login to a host (either physical or virtual) with the following minimum requirements:
+  - See <https://rancher.com/docs/k3s/latest/en/installation/installation-requirements/> for details. Here is what we used in our case:
   - CPU: min 2 cores
   - RAM: min 16 GiB
   - Disk: min 8 GiB SSD
@@ -45,7 +46,7 @@ The main host (previously called "master" in Kubernetes literature) will act as 
 ### Host(s) acting as Agent Node(s)
 
 * Administrative login to a host (either physical or virtual) with the following minimum requirements:
-  - TODO
+  - See <https://rancher.com/docs/k3s/latest/en/installation/installation-requirements/>
   - Tested on `arneis-vm02` (Virtual Machine on Azure Cloud - See [documentation](howto-create-vm-on-azure.md))
   - Also tested on `rpi4gm35` (Raspberry Pi 4B - See [documentation](howto-prepare-rpi4b-for-arneis.md))
 
@@ -987,7 +988,7 @@ Mar 09 13:07:49 arneis-vm02 k3s[3013]: time="2022-03-09T13:07:49Z" level=info ms
 root@arneis-vm02:~#
 ```
 
-**TODO**: Why is the agent trying to connect to proxy via URL `wss://10.0.0.4:6443/v1-k3s/connect`???
+**NOTE**: In our example the agent is trying to connect to proxy via URL `wss://10.0.0.4:6443/v1-k3s/connect` but this is probably not correct. Let's investigate it further.
 
 ### Check network configuration on the server node
 
@@ -1052,8 +1053,6 @@ default via 10.2.0.1 dev eth0 proto dhcp src 10.2.0.4 metric 100
 root@arneis-vm02:~#
 ```
 
-TODO TODO TODO
-
 ### Test with server IP address rather than FQDN
 
 <!-- (2022-02-02 12:00 CET) -->
@@ -1074,7 +1073,7 @@ root@hw0929:~# curl -sfL https://get.k3s.io | sh -
 root@hw0929:~#
 ```
 
-TODO: Check whether Ubuntu 21.10 is a supported OS
+Check the version of the installed OS:
 
 
 ```text
@@ -1093,15 +1092,6 @@ PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-poli
 UBUNTU_CODENAME=impish
 root@hw0929:~#
 ```
-
-TODO: Try on udoox86gm1 (Ubuntu 20.04.x LTS 64-bit)
-
-TODO: Notice that versions do conflict
-
-* arneis-vm01 installed k3s v1.22.5+k3s1
-* the Agent Node is attempting to install k3s v1.22.6+k3s1
-
-TODO
 
 ## Controlling the cluster using k9s
 
