@@ -29,8 +29,7 @@ The main host will act as both a K3s Server (previously called "master" in Kuber
 
 ### Host acting as K3s Server
 
-* Administrative login to a host (either physical or virtual) with the following minimum requirements:
-  - See <https://rancher.com/docs/k3s/latest/en/installation/installation-requirements/> for details. Here is what we used in our case:
+* Administrative login to a host (either physical or virtual) with requirements detailed at <https://rancher.com/docs/k3s/latest/en/installation/installation-requirements/> for details. More specifically:
   - CPU: min 2 cores
   - RAM: min 16 GiB
   - Disk: min 8 GiB SSD
@@ -45,8 +44,7 @@ The main host will act as both a K3s Server (previously called "master" in Kuber
 
 ### Host(s) acting as Agent Node(s)
 
-* Administrative login to a host (either physical or virtual) with the following minimum requirements:
-  - See <https://rancher.com/docs/k3s/latest/en/installation/installation-requirements/>
+* Administrative login to a host (either physical or virtual) with the requirements detailed at <https://rancher.com/docs/k3s/latest/en/installation/installation-requirements/>
   - Tested on `arneis-vm02` (Virtual Machine on Azure Cloud - See [documentation](howto-create-vm-on-azure.md))
   - Also tested on `rpi4gm35` (Raspberry Pi 4B - See [documentation](howto-prepare-rpi4b-for-arneis.md))
 
