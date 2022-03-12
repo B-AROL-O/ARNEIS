@@ -49,9 +49,30 @@ The main host (previously called "master" in Kubernetes literature) will act as 
   - Tested on `arneis-vm02` (Virtual Machine on Azure Cloud - See [documentation](howto-create-vm-on-azure.md))
   - Also tested on `rpi4gm35` (Raspberry Pi 4B - See [documentation](howto-prepare-rpi4b-for-arneis.md))
 
-## Preparing the cluster
+## Initialize a K3s cluster
 
-### Install K3s on the main (Server+Agent) Node
+A minimal K3s cluster is made of one host (either physical or virtual) which acts both as Server and Agent Node.
+
+In our example, we will deploy the main node of the K3s cluster on `root@arneis-vm01` (Ubuntu 20.04.4 LTS):
+
+```text
+root@arneis-vm01:~# cat /etc/os-release
+NAME="Ubuntu"
+VERSION="20.04.4 LTS (Focal Fossa)"
+ID=ubuntu
+ID_LIKE=debian
+PRETTY_NAME="Ubuntu 20.04.4 LTS"
+VERSION_ID="20.04"
+HOME_URL="https://www.ubuntu.com/"
+SUPPORT_URL="https://help.ubuntu.com/"
+BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+VERSION_CODENAME=focal
+UBUNTU_CODENAME=focal
+root@arneis-vm01:~#
+```
+
+### Install K3s on the main node
 
 <!-- (2022-03-09 16:16 CET) -->
 
@@ -277,24 +298,50 @@ busybox-sleep   1/1     Running   0          59s
 root@arneis-vm01:~#
 ```
 
-### Verify that the K3s API server is accessible
+## Add a new agent node to the cluster
+
+<!-- (2022-03-09 13:40 CET) -->
+
+After we have verified that K3s server is up and running we are ready to add new Agent Node(s) to the cluster.
+
+In our example, we will add host `arneis-vm02` (Ubuntu 20.04.4 LTS) as a K3s Agent Node:
+
+```text
+root@arneis-vm02:~# cat /etc/os-release
+NAME="Ubuntu"
+VERSION="20.04.4 LTS (Focal Fossa)"
+ID=ubuntu
+ID_LIKE=debian
+PRETTY_NAME="Ubuntu 20.04.4 LTS"
+VERSION_ID="20.04"
+HOME_URL="https://www.ubuntu.com/"
+SUPPORT_URL="https://help.ubuntu.com/"
+BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+VERSION_CODENAME=focal
+UBUNTU_CODENAME=focal
+root@arneis-vm02:~#
+```
+
+### Verify accessibility of the K3s API server
 
 <!-- (2022-03-09 16:45 CET) -->
 
-Logged in as `root@<agent-node>` try to access <https://main-node:6443/> to make sure that the network connectivity to the cluster API server is properly established and there are no blocking firewalls in between. You can verify this in several ways, for instance:
+Logged in as `root@<agent-node>` try to access <https://main-node:6443/> to make sure that the network connectivity to the cluster API server can properly be established and there are no blocking firewalls in between.
+You can verify the connectivity using several methods, such as:
 
 1. Using curl
 2. Using a web browser
 
 #### Example 1: Using curl
 
-Command:
+Verify HTTPS connectivity to the K3s API server (by default, on port `443`) with the following command:
 
 ```bash
-curl https://arneis-vm01.gmacario.it:6443/
+curl https://<k3s-api-server-host>:<k3s-api-server-port>/
 ```
 
-Result:
+Example:
 
 ```text
 root@arneis-vm02:~# curl https://arneis-vm01.gmacario.it:6443/
@@ -307,9 +354,9 @@ how to fix it, please visit the web page mentioned above.
 root@arneis-vm02:~#
 ```
 
-**NOTE**: The error is expected since the server uses a self-signed certificate (available under `/var/lib/rancher/k3s/server/tls`) which should be known to both client and server.
+**NOTE**: The error is expected since the K3s API server uses custom certificates available under `/var/lib/rancher/k3s/server/tls` which are used to establish trust between clients (agents) and server.
 
-As a workaround, try adding the `-k` option to `curl` (we also suggest to added `-v` option to increase verbosity):
+As a workaround, try adding the `-k` option to `curl` (you could also add the `-v` option to increase verbosity to `curl`):
 
 ```text
 root@arneis-vm02:~# curl -v -k https://arneis-vm01.gmacario.it:6443/
@@ -385,32 +432,7 @@ Once you passed the self-signed certificate warning, you should receive a 401 (U
 
 ![Screenshot from 2022-02-02 11-02-09](https://user-images.githubusercontent.com/75182/152132742-4ed66499-9dc1-4f36-8c2e-f073fcee5375.png)
 
-### Install k3s on the Agent Node(s)
-
-<!-- (2022-03-09 13:40 CET) -->
-
-Now that our k3s Server is up and running we are ready to attach additional Agent Node(s) to the cluster.
-
-Let's try adding host `arneis-vm02` (Ubuntu 21.10) as a K3s Agent Node:
-
-```text
-root@arneis-vm02:~# cat /etc/os-release
-NAME="Ubuntu"
-VERSION="20.04.4 LTS (Focal Fossa)"
-ID=ubuntu
-ID_LIKE=debian
-PRETTY_NAME="Ubuntu 20.04.4 LTS"
-VERSION_ID="20.04"
-HOME_URL="https://www.ubuntu.com/"
-SUPPORT_URL="https://help.ubuntu.com/"
-BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
-PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
-VERSION_CODENAME=focal
-UBUNTU_CODENAME=focal
-root@arneis-vm02:~#
-```
-
-#### Obtain the cluster node-token
+### Obtain the cluster node-token
 
 The node-token is saved in a file under the folder `/var/lib/rancher/k3s/server` of the k3s server.
 
@@ -428,7 +450,7 @@ K1015exxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxf06408::server:f22587xxxx
 root@arneis-vm01:~#
 ```
 
-#### Attach the Agent Node
+### Attach the Agent Node
 
 Logged in as `root@<agent-node>` (in our example, `root@arneis-vm02`) type the following commands to install the required software on the node and connect it to the k3s Server
 
@@ -470,7 +492,7 @@ Created symlink /etc/systemd/system/multi-user.target.wants/k3s-agent.service â†
 root@arneis-vm02:~#
 ```
 
-#### Check the the Agent Node has joined the cluster
+### Check that the Agent Node has joined the cluster
 
 <!-- (2022-03-09 16:52 CET) -->
 
