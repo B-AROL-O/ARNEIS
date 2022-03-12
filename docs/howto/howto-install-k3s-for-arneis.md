@@ -6,7 +6,7 @@
 
 This document explains how to install a [K3s](https://k3s.io/) cluster to be used for the ARNEIS project.
 
-K3s (or "Lightweight Kubernetes") is a simplified installation of the Kubernetes distribution built for IoT and Edge computing.
+K3s (or "Lightweight Kubernetes") is a simplified installation of the [Kubernetes](https://kubernetes.io/) distribution built for IoT and Edge computing.
 
 K3s is an Open Source project started and maintained by [Rancher.com](https://rancher.com/).
 
@@ -18,7 +18,7 @@ The following diagram shows a possible deployment of the K3s architecture:
 
 (Image credits: <https://rancher.com/docs/k3s/latest/en/architecture/>)
 
-The main host (previously called "master" in Kubernetes literature) will act as both a K3s Server and an Agent (worker) Node. This is the smallest possible deployment of a K3s cluster. Additionally, other machines - either physical or virtual - may be added to the topology to act as Agent Nodes, thus adding redundancy and increasing the computation and storage capacity of the cluster.
+The main host will act as both a K3s Server (previously called "master" in Kubernetes literature) and Agent (worker) Node. This is the smallest possible deployment of a K3s cluster. Additionally, other machines - either physical or virtual - may be added to the topology to act as Agent Nodes, thus adding redundancy and increasing the computation and storage capacity of the cluster.
 
 ### References
 
