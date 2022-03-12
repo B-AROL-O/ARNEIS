@@ -50,7 +50,7 @@ The main host (previously called "master" in Kubernetes literature) will act as 
   - Tested on `arneis-vm02` (Virtual Machine on Azure Cloud - See [documentation](howto-create-vm-on-azure.md))
   - Also tested on `rpi4gm35` (Raspberry Pi 4B - See [documentation](howto-prepare-rpi4b-for-arneis.md))
 
-## Initialize a K3s cluster
+## Deploy the first node of the cluster
 
 A minimal K3s cluster is made of one host (either physical or virtual) which acts both as Server and Agent Node.
 
