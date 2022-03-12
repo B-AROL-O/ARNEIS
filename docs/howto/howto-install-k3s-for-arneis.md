@@ -513,7 +513,7 @@ root@arneis-vm01:~#
 
 Verify that the new Agent Node is listed. If not, refer to the section "Troubleshooting the agent install script" below.
 
-## Troubleshooting the agent install script
+## Troubleshooting installation issue
 
 This section lists a few methods to troubleshoot possible installation problems.
 
