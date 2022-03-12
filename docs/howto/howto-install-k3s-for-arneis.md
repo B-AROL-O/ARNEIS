@@ -29,7 +29,7 @@ The main host will act as both a K3s Server (previously called "master" in Kuber
 
 ### Host acting as K3s Server
 
-* Administrative login to a host (either physical or virtual) with requirements detailed at <https://rancher.com/docs/k3s/latest/en/installation/installation-requirements/> for details. More specifically:
+* Administrative login to a host (either physical or virtual) with requirements detailed at <https://rancher.com/docs/k3s/latest/en/installation/installation-requirements/> - more specifically:
   - CPU: min 2 cores
   - RAM: min 16 GiB
   - Disk: min 8 GiB SSD
