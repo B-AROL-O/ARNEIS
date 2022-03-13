@@ -12,13 +12,13 @@ The bottles slide on a smooth surface and are pushed by small pushers mounted on
 
 To adjust the correct chain tension, one of the two sprockets is mounted on a support slide that can be suitably adjusted before being fixed in the best position suitable for correct tensioning.
 
-### Here is the conveyor still with no motor.
+### Here is the conveyor still with no motor
 On left side of the image is visible the support slide of the sprocket (yellow and red parts).
 The right sprocket will be used to pull the chain by a gear train driven by a motor.
 
 ![wip-conveyor-01](../images/wip-conveyor-01.jpeg)
 
-### And with some mignon bottles.
+### And with some mignon bottles
 
 A small part of the route has been prepared for the passage of the bottles.
 
@@ -26,7 +26,7 @@ The bottles lean against a small contrasting wall which creates a path for their
 
 ![wip-conveyor-02](../images/wip-conveyor-02.jpeg)
 
-### And some manual movement.
+### And some manual movement
 
 Here are some manual operations to verify the overall idea of the movement of the bottles in the layout.
 
