@@ -79,4 +79,4 @@ You may adjust the speed and direction of the conveyor by rotating the dial (clo
 > [`arneis-conveyor-20220312.ldr`](arneis-conveyor-20220312.ldr) : the LEGO project exported in [LDraw file format](https://www.ldraw.org/article/218.html).<br/>
 > [`arneis-conveyor-20220312.png`](arneis-conveyor-20220312.png) : a 3D rendered version image.<br/>
 > [`arneis-conveyor-20220312.gif`](arneis-conveyor-20220312.gif) : a 3D rendered video of rotating MOC.<br/>
-> [`arneis-conveyor-20220312.pdf`](arneis-conveyor-20220312.pdf) : building instruction manual.
+> [`arneis-conveyor-20220312.pdf`](https://arneis.blob.core.windows.net/public-folder/arneis-conveyor-20220312.pdf) : building instruction manual
