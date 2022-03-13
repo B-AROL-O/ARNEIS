@@ -36,24 +36,24 @@ Here are some manual operations to verify the overall idea of the movement of th
 
 ## Motorizing the conveyor and taking some bottles snapshots
 
-Next step in conveyor development is the motorisation of the movement.
+Next step in conveyor development is the motorization of the movement.
 
-The main improvements of the previous project are:
-- addition of a gear train and a motor to drive the conveyor
-- introduction of a white background in the area used to take bottles snapshots
+The main improvements from the previous version of the project are the following:
+- added a gear train and a motor to drive the conveyor
+- introduced a white background in the area used to take bottles snapshots
 - added more space between the bottles
 
 ### The motor and the white backplane
 
-Motor is integrated inside the main structure of the conveyor for a reduced space impact on the project.
+The motor is integrated inside the main structure of the conveyor for a reduced space impact on the project.
 
-The white background may facilitate the contrast in the picture of the bottle's nec.
+The white background may facilitate the contrast in the picture of the bottle's neck.
 
 ![wip-conveyor-motor-01](../images/wip-conveyor-motor-01.png)
 
 ### Conveyor movement in all its glory
 
-The motor used is a [Electric, Motor Powered Up, XL](https://www.bricklink.com/v2/catalog/catalogitem.page?P=bb0960c01&idColor=85) driven by a [Electric Battery Box Powered Up Bluetooth Hub](https://www.bricklink.com/v2/catalog/catalogitem.page?P=bb0961c01&idColor=86) (out of the image)
+The motor used is an [Electric, Motor Powered Up, XL](https://www.bricklink.com/v2/catalog/catalogitem.page?P=bb0960c01&idColor=85) driven by a [Electric Battery Box Powered Up Bluetooth Hub](https://www.bricklink.com/v2/catalog/catalogitem.page?P=bb0961c01&idColor=86) (out of the image)
 
 ![wip-conveyor-motor-02](../images/wip-conveyor-motor-02.gif)
 
@@ -66,3 +66,5 @@ Two mignon bottles in pose for a good snapshot...
 ... and the resulting picture from a [OAK-D-Lite camera](https://docs.luxonis.com/projects/hardware/en/latest/pages/DM9095.html)
 
 ![wip-conveyor-motor-04](../images/wip-conveyor-motor-04.jpg)
+
+<!-- EOF -->
