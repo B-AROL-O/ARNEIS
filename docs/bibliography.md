@@ -41,6 +41,7 @@
   - Discussion on Eurobricks.com: <https://www.eurobricks.com/forum/index.php?/forums/topic/170945-bricknil-a-python-async-library-for-poweredupboost/>
 * [Controlling the Lego Technics Hub (Hub 2) via Bluetooth (btle) using a Raspberry Pi 4B](https://dietrichchristopeit.github.io/lego-pi-docs/#controlling-the-lego-technics-hub-hub-2-via-bluetooth-btle-using-a-rasperry-pi-4b)
 * Article: [Hack Lego Boost with Raspberry Pi](https://magpi.raspberrypi.com/articles/hack-lego-boost-with-raspberry-pi) - The MagPi Magazine, 2019-04-01
+* Tutorial: [How to export/import a project in the Powered Up app on Android](https://racingbrick.com/2020/01/how-to-export-import-a-project-in-the-powered-up-app-on-android/) - RacingBrick, 2020-01-22
 * Article: [How to Set Up Bluetooth on the Raspberry Pi for a LEGO@reg; Spike](https://medium.com/jj-innovative-results/how-to-set-up-bluetooth-on-the-raspberry-pi-for-a-lego-spike-61b137f98673) - Jason Jurotich on Medium.com, 2020-05-23
 * [Lego Boost Roboter mit Python steuern](https://www.tec.reutlingen-university.de/fileadmin/user_upload/Fakultaet_TEC/LegoBoostPython_V3_180618.pdf) - Reutlingen University (language: German; format: PDF, 21 pages)
 * **legoBTLE4PI**: A school project that shows how to control a Lego Jeep with Bluetooth on the Raspberrypi 4B.
@@ -53,6 +54,13 @@
   - LibHunt: Pylgbst Alternatives: <https://www.libhunt.com/r/pylgbst>
 * Reverse Engineering the LEGO BOOST Move Hub: <https://github.com/JorgePe/BOOSTreveng>
 * Thread on StackExchange.com: [Which programming environments or APIs are available for the LEGO BOOST?](https://bricks.stackexchange.com/questions/10786/which-programming-environments-or-apis-are-available-for-the-lego-boost)
+
+### Pybricks
+
+* [Pybricks](https://pybricks.com/) is Python coding for smart LEGO® hubs. Run MicroPython scripts directly on the hub, and get full control of your motors and sensors.
+* [Pybricks Support](https://github.com/pybricks/support)
+  - [The future of BLE, Bluetooth, and USB](https://github.com/pybricks/support/issues/262) - Issue #262 on pybricks/support
+  - [Troubleshooting Bluetooth in Pybricks Code](https://github.com/pybricks/support/discussions/270) - Discussion #270 on pybricks/support
 
 ## Python and Machine Learning
 

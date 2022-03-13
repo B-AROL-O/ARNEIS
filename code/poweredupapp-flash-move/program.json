@@ -1,0 +1,86 @@
+{
+  "mainCanvas": {
+    "positionedSequences": [
+      {
+        "position": {
+          "x": -0.340593338,
+          "y": 0.6074728
+        },
+        "PositionedObject": {
+          "instructions": [
+            {
+              "operation": "Start"
+            },
+            {
+              "operation": "CountLoop",
+              "literalParams": [
+                3.0
+              ],
+              "innerSequences": [
+                {
+                  "instructions": [
+                    {
+                      "operation": "SetHubLightIndexColorAddressablePort",
+                      "literalParams": [
+                        -1.0,
+                        6.0
+                      ]
+                    },
+                    {
+                      "operation": "MotorPower",
+                      "literalParams": [
+                        0.0,
+                        50.0
+                      ]
+                    },
+                    {
+                      "operation": "WaitForTime",
+                      "literalParams": [
+                        1.0
+                      ]
+                    },
+                    {
+                      "operation": "MotorFloat",
+                      "literalParams": [
+                        0.0
+                      ]
+                    },
+                    {
+                      "operation": "SetHubLightIndexColorAddressablePort",
+                      "literalParams": [
+                        -1.0,
+                        9.0
+                      ]
+                    },
+                    {
+                      "operation": "WaitForTime",
+                      "literalParams": [
+                        1.0
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "operation": "End"
+            }
+          ]
+        }
+      }
+    ],
+    "positionedDataBlocks": [],
+    "positionedCommentBlocks": [],
+    "viewState": {
+      "position": {
+        "x": 4.607323,
+        "y": -0.5695246
+      },
+      "scale": 4.417783
+    }
+  },
+  "activeStartupCanvases": [
+    "Play"
+  ],
+  "autoPlayOnStartup": false
+}
