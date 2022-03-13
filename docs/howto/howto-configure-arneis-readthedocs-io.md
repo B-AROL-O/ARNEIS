@@ -179,7 +179,7 @@ cd ~/github/B-AROL-O/ARNEIS/docs/
 python3 -m http.server --directory _build/html/
 ```
 
-then open <http://localhost:8000/> from your browser.
+then open `http://localhost:8000/` from your browser.
 Verify that the Read the Docs Sphinx Theme has been applied to the website:
 
 ![2022-01-22-0744-docsite-rtd-theme.png](../images/2022-01-22-0744-docsite-rtd-theme.png)
@@ -208,7 +208,7 @@ cd ~/github/B-AROL-O/ARNEIS/docs/
 python3 -m http.server --directory _build/html/
 ```
 
-then open <http://localhost:8000/> from your browser.
+then open `http://localhost:8000/` from your browser.
 
 Type "HOWTO" into the "Search docs" input field and verify that the Markdown pages have been included as well
 
