@@ -132,7 +132,7 @@ cd ~/github/B-AROL-O/ARNEIS/docs/
 python3 -m http.server --directory _build/html/
 ```
 
-then if you open <http://localhost:8000/> from your browser, the home page of the generated website should be displayed.
+then if you open `http://localhost:8000/` from your browser, the home page of the generated website should be displayed.
 
 ![2022-01-22-0804-docsite-alabaster.png](../images/2022-01-22-0804-docsite-alabaster.png)
 
