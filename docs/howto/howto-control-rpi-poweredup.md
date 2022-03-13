@@ -48,7 +48,6 @@ After tapping "Controller" you will be asked to choose a theme, then you will be
 
 In the "Coding" view you may stack the elements to create the correct execution flow.
 
-TODO
 
 ## Using the "LEGO&reg; Technic&reg; Control+" App
 
@@ -98,7 +97,6 @@ If you use the City Hub, you must unplug all motors and sensors. Follow these st
 
 From the [Pybricks Code](https://code.pybricks.com/) web interface, create or open a MicroPython source file and upload it to the LEGO Technics BT Hub. You may find some examples under the `/code` folder of the [ARNEIS repository on GitHub](https://github.com/B-AROL-O/ARNEIS).
 
-TODO
 
 ## Controlling from a Raspberry Pi
 
@@ -233,7 +231,7 @@ The LEGO&reg; Power Functions family provides a richer set of input sensors with
 
 - TODO
 
-To interface Power Functions components including input sensors and control them from either a mobile app or a Python scripts running on a Raspberry Pi the [SBrick Plus](TODO) brick can be used.
+To interface Power Functions components including input sensors and control them from either a mobile app or a Python scripts running on a Raspberry Pi the [SBrick Plus](https://sbrick.com/product/sbrick-plus/) brick can be used.
 
 Additionally, we may use the RXTX mode of the Powered Up Color Sensor which allows to communicate with a Power Functions infrared receiver and thus control motors of the Power Functions family. Unfortunately this solution only works for actuators, not for sensors.
 
