@@ -21,7 +21,7 @@ The chain is not used as a base surface for the bottles due to the difficulty of
 
 A special support is designed to hold the [OAK-D-Lite](https://docs.luxonis.com/projects/hardware/en/latest/pages/DM9095.html) AI Camera used in this project. It is possible to change the tilt of the camera by using the dedicated linear extender arm.
 
-The white wall act as a background for taking better snapshots of the bottles during their trip on the conveyor.
+The white wall acts as a background for taking better snapshots of the bottles during their trip on the conveyor.
 
 ![bottles conveyor](arneis-conveyor-20220312.gif)
 
