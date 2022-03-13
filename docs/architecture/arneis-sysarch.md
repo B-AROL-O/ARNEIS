@@ -2,7 +2,7 @@
 
 ## Reference Documents
 
-* [ARNEIS Project Proposal](https://github.com/B-AROL-O/opencv-spatial-ai-contest/blob/main/docs/phase1/arneis-proposal-2021-11-20.pdf) as submitted for the Phase 1 of the [OpenCV Spatial AI Contest](https://opencv.org/opencv-spatial-ai-contest/) - B-AROL-O Bottling Systems team, 2021-11-20 (PDF, 5 pages)
+* [ARNEIS Project Proposal](https://github.com/B-AROL-O/) as submitted for the Phase 1 of the [OpenCV Spatial AI Contest](https://opencv.org/opencv-spatial-ai-contest/) - B-AROL-O Bottling Systems team, 2021-11-20 (PDF, 5 pages)
 * [OMG Systems Modeling Language (OMG SysML™) Tutorial](https://www.omgsysml.org/INCOSE-OMGSysML-Tutorial-Final-090901.pdf) - September, 2009 (PDF, 132 pages)
 
 <!--
