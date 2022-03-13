@@ -18,7 +18,7 @@ Reference: [Catalog of LEGO&reg; Set 42100-1](https://www.bricklink.com/catalogI
 
 Picture | Qty | Code | Description | Color |
 --------|----:|------|-------------|-------|
-![32140](https://img.bricklink.com/P/85/32140.jpg) | 18 | [32140](https://www.brink.com/v2/catalog/catalogitem.page?P=32140&idColor=85) | Technic, Liftarm, Modified Bent Thick L-Shape 2 x 4 | Dark Bluish Gray
+![32140](https://img.bricklink.com/P/85/32140.jpg) | 18 | [32140](https://www.bricklink.com/v2/catalog/catalogitem.page?P=32140&idColor=85) | Technic, Liftarm, Modified Bent Thick L-Shape 2 x 4 | Dark Bluish Gray
 ![32278](https://img.bricklink.com/ItemImage/PN/86/32278.png) | 8 | [32278](https://www.bricklink.com/v2/catalog/catalogitem.page?P=32278&idColor=86#T=C&C=86) | Technic, Liftarm Thick 1 x 15 | Light Bluish Gray
 ![32316](https://img.bricklink.com/P/85/32316.jpg) | 14 | [32316](https://www.bricklink.com/v2/catalog/catalogitem.page?P=32316&idColor=85) | Technic, Liftarm Thick 1 x 5 | Dark Bluish Gray
 ![32498](https://img.bricklink.com/P/11/32498.jpg) | 3 | [32498](https://www.bricklink.com/v2/catalog/catalogitem.page?P=32498&idColor=11) | Technic, Gear 36 Tooth Double Bevel | Black
