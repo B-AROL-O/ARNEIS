@@ -4,7 +4,7 @@
 
 ## Introduction
 
-The following document explains how to prepare and configure a Windows lapto to be used with the [ARNEIS project](https://github.com/B-AROL-O/ARNEIS/tree/fix/updates-to-howto-rpi4).
+The following document explains how to prepare and configure a Windows laptop to be used with the [ARNEIS project](https://github.com/B-AROL-O/ARNEIS/).
 
 ## References
 
