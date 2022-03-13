@@ -4,7 +4,7 @@ Here is the LEGO&reg; MOC (alias for _My Own Creation_) used for the ARNEIS proj
 
 > **Resources**
 >
-> For the realization of the LEGO&reg; project, various software applications and public resources are used :
+> Various software applications and public resources have been used for the realization of this LEGO&reg; project:
 >
 > Resource | Description | Used For
 > ----|----|-----
@@ -15,28 +15,27 @@ Here is the LEGO&reg; MOC (alias for _My Own Creation_) used for the ARNEIS proj
 
 ## ARNEIS Conveyor (v.2022.03.12)
 
-This conveyor is used to move mignon bottles. The main idea is to use a chain where some kind of _pushers_ are used to move bottles over a flat surface.
+This conveyor is used to move ["mignon" bottles](https://www.ebay.it/b/Alcolici-mignon-da-collezione/3914/bn_16582158). The main idea is to use a chain where some kind of _pushers_ are used to move bottles over a flat surface.
 
-The chain is not used as a base surface for the bottles for the difficulty of maintaining the chain as an flat orizontal base during the movement.
+The chain is not used as a base surface for the bottles due to the difficulty of ensuring that it will stay horizontal during the movement.
 
-A special support is designed to support the OAK-D-Lite AI Camera used in this project. It possible to change camera inclination by using the dedicated linear extender arm.
+A special support is designed to hold the [OAK-D-Lite](https://docs.luxonis.com/projects/hardware/en/latest/pages/DM9095.html) AI Camera used in this project. It is possible to change the tilt of the camera by using the dedicated linear extender arm.
 
-A white wall is designed as a background for the bottles snapshotting.
+The white wall act as a background for taking better snapshots of the bottles during their trip on the conveyor.
 
 ![bottles conveyor](arneis-conveyor-20220312.png)
 
 ### Driving the conveyor
 
-To test the functionement of the conveyor, a `microPython` special code can be used.
+In order to verify the correct operation of the conveyor a small [MicroPython](https://micropython.org/) program has been developed.
 
-All you need browsing [Pybricks](https://pybricks.com) home page and follow the instruction to activate the IDE for your browser and your operating system.
+Navigate to the [Pybricks](https://pybricks.com) home page and follow the instructions to activate the IDE for your browser and your operating system.
 
-In the project two motors are used:
-- 1 Technic Motor Power Up XL: used to drive the conveyor
-- 1 Technic Motor Power UP L: used as a _Speed Dial_
+In this project two motors are used:
+- 1x Technic Motor Powered Up XL (Item no. [bb0960c01](https://www.bricklink.com/v2/catalog/catalogitem.page?P=bb0960c01&idColor=85)): used to drive the conveyor
+- 1x Technic Motor Power UP L (Item no. [bb0959c01](https://www.bricklink.com/v2/catalog/catalogitem.page?P=bb0959c01&idColor=85)): used as a _Speed Dial_
 
-With the **XL** motor connected to the **Port B** of the Technic HUB and the **L** motor connected to the **Port A**, use the following code to program the HUB
-
+With the **XL** motor connected to the **Port B** of the Technic Hub and the **L** motor connected to the **Port A**, use the following source code to program the Hub:
 
 ```python
 from pybricks.pupdevices import Motor
@@ -70,7 +69,7 @@ while True:
     wait(10)
 ```
 
-Rotate the dial clockwise or couterclockwise to regulate the speed and direction of the conveyor.
+You may adjust the speed and direction of the conveyor by rotating the dial (clockwise or counterclockwise).
 
 ### Project resources
 
