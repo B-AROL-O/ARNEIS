@@ -1,13 +1,17 @@
 # ARNEIS
 
+![ARNEIS logo](docs/images/arneis-logo.png)
+
 `A`utomated `R`ecognizer, `N`etwork-`E`nabled, `I`tems Sorter.
 
 [![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-908a85?logo=gitpod)](https://gitpod.io/#https://github.com/B-AROL-O/ARNEIS)
 [![GitHub Super-Linter](https://github.com/B-AROL-O/ARNEIS/workflows/Lint%20Code%20Base/badge.svg)](https://github.com/marketplace/actions/super-linter)
 
+<!--
 [![ARNEIS project by B-AROL-O team - WIP](https://img.youtube.com/vi/7qxbT31U5dE/0.jpg)](https://www.youtube.com/watch?v=7qxbT31U5dE "ARNEIS project by B-AROL-O team - WIP")
 
 ([Watch the video on YouTube](https://www.youtube.com/watch?v=7qxbT31U5dE))
+-->
 
 ## Project Documentation
 
