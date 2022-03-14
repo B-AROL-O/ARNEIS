@@ -42,7 +42,7 @@ then click "SCRIVI".
 > Tutti i dati esistenti in 'MXT-USB Storage Device USB Device' verranno eliminati.
 > Sei sicuro di voler continuare?
 >
-> [NO](TODO) | [SI](TODO)
+> [NO](https://github.com/) | [SI](https://github.com/)
 
 Click "SI".
 
@@ -54,7 +54,7 @@ Click "SI".
 >
 > Ora puoi rimuovere la scheda SD dal lettore
 >
-> [CONTINUA](TODO)
+> [CONTINUA](https://github.com/)
 
 Remove the MicroSD from your laptop
 
@@ -78,7 +78,7 @@ Turn on the power supply and wait for Raspberry Pi OS to boot.
 >
 > Press 'Next' to get started.
 >
-> [Cancel](TODO) | [Next](TODO)
+> [Cancel](https://github.com/) | [Next](https://github.com/)
 
 Click "Next".
 
@@ -96,7 +96,7 @@ Click "Next".
 >
 > Press 'Next' when you have made your selection.
 >
-> [Back](TODO) | [Next](TODO)
+> [Back](https://github.com/) | [Next](https://github.com/)
 
 Fill in the form as shown above, then click "Next"
 
@@ -115,7 +115,7 @@ Fill in the form as shown above, then click "Next"
 >
 > Press 'Next' to activate your new passowrd.
 >
-> [Back](TODO) | [Next](TODO)
+> [Back](https://github.com/) | [Next](https://github.com/)
 
 Fill in the form as instructed, then click "Next"
 
@@ -130,7 +130,7 @@ Fill in the form as instructed, then click "Next"
 >
 > Press 'Next' to save your setting.
 >
-> [Back](TODO) | [Next](TODO)
+> [Back](https://github.com/) | [Next](https://github.com/)
 
 Verify and update if needed, then click "Next".
 
@@ -142,7 +142,7 @@ Verify and update if needed, then click "Next".
 >
 > Press 'Next' to connect, or 'Skip' to continue without connecting.
 >
-> [Back](TODO) | [Skip](TODO) | [Next](TODO)
+> [Back](https://github.com/) | [Skip](https://github.com/) | [Next](https://github.com/)
 
 Select the desired WiFi network, then click "Next".
 If the select network is protected you will be requested the password
@@ -157,7 +157,7 @@ If the select network is protected you will be requested the password
 >
 > Press 'Next' to connect, or 'Skip' to continue without connecting.
 >
-> [Back](TODO) | [Skip](TODO) | [Next](TODO)
+> [Back](https://github.com/) | [Skip](https://github.com/) | [Next](https://github.com/)
 
 Click "Next".
 
@@ -168,7 +168,7 @@ Click "Next".
 >
 > Press 'Next' ...
 >
-> [Back](TODO) | [Skip](TODO) | [Next](TODO)
+> [Back](https://github.com/) | [Skip](https://github.com/) | [Next](https://github.com/)
 
 Click "Next".
 
@@ -178,7 +178,7 @@ When the update is complete the following popup should be displayed
 
 > System is up to date
 >
-> [OK](TODO)
+> [OK](https://github.com/)
 
 Click "OK" to continue.
 
@@ -191,7 +191,7 @@ Click "OK" to continue.
 >
 > Press 'Restart' to restart your Pi so the new settings will take effect.
 >
-> [Back](TODO) | [Later](TODO) | [Restart](TODO)
+> [Back](https://github.com/) | [Later](https://github.com/) | [Restart](https://github.com/)
 
 Click "Restart".
 
