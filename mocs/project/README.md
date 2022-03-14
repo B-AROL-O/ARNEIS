@@ -15,7 +15,8 @@ Here is the LEGO&reg; MOC (alias for _My Own Creation_) used for the ARNEIS proj
 
 ## ARNEIS Conveyor (v.2022.03.12)
 
-This conveyor is used to move ["mignon" bottles](https://www.ebay.it/b/Alcolici-mignon-da-collezione/3914/bn_16582158). The main idea is to use a chain where some kind of _pushers_ are used to move bottles over a flat surface.
+This conveyor is designed to move ["mignon" (miniature) bottles](https://en.wikipedia.org/wiki/Miniature_(alcohol)).
+The main idea is to use a chain where some kind of _pushers_ are used to move bottles over a flat surface.
 
 The chain is not used as a base surface for the bottles due to the difficulty of ensuring that it will stay horizontal during the movement.
 

@@ -326,7 +326,7 @@ root@arneis-vm02:~#
 
 <!-- (2022-03-09 16:45 CET) -->
 
-Logged in as `root@<agent-node>` try to access <https://main-node:6443/> to make sure that the network connectivity to the cluster API server can properly be established and there are no blocking firewalls in between.
+Logged in as `root@<agent-node>` try to access URL `https://<main-node>:6443/` to make sure that the network connectivity to the cluster API server can properly be established and there are no blocking firewalls in between.
 You can verify the connectivity using several methods, such as:
 
 1. Using curl

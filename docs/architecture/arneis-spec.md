@@ -10,7 +10,7 @@ This document is Copyright (c) 2021-2022 by the [B-AROL-O Team](https://github.c
 
 ### Reference documents
 
-* [ARNEIS: Automated Recognizer, Network-Enabled, Items Sorter](https://github.com/B-AROL-O/opencv-spatial-ai-contest/blob/main/phase1/arneis-proposal-2021-11-20.pdf) - Project Proposal submitted to the OpenCV Spatial AI Contest, 2021-11-20 (PDF, 5 pages)
+* [ARNEIS: Automated Recognizer, Network-Enabled, Items Sorter](https://github.com/B-AROL-O/ARNEIS) - Project Proposal submitted to the OpenCV Spatial AI Contest, 2021-11-20 (PDF, 5 pages)
 
 ### Definitions, acronyms and abbreviations
 
