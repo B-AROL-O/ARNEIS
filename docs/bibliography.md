@@ -28,6 +28,8 @@
 * [LEGO&reg; Powered UP](https://www.lego.com/en-it/themes/powered-up/about) Official Homepage
 * [LEGO&reg; Powered Up basic tutorials - 01 - Introduction & history](https://www.youtube.com/watch?v=MIpcyS4xzsw) - RacingBrick, 2021-01-11
 * [LEGO&reg; Powered Up Connector](https://www.biasedlogic.com/index.php/lego-powered-up-connector/) - Marek's microsite, 2022-09-26
+* [LEGO&reg; Powered Up simple code block guide](https://racingbrick.com/powered-up-code-block-guide/) - RackingBrick, 2020-04-29
+* [LEGO&reg; Powered Up extended code block guide](https://racingbrick.com/powered-up-code-block-guide-full/) - RackingBrick, 2020-04-29
 * [LEGO&reg; Set 42100 (Liebherr R 9800 Excavator)](https://arneis.readthedocs.io/en/latest/lego-set-42100) includes 2x [LEGO&reg; Technics Bluetooth Hub](https://www.bricklink.com/v2/catalog/catalogitem.page?P=bb0961c01#T=C) (LEGO&reg; Part bb0961c01).
 * [Powered Up - A tear down...](https://www.eurobricks.com/forum/index.php?/forums/topic/162288-powered-up-a-tear-down/) - Eurobricks Forum, 2018-06-07
 * [Programming the Lego NXT using Mathematica with Math4NXT](http://web5.uottawa.ca/www5/dcousineau/home/Others/Math4NXT/index.html) by Denis Cousineau
