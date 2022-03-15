@@ -1,49 +1,40 @@
 # ARNEIS
 
-`A`utomated `R`ecognizer, `N`etwork-`E`nabled, `I`tems Sorter.
-
 [![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-908a85?logo=gitpod)](https://gitpod.io/#https://github.com/B-AROL-O/ARNEIS)
 [![GitHub Super-Linter](https://github.com/B-AROL-O/ARNEIS/workflows/Lint%20Code%20Base/badge.svg)](https://github.com/marketplace/actions/super-linter)
 
-[![ARNEIS project by B-AROL-O team - WIP](https://img.youtube.com/vi/7qxbT31U5dE/0.jpg)](https://www.youtube.com/watch?v=7qxbT31U5dE "ARNEIS project by B-AROL-O team - WIP")
+<a href="https://arneis.readthedocs.io/">![ARNEIS logo](docs/images/arneis-logo.png)</a>
 
-([Watch the video on YouTube](https://www.youtube.com/watch?v=7qxbT31U5dE))
+The **ARNEIS** (short for `A`utomated `R`ecognizer, `N`etwork-`E`nabled, `I`tems Sorter) project is one of the 50 selected finalists of the [OpenCV Spatial AI Contest](https://opencv.org/opencv-spatial-ai-contest/) sponsored by [Intel&reg;](https://www.intel.com/) and [Microsoft Azure](https://azure.microsoft.com/).
 
-## Project Documentation
+## ARNEIS in a nutshell
 
-The documentation of the ARNEIS project is published at <https://arneis.readthedocs.io/>.
+ARNEIS aims at reproducing in scale a packaging machine for the [Industry-4.0](https://en.wikipedia.org/wiki/Fourth_Industrial_Revolution).
 
-The sources of the ARNEIS project documentation are stored inside the [`/docs`](https://github.com/B-AROL-O/ARNEIS/tree/main/docs) subfolder of this repository.<br>
-Whenever the `main` branch is updated, <https://arneis.readthedocs.io/> will be updated accordingly.
+![arneis-conveyor-20220312.gif](https://github.com/B-AROL-O/ARNEIS/raw/main/mocs/project/arneis-conveyor-20220312.gif)
 
-### Latest news
+This goal is achieved by means of a combination of:
+- An [OAK-D-Lite](https://docs.luxonis.com/projects/hardware/en/latest/pages/DM9095.html) Spatial AI camera
+- A lot of [LEGO&reg; Technic](https://www.lego.com/) parts
+- ... and plenty of Open Source software
 
-The ARNEIS project roadmap is [maintained on GitHub](https://github.com/B-AROL-O/ARNEIS/milestones?direction=asc&sort=due_date&state=open).
+## ARNEIS Project documentation
+
+The complete documentation of the ARNEIS project, including architecture documents and detailed instructions for reproducing the design, is available at <https://arneis.readthedocs.io/>.
+
+The source files for the software programs, the LEGO&reg; MOC as well as the documentation site are maintained in the GitHub repository at <https://github.com/B-AROL-O/ARNEIS>.
+
+Whenever the `main` branch of the git repository is updated, <https://arneis.readthedocs.io/> will be updated accordingly.
+
+## How to stay in touch
+
+The ARNEIS project roadmap is [kept updated on GitHub](https://github.com/B-AROL-O/ARNEIS/milestones?direction=asc&sort=due_date&state=open).
 
 [Gianpaolo Macario](https://github.com/gmacario/) publishes regular updates of the ARNEIS project on [his personal blog](https://gmacario.github.io/posts).
 
 You may also follow [twitter.com/baroloteam](https://twitter.com/baroloteam) to get notified about the progress of the project.
 
-### How to get in touch
-
 Please report bugs and feature requests on <https://github.com/B-AROL-O/ARNEIS/issues>, or DM [B-AROL-O Team on Twitter](https://twitter.com/baroloteam) about security issues or other non-public topics.
-
-### ARNEIS is an OpenCV Spatial AI Contest Finalist
-
-> Da: OpenCV Competition <competition@opencv.org><br>
-> Date: ven 17 dic 2021 alle ore 18:32<br>
-> Subject: Your Team Is An OpenCV Spatial AI Contest Finalist!<br>
-> To: Gianpaolo <gmacario@gmail.com>
->
-> Hello Gianpaolo,
->
-> Congratulations.
-> Your team “B-AROL-O Bottling Systems” and project “ARNEIS: Automated Recognizer, Network-Enabled, Items Sorter” have been selected as one of just 50 teams to move on to Phase 2 of OpenCV Spatial AI Contest.
-> Your team name and region are listed on the official webpage at <https://opencv.org/opencv-spatial-ai-contest/>
-
-<!-- ![opencv-spatial-ai-contest-finalist](docs/images/2021-12-17-1832-opencv-spatial-ai-contest-finalist.jpg) -->
-
-<a href="https://opencv.org/opencv-spatial-ai-contest/#finalists"><img src="https://user-images.githubusercontent.com/75182/146637995-3266f15d-81a4-4470-a337-965404340121.jpg" alt="OpenCV Spatial AI Contest Finalist" width="40%"></a>
 
 ## Copyright and license
 
