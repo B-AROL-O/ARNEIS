@@ -1,11 +1,11 @@
 # ARNEIS
 
-![ARNEIS logo](docs/images/arneis-logo.png)
-
-`A`utomated `R`ecognizer, `N`etwork-`E`nabled, `I`tems Sorter.
-
 [![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-908a85?logo=gitpod)](https://gitpod.io/#https://github.com/B-AROL-O/ARNEIS)
 [![GitHub Super-Linter](https://github.com/B-AROL-O/ARNEIS/workflows/Lint%20Code%20Base/badge.svg)](https://github.com/marketplace/actions/super-linter)
+
+<a href="https://arneis.readthedocs.io/">![ARNEIS logo](docs/images/arneis-logo.png)</a>
+
+The **ARNEIS** (short for `A`utomated `R`ecognizer, `N`etwork-`E`nabled, `I`tems Sorter) project is one of the 50 selected finalists of the [OpenCV Spatial AI Contest](https://opencv.org/opencv-spatial-ai-contest/) sponsored by [Intel&reg;](https://www.intel.com/) and [Microsoft Azure](https://azure.microsoft.com/).
 
 <!--
 [![ARNEIS project by B-AROL-O team - WIP](https://img.youtube.com/vi/7qxbT31U5dE/0.jpg)](https://www.youtube.com/watch?v=7qxbT31U5dE "ARNEIS project by B-AROL-O team - WIP")
@@ -31,23 +31,6 @@ You may also follow [twitter.com/baroloteam](https://twitter.com/baroloteam) to 
 ### How to get in touch
 
 Please report bugs and feature requests on <https://github.com/B-AROL-O/ARNEIS/issues>, or DM [B-AROL-O Team on Twitter](https://twitter.com/baroloteam) about security issues or other non-public topics.
-
-### ARNEIS is an OpenCV Spatial AI Contest Finalist
-
-> Da: OpenCV Competition <competition@opencv.org><br>
-> Date: ven 17 dic 2021 alle ore 18:32<br>
-> Subject: Your Team Is An OpenCV Spatial AI Contest Finalist!<br>
-> To: Gianpaolo <gmacario@gmail.com>
->
-> Hello Gianpaolo,
->
-> Congratulations.
-> Your team “B-AROL-O Bottling Systems” and project “ARNEIS: Automated Recognizer, Network-Enabled, Items Sorter” have been selected as one of just 50 teams to move on to Phase 2 of OpenCV Spatial AI Contest.
-> Your team name and region are listed on the official webpage at <https://opencv.org/opencv-spatial-ai-contest/>
-
-<!-- ![opencv-spatial-ai-contest-finalist](docs/images/2021-12-17-1832-opencv-spatial-ai-contest-finalist.jpg) -->
-
-<a href="https://opencv.org/opencv-spatial-ai-contest/#finalists"><img src="https://user-images.githubusercontent.com/75182/146637995-3266f15d-81a4-4470-a337-965404340121.jpg" alt="OpenCV Spatial AI Contest Finalist" width="40%"></a>
 
 ## Copyright and license
 
