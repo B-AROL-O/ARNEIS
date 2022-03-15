@@ -36,7 +36,9 @@ You may also follow [twitter.com/baroloteam](https://twitter.com/baroloteam) to 
 
 A 5-min video summarizing the current project achievements is [available on YouTube](https://www.youtube.com/watch?v=ZKtS8KgnbAY).
 
-[![ARNEIS LEGO MOC History HD 1080p](https://img.youtube.com/vi/ZKtS8KgnbAY/0.jpg)](https://www.youtube.com/watch?v=ZKtS8KgnbAY "ARNEIS LEGO MOC History HD 1080p")
+[![ARNEIS LEGO MOC History HD 1080p](
+
+https://img.youtube.com/vi/S-DiK0UgNBY/0.jpg)](https://www.youtube.com/watch?v=S-DiK0UgNBY "ARNEIS LEGO MOC History HD 1080p")
 
 Please report bugs and feature requests on <https://github.com/B-AROL-O/ARNEIS/issues>, or DM [B-AROL-O Team on Twitter](https://twitter.com/baroloteam) about security issues or other non-public topics.
 
