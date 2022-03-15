@@ -6,15 +6,19 @@
 Welcome to the ARNEIS Project!
 ==============================
 
+.. image:: ./images/arneis-logo.png
+    :width: 400px
+    :align: center
+
 .. raw:: html
 
     <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
         <iframe src="https://www.youtube.com/embed/7qxbT31U5dE" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
     </div>
 
-This is the **ARNEIS**
-(``A`` utomated ``R`` ecognizer,  ``N`` etwork - ``E`` nabled, ``I`` tems ``S`` orter)
-documentation home.
+The **ARNEIS** (short for ``A`` utomated ``R`` ecognizer,  ``N`` etwork - ``E`` nabled, ``I`` tems ``S`` orter)
+is one of the 50 selected finalists of the `OpenCV Spatial AI Contest <https://opencv.org/opencv-spatial-ai-contest/>`_
+sponsored by `Intel® <https://www.intel.com/>`_ and `Microsoft Azure <https://azure.microsoft.com/>`_.
 
 Latest news
 -----------
