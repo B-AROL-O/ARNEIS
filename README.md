@@ -14,15 +14,15 @@ ARNEIS aims at reproducing in scale a packaging machine for the [Industry-4.0](h
 ![arneis-conveyor-20220312.gif](https://github.com/B-AROL-O/ARNEIS/raw/main/mocs/project/arneis-conveyor-20220312.gif)
 
 This goal is achieved by means of a combination of:
-- A lot of [LEGO&reg;](https://www.lego.com/) blocks, the
-- A [OAK-D-Lite](https://docs.luxonis.com/projects/hardware/en/latest/pages/DM9095.html) Spatial AI camera
-- and plenty of Open Source software running on the Edge and in the Cloud.
+- An [OAK-D-Lite](https://docs.luxonis.com/projects/hardware/en/latest/pages/DM9095.html) Spatial AI camera
+- A lot of [LEGO&reg; Technic](https://www.lego.com/) parts
+- ... and plenty of Open Source software
 
 ## ARNEIS Project documentation
 
-The complete documentation of the ARNEIS project, including detailed HOWTOs for reproducing the design, is published at <https://arneis.readthedocs.io/>.
+The complete documentation of the ARNEIS project, including architecture documents and detailed instructions for reproducing the design, is available at <https://arneis.readthedocs.io/>.
 
-The program source files, the LEGO&reg; design as well as the documentation site are maintained in the GitHub repository at <https://github.com/B-AROL-O/ARNEIS>.
+The source files for the software programs, the LEGO&reg; MOC as well as the documentation site are maintained in the GitHub repository at <https://github.com/B-AROL-O/ARNEIS>.
 
 Whenever the `main` branch of the git repository is updated, <https://arneis.readthedocs.io/> will be updated accordingly.
 
