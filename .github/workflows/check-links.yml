@@ -1,0 +1,33 @@
+name: Check Markdown links
+
+on:
+  push:
+    paths:
+      - ".github/workflows/check-links.yml"
+      - "**.md"
+  pull_request:
+    paths:
+      - ".github/workflows/check-links.yml"
+      - "**.md"
+  schedule:
+    # Run every Tuesday at 3 AM UTC to catch breakage caused by changes to the linked sites.
+    - cron: "0 3 * * TUE"
+  workflow_dispatch:
+  repository_dispatch:
+
+jobs:
+  markdown-link-check:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Check links
+        uses: gaurav-nelson/github-action-markdown-link-check@v1
+        with:
+          folder-path: './code, ./docs, ./mocs'
+          file-path: './README.md, ./LICENSE'
+          use-quiet-mode: yes
+
+# EOF

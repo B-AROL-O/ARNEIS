@@ -4,7 +4,7 @@
 
 ## Introduction
 
-The following document explains how to prepare and configure a Windows lapto to be used with the [ARNEIS project](https://github.com/B-AROL-O/ARNEIS/tree/fix/updates-to-howto-rpi4).
+The following document explains how to prepare and configure a Windows laptop to be used with the [ARNEIS project](https://github.com/B-AROL-O/ARNEIS/).
 
 ## References
 
@@ -31,9 +31,9 @@ Double click `DepthAI-setup-v3.0.9.exe` to launch the install wizard
 > Microsoft Defender SmartScreen prevented an unrecognized app from starting.
 > Running this app might put your PC at risk.
 >
-> [More info](TODO)
+> [More info](https://google.com/)
 >
-> [Don't run](TODO)
+> [Don't run](https://google.com/)
 
 Click "More info".
 
@@ -45,7 +45,7 @@ Click "More info".
 > * App: DepthAI-setup-v3.0.9.exe
 > * Autore: Luxonis Holding Corporation
 >
-> [Run anyway](TODO) | [Don't run](TODO)
+> [Run anyway](https://google.com/) | [Don't run](https://google.com/)
 
 Click "Run anyway".
 
@@ -62,7 +62,7 @@ Click "Run anyway".
 >
 > At least 364,5 MB of free disk space is required.
 >
-> [Next](TODO) | [Cancel](TODO)
+> [Next](https://google.com/) | [Cancel](https://google.com/)
 
 Click "Next".
 
@@ -75,7 +75,7 @@ Click "Next".
 > Additional shortcuts:
 > * [x] Create a desktop shortcut
 >
-> [Back](TODO) | [Next](TODO) | [Cancel](TODO)
+> [Back](https://google.com/) | [Next](https://google.com/) | [Cancel](https://google.com/)
 
 Accept proposed values, then click "Next".
 
@@ -94,7 +94,7 @@ Accept proposed values, then click "Next".
 >         Create a desktop shortcut
 > ```
 >
-> [Back](TODO) | [Install](TODO) | [Cancel](TODO)
+> [Back](https://google.com/) | [Install](https://google.com/) | [Cancel](https://google.com/)
 
 Click "Install".
 
@@ -119,8 +119,6 @@ Click "Install".
 
 Click "Finish".
 
-TODO
-
 > Installing Depthai Requirements
 
 If no OAK-D-Lite is connected a dialog box like this one should be displayed:
@@ -134,7 +132,7 @@ If no OAK-D-Lite is connected a dialog box like this one should be displayed:
 >     No DepthAI device found!
 > ```
 >
-> [OK](TODO)
+> [OK](https://google.com/)
 
 Click "OK" to terminate the program.
 
@@ -144,7 +142,5 @@ Now connect your OAK-D-Lite to your laptop using a proper USB 3.0 USB-A to USB-C
 then double click on the "DepthAI" icon on your desktop.
 
 Result: the DepthAI demo main window is displayed with the augmented video captured by the OAK-D-Lite.
-
-TODO: Figure out how DepthAI-demo works.
 
 <!-- EOF -->
