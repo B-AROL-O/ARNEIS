@@ -7,22 +7,32 @@
 
 The **ARNEIS** (short for `A`utomated `R`ecognizer, `N`etwork-`E`nabled, `I`tems Sorter) project is one of the 50 selected finalists of the [OpenCV Spatial AI Contest](https://opencv.org/opencv-spatial-ai-contest/) sponsored by [Intel&reg;](https://www.intel.com/) and [Microsoft Azure](https://azure.microsoft.com/).
 
-## Latest news
+## ARNEIS in a nutshell
 
-The ARNEIS project roadmap is [maintained on GitHub](https://github.com/B-AROL-O/ARNEIS/milestones?direction=asc&sort=due_date&state=open).
+ARNEIS aims at reproducing in scale a packaging machine for the [Industry-4.0](https://en.wikipedia.org/wiki/Fourth_Industrial_Revolution).
+
+![arneis-conveyor-20220312.gif](https://github.com/B-AROL-O/ARNEIS/raw/main/mocs/project/arneis-conveyor-20220312.gif)
+
+This goal is achieved by means of a combination of:
+- A lot of [LEGO&reg;](https://www.lego.com/) blocks, the
+- A [OAK-D-Lite](https://docs.luxonis.com/projects/hardware/en/latest/pages/DM9095.html) Spatial AI camera
+- and plenty of Open Source software running on the Edge and in the Cloud.
+
+## ARNEIS Project documentation
+
+The complete documentation of the ARNEIS project, including detailed HOWTOs for reproducing the design, is published at <https://arneis.readthedocs.io/>.
+
+The program source files, the LEGO&reg; design as well as the documentation site are maintained in the GitHub repository at <https://github.com/B-AROL-O/ARNEIS>.
+
+Whenever the `main` branch of the git repository is updated, <https://arneis.readthedocs.io/> will be updated accordingly.
+
+## How to stay in touch
+
+The ARNEIS project roadmap is [kept updated on GitHub](https://github.com/B-AROL-O/ARNEIS/milestones?direction=asc&sort=due_date&state=open).
 
 [Gianpaolo Macario](https://github.com/gmacario/) publishes regular updates of the ARNEIS project on [his personal blog](https://gmacario.github.io/posts).
 
 You may also follow [twitter.com/baroloteam](https://twitter.com/baroloteam) to get notified about the progress of the project.
-
-## Project Documentation
-
-The documentation of the ARNEIS project is published at <https://arneis.readthedocs.io/>.
-
-The sources of the ARNEIS project documentation are stored inside the [`/docs`](/docs) subfolder of this repository.<br>
-Whenever the `main` branch is updated, <https://arneis.readthedocs.io/> will be updated accordingly.
-
-## How to get in touch
 
 Please report bugs and feature requests on <https://github.com/B-AROL-O/ARNEIS/issues>, or DM [B-AROL-O Team on Twitter](https://twitter.com/baroloteam) about security issues or other non-public topics.
 
