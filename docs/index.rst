@@ -27,8 +27,8 @@ ARNEIS aims at reproducing in scale a packaging machine for the `Industry-4.0 <h
 
 This goal is achieved by means of a combination of:
 
-* An [OAK-D-Lite](https://docs.luxonis.com/projects/hardware/en/latest/pages/DM9095.html) Spatial AI camera
-* A lot of [LEGO&reg; Technic](https://www.lego.com/) parts
+* An `OAK-D-Lite <https://docs.luxonis.com/projects/hardware/en/latest/pages/DM9095.html>`_ Spatial AI camera
+* A lot of `LEGO&reg; Technic <https://www.lego.com/>`_ parts
 * ... and plenty of Open Source software
 
 ARNEIS Project sources
@@ -36,7 +36,7 @@ ARNEIS Project sources
 
 The source files for the software programs, the LEGO® MOC as well as the documentation site are maintained in the GitHub repository at `github.com/B-AROL-O/ARNEIS <https://github.com/B-AROL-O/ARNEIS>`_.
 
-Whenever the ``main`` branch of the git repository is updated, `this site <https://arneis.readthedocs.io/>`_` will be updated accordingly.
+Whenever the ``main`` branch of the git repository is updated, `this site <https://arneis.readthedocs.io/>`_ will be updated accordingly.
 
 How to stay in touch
 -------------------
