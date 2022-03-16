@@ -26,21 +26,25 @@ ARNEIS aims at reproducing in scale a packaging machine for the `Industry-4.0 <h
     </div>
 
 This goal is achieved by means of a combination of:
-- An [OAK-D-Lite](https://docs.luxonis.com/projects/hardware/en/latest/pages/DM9095.html) Spatial AI camera
-- A lot of [LEGO&reg; Technic](https://www.lego.com/) parts
-- ... and plenty of Open Source software
+* An [OAK-D-Lite](https://docs.luxonis.com/projects/hardware/en/latest/pages/DM9095.html) Spatial AI camera
+* A lot of [LEGO&reg; Technic](https://www.lego.com/) parts
+* ... and plenty of Open Source software
 
-Latest news
------------
+ARNEIS Project sources
+----------------------
+
+The source files for the software programs, the LEGO® MOC as well as the documentation site are maintained in the GitHub repository at `github.com/B-AROL-O/ARNEIS <https://github.com/B-AROL-O/ARNEIS>`_.
+
+Whenever the ``main`` branch of the git repository is updated, `this site <https://arneis.readthedocs.io/>`_` will be updated accordingly.
+
+How to stay in touch
+-------------------
 
 The ARNEIS project roadmap is `maintained on GitHub <https://github.com/B-AROL-O/ARNEIS/milestones?direction=asc&sort=due_date&state=open>`_.
 
 `Gianpaolo Macario <https://github.com/gmacario/>`_ publishes regular updates of the ARNEIS project on `his personal blog <https://gmacario.github.io/posts>`_.
 
 You may also follow `twitter.com/baroloteam <https://twitter.com/baroloteam>`_ to get notified about the progress of the project.
-
-How to get in touch
--------------------
 
 Please report bugs and feature requests on https://github.com/B-AROL-O/ARNEIS/issues,
 or DM the `B-AROL-O Team on Twitter <https://twitter.com/baroloteam>`_ about security issues or other non-public topics.
