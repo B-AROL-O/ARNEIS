@@ -9,11 +9,8 @@
 
 Testing 
 
-![ARNEIS-logo-Dark](https://github.com/B-AROL-O/ARNEIS/blob/feature/update-arneis-logo-test/docs/images/arneis-logo-white.png#gh-dark-mode-only)![ARNEIS-logo-Light](https://github.com/B-AROL-O/ARNEIS/blob/feature/update-arneis-logo-test/docs/images/arneis-logo.png#gh-light-mode-only)
-
-![GitHub-Mark-Light](https://user-images.githubusercontent.com/3369400/139447912-e0f43f33-6d9f-45f8-be46-2df5bbc91289.png#gh-dark-mode-only)
-  
-![GitHub-Mark-Dark](https://user-images.githubusercontent.com/3369400/139448065-39a229ba-4b06-434b-bc67-616e2ed80c8f.png#gh-light-mode-only)
+<a href="https://arneis.readthedocs.io/">![ARNEIS-logo-Dark](https://github.com/B-AROL-O/ARNEIS/blob/feature/update-arneis-logo-test/docs/images/arneis-logo-white.png#gh-dark-mode-only)
+![ARNEIS-logo-Light](https://github.com/B-AROL-O/ARNEIS/blob/feature/update-arneis-logo-test/docs/images/arneis-logo.png#gh-light-mode-only)</a>
 
 The **ARNEIS** (short for `A`utomated `R`ecognizer, `N`etwork-`E`nabled, `I`tems Sorter) project is one of the 50 selected finalists of the [OpenCV Spatial AI Contest](https://opencv.org/opencv-spatial-ai-contest/) sponsored by [Intel&reg;](https://www.intel.com/) and [Microsoft Azure](https://azure.microsoft.com/).
 
