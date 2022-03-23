@@ -57,6 +57,11 @@
 * Reverse Engineering the LEGO BOOST Move Hub: <https://github.com/JorgePe/BOOSTreveng>
 * Thread on StackExchange.com: [Which programming environments or APIs are available for the LEGO BOOST?](https://bricks.stackexchange.com/questions/10786/which-programming-environments-or-apis-are-available-for-the-lego-boost)
 
+### Marketplaces for LEGO&reg; Parts
+
+* <https://www.brickeconomy.com/>
+* <https://www.bricklink.com/>
+
 ### Pybricks
 
 * [Pybricks](https://pybricks.com/) is Python coding for smart LEGO® hubs. Run MicroPython scripts directly on the hub, and get full control of your motors and sensors.
