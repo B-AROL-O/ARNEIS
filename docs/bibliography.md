@@ -65,6 +65,9 @@
 ### Pybricks
 
 * [Pybricks](https://pybricks.com/) is Python coding for smart LEGO® hubs. Run MicroPython scripts directly on the hub, and get full control of your motors and sensors.
+  Pybricks runs on LEGO® BOOST, City, Technic, MINDSTORMS®, and SPIKE®.
+  You can code using Windows, Mac, Linux, Chromebook, and Android.
+
 * [Pybricks Support](https://github.com/pybricks/support)
   - [The future of BLE, Bluetooth, and USB](https://github.com/pybricks/support/issues/262) - Issue #262 on pybricks/support
   - [Troubleshooting Bluetooth in Pybricks Code](https://github.com/pybricks/support/discussions/270) - Discussion #270 on pybricks/support
