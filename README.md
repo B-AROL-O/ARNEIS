@@ -4,13 +4,9 @@
 [![GitHub Super-Linter](https://github.com/B-AROL-O/ARNEIS/workflows/Lint%20Code%20Base/badge.svg)](https://github.com/marketplace/actions/super-linter)
 
 <a href="https://arneis.readthedocs.io/">![ARNEIS logo](docs/images/arneis-logo.png)</a>
-<a href="https://arneis.readthedocs.io/">![ARNEIS logo](docs/images/arneis-logo-white.png#gh-dark-mode-only)</a>
-<a href="https://arneis.readthedocs.io/">![ARNEIS logo](docs/images/arneis-logo.png#gh-light-mode-only)</a>
 
-Testing 
-
-<a href="https://arneis.readthedocs.io/">![ARNEIS-logo-Dark](https://github.com/B-AROL-O/ARNEIS/blob/feature/update-arneis-logo-test/docs/images/arneis-logo-white.png#gh-dark-mode-only)
-![ARNEIS-logo-Light](https://github.com/B-AROL-O/ARNEIS/blob/feature/update-arneis-logo-test/docs/images/arneis-logo.png#gh-light-mode-only)</a>
+![ARNEIS-logo-Dark](https://github.com/B-AROL-O/ARNEIS/blob/feature/update-arneis-logo-test/docs/images/arneis-logo-white.png#gh-dark-mode-only)
+![ARNEIS-logo-Light](https://github.com/B-AROL-O/ARNEIS/blob/feature/update-arneis-logo-test/docs/images/arneis-logo.png#gh-light-mode-only)
 
 The **ARNEIS** (short for `A`utomated `R`ecognizer, `N`etwork-`E`nabled, `I`tems Sorter) project is one of the 50 selected finalists of the [OpenCV Spatial AI Contest](https://opencv.org/opencv-spatial-ai-contest/) sponsored by [Intel&reg;](https://www.intel.com/) and [Microsoft Azure](https://azure.microsoft.com/).
 
