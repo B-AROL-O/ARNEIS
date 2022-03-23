@@ -4,8 +4,8 @@
 [![GitHub Super-Linter](https://github.com/B-AROL-O/ARNEIS/workflows/Lint%20Code%20Base/badge.svg)](https://github.com/marketplace/actions/super-linter)
 
 <a href="https://arneis.readthedocs.io/">![ARNEIS logo](docs/images/arneis-logo.png)</a>
-<a href="https://arneis.readthedocs.io/">![ARNEIS logo](docs/images/arneis-logo-white.png#gh-dark-mode-only)
-<a href="https://arneis.readthedocs.io/">![ARNEIS logo](docs/images/arneis-logo.png#gh-light-mode-only)
+<a href="https://arneis.readthedocs.io/">![ARNEIS logo](docs/images/arneis-logo-white.png#gh-dark-mode-only)</a>
+<a href="https://arneis.readthedocs.io/">![ARNEIS logo](docs/images/arneis-logo.png#gh-light-mode-only)</a>
 
 Testing 
 
