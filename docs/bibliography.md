@@ -59,8 +59,13 @@
 
 ### Marketplaces for LEGO&reg; Parts
 
-* <https://www.brickeconomy.com/>
-* <https://www.bricklink.com/>
+* BrickEconomy: <https://www.brickeconomy.com/>
+* BrickLink: <https://www.bricklink.com/>
+  * [BrickLink API guide](https://www.bricklink.com/v3/api.page)
+  * [Welcome to BrickLink Store API](https://www.bricklink.com/v2/api/welcome.page)
+  * [How To: Use the BrickLink API - Episode 1: Creating a CSV Using the API](https://www.youtube.com/watch?v=gTJ6PMb8gHM) - YouTube Video (37:31) by Just a Brick in The Bucket, 2020-10-05
+  * [bricklink_api](https://github.com/BrickBytes/bricklink_api) (Python)
+  * [BSX file handler](https://github.com/BrickBytes/bsx): BSX file (BrickStock, BrickStore) read/write and conversion with Python
 
 ### Pybricks
 
