@@ -2,8 +2,8 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="412.17075"
-   height="188.88383"
+   width="109.05351mm"
+   height="49.975513mm"
    viewBox="0 0 109.05351 49.975513"
    version="1.1"
    id="svg7582"
@@ -43,9 +43,7 @@
      fit-margin-top="1"
      fit-margin-left="1"
      fit-margin-right="1"
-     fit-margin-bottom="1"
-     inkscape:snap-page="true"
-     units="px" />
+     fit-margin-bottom="1" />
   <defs
      id="defs7579">
     <rect
@@ -60,13 +58,6 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(-50.668064,-87.876229)">
-    <rect
-       style="fill:#ffffff;stroke:#010000;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none"
-       id="rect1547"
-       width="109.09676"
-       height="50.095451"
-       x="50.668064"
-       y="87.876228" />
     <rect
        style="fill:#e4d96f;fill-opacity:0.8;fill-rule:evenodd;stroke:#aa0000;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none"
        id="rect7111"

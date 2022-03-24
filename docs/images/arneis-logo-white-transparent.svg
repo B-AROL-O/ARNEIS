@@ -2,14 +2,14 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="412.17075"
-   height="188.88383"
+   width="109.05351mm"
+   height="49.975513mm"
    viewBox="0 0 109.05351 49.975513"
    version="1.1"
    id="svg7582"
    inkscape:version="1.1.2 (b8e25be8, 2022-02-05)"
-   sodipodi:docname="arneis-logo.svg"
-   inkscape:export-filename="/Users/alessandro/Desktop/arneis-logo.png"
+   sodipodi:docname="arneis-logo-white.svg"
+   inkscape:export-filename="/Users/alessandro/Desktop/arneis-logo-white.png"
    inkscape:export-xdpi="300"
    inkscape:export-ydpi="300"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
@@ -27,13 +27,13 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="2.8520552"
-     inkscape:cx="170.92937"
-     inkscape:cy="109.21948"
-     inkscape:window-width="2207"
-     inkscape:window-height="1081"
+     inkscape:cx="279.44761"
+     inkscape:cy="104.83668"
+     inkscape:window-width="2560"
+     inkscape:window-height="1288"
      inkscape:window-x="0"
      inkscape:window-y="25"
-     inkscape:window-maximized="0"
+     inkscape:window-maximized="1"
      inkscape:current-layer="layer1"
      inkscape:snap-nodes="false"
      inkscape:snap-others="false"
@@ -43,9 +43,7 @@
      fit-margin-top="1"
      fit-margin-left="1"
      fit-margin-right="1"
-     fit-margin-bottom="1"
-     inkscape:snap-page="true"
-     units="px" />
+     fit-margin-bottom="1" />
   <defs
      id="defs7579">
     <rect
@@ -61,13 +59,6 @@
      id="layer1"
      transform="translate(-50.668064,-87.876229)">
     <rect
-       style="fill:#ffffff;stroke:#010000;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none"
-       id="rect1547"
-       width="109.09676"
-       height="50.095451"
-       x="50.668064"
-       y="87.876228" />
-    <rect
        style="fill:#e4d96f;fill-opacity:0.8;fill-rule:evenodd;stroke:#aa0000;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none"
        id="rect7111"
        width="20.013012"
@@ -76,13 +67,13 @@
        y="107.4263" />
     <path
        id="text10992-5-9-7"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:43.4138px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Condensed';display:inline;fill:#000000;stroke:#010000;stroke-width:0.3;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:43.4138px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Condensed';display:inline;fill:#ffffff;stroke:#450000;stroke-width:0.3;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 56.444455,88.876168 v 5.783109 h 1.021127 v 6.764443 c -3.443115,1.91165 -5.73105,5.55057 -5.794478,9.66763 h -0.0016 v 0.0393 c -1.08e-4,0.0284 -1.08e-4,0.0569 0,0.0853 0.0021,8.41401 -0.0019,17.47555 -0.0016,25.63306 h 3.333646 c 0.03793,-8.94744 0.01721,-18.08658 0.0072,-25.7576 h -0.0047 c 0.06839,-3.49436 2.415347,-6.53038 5.774841,-7.47035 v -1.5322 h 0.01034 v -7.429523 h 4.078821 v 5.494753 h -5.3e-4 v 3.44217 c 3.283644,0.84337 5.664551,3.69148 5.917468,7.07864 0.0019,0.0271 0.0086,0.0501 0.0155,0.0729 l 0.01292,8.02639 H 57.16568 v 3.67781 h 13.653429 l 0.02274,14.37586 h 3.254581 v -14.35985 h 4.058666 c 1.176428,0 2.123049,-0.0151 2.734718,0.48525 4.345379,4.50384 8.660037,9.20378 12.604914,13.9547 h 3.365687 v -25.33954 c 4.614525,8.42473 9.303355,16.98544 13.879255,25.33954 13.61218,-0.0114 27.82956,0.004 39.56141,-0.0117 1.46816,-0.13209 2.64684,-0.55631 3.75636,-1.14951 1.44147,-0.76314 2.57892,-1.87235 3.41271,-3.32796 0.83379,-1.46973 1.25109,-3.09502 1.25108,-4.87567 0,-1.79477 -0.39612,-3.3354 -1.18752,-4.62142 -0.7914,-1.30015 -1.96412,-2.34588 -3.51865,-3.13728 -1.01751,-0.50875 -2.7839,-1.10948 -5.29941,-1.80196 -2.57206,-0.7066 -4.22556,-1.4061 -4.96043,-2.09858 -0.73486,-0.69247 -1.10225,-1.66712 -1.10225,-2.92488 0,-1.35668 0.50144,-2.45937 1.50481,-3.30729 1.00338,-0.86206 2.45935,-1.29295 4.36718,-1.29295 1.87957,0 3.33501,0.48732 4.36666,1.46244 1.04577,0.97511 1.65356,2.47341 1.82314,4.4943 l 3.24321,-0.29662 c -0.0565,-1.8937 -0.48035,-3.54015 -1.27175,-4.93923 -0.77727,-1.39908 -1.87995,-2.47302 -3.30729,-3.22203 -1.41321,-0.749 -3.06671,-1.12396 -4.96043,-1.12396 -2.75574,0 -4.94598,0.79879 -6.57117,2.39572 -1.62519,1.59693 -2.43758,3.65309 -2.43758,6.16861 0,1.39908 0.28221,2.65698 0.8475,3.77342 0.56528,1.1023 1.35702,2.01346 2.37453,2.7342 1.01751,0.72074 2.72746,1.43434 5.12992,2.14095 2.69923,0.79138 4.45151,1.40623 5.25704,1.84433 0.81966,0.43809 1.42745,1.00354 1.82315,1.69602 0.40983,0.67835 0.61443,1.47662 0.61443,2.39521 0,1.56866 -0.55788,2.84773 -1.67432,3.83697 -0.89745,0.7939 -2.09506,1.26427 -3.59203,1.4118 l -35.60506,-0.0341 V 122.1233 h 16.34577 v -3.78271 h -16.34577 v -9.87382 h 17.45475 v -3.80442 h -17.71468 v -5.2e-4 h -3.34347 v 5.2e-4 h -0.30695 v 24.75766 L 97.080219,104.66177 h -3.585313 v 27.25776 c -2.682598,-3.48631 -6.042742,-7.00973 -9.163781,-9.80456 2.426383,-0.41175 4.271958,-1.37458 5.536613,-2.88923 1.279366,-1.51465 1.919264,-3.49292 1.919264,-5.93401 0,-1.85287 -0.375023,-3.47764 -1.124998,-4.87464 -0.749972,-1.41172 -1.713323,-2.41911 -2.889745,-3.02203 -1.161722,-0.60292 -2.970239,-0.90434 -5.426024,-0.90434 h -6.597532 v 3.56929 l 0.07906,0.004 h 6.650758 c 1.882278,0 3.301257,0.47066 4.257104,1.4118 0.955847,0.92643 1.433504,2.2057 1.433504,3.838 0,1.13231 -0.249843,2.1247 -0.749826,2.9776 -0.499981,0.85291 -1.176422,1.47829 -2.029333,1.87534 -0.852911,0.39704 -2.102647,0.59531 -3.749641,0.59531 h -7.543726 l 0.05788,-7.69772 -0.01602,-0.003 c -0.0028,-0.1852 -0.01022,-0.37087 -0.02222,-0.55656 l -0.0062,-0.0873 c -0.287053,-3.93106 -2.587352,-7.32338 -5.917984,-9.10539 v -6.652823 h 0.993221 v -5.783109 z"
        sodipodi:nodetypes="cccccccccccccccccccccccccccccsccccccccscccsscscccccssscscccscccccccccccccccccccccsccscccscsscccccccccccc" />
     <path
        d="m 133.66105,131.26077 v -26.58765 h 3.92492 v 26.58765 z"
        id="path1512"
-       style="font-size:40px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;white-space:pre;fill:#000000;stroke:#010000;stroke-width:0.3;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+       style="font-size:40px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;white-space:pre;fill:#ffffff;stroke:#450000;stroke-width:0.3;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
   </g>
   <g
      inkscape:groupmode="layer"
