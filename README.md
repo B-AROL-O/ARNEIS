@@ -50,7 +50,7 @@ The source code contained in this repository and the executable distributions ar
 
 ### Documentation license
 
-![CC BY-SA 4.0](https://i.creativecommons.org/l/by-sa/4.0/88x31.png) 
+![CC BY-SA 4.0](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)
 
 Please note that your contribution to the ARNEIS Documentation is licensed under a Creative Commons Attribution-Share Alike 4.0 License. see <https://creativecommons.org/licenses/by-sa/4.0/>
 
