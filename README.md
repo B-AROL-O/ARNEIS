@@ -44,6 +44,14 @@ Please report bugs and feature requests on <https://github.com/B-AROL-O/ARNEIS/i
 
 Copyright (C) 2021-2022, [B-AROL-O Bottling Systems team](https://github.com/B-AROL-O), all rights reserved.
 
-The code contained in this repository and the executable distributions are licensed under the terms of the MIT license as detailed in the [LICENSE](LICENSE) file.
+### Source code license
+
+The source code contained in this repository and the executable distributions are licensed under the terms of the MIT license as detailed in the [LICENSE](LICENSE) file.
+
+### Documentation license
+
+![](https://i.creativecommons.org/l/by-sa/3.0/88x31.png) 
+
+Please note that your contribution to the ARNEIS Documentation is licensed under a Creative Commons Attribution-Share Alike 4.0 License. see https://creativecommons.org/licenses/by-sa/4.0/
 
 <!-- EOF -->
