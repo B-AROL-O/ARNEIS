@@ -1,5 +1,9 @@
 # TODO
 
+## Step-by-step instructions
+
+### Make sure the OS is up-to-date
+
 <!-- (2022-03-26 08:49 CET) -->
 
 ```text
@@ -32,6 +36,35 @@ Building dependency tree... Done
 Reading state information... Done
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
 pi@rpi3pmv38:~ $
+```
+
+### Attach Agent Node
+
+<!-- (2022-03-26 08:49 CET) -->
+
+```text
+pi@rpi3pmv38:~ $ sudo -i
+root@rpi3pmv38:~# export K3S_URL=https://xxxx.example.com:6443
+root@rpi3pmv38:~# export K3S_TOKEN=K1015exxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxf06408::server:f22587xxxxxxxxxxxxxxxxxxxx8672c3
+root@rpi3pmv38:~# curl -sfL https://get.k3s.io | sh -
+[INFO]  Finding release for channel stable
+[INFO]  Using v1.22.7+k3s1 as release
+[INFO]  Downloading hash https://github.com/k3s-io/k3s/releases/download/v1.22.7+k3s1/sha256sum-arm64.txt
+[INFO]  Downloading binary https://github.com/k3s-io/k3s/releases/download/v1.22.7+k3s1/k3s-arm64
+[INFO]  Verifying binary download
+[INFO]  Installing k3s to /usr/local/bin/k3s
+[INFO]  Creating /usr/local/bin/kubectl symlink to k3s
+[INFO]  Creating /usr/local/bin/crictl symlink to k3s
+[INFO]  Creating /usr/local/bin/ctr symlink to k3s
+[INFO]  Creating killall script /usr/local/bin/k3s-killall.sh
+[INFO]  Creating uninstall script /usr/local/bin/k3s-agent-uninstall.sh
+[INFO]  env: Creating environment file /etc/systemd/system/k3s-agent.service.env
+[INFO]  systemd: Creating service file /etc/systemd/system/k3s-agent.service
+[INFO]  Failed to find memory cgroup, you may need to add "cgroup_memory=1 cgroup_enable=memory" to your linux cmdline (/boot/cmdline.txt on a Raspberry Pi)
+[INFO]  systemd: Enabling k3s-agent unit
+Created symlink /etc/systemd/system/multi-user.target.wants/k3s-agent.service → /etc/systemd/system/k3s-agent.service.
+[INFO]  systemd: Starting k3s-agent
+root@rpi3pmv38:~#
 ```
 
 <!-- EOF -->
