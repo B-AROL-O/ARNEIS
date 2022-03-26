@@ -89,7 +89,7 @@ Edit the boot configuration file according to the suggestions in the previous er
 sudo vi /boot/cmdline.txt
 ```
 
-Finally, verify that the command line has changed accordingly:
+Finally, verify that the command-line has changed accordingly:
 
 ```text
 root@rpi3pmv38:~# cat /boot/cmdline.txt
@@ -97,7 +97,41 @@ console=serial0,115200 console=tty1 root=PARTUUID=ff8e3abf-02 rootfstype=ext4 fs
 root@rpi3pmv38:~#
 ```
 
+Reboot to ensure that the Linux kernel will use the updated command-line.
+
+After the Raspberry Pi has rebooted you may inspect the Linux command-line with the following command:
+
+```text
+pi@rpi3pmv38:~ $ cat /proc/cmdline
+coherent_pool=1M 8250.nr_uarts=0 snd_bcm2835.enable_compat_alsa=0 snd_bcm2835.enable_hdmi=1 video=HDMI-A-1:1920x1080M@60 vc_mem.mem_base=0x3ec00000 vc_mem.mem_size=0x40000000  console=ttyS0,115200 console=tty1 root=PARTUUID=ff8e3abf-02 rootfstype=ext4 fsck.repair=yes rootwait quiet splash plymouth.ignore-serial-consoles cgroup_memory=1 cgroup_enable=memory
+pi@rpi3pmv38:~ $
+```
+
 #### Retry attaching Agent Node
+
+<!-- (2022-03-26 10:14 CET) -->
+
+```text
+pi@rpi3pmv38:~ $ sudo -i
+root@rpi3pmv38:~# export K3S_URL=https://xxxx.example.com:6443
+root@rpi3pmv38:~# export K3S_TOKEN=K1015exxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxf06408::server:f22587xxxxxxxxxxxxxxxxxxxx8672c3
+root@rpi3pmv38:~# curl -sfL https://get.k3s.io | sh -
+[INFO]  Finding release for channel stable
+[INFO]  Using v1.22.7+k3s1 as release
+[INFO]  Downloading hash https://github.com/k3s-io/k3s/releases/download/v1.22.7+k3s1/sha256sum-arm64.txt
+[INFO]  Skipping binary downloaded, installed k3s matches hash
+[INFO]  Skipping /usr/local/bin/kubectl symlink to k3s, already exists
+[INFO]  Skipping /usr/local/bin/crictl symlink to k3s, already exists
+[INFO]  Skipping /usr/local/bin/ctr symlink to k3s, already exists
+[INFO]  Creating killall script /usr/local/bin/k3s-killall.sh
+[INFO]  Creating uninstall script /usr/local/bin/k3s-agent-uninstall.sh
+[INFO]  env: Creating environment file /etc/systemd/system/k3s-agent.service.env
+[INFO]  systemd: Creating service file /etc/systemd/system/k3s-agent.service
+[INFO]  systemd: Enabling k3s-agent unit
+Created symlink /etc/systemd/system/multi-user.target.wants/k3s-agent.service → /etc/systemd/system/k3s-agent.service.
+[INFO]  No change detected so skipping service start
+root@rpi3pmv38:~#
+```
 
 TODO
 
