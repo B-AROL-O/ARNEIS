@@ -84,6 +84,13 @@ Indices and tables
    architecture/arneis-swarch
    
 .. toctree::
+   :caption: System Integration
+   :maxdepth: 1
+   :hidden:
+
+   sysint/arneis-sysint-1.0
+
+.. toctree::
    :caption: HOWTOs
    :maxdepth: 1
    :glob:
