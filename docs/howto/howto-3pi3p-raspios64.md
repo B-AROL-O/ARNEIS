@@ -67,13 +67,37 @@ Created symlink /etc/systemd/system/multi-user.target.wants/k3s-agent.service â†
 root@rpi3pmv38:~#
 ```
 
-TODO: Must follow instructions
+The following line gives us some suggestions:
 
-```
+```text
 [INFO]  Failed to find memory cgroup, you may need to add "cgroup_memory=1 cgroup_enable=memory" to your linux cmdline (/boot/cmdline.txt on a Raspberry Pi)
 ```
 
-### Modify Linux cmdline on the Raspberry Pi
+#### Modify Linux cmdline
+
+Display the current contents of file `/boot/cmdline.txt`:
+
+```text
+root@rpi3pmv38:~# cat /boot/cmdline.txt
+console=serial0,115200 console=tty1 root=PARTUUID=ff8e3abf-02 rootfstype=ext4 fsck.repair=yes rootwait quiet splash plymouth.ignore-serial-consoles
+root@rpi3pmv38:~#
+```
+
+Edit the boot configuration file according to the suggestions in the previous error message
+
+```bash
+sudo vi /boot/cmdline.txt
+```
+
+Finally, verify that the command line has changed accordingly:
+
+```text
+root@rpi3pmv38:~# cat /boot/cmdline.txt
+console=serial0,115200 console=tty1 root=PARTUUID=ff8e3abf-02 rootfstype=ext4 fsck.repair=yes rootwait quiet splash plymouth.ignore-serial-consoles cgroup_memory=1 cgroup_enable=memory
+root@rpi3pmv38:~#
+```
+
+#### Retry attaching Agent Node
 
 TODO
 
