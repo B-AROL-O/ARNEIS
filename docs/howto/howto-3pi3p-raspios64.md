@@ -67,4 +67,14 @@ Created symlink /etc/systemd/system/multi-user.target.wants/k3s-agent.service â†
 root@rpi3pmv38:~#
 ```
 
+TODO: Must follow instructions
+
+```
+[INFO]  Failed to find memory cgroup, you may need to add "cgroup_memory=1 cgroup_enable=memory" to your linux cmdline (/boot/cmdline.txt on a Raspberry Pi)
+```
+
+### Modify Linux cmdline on the Raspberry Pi
+
+TODO
+
 <!-- EOF -->
