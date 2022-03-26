@@ -133,6 +133,10 @@ Created symlink /etc/systemd/system/multi-user.target.wants/k3s-agent.service â†
 root@rpi3pmv38:~#
 ```
 
+If everything works as expected, after a few seconds your node should be attached to the cluster:
+
+![2022-03-26-1019-k9s.png](../images/2022-03-26-1019-k9s.png)
+
 TODO
 
 <!-- EOF -->
