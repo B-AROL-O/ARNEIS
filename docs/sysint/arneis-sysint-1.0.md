@@ -1,4 +1,4 @@
-# ARNEIS System Integration Document - Release 1.0
+# ARNEIS - System Integration Rel. 1.0
 
 **WORK IN PROGRESS**
 
