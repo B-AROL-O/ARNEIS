@@ -4,4 +4,6 @@
 
 TODO
 
+![2022-03-26-1855-arneis-sysint](../images/2022-03-26-1855-arneis-sysint.jpg)
+
 <!-- EOF -->
