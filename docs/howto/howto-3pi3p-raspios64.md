@@ -1,6 +1,18 @@
-# TODO
+# HOWTO Install Raspberry Pi OS 64-bit for the ARNEIS project
 
-## Step-by-step instructions
+## Introduction
+
+TODO
+
+## Prerequisites
+
+TODO
+
+## Install base Operating System
+
+TODO
+
+## Make the Raspberry Pi an agent node of a k3s cluster
 
 ### Make sure the OS is up-to-date
 
@@ -133,9 +145,33 @@ Created symlink /etc/systemd/system/multi-user.target.wants/k3s-agent.service â†
 root@rpi3pmv38:~#
 ```
 
-If everything works as expected, after a few seconds your node should be attached to the cluster:
+#### Verify that the Agent Node is up-and-running
+
+Verify the cluster configuration using `kubectl`
+
+```bash
+kubectl get nodes
+```
+
+then read the online help to understand how to display the properties of the new node.
+
+If you have [k9s - the Kubernetes CLI](https://k9scli.io/) installed, the procedure is even more intuitive:
+
+```bash
+k9s
+```
+
+As soon as the k9s main window is displayed, type "`:node`" then press **Enter** to view the list of nodes which are part of the cluster.
 
 ![2022-03-26-1019-k9s.png](../images/2022-03-26-1019-k9s.png)
+
+If everything works as expected, after a few seconds your new node should show up in the Nodes view.
+
+Use the Up and Down arrows to select that node (in our case, `rpi3pmv38`), then type "`d`" to describe the node:
+
+![2022-03-27-2137-k9s-describe.png](../images/2022-03-27-2137-k9s-describe.png)
+
+Make sure that label `beta.kubernetes.io/arch` is set to `arm64`.
 
 TODO
 
