@@ -2,7 +2,7 @@
 
 ## Introduction
 
-TODO
+This HOWTO documents how to install Raspberry Pi OS 64-bit on a Raspberry Pi 3B+ or higher to be used as an Edge Controller of the ARNEIS project.
 
 ## Prerequisites
 
