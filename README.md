@@ -14,7 +14,7 @@ ARNEIS aims at reproducing in scale a packaging machine for the [Industry-4.0](h
 ![arneis-conveyor-20220312.gif](https://github.com/B-AROL-O/ARNEIS/raw/main/mocs/project/arneis-conveyor-20220312.gif)
 
 This goal is achieved by means of a combination of:
-- An [OAK-D-Lite](https://docs.luxonis.com/projects/hardware/en/latest/pages/DM9095.html) Spatial AI caera
+- An [OAK-D-Lite](https://docs.luxonis.com/projects/hardware/en/latest/pages/DM9095.html) Spatial AI camera
 - A lot of [LEGO&reg; Technic](https://www.lego.com/) parts
 - ... and plenty of Open Source software
 
