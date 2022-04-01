@@ -27,7 +27,7 @@ LEGO Powered Up basic tutorials: <https://www.youtube.com/watch?v=MIpcyS4xzsw>
 Install the "LEGO&reg; POWERED UP" app from
 
 * Google Play Store: <https://play.google.com/store/apps/details?id=com.lego.common.poweredup>
-* Apple App Store: <https://apps.apple.com/it/app/lego-powered-up/id1367846574>
+* Apple App Store <!-- <https://apps.apple.com/it/app/lego-powered-up/id1367846574> -->
 
 ### Predefined controller modes
 
