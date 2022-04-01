@@ -10,7 +10,7 @@ Welcome to the ARNEIS Project!
     :width: 400px
     :align: center
 
-The **ARNEIS** (short for ``A`` utomated ``R`` ecognizer,  ``N`` etwork - ``E`` nabled, ``I`` tems ``S`` orter)
+The **ARNEIS** (short for ``A`` utomated ``R`` ecognizer,  ``N`` etwork - ``E`` nabled, ``I`` tem ``S`` orter)
 is one of the 50 selected finalists of the `OpenCV Spatial AI Contest <https://opencv.org/opencv-spatial-ai-contest/>`_
 sponsored by `Intel® <https://www.intel.com/>`_ and `Microsoft Azure <https://azure.microsoft.com/>`_.
 
