@@ -20,9 +20,11 @@ This goal is achieved by means of a combination of:
 
 ## ARNEIS Use Cases
 
-As we learned in the process
+As the old adage says and we learned it the hard way
 
-> One picture worths one thousand words
+> [One picture is worth a thousand words](https://en.wikipedia.org/wiki/A_picture_is_worth_a_thousand_words)
+
+here is a short (3:15) video which we submitted to the OpenCV Spatial AI Contest final on 2022-04-03:
 
 TODO: Embed ARNEIS Final Video pitch
 
