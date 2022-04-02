@@ -77,6 +77,7 @@ Indices and tables
    :maxdepth: 1
    :hidden:
 
+   sysint/arneis-sysint-1.0
    acronyms
    bibliography
 
