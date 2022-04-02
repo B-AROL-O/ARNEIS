@@ -24,6 +24,7 @@ As the old adage says and we learned it the hard way
 
 > [One picture is worth a thousand words](https://en.wikipedia.org/wiki/A_picture_is_worth_a_thousand_words)
 
+In the case of ARNEIS we would probably need one million words to explain it, so
 here is a short (3:15) video which we submitted to the OpenCV Spatial AI Contest final on 2022-04-03:
 
 TODO: Embed ARNEIS Final Video pitch
