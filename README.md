@@ -37,7 +37,12 @@ here is a ~5 min video which we submitted to the OpenCV Spatial AI Contest final
 
 <!-- TODO: Update when final version is released -->
 
+<!--
 [![ARNEIS submission Video draft - v0.4](https://img.youtube.com/vi/eBbF6LRGaUA/0.jpg)](https://www.youtube.com/watch?v=eBbF6LRGaUA "ARNEIS submission Video draft - v0.4")
+-->
+
+[![ARNEIS submission Video draft - v0.5](https://img.youtube.com/vi/qHFRRHWtTqY/0.jpg)](https://www.youtube.com/watch?v=qHFRRHWtTqY "ARNEIS submission Video draft - v0.5")
+
 
 <!-- You will find the complete documentation, including
 
