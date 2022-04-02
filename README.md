@@ -15,7 +15,7 @@ ARNEIS aims at reproducing in scale a packaging machine for the [Industry-4.0](h
 2. A lot of [LEGO&reg; Technic](https://www.lego.com/) parts
 3. An intelligent combination of both existing and new Open Source software...
 4. ... deployed to a hybrid [Kubernetes cluster](https://kubernetes.io/) made with resources
-   - partly on [Azure cloud](https://azure.microsoft.com/) running on [Intel&reg;](https://www.intel.com/) hardware 
+   - partly on [Azure cloud](https://azure.microsoft.com/) running on [Intel&reg;](https://www.intel.com/) hardware
    - partly on the edge using either a [Raspberry Pi](https://www.raspberrypi.org/) or other [Embedded Linux](https://linuxfoundation.org/) devices.
 
 ## ARNEIS Project documentation
