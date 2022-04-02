@@ -57,9 +57,22 @@
 * Reverse Engineering the LEGO BOOST Move Hub: <https://github.com/JorgePe/BOOSTreveng>
 * Thread on StackExchange.com: [Which programming environments or APIs are available for the LEGO BOOST?](https://bricks.stackexchange.com/questions/10786/which-programming-environments-or-apis-are-available-for-the-lego-boost)
 
+### Marketplaces for LEGO&reg; Parts
+
+* BrickEconomy: <https://www.brickeconomy.com/>
+* BrickLink: <https://www.bricklink.com/>
+  * [BrickLink API guide](https://www.bricklink.com/v3/api.page)
+  * [Welcome to BrickLink Store API](https://www.bricklink.com/v2/api/welcome.page)
+  * [How To: Use the BrickLink API - Episode 1: Creating a CSV Using the API](https://www.youtube.com/watch?v=gTJ6PMb8gHM) - YouTube Video (37:31) by Just a Brick in The Bucket, 2020-10-05
+  * [bricklink_api](https://github.com/BrickBytes/bricklink_api) (Python)
+  * [BSX file handler](https://github.com/BrickBytes/bsx): BSX file (BrickStock, BrickStore) read/write and conversion with Python
+
 ### Pybricks
 
 * [Pybricks](https://pybricks.com/) is Python coding for smart LEGO® hubs. Run MicroPython scripts directly on the hub, and get full control of your motors and sensors.
+  Pybricks runs on LEGO® BOOST, City, Technic, MINDSTORMS®, and SPIKE®.
+  You can code using Windows, Mac, Linux, Chromebook, and Android.
+
 * [Pybricks Support](https://github.com/pybricks/support)
   - [The future of BLE, Bluetooth, and USB](https://github.com/pybricks/support/issues/262) - Issue #262 on pybricks/support
   - [Troubleshooting Bluetooth in Pybricks Code](https://github.com/pybricks/support/discussions/270) - Discussion #270 on pybricks/support
