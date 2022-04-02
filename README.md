@@ -41,11 +41,9 @@ Whenever the `main` branch of the git repository is updated, <https://arneis.rea
 
 ### The ARNEIS MOC
 
-We have designed a MOC (My Own Creation) using the items from [LEGO&reg; Set 42100](TODO) (Liebherr R800).
+We have designed a MOC (My Own Creation) using the parts from [LEGO&reg; Set 42100](https://arneis.readthedocs.io/en/latest/lego-set-42100/README.html) (Liebherr R 9800 Excavator).
 
 ![arneis-conveyor-20220312.gif](https://github.com/B-AROL-O/ARNEIS/raw/main/mocs/project/arneis-conveyor-20220312.gif)
-
-TODO
 
 ### The ARNEIS Software Architecture
 
