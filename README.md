@@ -18,6 +18,14 @@ This goal is achieved by means of a combination of:
 - A lot of [LEGO&reg; Technic](https://www.lego.com/) parts
 - ... and plenty of Open Source software
 
+## ARNEIS Use Cases
+
+As we learned in the process
+
+> One picture worths one thousand words
+
+TODO: Embed ARNEIS Final Video pitch
+
 ## ARNEIS Project documentation
 
 The complete documentation of the ARNEIS project, including architecture documents and detailed instructions for reproducing the design, is available at <https://arneis.readthedocs.io/>.
