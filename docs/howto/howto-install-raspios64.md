@@ -19,7 +19,7 @@ This HOWTO documents how to install Raspberry Pi OS 64-bit on a Raspberry Pi 3B+
 
 ## Install base Operating System
 
-The installation of [Raspbian Pi OS 64-bit]((https://www.raspberrypi.com/software/)) is performed through the following tests:
+The installation of [Raspbian Pi OS 64-bit]((https://raspberrypi.com/software/)) is performed through the following tests:
 
 1. Prepare a MicroSD card with Raspberry Pi OS
 2. TODO (See below)
@@ -30,14 +30,14 @@ Each of thosee steps above is described in more details in the corresponding cha
 
 **TODO: REPEAT FROM HERE**
 
-Launch a browser on your laptop and open <https://www.raspberrypi.com/software/>
+Launch a browser on your laptop and open <https://raspberrypi.com/software/>
 
-Download [Raspberry Pi Imager](https://www.raspberrypi.com/software/) and install it on your laptop.
+Download [Raspberry Pi Imager](https://raspberrypi.com/software/) and install it on your laptop.
 
 Insert a MicroSD card into one slot of your laptop.
 Alternatively, insert the MicroSD into the USB card reader, then plug the USB card reader into one empty USB port of your laptop.
 
-Launch the [Raspberry Pi Imager](https://www.raspberrypi.com/software/) and select the following options
+Launch the [Raspberry Pi Imager](https://raspberrypi.com/software/) and select the following options
 
 * Sistema operativo: Raspberry Pi OS (64-bit)
 * Scheda SD: MXT-USB Storage Device USB Device - 255.9 GB
