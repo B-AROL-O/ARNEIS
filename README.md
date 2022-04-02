@@ -9,16 +9,26 @@ The **ARNEIS** (short for `A`utomated `R`ecognizer, `N`etwork-`E`nabled, `I`tem 
 
 ## ARNEIS in a nutshell
 
-ARNEIS aims at reproducing in scale a packaging machine for the [Industry-4.0](https://en.wikipedia.org/wiki/Fourth_Industrial_Revolution).
+ARNEIS aims at reproducing in scale a packaging machine for the [Industry-4.0](https://en.wikipedia.org/wiki/Fourth_Industrial_Revolution), thanks to a combination of:
 
-This goal is achieved by means of a combination of:
-- An [OAK-D-Lite](https://docs.luxonis.com/projects/hardware/en/latest/pages/DM9095.html) Spatial AI camera
-- A lot of [LEGO&reg; Technic](https://www.lego.com/) parts
-- ... and plenty of Open Source software
+1. An [OAK-D-Lite](https://docs.luxonis.com/projects/hardware/en/latest/pages/DM9095.html) Spatial AI camera
+2. A lot of [LEGO&reg; Technic](https://www.lego.com/) parts
+3. An intelligent combination of both existing and new Open Source software...
+4. ... deployed to a hybrid [Kubernetes cluster](https://kubernetes.io/) made with resources
+   - partly on [Azure cloud](https://azure.microsoft.com/) running on [Intel&reg;](https://www.intel.com/) hardware 
+   - partly on the edge using either a [Raspberry Pi](https://www.raspberrypi.org/) or other [Embedded Linux](https://linuxfoundation.org/) devices.
 
 ## ARNEIS Project documentation
 
-As the old adage says and we learned it the hard way
+Even though the machine is made of LEGO&reg;, we strived to develop the project in a professional way as we are used in our everyday job.
+With this in mind we have released at <https://arneis.readthedocs.io/> the complete documentation of the ARNEIS project, including:
+
+- functional specifications
+- system and software architecture documents
+- design documents with detailed instructions for reproducing the machine
+- system integration and validation documents
+
+However, as the old adage says and we learned it the hard way
 
 > [One picture is worth a thousand words](https://en.wikipedia.org/wiki/A_picture_is_worth_a_thousand_words)
 
@@ -33,10 +43,7 @@ here is a ~5 min video which we submitted to the OpenCV Spatial AI Contest final
 
 * TODO -->
 
-The complete documentation of the ARNEIS project, including architecture documents and detailed instructions for reproducing the design and the use cases described in the video, is available at <https://arneis.readthedocs.io/>.
-
 The source files for the software programs, the LEGO&reg; MOC as well as the documentation site are maintained in the GitHub repository at <https://github.com/B-AROL-O/ARNEIS>.
-
 Whenever the `main` branch of the git repository is updated, <https://arneis.readthedocs.io/> will be updated accordingly.
 
 ### The ARNEIS MOC
@@ -47,11 +54,12 @@ We have designed a MOC (My Own Creation) using the parts from [LEGO&reg; Set 421
 
 ### The ARNEIS Software Architecture
 
-TODO
+The software architecture is based on microservices running on a hybrid Kubernetes cluster.
+Please refer to <https://arneis.readthedocs.io> for details.
 
 ### The Computer Vision and Machine Learning
 
-TODO
+The OAK-D-Lite captures photos of the bottles flowing through the conveyor and runs a Neural Network trained on a custom dataset to be able to classify and recognize the type (Part Number) of the bottle. This information is fed in real-time to the Raspberry Pi which - based on the job order - decides whether to eject the bottle to the final packaging unit, or putting it back to the parts warehouse.
 
 ### The timeline
 
