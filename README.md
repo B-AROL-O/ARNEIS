@@ -11,45 +11,63 @@ The **ARNEIS** (short for `A`utomated `R`ecognizer, `N`etwork-`E`nabled, `I`tem 
 
 ARNEIS aims at reproducing in scale a packaging machine for the [Industry-4.0](https://en.wikipedia.org/wiki/Fourth_Industrial_Revolution).
 
-![arneis-conveyor-20220312.gif](https://github.com/B-AROL-O/ARNEIS/raw/main/mocs/project/arneis-conveyor-20220312.gif)
-
 This goal is achieved by means of a combination of:
 - An [OAK-D-Lite](https://docs.luxonis.com/projects/hardware/en/latest/pages/DM9095.html) Spatial AI camera
 - A lot of [LEGO&reg; Technic](https://www.lego.com/) parts
 - ... and plenty of Open Source software
 
-## ARNEIS Use Cases
+## ARNEIS Project documentation
 
 As the old adage says and we learned it the hard way
 
 > [One picture is worth a thousand words](https://en.wikipedia.org/wiki/A_picture_is_worth_a_thousand_words)
 
-In the case of ARNEIS we would probably need one million words to explain it, so
-here is a short (3:15) video which we submitted to the OpenCV Spatial AI Contest final on 2022-04-03:
+<!-- In the case of ARNEIS we would probably need one million words to explain it, so -->
+here is a ~5 min video which we submitted to the OpenCV Spatial AI Contest final on 2022-04-03:
 
 <!-- TODO: Update when final version is released -->
 
 [![ARNEIS submission Video draft - v0.4](https://img.youtube.com/vi/eBbF6LRGaUA/0.jpg)](https://www.youtube.com/watch?v=eBbF6LRGaUA "ARNEIS submission Video draft - v0.4")
 
-## ARNEIS Project documentation
+<!-- You will find the complete documentation, including
 
-The complete documentation of the ARNEIS project, including architecture documents and detailed instructions for reproducing the design, is available at <https://arneis.readthedocs.io/>.
+* TODO -->
+
+The complete documentation of the ARNEIS project, including architecture documents and detailed instructions for reproducing the design and the use cases described in the video, is available at <https://arneis.readthedocs.io/>.
 
 The source files for the software programs, the LEGO&reg; MOC as well as the documentation site are maintained in the GitHub repository at <https://github.com/B-AROL-O/ARNEIS>.
 
 Whenever the `main` branch of the git repository is updated, <https://arneis.readthedocs.io/> will be updated accordingly.
 
-## How to stay in touch
+### The ARNEIS MOC
+
+We have designed a MOC (My Own Creation) using the items from [LEGO&reg; Set 42100](TODO) (Liebherr R800).
+
+![arneis-conveyor-20220312.gif](https://github.com/B-AROL-O/ARNEIS/raw/main/mocs/project/arneis-conveyor-20220312.gif)
+
+TODO
+
+### The ARNEIS Software Architecture
+
+TODO
+
+### The Computer Vision and Machine Learning
+
+TODO
+
+### The timeline
 
 The ARNEIS project roadmap is [kept updated on GitHub](https://github.com/B-AROL-O/ARNEIS/milestones?direction=asc&sort=due_date&state=open).
 
 [Gianpaolo Macario](https://github.com/gmacario/) publishes regular updates of the ARNEIS project on [his personal blog](https://gmacario.github.io/posts).
 
-You may also follow [twitter.com/baroloteam](https://twitter.com/baroloteam) to get notified about the progress of the project.
-
-A 5-min video summarizing the current project achievements is [available on YouTube](https://www.youtube.com/watch?v=ZKtS8KgnbAY).
+A 5-min video summarizing the history of the ARNEIS project is [available on YouTube](https://www.youtube.com/watch?v=ZKtS8KgnbAY).
 
 [![ARNEIS LEGO MOC History HD 1080p](https://img.youtube.com/vi/S-DiK0UgNBY/0.jpg)](https://www.youtube.com/watch?v=S-DiK0UgNBY "ARNEIS LEGO MOC History HD 1080p")
+
+### How to stay in touch
+
+You may follow [@baroloteam on Twitter](https://twitter.com/baroloteam) to get notified about the progress of the project.
 
 Please report bugs and feature requests on <https://github.com/B-AROL-O/ARNEIS/issues>, or DM [B-AROL-O Team on Twitter](https://twitter.com/baroloteam) about security issues or other non-public topics.
 
