@@ -137,7 +137,7 @@ with contextlib.ExitStack() as stack:
     videoFrame = None  # preview video enhanced
     detections = []
 
-    # nn data, being the bounding box locations, are in <0..1> range - they need to be normalized with frame width/height
+    # nn data, being the bounding box locations, are in <0..1> range-they need to be normalized with frame width/height
     def frameNorm(frame, bbox):
         normVals = np.full(len(bbox), frame.shape[0])
         normVals[::2] = frame.shape[1]
@@ -146,7 +146,7 @@ with contextlib.ExitStack() as stack:
     def displayFrameVideo(name, frame):
         color = (255, 0, 0)
         for detection in detections:
-            
+
             bbox = frameNorm(
                 frame, (detection.xmin, detection.ymin, detection.xmax, detection.ymax)
             )
@@ -276,7 +276,7 @@ with contextlib.ExitStack() as stack:
                 cv2.imshow(f"Preview - {mxid}", frame)
 
                 if videoFrame is not None:  # preview video enhanced
-                     displayFrameVideo("video", videoFrame)  # preview video enhanced
+                    displayFrameVideo("video", videoFrame)  # preview video enhanced
 
         if cv2.waitKey(1) == ord('q'):
             break
