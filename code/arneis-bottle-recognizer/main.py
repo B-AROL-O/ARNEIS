@@ -149,7 +149,7 @@ with contextlib.ExitStack() as stack:
            bbox = frameNorm(
                 frame, (detection.xmin, detection.ymin, detection.xmax, detection.ymax)
             )
-            if labelMap[detection.label] == 'bottle':
+           if labelMap[detection.label] == 'bottle':
                cv2.putText(
                     frame,
                     'zucca',  # labelMap[detection.label],
