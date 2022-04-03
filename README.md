@@ -20,7 +20,7 @@ ARNEIS aims at reproducing in scale a packaging machine for the [Industry-4.0](h
 
 ## ARNEIS Project documentation
 
-Even though the machine is made of LEGO&reg;, we strived to develop the project in a professional way as we are used in our everyday job.
+Even though the machine is made of LEGO&reg;, we strived to develop the project in a professional way as we are used in our daily job.
 With this in mind we have released at <https://arneis.readthedocs.io/> the complete documentation of the ARNEIS project, including:
 
 - functional specifications
@@ -28,7 +28,7 @@ With this in mind we have released at <https://arneis.readthedocs.io/> the compl
 - design documents with detailed instructions for reproducing the machine
 - system integration and validation documents
 
-However, as the old adage says and we learned it the hard way
+However, as the old adage says: [we learned it the hard way](https://idioms.thefreedictionary.com/learned+the+hard+way)
 
 > [One picture is worth a thousand words](https://en.wikipedia.org/wiki/A_picture_is_worth_a_thousand_words)
 
