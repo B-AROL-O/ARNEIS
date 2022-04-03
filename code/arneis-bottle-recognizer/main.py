@@ -146,11 +146,12 @@ with contextlib.ExitStack() as stack:
     def displayFrameVideo(name, frame):
         color = (255, 0, 0)
         for detection in detections:
-           bbox = frameNorm(
+            
+            bbox = frameNorm(
                 frame, (detection.xmin, detection.ymin, detection.xmax, detection.ymax)
             )
-           if labelMap[detection.label] == 'bottle':
-               cv2.putText(
+            if labelMap[detection.label] == 'bottle':
+                cv2.putText(
                     frame,
                     'zucca',  # labelMap[detection.label],
                     (bbox[0] + 10, bbox[1] + 50),
@@ -159,7 +160,7 @@ with contextlib.ExitStack() as stack:
                     color,
                     4,
                 )
-               cv2.putText(
+                cv2.putText(
                     frame,
                     f"{int(detection.confidence * 100)}%",
                     (bbox[0] + 10, bbox[1] + 140),
@@ -167,8 +168,8 @@ with contextlib.ExitStack() as stack:
                     2.0,
                     color,
                     4,
-               )
-               cv2.rectangle(frame, (bbox[0], bbox[1]), (bbox[2], bbox[3]), color, 2)
+                )
+                cv2.rectangle(frame, (bbox[0], bbox[1]), (bbox[2], bbox[3]), color, 2)
         # Show the frame
         cv2.imshow(name, frame)
 
@@ -203,7 +204,7 @@ with contextlib.ExitStack() as stack:
             'rgb': device.getOutputQueue(name="rgb"),
             'nn': device.getOutputQueue(name="nn"),
         }
-    
+
     qVideo = device.getOutputQueue(
         name="video", maxSize=4, blocking=False
     )  # preview video enhanced
@@ -211,7 +212,7 @@ with contextlib.ExitStack() as stack:
     cv2.namedWindow("video", cv2.WINDOW_NORMAL)  # preview video enhanced
     cv2.resizeWindow("video", 1280, 720)  # preview video enhanced
     print("Resize video window with mouse drag!")  # preview video enhanced
-    
+
     frame_for_save = None
     detect_label = None
     width = None
@@ -230,7 +231,7 @@ with contextlib.ExitStack() as stack:
                 frame = q['rgb'].get().getCvFrame()
 
                 frame_for_save = frame.copy()
-                
+
                 inVideo = qVideo.tryGet()  # preview video enhanced
 
                 if inVideo is not None:
@@ -273,7 +274,7 @@ with contextlib.ExitStack() as stack:
 
                 # Show the frame
                 cv2.imshow(f"Preview - {mxid}", frame)
-                
+
                 if videoFrame is not None:  # preview video enhanced
                      displayFrameVideo("video", videoFrame)  # preview video enhanced
 
