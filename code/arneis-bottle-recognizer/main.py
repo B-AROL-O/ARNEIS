@@ -159,7 +159,7 @@ with contextlib.ExitStack() as stack:
                     color,
                     4,
                 )
-                cv2.putText(
+               cv2.putText(
                     frame,
                     f"{int(detection.confidence * 100)}%",
                     (bbox[0] + 10, bbox[1] + 140),
@@ -167,8 +167,8 @@ with contextlib.ExitStack() as stack:
                     2.0,
                     color,
                     4,
-                )
-                cv2.rectangle(frame, (bbox[0], bbox[1]), (bbox[2], bbox[3]), color, 2)
+               )
+               cv2.rectangle(frame, (bbox[0], bbox[1]), (bbox[2], bbox[3]), color, 2)
         # Show the frame
         cv2.imshow(name, frame)
 
