@@ -7,13 +7,13 @@
 import contextlib
 import os
 import pathlib
-import numpy as np     # preview video enhanced
 import xml.etree.cElementTree as ET
 from pathlib import Path
 
 # import blobconverter
 import cv2
 import depthai as dai
+import numpy as np  # preview video enhanced
 
 ourblobpath = "../custom_mobilenet/"
 ourblobfile = "frozen_inference_graph_7000.blob"
@@ -39,19 +39,21 @@ def getPipeline():
     cam_rgb.setPreviewSize(300, 300)  # (640, 360)
     cam_rgb.setInterleaved(False)
     cam_rgb.setBoardSocket(dai.CameraBoardSocket.RGB)
-    cam_rgb.setResolution(dai.ColorCameraProperties.SensorResolution.THE_4_K) #THE_1080_P
+    cam_rgb.setResolution(
+        dai.ColorCameraProperties.SensorResolution.THE_4_K
+    )  # THE_1080_P
     cam_rgb.setIspScale(1, 3)
-    #cam_rgb.setVideoSize(640, 360)
+    # cam_rgb.setVideoSize(640, 360)
 
     # detector = pipeline.createMobileNetDetectionNetwork()
     # detector.setConfidenceThreshold(0.5)
     # detector.setBlobPath(blobconverter.from_zoo(name="mobilenet-ssd",
     #                                            shaves=6))
     # cam_rgb.preview.link(detector.input)
-    
+
     xoutVideo = pipeline.create(dai.node.XLinkOut)  # preview video enhanced
-    xoutVideo.setStreamName("video")                # preview video enhanced
-    
+    xoutVideo.setStreamName("video")  # preview video enhanced
+
     nn = pipeline.create(
         dai.node.MobileNetDetectionNetwork
     )  # working with custom trained NN
@@ -60,7 +62,7 @@ def getPipeline():
     # nn.setNumInferenceThreads(2)
     nn.input.setBlocking(False)
     cam_rgb.preview.link(nn.input)
-    cam_rgb.video.link(xoutVideo.input)             # preview video enhanced
+    cam_rgb.video.link(xoutVideo.input)  # preview video enhanced
 
     # Create output
     xout_rgb = pipeline.createXLinkOut()
@@ -132,7 +134,7 @@ def create_labimg_xml(
 
 # https://docs.python.org/3/library/contextlib.html#contextlib.ExitStack
 with contextlib.ExitStack() as stack:
-    videoFrame = None       # preview video enhanced
+    videoFrame = None  # preview video enhanced
     detections = []
 
     # nn data, being the bounding box locations, are in <0..1> range - they need to be normalized with frame width/height
@@ -144,20 +146,32 @@ with contextlib.ExitStack() as stack:
     def displayFrameVideo(name, frame):
         color = (255, 0, 0)
         for detection in detections:
-            bbox = frameNorm(frame, (detection.xmin, detection.ymin,
-                                     detection.xmax, detection.ymax))
+           bbox = frameNorm(
+                frame, (detection.xmin, detection.ymin, detection.xmax, detection.ymax)
+            )
             if labelMap[detection.label] == 'bottle':
-                cv2.putText(frame, 'zucca', #labelMap[detection.label],
-                            (bbox[0] + 10, bbox[1] + 50), cv2.FONT_HERSHEY_TRIPLEX,
-                            2.0, color, 4)
-                cv2.putText(frame, f"{int(detection.confidence * 100)}%",
-                            (bbox[0] + 10, bbox[1] + 140),
-                            cv2.FONT_HERSHEY_TRIPLEX, 2.0, color, 4)
-                cv2.rectangle(frame, (bbox[0], bbox[1]), (bbox[2], bbox[3]), color,
-                              2)
+               cv2.putText(
+                    frame,
+                    'zucca',  # labelMap[detection.label],
+                    (bbox[0] + 10, bbox[1] + 50),
+                    cv2.FONT_HERSHEY_TRIPLEX,
+                    2.0,
+                    color,
+                    4,
+                )
+                cv2.putText(
+                    frame,
+                    f"{int(detection.confidence * 100)}%",
+                    (bbox[0] + 10, bbox[1] + 140),
+                    cv2.FONT_HERSHEY_TRIPLEX,
+                    2.0,
+                    color,
+                    4,
+                )
+                cv2.rectangle(frame, (bbox[0], bbox[1]), (bbox[2], bbox[3]), color, 2)
         # Show the frame
         cv2.imshow(name, frame)
-        
+
     device_infos = dai.Device.getAllAvailableDevices()
     if len(device_infos) == 0:
         raise RuntimeError("No devices found!")
@@ -190,11 +204,13 @@ with contextlib.ExitStack() as stack:
             'nn': device.getOutputQueue(name="nn"),
         }
     
-    qVideo = device.getOutputQueue(name="video", maxSize=4, blocking=False)# preview video enhanced
+    qVideo = device.getOutputQueue(
+        name="video", maxSize=4, blocking=False
+    )  # preview video enhanced
 
-    cv2.namedWindow("video", cv2.WINDOW_NORMAL)                 # preview video enhanced
-    cv2.resizeWindow("video", 1280, 720)                        # preview video enhanced
-    print("Resize video window with mouse drag!")               # preview video enhanced
+    cv2.namedWindow("video", cv2.WINDOW_NORMAL)  # preview video enhanced
+    cv2.resizeWindow("video", 1280, 720)  # preview video enhanced
+    print("Resize video window with mouse drag!")  # preview video enhanced
     
     frame_for_save = None
     detect_label = None
@@ -215,10 +231,10 @@ with contextlib.ExitStack() as stack:
 
                 frame_for_save = frame.copy()
                 
-                inVideo = qVideo.tryGet()                   # preview video enhanced
+                inVideo = qVideo.tryGet()  # preview video enhanced
 
                 if inVideo is not None:
-                    videoFrame = inVideo.getCvFrame()       # preview video enhanced
+                    videoFrame = inVideo.getCvFrame()  # preview video enhanced
 
                 for detection in dets:
                     ymin = int(300 * detection.ymin)
@@ -258,8 +274,8 @@ with contextlib.ExitStack() as stack:
                 # Show the frame
                 cv2.imshow(f"Preview - {mxid}", frame)
                 
-                if videoFrame is not None:                  # preview video enhanced
-                    displayFrameVideo("video", videoFrame)  # preview video enhanced
+                if videoFrame is not None:  # preview video enhanced
+                     displayFrameVideo("video", videoFrame)  # preview video enhanced
 
         if cv2.waitKey(1) == ord('q'):
             break
