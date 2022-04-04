@@ -135,7 +135,7 @@ def create_labimg_xml(
 # https://docs.python.org/3/library/contextlib.html#contextlib.ExitStack
 with contextlib.ExitStack() as stack:
     videoFrame = None  # preview video enhanced
-    detections = []
+    detections = list()
 
     # nn data, being the bounding box locations, are in <0..1> range-they need to be normalized with frame width/height
     def frameNorm(frame, bbox):
