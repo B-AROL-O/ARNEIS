@@ -28,25 +28,17 @@ With this in mind we have released at <https://arneis.readthedocs.io/> the compl
 - design documents with detailed instructions for reproducing the machine
 - system integration and validation documents
 
-However, as the old adage says: [we learned it the hard way](https://idioms.thefreedictionary.com/learned+the+hard+way)
+However, as the old adage says (and [we learned it the hard way](https://idioms.thefreedictionary.com/learned+the+hard+way))
 
 > [One picture is worth a thousand words](https://en.wikipedia.org/wiki/A_picture_is_worth_a_thousand_words)
 
-<!-- In the case of ARNEIS we would probably need one million words to explain it, so -->
-here is a ~5 min video which we submitted to the OpenCV Spatial AI Contest final on 2022-04-03:
-
-<!-- TODO: Update when final version is released -->
+here is a 3-minute video which we submitted to the OpenCV Spatial AI Contest final on 2022-04-04:
 
 <!--
 [![ARNEIS submission Video draft - v0.4](https://img.youtube.com/vi/eBbF6LRGaUA/0.jpg)](https://www.youtube.com/watch?v=eBbF6LRGaUA "ARNEIS submission Video draft - v0.4")
 -->
 
-[![ARNEIS submission Video draft - v0.5](https://img.youtube.com/vi/qHFRRHWtTqY/0.jpg)](https://www.youtube.com/watch?v=qHFRRHWtTqY "ARNEIS submission Video draft - v0.5")
-
-
-<!-- You will find the complete documentation, including
-
-* TODO -->
+[![ARNEIS submission Video](https://img.youtube.com/vi/qHFRRHWtTqY/0.jpg)](https://www.youtube.com/watch?v=qHFRRHWtTqY "ARNEIS submission Video")
 
 The source files for the software programs, the LEGO&reg; MOC as well as the documentation site are maintained in the GitHub repository at <https://github.com/B-AROL-O/ARNEIS>.
 Whenever the `main` branch of the git repository is updated, <https://arneis.readthedocs.io/> will be updated accordingly.
