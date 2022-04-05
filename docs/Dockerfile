@@ -3,7 +3,8 @@
 
 FROM python:3.9
 
-COPY . .
+WORKDIR /app
+COPY . /app
 RUN pip -r requirements.txt
 RUN make html
 
