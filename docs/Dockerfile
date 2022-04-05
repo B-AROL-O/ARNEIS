@@ -6,7 +6,7 @@ FROM balenalib/raspberry-pi-python:3.9
 
 WORKDIR /app
 COPY . /app
-RUN pip -r requirements.txt
+RUN pip install -r requirements.txt
 RUN make html
 
 EXPOSE 8000
