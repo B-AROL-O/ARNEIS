@@ -7,7 +7,7 @@ COPY . .
 RUN pip -r requirements.txt
 RUN make html
 
-PORT 8000
+EXPOSE 8000
 CMD ["python", "-m", "http.server", "--directory", "_build/html", "8000"]
 
 # EOF
