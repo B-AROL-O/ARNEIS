@@ -4,7 +4,7 @@
 
 ### Prerequisites
 
-* [Docker Engine](https://www.docker.com/products/container-runtime) 
+* [Docker Engine](https://www.docker.com/products/container-runtime)
 
 ### Build the Docker image
 
@@ -12,7 +12,7 @@
 docker build -t baroloteam/arneis-docs .
 ```
 
-### Run the Docker container 
+### Run the Docker container
 
 ```bash
 docker run -d -p 8000:8000 baroloteam/arneis-docs
