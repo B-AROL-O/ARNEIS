@@ -1,14 +1,18 @@
 # ARNEIS - Social Media Presence
 
-## ARNEIS Elevator Pitch Video
+## ARNEIS Elevator Pitch video
+
+This video was prepared as part of the final delivery to the [OpenCV Spatial AI Contest](https://opencv.org/opencv-spatial-ai-contest/)
 
 [![ARNEIS submission Video](https://img.youtube.com/vi/qHFRRHWtTqY/0.jpg)](https://www.youtube.com/watch?v=qHFRRHWtTqY "ARNEIS submission Video")
 
 ## B-AROL-O team interview, 2022-03-17
 
-TODO: <https://github.com/B-AROL-O/ARNEIS/issues/259>
+Here is the recording of [OpenCV Weekly Webinar](https://twitter.com/opencvweekly) Episode 49 where the B-AROL-O Team was invited to present ARNEIS, and explain the vision, the motivations and the achievements after the first three months of development:
 
-<!-- [![ARNEIS submission Video](https://img.youtube.com/vi/qHFRRHWtTqY/0.jpg)](https://www.youtube.com/watch?v=qHFRRHWtTqY "ARNEIS submission Video") -->
+<!-- TODO: <https://github.com/B-AROL-O/ARNEIS/issues/259> -->
+
+<a href="https://www.linkedin.com/video/event/urn:li:ugcPost:6909587011267891201/">![image](https://user-images.githubusercontent.com/75182/159136335-12c6b155-d7be-4172-bf84-1a45ef91c181.png)</a>
 
 ## Social media content
 
