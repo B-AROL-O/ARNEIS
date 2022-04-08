@@ -2,13 +2,13 @@
 
 ## ARNEIS Elevator Pitch video
 
-This video was prepared as part of the final delivery to the [OpenCV Spatial AI Contest](https://opencv.org/opencv-spatial-ai-contest/)
+This short video (3:48) was prepared as part of the final submission to the [OpenCV Spatial AI Contest](https://opencv.org/opencv-spatial-ai-contest/):
 
 [![ARNEIS submission Video](https://img.youtube.com/vi/qHFRRHWtTqY/0.jpg)](https://www.youtube.com/watch?v=qHFRRHWtTqY "ARNEIS submission Video")
 
 ## B-AROL-O team interview, 2022-03-17
 
-Here is the recording of [OpenCV Weekly Webinar](https://twitter.com/opencvweekly) Episode 49 where the B-AROL-O Team was invited to present ARNEIS, and explain the vision, the motivations and the achievements after the first three months of development:
+The B-AROL-O Team was invited [OpenCV Weekly Webinar Episode 49](https://twitter.com/opencvweekly/status/1504487889630945281) to present ARNEIS, and explain the vision, the motivations and the achievements after the first three months of development:
 
 <!-- TODO: <https://github.com/B-AROL-O/ARNEIS/issues/259> -->
 
