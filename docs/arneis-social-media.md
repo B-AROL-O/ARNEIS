@@ -1,6 +1,19 @@
 # ARNEIS - Social Media Presence
 
-TODO: Introduction
+## ARNEIS Elevator Pitch video
+
+This short video (3:48) was prepared as part of the final submission to the [OpenCV Spatial AI Contest](https://opencv.org/opencv-spatial-ai-contest/):
+
+[![ARNEIS submission Video](https://img.youtube.com/vi/qHFRRHWtTqY/0.jpg)](https://www.youtube.com/watch?v=qHFRRHWtTqY "ARNEIS submission Video")
+
+## B-AROL-O team interview, 2022-03-17
+
+The B-AROL-O Team was invited [OpenCV Weekly Webinar Episode 49](https://twitter.com/opencvweekly/status/1504487889630945281) to present ARNEIS, and explain the vision, the motivations and the achievements after the first three months of development:
+
+<!-- TODO: <https://github.com/B-AROL-O/ARNEIS/issues/259> -->
+
+<a href="https://www.linkedin.com/video/event/urn:li:ugcPost:6909587011267891201/">![image](https://user-images.githubusercontent.com/75182/159136335-12c6b155-d7be-4172-bf84-1a45ef91c181.png)</a>
+
 ## Social media content
 
 This section contains a collection of links to the public posts, tweets and videos produced by the B-AROL-O team during the OpenCV Spatial AI Contest for documenting the progress, the failures and the successes of the project.
@@ -19,6 +32,7 @@ Here is a list of weekly posts made by [Gianpaolo on his personal blog](https://
 
 Date       | Coverage | Summary
 -----------|----------|-------------
+2022-04-11 | dev-cw14 | TODO
 2022-04-04 | [dev-cw13](https://gmacario.github.io/posts/2022-04-04-arneis-dev-cw13) | ARNEIS submitted to the OpenCV Spatial AI Contest<br>ARNEIS OpenCV submission video<br>Preparing for San Mauro Bricks 2022
 2022-03-28 | [dev-cw12](https://gmacario.github.io/posts/2022-03-28-arneis-dev-cw12) | Get inspiration from the Arduino Week<br>ARNEIS System Integration in progress<br>Preparing the final submission to the OpenCV Spatial AI Contest
 2022-03-21 | [dev-cw11](https://gmacario.github.io/posts/2022-03-21-arneis-dev-cw11) | B-AROL-O Team at the OpenCV Weekly Webinar<br>Working on a synthetic dataset for training the ARNEIS NN<br>Built a second ARNEIS MOC

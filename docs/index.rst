@@ -77,10 +77,10 @@ Indices and tables
    :maxdepth: 1
    :hidden:
 
-   sysint/arneis-sysint-1.0
    acronyms
    bibliography
    arneis-social-media
+   sysint/arneis-sysint-1.0
 
 .. toctree::
    :caption: Architecture
