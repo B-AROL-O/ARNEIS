@@ -121,6 +121,6 @@ Those are mainly the videos made by [Alessandro](https://github.com/alv67):
 9. <https://www.facebook.com/photo/?fbid=10158828954349542>
 10. <https://www.facebook.com/photo/?fbid=10158829940794542>
 11. <https://www.facebook.com/photo/?fbid=10158833031559542>
-12. <https://m.facebook.com/story.php?story_fbid=10158853589979542>
+<!-- 12. <https://m.facebook.com/story.php?story_fbid=10158853589979542> -->
 
 <!-- EOF -->
