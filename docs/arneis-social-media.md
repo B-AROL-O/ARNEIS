@@ -3,6 +3,13 @@
 ## ARNEIS Elevator Pitch Video
 
 [![ARNEIS submission Video](https://img.youtube.com/vi/qHFRRHWtTqY/0.jpg)](https://www.youtube.com/watch?v=qHFRRHWtTqY "ARNEIS submission Video")
+
+## B-AROL-O team interview, 2022-03-17
+
+TODO: <https://github.com/B-AROL-O/ARNEIS/issues/259>
+
+<!-- [![ARNEIS submission Video](https://img.youtube.com/vi/qHFRRHWtTqY/0.jpg)](https://www.youtube.com/watch?v=qHFRRHWtTqY "ARNEIS submission Video") -->
+
 ## Social media content
 
 This section contains a collection of links to the public posts, tweets and videos produced by the B-AROL-O team during the OpenCV Spatial AI Contest for documenting the progress, the failures and the successes of the project.
