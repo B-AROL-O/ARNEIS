@@ -80,6 +80,7 @@ Indices and tables
    sysint/arneis-sysint-1.0
    acronyms
    bibliography
+   arneis-social-media
 
 .. toctree::
    :caption: Architecture
