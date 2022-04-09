@@ -1,5 +1,5 @@
-from pybricks.pupdevices import Motor
 from pybricks.parameters import Port, Stop
+from pybricks.pupdevices import Motor
 from pybricks.tools import wait
 
 # We'll use two motors. One is a dial
@@ -10,7 +10,7 @@ dial = Motor(Port.A)
 # Say hello :)
 
 # First, we'll move the dial to zero.
-dial.run_target(500,0,Stop.COAST)
+dial.run_target(500, 0, Stop.COAST)
 
 while True:
     # Set the speed based on dial angle
