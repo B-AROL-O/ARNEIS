@@ -14,7 +14,7 @@ dial.run_target(500, 0, Stop.COAST)
 
 while True:
     # Set the speed based on dial angle
-    speed = dial.angle()*3
+    speed = dial.angle() * 3
     if abs(speed) < 100:
         speed = 0
 
