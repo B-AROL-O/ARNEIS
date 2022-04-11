@@ -124,17 +124,19 @@ Those are mainly the videos made by [Alessandro](https://github.com/alv67):
 
 **NOTE**: Search for `#ARNEIS` and `#OAKDLiteContest` to find other posts on the same subject:
 
-1. <https://www.facebook.com/gianluca.teti/posts/10226595044611171>
-2. <https://www.facebook.com/alessandro.varesi.67/posts/5107573495960647>
-3. <https://www.facebook.com/gianluca.teti/posts/10226682797124929>
-4. <https://www.facebook.com/gianpaolo.macario/posts/10158724207284542>
-5. <https://www.facebook.com/1498552959/posts/10226836812855226/>
-6. <https://www.facebook.com/gianpaolo.macario/posts/10158786608679542>
-7. <https://www.facebook.com/gianpaolo.macario/posts/10158792878009542>
-8. <https://www.facebook.com/photo/?fbid=10158808808314542>
-9. <https://www.facebook.com/photo/?fbid=10158828954349542>
-10. <https://www.facebook.com/photo/?fbid=10158829940794542>
-11. <https://www.facebook.com/photo/?fbid=10158833031559542>
+1. 2021-12-24: <https://www.facebook.com/gianluca.teti/posts/10226595044611171>
+2. 2022-01-10: <https://www.facebook.com/alessandro.varesi.67/posts/5107573495960647>
+3. 2022-01-10: <https://www.facebook.com/gianluca.teti/posts/10226682797124929>
+4. 2022-01-10: <https://www.facebook.com/gianpaolo.macario/posts/10158724207284542>
+5. 2022-02-08: <https://www.facebook.com/1498552959/posts/10226836812855226/>
+6. 2022-02-19: <https://www.facebook.com/gianpaolo.macario/posts/10158786608679542>
+7. 2022-02-23: <https://www.facebook.com/gianpaolo.macario/posts/10158792878009542>
+8. 2022-03-05: <https://www.facebook.com/photo/?fbid=10158808808314542>
+9. 2022-03-18 19:06: <https://www.facebook.com/photo/?fbid=10158828954349542>
+10. 2022-03-19 14:04: <https://www.facebook.com/photo/?fbid=10158829940794542>
+11. 2022-03-21 08:19: <https://www.facebook.com/photo/?fbid=10158833031559542>
 <!-- 12. <https://m.facebook.com/story.php?story_fbid=10158853589979542> -->
+13. 2022-04-09 12:41: <https://www.facebook.com/gianluca.teti/posts/10227135788729436>
+14. 2022-04-09 22:42: <https://www.facebook.com/gianpaolo.macario/posts/10158862528084542>
 
 <!-- EOF -->
