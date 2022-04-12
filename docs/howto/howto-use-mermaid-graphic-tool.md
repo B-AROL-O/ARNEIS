@@ -20,6 +20,6 @@ graph TD;
     C-->D;
 ```
 
-NOTE: be careful, the background of the diagram depends on the style chosen on github. So if you have the dark theme, it will be dark, making the diagram not
+NOTE: be careful, the background of the diagram depends on the style chosen on Github. So if you have the dark theme, it will be dark, making the diagram not
 understandable. They are trying to implement a new [feature to solve this problem](https://github.com/mermaid-js/mermaid/issues/1553) but for now I suggest you to use
 the theme dark in the code by using ```%%{init:{'theme':'dark'}}%%``` at the beginning of the code (on their site it is well explained and there are multiple examples).
