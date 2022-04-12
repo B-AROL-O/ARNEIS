@@ -32,7 +32,7 @@ Here is a list of weekly posts made by [Gianpaolo on his personal blog](https://
 
 Date       | Coverage | Summary
 -----------|----------|-------------
-2022-04-11 | dev-cw14 | TODO
+2022-04-11 | [dev-cw14](https://gmacario.github.io/posts/2022-04-11-arneis-dev-cw14) | ARNEIS project is getting known<br>Meeting with Massimo Banzi (Arduino)<br>San Mauro Brick Show 2022
 2022-04-04 | [dev-cw13](https://gmacario.github.io/posts/2022-04-04-arneis-dev-cw13) | ARNEIS submitted to the OpenCV Spatial AI Contest<br>ARNEIS OpenCV submission video<br>Preparing for San Mauro Bricks 2022
 2022-03-28 | [dev-cw12](https://gmacario.github.io/posts/2022-03-28-arneis-dev-cw12) | Get inspiration from the Arduino Week<br>ARNEIS System Integration in progress<br>Preparing the final submission to the OpenCV Spatial AI Contest
 2022-03-21 | [dev-cw11](https://gmacario.github.io/posts/2022-03-21-arneis-dev-cw11) | B-AROL-O Team at the OpenCV Weekly Webinar<br>Working on a synthetic dataset for training the ARNEIS NN<br>Built a second ARNEIS MOC
@@ -52,46 +52,46 @@ Date       | Coverage | Summary
 
 **NOTE**: Search for `#ARNEIS` and `#OAKDLiteContest` to find other tweets on the same subject:
 
-1. <https://twitter.com/gpmacario/status/1472151778678517760>
-2. <https://twitter.com/avaresi/status/1472210479212867595>
-3. <https://twitter.com/gpmacario/status/1480612900502917122>
-4. <https://twitter.com/baroloteam/status/1482288465941254144>
-5. <https://twitter.com/gpmacario/status/1482833459253063680>
-6. <https://twitter.com/avaresi/status/1486027840533499904>
-7. <https://twitter.com/baroloteam/status/1486204084776583178>
-8. <https://twitter.com/baroloteam/status/1487701128628383751>
-9. <https://twitter.com/baroloteam/status/1487778753027715073>
-10. <https://twitter.com/gpmacario/status/1487779578118615044>
-11. <https://twitter.com/gpmacario/status/1488133932101033988>
-12. <https://twitter.com/baroloteam/status/1488136200372338692>
-13. <https://twitter.com/avaresi/status/1490303925400084484>
-14. <https://twitter.com/baroloteam/status/1490424433865117700>
-15. <https://twitter.com/gpmacario/status/1490670294536699907>
-16. <https://twitter.com/baroloteam/status/1490671045715574788>
-17. <https://twitter.com/avaresi/status/1491894970063761416>
-18. <https://twitter.com/gpmacario/status/1493204971302567936>
-19. <https://twitter.com/baroloteam/status/1493205240539197444>
-20. <https://twitter.com/gpmacario/status/1495941221847646214>
-21. <https://twitter.com/baroloteam/status/1495948692645421056>
-22. <https://twitter.com/baroloteam/status/1496584284739674116>
-23. <https://twitter.com/baroloteam/status/1496707728798011392>
-24. <https://twitter.com/gpmacario/status/1498356421435482115>
-25. <https://twitter.com/baroloteam/status/1498356996180955154>
-26. <https://twitter.com/gpmacario/status/1501173253271961602>
-27. <https://twitter.com/gpmacario/status/1503365803848175618>
-28. <https://twitter.com/baroloteam/status/1503366271118807045>
-29. <https://twitter.com/opencvweekly/status/1503827692205998080>
-30. <https://twitter.com/gpmacario/status/1503968248945160199>
-31. <https://twitter.com/baroloteam/status/1504110505941741568>
-32. <https://twitter.com/baroloteam/status/1504865479290241026>
-33. <https://twitter.com/baroloteam/status/1504867311194456072>
-34. <https://twitter.com/baroloteam/status/1507778881658540038>
-35. <https://twitter.com/gpmacario/status/1507881065033175041>
-36. <https://twitter.com/gpmacario/status/1508522598665236481>
-37. <https://twitter.com/gpmacario/status/1508535208638926851>
-38. <https://twitter.com/baroloteam/status/1509056192055689218>
-39. <https://twitter.com/gpmacario/status/1511027081861566464>
-40. <https://twitter.com/baroloteam/status/1511113288377151491>
+1. 2021-12-18 11:28: <https://twitter.com/gpmacario/status/1472151778678517760>
+2. 2021-12-17 15:21: <https://twitter.com/avaresi/status/1472210479212867595>
+3. 2022-01-10 19:49: <https://twitter.com/gpmacario/status/1480612900502917122>
+4. 2022-01-15 10:48: <https://twitter.com/baroloteam/status/1482288465941254144>
+5. 2022-01-16 22:53: <https://twitter.com/gpmacario/status/1482833459253063680>
+6. 2022-01-25 18:27: <https://twitter.com/avaresi/status/1486027840533499904>
+7. 2022-01-26 18:07: <https://twitter.com/baroloteam/status/1486204084776583178>
+8. 2022-01-30 09:16: <https://twitter.com/baroloteam/status/1487701128628383751>
+9. 2022-01-30 14:24: <https://twitter.com/baroloteam/status/1487778753027715073>
+10. 2022-01-30 14:27: <https://twitter.com/gpmacario/status/1487779578118615044>
+11. 2022-01-31 13:55: <https://twitter.com/gpmacario/status/1488133932101033988>
+12. 2022-01-31 14:04: <https://twitter.com/baroloteam/status/1488136200372338692>
+13. 2022-02-06 13:38: <https://twitter.com/avaresi/status/1490303925400084484>
+14. 2022-02-06 21:37: <https://twitter.com/baroloteam/status/1490424433865117700>
+15. 2022-02-07 13:54: <https://twitter.com/gpmacario/status/1490670294536699907>
+16. 2022-02-07 13:57: <https://twitter.com/baroloteam/status/1490671045715574788>
+17. 2022-02-10 23:00: <https://twitter.com/avaresi/status/1491894970063761416>
+18. 2022-02-14 13:46: <https://twitter.com/gpmacario/status/1493204971302567936>
+19. 2022-02-14 13:47: <https://twitter.com/baroloteam/status/1493205240539197444>
+20. 2022-02-22 14:59: <https://twitter.com/gpmacario/status/1495941221847646214>
+21. 2022-02-22 15:28: <https://twitter.com/baroloteam/status/1495948692645421056>
+22. 2022-02-23 21:34: <https://twitter.com/baroloteam/status/1496584284739674116>
+23. 2022-02-24 05:45: <https://twitter.com/baroloteam/status/1496707728798011392>
+24. 2022-02-28 18:56: <https://twitter.com/gpmacario/status/1498356421435482115>
+25. 2022-02-28 18:58: <https://twitter.com/baroloteam/status/1498356996180955154>
+26. 2022-03-08 13:29: <https://twitter.com/gpmacario/status/1501173253271961602>
+27. 2022-03-14 14:41: <https://twitter.com/gpmacario/status/1503365803848175618>
+28. 2022-03-14 14:43: <https://twitter.com/baroloteam/status/1503366271118807045>
+29. 2022-03-15 21:17: <https://twitter.com/opencvweekly/status/1503827692205998080>
+30. 2022-03-16 06:35: <https://twitter.com/gpmacario/status/1503968248945160199>
+31. 2022-03-16 16:01: <https://twitter.com/baroloteam/status/1504110505941741568>
+32. 2022-03-18 18:01: <https://twitter.com/baroloteam/status/1504865479290241026>
+33. 2022-03-18 18:08: <https://twitter.com/baroloteam/status/1504867311194456072>
+34. 2022-03-26 18:57: <https://twitter.com/baroloteam/status/1507778881658540038>
+35. 2022-03-27 01:43: <https://twitter.com/gpmacario/status/1507881065033175041>
+36. 2022-03-28 21:13: <https://twitter.com/gpmacario/status/1508522598665236481>
+37. 2022-03-28 22:03: <https://twitter.com/gpmacario/status/1508535208638926851>
+38. 2022-03-30 08:33: <https://twitter.com/baroloteam/status/1509056192055689218>
+39. 2022-04-04 19:05: <https://twitter.com/gpmacario/status/1511027081861566464>
+40. 2022-04-05 12:47: <https://twitter.com/baroloteam/status/1511113288377151491>
 
 ### LinkedIn
 
@@ -107,6 +107,7 @@ Date       | Coverage | Summary
 8. <https://www.linkedin.com/posts/gianluca-teti_github-b-arol-oarneis-automated-recognizer-activity-6894740891420938240-i1Ay>
 9. <https://www.linkedin.com/posts/gianluca-teti_arneis-project-journal-dev-cw05-activity-6896872473116123137-YzWT>
 10. <https://www.linkedin.com/posts/gianluca-teti_arneis-project-journal-dev-cw08-activity-6904516778966228992-EM8P>
+11. <https://www.linkedin.com/pulse/arneis-automated-recognizer-network-enabled-items-/>
 
 ### YouTube
 
@@ -124,17 +125,19 @@ Those are mainly the videos made by [Alessandro](https://github.com/alv67):
 
 **NOTE**: Search for `#ARNEIS` and `#OAKDLiteContest` to find other posts on the same subject:
 
-1. <https://www.facebook.com/gianluca.teti/posts/10226595044611171>
-2. <https://www.facebook.com/alessandro.varesi.67/posts/5107573495960647>
-3. <https://www.facebook.com/gianluca.teti/posts/10226682797124929>
-4. <https://www.facebook.com/gianpaolo.macario/posts/10158724207284542>
-5. <https://www.facebook.com/1498552959/posts/10226836812855226/>
-6. <https://www.facebook.com/gianpaolo.macario/posts/10158786608679542>
-7. <https://www.facebook.com/gianpaolo.macario/posts/10158792878009542>
-8. <https://www.facebook.com/photo/?fbid=10158808808314542>
-9. <https://www.facebook.com/photo/?fbid=10158828954349542>
-10. <https://www.facebook.com/photo/?fbid=10158829940794542>
-11. <https://www.facebook.com/photo/?fbid=10158833031559542>
-<!-- 12. <https://m.facebook.com/story.php?story_fbid=10158853589979542> -->
+1. 2021-12-24 15:45: <https://www.facebook.com/gianluca.teti/posts/10226595044611171>
+2. 2022-01-10 15:19: <https://www.facebook.com/alessandro.varesi.67/posts/5107573495960647>
+3. 2022-01-10 20:13: <https://www.facebook.com/gianluca.teti/posts/10226682797124929>
+4. 2022-01-10 21:45: <https://www.facebook.com/gianpaolo.macario/posts/10158724207284542>
+5. 2022-02-08 18:44: <https://www.facebook.com/1498552959/posts/10226836812855226/>
+6. 2022-02-19 09:34: <https://www.facebook.com/gianpaolo.macario/posts/10158786608679542>
+7. 2022-02-23 07:04: <https://www.facebook.com/gianpaolo.macario/posts/10158792878009542>
+8. 2022-03-05 09:59: <https://www.facebook.com/photo/?fbid=10158808808314542>
+9. 2022-03-18 19:06: <https://www.facebook.com/photo/?fbid=10158828954349542>
+10. 2022-03-19 14:04: <https://www.facebook.com/photo/?fbid=10158829940794542>
+11. 2022-03-21 08:19: <https://www.facebook.com/photo/?fbid=10158833031559542>
+12. 2022-04-09 12:41: <https://www.facebook.com/gianluca.teti/posts/10227135788729436>
+13. 2022-04-09 22:42: <https://www.facebook.com/gianpaolo.macario/posts/10158862528084542>
+14. 2022-04-10 11:12: <https://www.facebook.com/groups/custombricks1.8/posts/1432016813930408/>
 
 <!-- EOF -->
