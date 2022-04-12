@@ -107,6 +107,7 @@ Date       | Coverage | Summary
 8. <https://www.linkedin.com/posts/gianluca-teti_github-b-arol-oarneis-automated-recognizer-activity-6894740891420938240-i1Ay>
 9. <https://www.linkedin.com/posts/gianluca-teti_arneis-project-journal-dev-cw05-activity-6896872473116123137-YzWT>
 10. <https://www.linkedin.com/posts/gianluca-teti_arneis-project-journal-dev-cw08-activity-6904516778966228992-EM8P>
+11. <https://www.linkedin.com/pulse/arneis-automated-recognizer-network-enabled-items-/>
 
 ### YouTube
 
