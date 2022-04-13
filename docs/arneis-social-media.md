@@ -109,6 +109,7 @@ Date       | Coverage | Summary
 9. <https://www.linkedin.com/posts/gianluca-teti_arneis-project-journal-dev-cw05-activity-6896872473116123137-YzWT>
 10. <https://www.linkedin.com/posts/gianluca-teti_arneis-project-journal-dev-cw08-activity-6904516778966228992-EM8P>
 11. <https://www.linkedin.com/pulse/arneis-automated-recognizer-network-enabled-items-/>
+12. <https://www.linkedin.com/feed/update/urn:li:activity:6919910108042792960/>
 
 ### YouTube
 
