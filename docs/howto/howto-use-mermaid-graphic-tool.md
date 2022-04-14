@@ -6,7 +6,7 @@ For this reason the [Mermaid Live Editor](<https://mermaid.live/>) is better in 
 
 In order to create a Mermaid graph:
 
-* Use the bash code (```bash```) and instead of writing "bash" write "mermaid".
+* Use a _code block_ tagged with language `mermaid`.
 * write the code of the diagram (the diagram syntax can be find [here](https://mermaid-js.github.io/mermaid/#/), where all the kinds of diagram are stated with examples and codes)
 * as a result, the graph will appear. There are a lot of configurable settings like the background or the color of the boxes. Everything can be found in their [site](https://mermaid-js.github.io/mermaid/#/).
 
