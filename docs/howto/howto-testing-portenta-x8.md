@@ -1,4 +1,4 @@
-# HOWTO - Testing Arduino Portenta X8
+# HOWTO Testing Arduino Portenta X8
 
 ## Press coverage
 
