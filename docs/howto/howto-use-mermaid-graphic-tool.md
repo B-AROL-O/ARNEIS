@@ -1,4 +1,4 @@
-# HOWTO Mermaid utilisation and code examples
+# HOWTO Mermaid utilization and code examples
 
 [Mermaid](https://mermaid-js.github.io/mermaid/#/) is a useful tool to create diagrams and charts directly using [Markdown](https://daringfireball.net/projects/markdown/).
 The good part about it is that those diagrams can be easily modified just by changing a code displayed before the image, however we can't just move the image wherever we want to.
