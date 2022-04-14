@@ -22,7 +22,7 @@
 
 Browse <http://192.168.7.1/>
 
-> **Welcome to the **Arduino Portenta X8**
+> Welcome to the **Arduino Portenta X8**
 >
 > Setup your board to get started
 >
