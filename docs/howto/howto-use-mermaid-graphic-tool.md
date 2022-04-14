@@ -24,5 +24,13 @@ NOTE: be careful, the background of the diagram depends on the style chosen on G
 understandable. They are trying to implement a new [feature to solve this problem](https://github.com/mermaid-js/mermaid/issues/1553) but for now I suggest you to use
 the theme dark in the code by using ```%%{init:{'theme':'dark'}}%%``` at the beginning of the code (on their site it is well explained and there are multiple examples).
 
+## Other links
+
+* <https://ardalis.com/github-diagrams-with-mermaid/>
+* <https://github.com/mermaid-js/mermaid>
+* <https://github.com/github/roadmap/issues/372>
+* <https://mermaid-js.github.io/>
+* <https://www.youtube.com/watch?v=-HUwt8dF4X8>
+
 <!-- EOF -->
 
