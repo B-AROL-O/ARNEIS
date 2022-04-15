@@ -20,8 +20,10 @@
 - Connect the Portenta X8 to a laptop using a USB-A to USB-C cable
 - Wait until the upper LED turns green
 
+<!-- markdown-link-check-disable-next-line -->
 Browse <http://192.168.7.1/>
 
+<!-- markdown-link-check-disable -->
 > Welcome to the **Arduino Portenta X8**
 >
 > Setup your board to get started
@@ -32,6 +34,7 @@ Browse <http://192.168.7.1/>
 > [GO TO DOCUMENTATION](https://docs.arduino.cc/hardware/portenta-x8)
 >
 > [BOARD INFO](http://192.168.7.1/)
+<!-- markdown-link-check-enable -->
 
 Click on "BOARD INFO"
 
