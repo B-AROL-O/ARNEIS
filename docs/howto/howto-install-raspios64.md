@@ -30,14 +30,14 @@ Each of thosee steps above is described in more details in the corresponding cha
 
 **TODO: REPEAT FROM HERE**
 
-Launch a browser on your laptop and open <https://raspberrypi.com/software/>
+Launch a browser on your laptop and open <https://www.raspberrypi.com/software/>
 
-Download [Raspberry Pi Imager](https://raspberrypi.com/software/) and install it on your laptop.
+Download [Raspberry Pi Imager](https://www.raspberrypi.com/software/) and install it on your laptop.
 
 Insert a MicroSD card into one slot of your laptop.
 Alternatively, insert the MicroSD into the USB card reader, then plug the USB card reader into one empty USB port of your laptop.
 
-Launch the [Raspberry Pi Imager](https://raspberrypi.com/software/) and select the following options
+Launch the [Raspberry Pi Imager](https://www.raspberrypi.com/software/) and select the following options
 
 * Sistema operativo: Raspberry Pi OS (64-bit)
 * Scheda SD: MXT-USB Storage Device USB Device - 255.9 GB
