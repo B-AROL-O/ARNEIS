@@ -38,6 +38,7 @@ Browse <http://192.168.7.1/>
 
 Click on "BOARD INFO"
 
+<!-- markdown-link-check-disable -->
 > **BOARD INFO**
 >
 > * Hostname: `PORTENTA-X8-A13B209DAB6FAD9`
@@ -48,6 +49,7 @@ Click on "BOARD INFO"
 > [LAUNCH SHELL](http://192.168.7.1/#/shell)
 >
 > [GO TO ARDUINO CLOUD](https://cloud.arduino.cc/)
+<!-- markdown-link-check-enable -->
 
 Expand "AROLIOT"
 
