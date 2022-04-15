@@ -92,6 +92,7 @@ Date       | Coverage | Summary
 38. 2022-03-30 08:33: <https://twitter.com/baroloteam/status/1509056192055689218>
 39. 2022-04-04 19:05: <https://twitter.com/gpmacario/status/1511027081861566464>
 40. 2022-04-05 12:47: <https://twitter.com/baroloteam/status/1511113288377151491>
+41. 2022-04-12 13:44: <https://twitter.com/baroloteam/status/1513844561545768965>
 
 ### LinkedIn
 
@@ -108,6 +109,8 @@ Date       | Coverage | Summary
 9. <https://www.linkedin.com/posts/gianluca-teti_arneis-project-journal-dev-cw05-activity-6896872473116123137-YzWT>
 10. <https://www.linkedin.com/posts/gianluca-teti_arneis-project-journal-dev-cw08-activity-6904516778966228992-EM8P>
 11. <https://www.linkedin.com/pulse/arneis-automated-recognizer-network-enabled-items-/>
+12. <https://www.linkedin.com/feed/update/urn:li:activity:6919910108042792960/>
+13. <https://www.linkedin.com/feed/update/urn:li:activity:6919938297855098880/>
 
 ### YouTube
 
