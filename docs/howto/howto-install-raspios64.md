@@ -19,7 +19,7 @@ This HOWTO documents how to install Raspberry Pi OS 64-bit on a Raspberry Pi 3B+
 
 ## Install base Operating System
 
-The installation of [Raspbian Pi OS 64-bit]((https://www.raspberrypi.com/software/)) is performed through the following tests:
+The installation of [Raspbian Pi OS 64-bit](https://www.raspberrypi.com/software/) is performed through the following tests:
 
 1. Prepare a MicroSD card with Raspberry Pi OS
 2. TODO (See below)
