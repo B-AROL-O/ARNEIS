@@ -32,7 +32,8 @@ Here is a list of weekly posts made by [Gianpaolo on his personal blog](https://
 
 Date       | Coverage | Summary
 -----------|----------|-------------
-2022-04-11 | [dev-cw14](https://gmacario.github.io/posts/2022-04-11-arneis-dev-cw14) | Meeting in Arduion with Massimo Banzi<br>ARNEIS project is getting known<br>San Mauro Brick Show 2022
+2022-04-18 | [dev-cw15](https://gmacario.github.io/posts/2022-04-18-arneis-dev-cw15) | Scaling up the Kubernetes cluster<br>Testing software stack for Raspberry Pi OS 64-bit<br>First tests with Arduino Portenta X8
+2022-04-11 | [dev-cw14](https://gmacario.github.io/posts/2022-04-11-arneis-dev-cw14) | Meeting in Arduino with Massimo Banzi<br>ARNEIS project is getting known<br>San Mauro Brick Show 2022
 2022-04-04 | [dev-cw13](https://gmacario.github.io/posts/2022-04-04-arneis-dev-cw13) | ARNEIS submitted to the OpenCV Spatial AI Contest<br>ARNEIS OpenCV submission video<br>Preparing for San Mauro Bricks 2022
 2022-03-28 | [dev-cw12](https://gmacario.github.io/posts/2022-03-28-arneis-dev-cw12) | Get inspiration from the Arduino Week<br>ARNEIS System Integration in progress<br>Preparing the final submission to the OpenCV Spatial AI Contest
 2022-03-21 | [dev-cw11](https://gmacario.github.io/posts/2022-03-21-arneis-dev-cw11) | B-AROL-O Team at the OpenCV Weekly Webinar<br>Working on a synthetic dataset for training the ARNEIS NN<br>Built a second ARNEIS MOC
