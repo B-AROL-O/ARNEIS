@@ -59,7 +59,7 @@ For much higher flexibility we recommend other options, such as the "LEGO&reg; P
 Install the "LEGO&reg; TECHNIC&reg; CONTROL+" app from
 
 * Google Play Store: <https://play.google.com/store/apps/details?id=com.lego.technic.controlplus>
-* Apple App Store: <https://apps.apple.com/us/app/lego-technic-control/id1465808291>
+* Apple App Store: `https://apps.apple.com/us/app/lego-technic-control/id1465808291`
 
 Launch the app and select set "Liebherr R 9800".
 

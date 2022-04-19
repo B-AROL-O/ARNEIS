@@ -32,7 +32,8 @@ Here is a list of weekly posts made by [Gianpaolo on his personal blog](https://
 
 Date       | Coverage | Summary
 -----------|----------|-------------
-2022-04-11 | [dev-cw14](https://gmacario.github.io/posts/2022-04-11-arneis-dev-cw14) | ARNEIS project is getting known<br>Meeting with Massimo Banzi (Arduino)<br>San Mauro Brick Show 2022
+2022-04-18 | [dev-cw15](https://gmacario.github.io/posts/2022-04-18-arneis-dev-cw15) | Scaling up the Kubernetes cluster<br>Testing software stack for Raspberry Pi OS 64-bit<br>First tests with Arduino Portenta X8
+2022-04-11 | [dev-cw14](https://gmacario.github.io/posts/2022-04-11-arneis-dev-cw14) | Meeting in Arduino with Massimo Banzi<br>ARNEIS project is getting known<br>San Mauro Brick Show 2022
 2022-04-04 | [dev-cw13](https://gmacario.github.io/posts/2022-04-04-arneis-dev-cw13) | ARNEIS submitted to the OpenCV Spatial AI Contest<br>ARNEIS OpenCV submission video<br>Preparing for San Mauro Bricks 2022
 2022-03-28 | [dev-cw12](https://gmacario.github.io/posts/2022-03-28-arneis-dev-cw12) | Get inspiration from the Arduino Week<br>ARNEIS System Integration in progress<br>Preparing the final submission to the OpenCV Spatial AI Contest
 2022-03-21 | [dev-cw11](https://gmacario.github.io/posts/2022-03-21-arneis-dev-cw11) | B-AROL-O Team at the OpenCV Weekly Webinar<br>Working on a synthetic dataset for training the ARNEIS NN<br>Built a second ARNEIS MOC
@@ -93,6 +94,10 @@ Date       | Coverage | Summary
 39. 2022-04-04 19:05: <https://twitter.com/gpmacario/status/1511027081861566464>
 40. 2022-04-05 12:47: <https://twitter.com/baroloteam/status/1511113288377151491>
 41. 2022-04-12 13:44: <https://twitter.com/baroloteam/status/1513844561545768965>
+42. 2022-04-17 21:13: <https://twitter.com/gpmacario/status/1515770531731095562>
+43. 2022-04-17 21:15: <https://twitter.com/baroloteam/status/1515770869410324481>
+44. 2022-04-18 16:08: <https://twitter.com/gpmacario/status/1516056138168643595>
+45. 2022-04-18 16:13: <https://twitter.com/baroloteam/status/1516057455175909385>
 
 ### LinkedIn
 
@@ -140,7 +145,8 @@ Those are mainly the videos made by [Alessandro](https://github.com/alv67):
 10. 2022-03-19 14:04: <https://www.facebook.com/photo/?fbid=10158829940794542>
 11. 2022-03-21 08:19: <https://www.facebook.com/photo/?fbid=10158833031559542>
 12. 2022-04-09 12:41: <https://www.facebook.com/gianluca.teti/posts/10227135788729436>
-13. 2022-04-09 22:42: <https://www.facebook.com/gianpaolo.macario/posts/10158862528084542>
-14. 2022-04-10 11:12: <https://www.facebook.com/groups/custombricks1.8/posts/1432016813930408/>
+13. 2022-04-09 16:34: <https://www.facebook.com/piemontebricksLUG/photos/pcb.3545752858882361/3545747368882910/?type=3&source=49>
+14. 2022-04-09 22:42: <https://www.facebook.com/gianpaolo.macario/posts/10158862528084542>
+15. 2022-04-10 11:12: <https://www.facebook.com/groups/custombricks1.8/posts/1432016813930408/>
 
 <!-- EOF -->
