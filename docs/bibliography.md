@@ -9,12 +9,16 @@
 
 ### Learning Resources
 
+<!-- markdown-link-check-disable -->
 * [LearnOpenCV.com](https://learnopencv.com/) hosted by [Dr. Satya Mallick](https://twitter.com/LearnOpenCV)
 * GitHub repository with C++ and Python examples from LearnOpenCV.com: <https://github.com/spmallick/learnopencv>
+<!-- markdown-link-check-enable -->
 
 ### Webinars
 
+<!-- markdown-link-check-disable -->
 * [OpenCV Weekly Webinar](https://twitter.com/opencvweekly) hosted by [Dr. Satya Mallick](https://twitter.com/learnopencv) and [Phil Nelson](https://twitter.com/philnelson)
+* <!-- markdown-link-check-enable -->
 
 ## Containers and Kubernetes
 
