@@ -72,11 +72,6 @@ or DM the `B-AROL-O Team on Twitter <https://twitter.com/baroloteam>`_ about sec
 Documentation
 *************
 
-* :doc:`acronyms`
-* :doc:`bibliography`
-* :doc:`arneis-social-media`
-* :doc:`sysint/arneis-sysint-1.0`
-
 .. toctree::
    :caption: Documentation
    :maxdepth: 1
@@ -91,11 +86,6 @@ Documentation
 Architecture
 ************
 
-* :doc:`acronyms`
-* :doc:`architecture/arneis-spec`
-* :doc:`architecture/arneis-sysarch`
-* :doc:`architecture/arneis-swarch`
-
 .. toctree::
    :caption: Architecture
    :maxdepth: 1
@@ -105,20 +95,12 @@ Architecture
    architecture/arneis-sysarch
    architecture/arneis-swarch
 
-*************
-How-to Guides
-*************
-
 .. toctree::
    :caption: HOWTOs
    :maxdepth: 1
    :glob:
 
    howto/*
-
-*****
-LEGO®
-*****
 
 .. toctree::
    :caption: LEGO®
