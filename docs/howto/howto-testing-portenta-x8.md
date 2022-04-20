@@ -104,7 +104,7 @@ make html
 
 Result: TODO
 
-### Inspect the host OS on the Portenta X8
+## Inspect the host OS on the Portenta X8
 
 From a laptop connected on the same network (172.30.48.0/24)
 
@@ -115,7 +115,9 @@ fio@172.30.48.28's password:
 fio@portenta-x8-a13b209dab6fad9:~$
 ```
 
-Now logged as `fio@portenta-x8-xxxx`, inspect the host OS
+### Inspect the host OS
+
+Logged in as `fio@portenta-x8-xxxx`, type the following commands to inspect the host OS
 
 ```bash
 uname -a
@@ -184,7 +186,9 @@ Swap:          1.9Gi          0B       1.9Gi
 fio@portenta-x8-a13b209dab6fad9:~$
 ```
 
-Inspect disk utilization
+### Inspect disk utilization
+
+Logged in as `fio@portenta-x8-xxxx`, type the following commands:
 
 ```bash
 df -h
@@ -209,7 +213,9 @@ overlay          14G  2.1G   11G  16% /var/lib/docker/overlay2/ebf99a4712b01bd0d
 fio@portenta-x8-a13b209dab6fad9:~$
 ```
 
-Inspect the network interfaces
+### Inspect the network interfaces
+
+Logged in as `fio@portenta-x8-xxxx`, type the following command:
 
 ```bash
 ip addr
@@ -272,7 +278,9 @@ fio@portenta-x8-a13b209dab6fad9:~$ ip addr
 fio@portenta-x8-a13b209dab6fad9:~$
 ```
 
-Inspect Docker
+### Inspect Docker configuration
+
+Logged in as `fio@portenta-x8-xxxx`, type the following commands:
 
 ```bash
 docker version
