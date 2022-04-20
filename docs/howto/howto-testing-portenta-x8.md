@@ -383,4 +383,36 @@ CONTAINER ID   IMAGE                                           COMMAND          
 fio@portenta-x8-a13b209dab6fad9:~$
 ```
 
+### Scan nearby BLE devices
+
+Logged in as `fio@portenta-x8-xxxx`, type the following commands:
+
+```bash
+hcitool lescan
+```
+
+Result:
+
+```text
+pi@rpird102:~ $ hcitool lescan
+LE Scan ...
+7B:2B:16:A1:FC:B4 (unknown)
+7B:2B:16:A1:FC:B4 (unknown)
+0C:3D:C9:46:2E:63 (unknown)
+1E:C5:13:EF:4D:62 (unknown)
+3D:E9:FE:69:3A:0C (unknown)
+39:11:18:AC:A5:28 (unknown)
+7C:64:56:88:EF:A7 (unknown)
+43:7D:D9:6B:94:0C (unknown)
+DE:13:06:8D:1A:5D (unknown)
+DE:13:06:8D:1A:5D Mi Smart Band 5
+12:B3:4F:A7:3A:B1 (unknown)
+45:4F:2C:D3:3B:CF (unknown)
+45:4F:2C:D3:3B:CF (unknown)
+75:F7:E9:A9:8C:15 (unknown)
+75:F7:E9:A9:8C:15 (unknown)
+08:CD:56:29:E9:9A (unknown)
+^Cpi@rpird102:~ $
+```
+
 <!-- EOF -->
