@@ -53,6 +53,7 @@ Date       | Coverage | Summary
 
 **NOTE**: Search for `#ARNEIS` and `#OAKDLiteContest` to find other tweets on the same subject:
 
+<!-- markdownlint-disable -->
 1. 2021-12-18 11:28: <https://twitter.com/gpmacario/status/1472151778678517760>
 2. 2021-12-17 15:21: <https://twitter.com/avaresi/status/1472210479212867595>
 3. 2022-01-10 19:49: <https://twitter.com/gpmacario/status/1480612900502917122>
@@ -98,6 +99,7 @@ Date       | Coverage | Summary
 43. 2022-04-17 21:15: <https://twitter.com/baroloteam/status/1515770869410324481>
 44. 2022-04-18 16:08: <https://twitter.com/gpmacario/status/1516056138168643595>
 45. 2022-04-18 16:13: <https://twitter.com/baroloteam/status/1516057455175909385>
+<!-- markdownlint-restore -->
 
 ### LinkedIn
 
