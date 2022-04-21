@@ -100,6 +100,7 @@ Date       | Coverage | Summary
 44. 2022-04-18 16:08: <https://twitter.com/gpmacario/status/1516056138168643595>
 45. 2022-04-18 16:13: <https://twitter.com/baroloteam/status/1516057455175909385>
 46. 2022-04-21 07:48: <https://twitter.com/gpmacario/status/1517017417762889729>
+47. 2022-04-21 17:56: <https://twitter.com/baroloteam/status/1517170479102054405>
 <!-- markdown-link-check-enable -->
 
 ### LinkedIn
