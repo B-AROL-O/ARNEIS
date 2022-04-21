@@ -97,7 +97,6 @@ Architecture
 
 Learn more about the ARNEIS project architecture.
 
-
 * :doc:`architecture/arneis-spec`
 * :doc:`architecture/arneis-sysarch`
 * :doc:`architecture/arneis-swarch`
@@ -119,23 +118,23 @@ These guides will help walk you through specific use cases the team has
 affronted during the project realization.
 
 * **For documentation authors**:
-   :doc:`howto/howto-configure-arneis-readthedocs-io` |
-   :doc:`howto/howto-use-mermaid-graphic-tool`
+   * :doc:`howto/howto-configure-arneis-readthedocs-io`
+   * :doc:`howto/howto-use-mermaid-graphic-tool`
 
 * **Learning AI and related tools**:
-   :doc:`howto/howto-install-depthai-on-rpi` |
-   :doc:`howto/howto-install-depthai-on-windows10` |
-   :doc:`howto/howto-train-deploy-NN`
+   * :doc:`howto/howto-install-depthai-on-rpi`
+   * :doc:`howto/howto-install-depthai-on-windows10`
+   * :doc:`howto/howto-train-deploy-NN`
 
 * **For Embedded electronics enthusiast**:
-   :doc:`howto/howto-control-rpi-poweredup` |
-   :doc:`howto/howto-install-raspios64` |
-   :doc:`howto/howto-prepare-rpi4b-for-arneis` |
-   :doc:`howto/howto-testing-portenta-x8`
+   * :doc:`howto/howto-control-rpi-poweredup`
+   * :doc:`howto/howto-install-raspios64`
+   * :doc:`howto/howto-prepare-rpi4b-for-arneis`
+   * :doc:`howto/howto-testing-portenta-x8`
 
 * **For system integrators**:
-   :doc:`howto/howto-create-vm-on-azure` |
-   :doc:`howto/howto-install-k3s-for-arneis`
+   * :doc:`howto/howto-create-vm-on-azure`
+   * :doc:`howto/howto-install-k3s-for-arneis`
 
 
 .. toctree::
@@ -167,13 +166,13 @@ Here you find our collection of activities related to the development and constr
 of the ARNEIS LEGO MOC.
 
 * **The original set we use**:
-   :doc:`lego-set-42100/README` |
-   :doc:`lego-set-42100/unboxing-lego-set-42100`
+   * :doc:`lego-set-42100/README`
+   * :doc:`lego-set-42100/unboxing-lego-set-42100`
 
 * **The ARNEIS MOC**:
-   :doc:`lego/studies` |
-   :doc:`lego/camera-support` |
-   :doc:`lego/conveyor-wip`
+   * :doc:`lego/studies`
+   * :doc:`lego/camera-support`
+   * :doc:`lego/conveyor-wip`
 
 .. toctree::
    :caption: LEGO®
