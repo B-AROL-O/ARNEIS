@@ -115,7 +115,7 @@ How-to Guides
 *************
 
 These guides will help walk you through specific use cases the team has
-affronted during the project realization.
+gone through during the project realization.
 
 * **For documentation authors**:
    * :doc:`howto/howto-configure-arneis-readthedocs-io`
