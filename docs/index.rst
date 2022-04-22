@@ -22,7 +22,7 @@ PLEASE VOTE AND MAKE YOUR FRIENDS VOTE FOR ARNEIS!!!
 .. image:: ./images/2022-04-21-opencv-spatial-ai-contest-top-10-finalist.png
    :width: 400px
    :align: center
-   :targer: https://form.jotform.com/221086334784156
+   :target: https://form.jotform.com/221086334784156
 
 **************
 This is ARNEIS
