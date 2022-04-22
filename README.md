@@ -5,7 +5,11 @@
 
 <a href="https://arneis.readthedocs.io/">![ARNEIS logo](docs/images/arneis-logo.png)</a>
 
-The **ARNEIS** (short for `A`utomated `R`ecognizer, `N`etwork-`E`nabled, `I`tem Sorter) project is one of the 50 selected finalists of the [OpenCV Spatial AI Contest](https://opencv.org/opencv-spatial-ai-contest/) sponsored by [Intel&reg;](https://www.intel.com/) and [Microsoft Azure](https://azure.microsoft.com/).
+The **ARNEIS** (short for `A`utomated `R`ecognizer, `N`etwork-`E`nabled, `I`tem Sorter) project is a Top 10 Finalist to the [OpenCV Spatial AI Contest](https://opencv.org/opencv-spatial-ai-contest/) sponsored by [Intel&reg;](https://www.intel.com/) and [Microsoft Azure](https://azure.microsoft.com/).
+
+**PLEASE VOTE AND MAKE YOUR FRIENDS VOTE FOR ARNEIS!!!**
+
+[![2022-04-21-opencv-spatial-ai-contest-top-10-finalist.png](docs/images/2022-04-21-opencv-spatial-ai-contest-top-10-finalist.png)](https://form.jotform.com/221086334784156)
 
 ## ARNEIS in a nutshell
 
