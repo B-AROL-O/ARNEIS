@@ -15,13 +15,14 @@ The **ARNEIS** (short for ``A`` utomated ``R`` ecognizer,  ``N`` etwork - ``E`` 
 is a Top 10 Finalist to the `OpenCV Spatial AI Contest <https://opencv.org/opencv-spatial-ai-contest/>`_
 sponsored by `Intel® <https://www.intel.com/>`_ and `Microsoft Azure <https://azure.microsoft.com/>`_.
 
-.. raw:: html
+****************************************************
+PLEASE VOTE AND MAKE YOUR FRIENDS VOTE FOR ARNEIS!!!
+****************************************************
 
-    <h2>PLEASE VOTE AND MAKE YOUR FRIENDS VOTE FOR ARNEIS!!!</h2>
-
-    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
-        <a href="https://form.jotform.com/221086334784156"><img href="_images/2022-04-21-opencv-spatial-ai-contest-top-10-finalist.png"/></a>
-    </div>
+.. image:: ./images/2022-04-21-opencv-spatial-ai-contest-top-10-finalist.png
+   :width: 400px
+   :align: center
+   :targer: https://form.jotform.com/221086334784156
 
 **************
 This is ARNEIS
