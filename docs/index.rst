@@ -20,7 +20,7 @@ sponsored by `Intel® <https://www.intel.com/>`_ and `Microsoft Azure <https://a
     <h2>PLEASE VOTE AND MAKE YOUR FRIENDS VOTE FOR ARNEIS!!!</h2>
 
     <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
-        <a href="https://form.jotform.com/221086334784156"><img href="images/2022-04-21-opencv-spatial-ai-contest-top-10-finalist.png"/></a>
+        <a href="https://form.jotform.com/221086334784156"><img href="_images/2022-04-21-opencv-spatial-ai-contest-top-10-finalist.png"/></a>
     </div>
 
 **************
