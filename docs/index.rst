@@ -12,13 +12,15 @@ Welcome to the ARNEIS Project!
     :align: center
 
 The **ARNEIS** (short for ``A`` utomated ``R`` ecognizer,  ``N`` etwork - ``E`` nabled, ``I`` tem ``S`` orter)
-is one of the 50 selected finalists of the `OpenCV Spatial AI Contest <https://opencv.org/opencv-spatial-ai-contest/>`_
+is a Top 10 Finalist to the `OpenCV Spatial AI Contest <https://opencv.org/opencv-spatial-ai-contest/>`_
 sponsored by `Intel® <https://www.intel.com/>`_ and `Microsoft Azure <https://azure.microsoft.com/>`_.
 
 .. raw:: html
 
+    <h2>PLEASE VOTE AND MAKE YOUR FRIENDS VOTE FOR ARNEIS!!!</h2>
+
     <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
-        <iframe src="https://www.youtube.com/embed/nwAOgkqVJMo" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+        <a href="https://form.jotform.com/221086334784156"><img href="images/2022-04-21-opencv-spatial-ai-contest-top-10-finalist.png"/></a>
     </div>
 
 **************
@@ -41,6 +43,14 @@ This goal is achieved by means of a combination of:
 * An `OAK-D-Lite <https://docs.luxonis.com/projects/hardware/en/latest/pages/DM9095.html>`_ Spatial AI camera
 * A lot of `LEGO® Technic <https://www.lego.com/>`_ parts
 * ... and plenty of Open Source software
+
+If you want to know some history about this project please watch the webinar we gave on 2022-03-17:
+
+.. raw:: html
+
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
+        <iframe src="https://www.youtube.com/embed/nwAOgkqVJMo" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+    </div>
 
 ARNEIS Project sources
 ----------------------
