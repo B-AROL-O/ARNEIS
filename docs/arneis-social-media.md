@@ -108,6 +108,7 @@ Date       | Coverage | Summary
 46. 2022-04-21 07:48: <https://twitter.com/gpmacario/status/1517017417762889729>
 47. 2022-04-21 17:56: <https://twitter.com/baroloteam/status/1517170479102054405>
 48. 2022-04-21 17:59: <https://twitter.com/gpmacario/status/1517171276615503875>
+49. 2022-04-21 18:00: <https://twitter.com/opencvweekly/status/1517171312807989249>
 <!-- markdown-link-check-enable -->
 
 ### LinkedIn
