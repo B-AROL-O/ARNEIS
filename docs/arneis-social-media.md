@@ -153,7 +153,13 @@ Those are mainly the videos made by [Alessandro](https://github.com/alv67):
 13. 2022-04-09 16:34: <https://www.facebook.com/piemontebricksLUG/photos/pcb.3545752858882361/3545747368882910/?type=3&source=49>
 14. 2022-04-09 22:42: <https://www.facebook.com/gianpaolo.macario/posts/10158862528084542>
 15. 2022-04-10 11:12: <https://www.facebook.com/groups/custombricks1.8/posts/1432016813930408/>
-16. 2022-04-23 xx:xx: <https://m.facebook.com/groups/custombricks1.8/permalink/1440654476399975/>
-17. 2022-04-23 xx:xx: <https://m.facebook.com/groups/ohmybrick/permalink/1890882524456117/>
+16. 2022-04-21 17:58: <https://www.facebook.com/gianluca.teti/posts/10227196925897827>
+17. 2022-04-21 19:15: <https://www.facebook.com/alessandro.varesi.67/posts/5421054011279259>
+18. 2022-04-21 19:48: <https://www.facebook.com/caterina.piovano.5/posts/5521491711227835>
+19. 2022-04-21 20:16: <https://www.facebook.com/franco.bianco.10/posts/7378613172180228>
+20. 2022-04-21 20:19: <https://www.facebook.com/gianpaolo.macario/posts/10158879595084542>
+21. 2022-04-22 09:43: <https://www.facebook.com/pierfrancesco.cerruti.3/posts/5128096707277605>
+22. 2022-04-23 08:34: <https://www.facebook.com/groups/custombricks1.8/posts/1440654476399975/>
+23. 2022-04-23 13:23: <https://www.facebook.com/groups/ohmybrick/posts/1890882524456117/>
 
 <!-- EOF -->
