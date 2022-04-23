@@ -1,6 +1,12 @@
 # ARNEIS - Social Media Presence
 
-## ARNEIS Elevator Pitch video
+## OpenCV Spatial AI Contest Top 10 Finalists, 2022-04-21
+
+During the [OpenCV Weekly Webinar Episode 54](https://twitter.com/opencvweekly/status/1517171312807989249) our team was appointed Top 10 Finalist of the [OpenCV Spatial AI Contest](https://opencv.org/opencv-spatial-ai-contest/) sponsored by Intel and Microsoft. Click on the image to watch the full announcement:
+
+[![image](https://user-images.githubusercontent.com/75182/164895375-263d5633-e5c9-4036-8135-38a019a64d67.png)](https://twitter.com/i/broadcasts/1lPJqmnrqBLJb)
+
+## ARNEIS elevator pitch, 2022-04-05
 
 This short video (3:48) was prepared as part of the final submission to the [OpenCV Spatial AI Contest](https://opencv.org/opencv-spatial-ai-contest/):
 
