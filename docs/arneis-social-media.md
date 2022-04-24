@@ -147,9 +147,11 @@ Those are mainly the videos made by [Alessandro](https://github.com/alv67):
 3. 2022-02-14: OpenCV Spatial AI Contest - NeuralNetwork 01 (<https://youtu.be/fuWxTJHCN7g>)
 4. 2022-02-23: OpenCV Spatial AI Contest - NeuralNetwork 02 (<https://youtu.be/q7ccqtx44ko>)
 5. 2022-03-20: ARNEIS LEGO MOC History (<https://youtu.be/S-DiK0UgNBY>)
-6. 2022-03-31: ARNEIS Conveyor 22.04 (<https://youtu.be/4_--99dwwpc>)
-7. 2022-04-05: ARNEIS submission Video (<https://youtu.be/qHFRRHWtTqY>)
-8. 2022-04-21: ARNEIS - OpenCV Spatial AI Contest Top 10 (<https://youtu.be/mijyQ9Kjg9Y>)
+6. 2022-03-29: Using AI & LEGO to Recognize, Sort, and Package Bottles - OpenCV Weekly Ep 49 - 3/17/22 (<https://youtu.be/nwAOgkqVJMo>)
+7. 2022-03-31: ARNEIS Conveyor 22.04 (<https://youtu.be/4_--99dwwpc>)
+8. 2022-04-05: ARNEIS submission Video (<https://youtu.be/qHFRRHWtTqY>)
+9. 2022-04-21: ARNEIS - OpenCV Spatial AI Contest Top 10 (<https://youtu.be/mijyQ9Kjg9Y>)
+10. 2022-04-22: Announcing the Winners of OpenCV Spatial AI Contest - OpenCV Weekly Ep. 54 (<https://youtu.be/J7eLcelcPY4>)
 
 ### Facebook
 
