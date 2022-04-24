@@ -142,13 +142,13 @@ Date       | Coverage | Summary
 
 Those are mainly the videos made by [Alessandro](https://github.com/alv67):
 
-- Bottle conveyor 20220122 (<https://youtu.be/BFKyx1COfqk>)
-- ARNEIS project by B-AROL-O team - WIP (<https://youtu.be/7qxbT31U5dE>)
-- OpenCV Spatial AI Contest - NeuralNetwork 01 (<https://youtu.be/fuWxTJHCN7g>)
-- OpenCV Spatial AI Contest - NeuralNetwork 02 (<https://youtu.be/q7ccqtx44ko>)
-- ARNEIS LEGO MOC History (<https://youtu.be/S-DiK0UgNBY>)
-- ARNEIS Conveyor 22.04 (<https://youtu.be/4_--99dwwpc>)
-- ARNEIS submission Video (<https://youtu.be/qHFRRHWtTqY>)
+1. 2022-01-22: Bottle conveyor 20220122 (<https://youtu.be/BFKyx1COfqk>)
+2. 2022-02-10: ARNEIS project by B-AROL-O team - WIP (<https://youtu.be/7qxbT31U5dE>)
+3. 2022-02-14: OpenCV Spatial AI Contest - NeuralNetwork 01 (<https://youtu.be/fuWxTJHCN7g>)
+4. 2022-02-23: OpenCV Spatial AI Contest - NeuralNetwork 02 (<https://youtu.be/q7ccqtx44ko>)
+5. 2022-03-20: ARNEIS LEGO MOC History (<https://youtu.be/S-DiK0UgNBY>)
+6. 2022-03-31: ARNEIS Conveyor 22.04 (<https://youtu.be/4_--99dwwpc>)
+7. 2022-04-05: ARNEIS submission Video (<https://youtu.be/qHFRRHWtTqY>)
 
 ### Facebook
 
