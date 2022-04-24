@@ -1,6 +1,20 @@
 # ARNEIS - Social Media Presence
 
-## ARNEIS Elevator Pitch video
+## ARNEIS - OpenCV Spatial AI Contest Top 10
+
+This is the ARNEIS elevator pitch video re-published on 2022-04-21 by [OpenCV AI](https://www.youtube.com/channel/UCpRd2pU-0_fHVutdregb8XQ) for the [OpenCV Spatial AI Contest Popular Vote](https://form.jotform.com/221086334784156):
+
+<!-- [![ARNEIS - OpenCV Spatial AI Contest Top 10](https://img.youtube.com/vi/mijyQ9Kjg9Y/0.jpg)](https://www.youtube.com/watch?v=mijyQ9Kjg9Y "ARNEIS - OpenCV Spatial AI Contest Top 10") -->
+
+[![ARNEIS - OpenCV Spatial AI Contest Top 10](https://user-images.githubusercontent.com/75182/164913525-176820e5-eb7e-4f74-b3da-f7adf01dda9c.png)](https://form.jotform.com/221086334784156)
+
+## OpenCV Spatial AI Contest Top 10 Finalists, 2022-04-21
+
+During the [OpenCV Weekly Webinar Episode 54](https://twitter.com/opencvweekly/status/1517171312807989249) our team was appointed Top 10 Finalist of the [OpenCV Spatial AI Contest](https://opencv.org/opencv-spatial-ai-contest/) sponsored by Intel and Microsoft. Click on the image to watch the full announcement:
+
+[![image](https://user-images.githubusercontent.com/75182/164895375-263d5633-e5c9-4036-8135-38a019a64d67.png)](https://twitter.com/i/broadcasts/1lPJqmnrqBLJb)
+
+## ARNEIS elevator pitch, 2022-04-05
 
 This short video (3:48) was prepared as part of the final submission to the [OpenCV Spatial AI Contest](https://opencv.org/opencv-spatial-ai-contest/):
 
@@ -102,6 +116,7 @@ Date       | Coverage | Summary
 46. 2022-04-21 07:48: <https://twitter.com/gpmacario/status/1517017417762889729>
 47. 2022-04-21 17:56: <https://twitter.com/baroloteam/status/1517170479102054405>
 48. 2022-04-21 17:59: <https://twitter.com/gpmacario/status/1517171276615503875>
+49. 2022-04-21 18:00: <https://twitter.com/opencvweekly/status/1517171312807989249>
 <!-- markdown-link-check-enable -->
 
 ### LinkedIn
@@ -153,5 +168,13 @@ Those are mainly the videos made by [Alessandro](https://github.com/alv67):
 13. 2022-04-09 16:34: <https://www.facebook.com/piemontebricksLUG/photos/pcb.3545752858882361/3545747368882910/?type=3&source=49>
 14. 2022-04-09 22:42: <https://www.facebook.com/gianpaolo.macario/posts/10158862528084542>
 15. 2022-04-10 11:12: <https://www.facebook.com/groups/custombricks1.8/posts/1432016813930408/>
+16. 2022-04-21 17:58: <https://www.facebook.com/gianluca.teti/posts/10227196925897827>
+17. 2022-04-21 19:15: <https://www.facebook.com/alessandro.varesi.67/posts/5421054011279259>
+18. 2022-04-21 19:48: <https://www.facebook.com/caterina.piovano.5/posts/5521491711227835>
+19. 2022-04-21 20:16: <https://www.facebook.com/franco.bianco.10/posts/7378613172180228>
+20. 2022-04-21 20:19: <https://www.facebook.com/gianpaolo.macario/posts/10158879595084542>
+21. 2022-04-22 09:43: <https://www.facebook.com/pierfrancesco.cerruti.3/posts/5128096707277605>
+22. 2022-04-23 08:34: <https://www.facebook.com/groups/custombricks1.8/posts/1440654476399975/>
+23. 2022-04-23 13:23: <https://www.facebook.com/groups/ohmybrick/posts/1890882524456117/>
 
 <!-- EOF -->
