@@ -149,6 +149,7 @@ Those are mainly the videos made by [Alessandro](https://github.com/alv67):
 5. 2022-03-20: ARNEIS LEGO MOC History (<https://youtu.be/S-DiK0UgNBY>)
 6. 2022-03-31: ARNEIS Conveyor 22.04 (<https://youtu.be/4_--99dwwpc>)
 7. 2022-04-05: ARNEIS submission Video (<https://youtu.be/qHFRRHWtTqY>)
+8. 2022-04-21: ARNEIS - OpenCV Spatial AI Contest Top 10 (<https://youtu.be/mijyQ9Kjg9Y>)
 
 ### Facebook
 
