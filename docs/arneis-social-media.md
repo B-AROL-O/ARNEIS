@@ -165,7 +165,7 @@ Those are mainly the videos made by [Alessandro](https://github.com/alv67):
 10. 2022-03-19 14:04: <https://www.facebook.com/photo/?fbid=10158829940794542>
 11. 2022-03-21 08:19: <https://www.facebook.com/photo/?fbid=10158833031559542>
 12. 2022-04-09 12:41: <https://www.facebook.com/gianluca.teti/posts/10227135788729436>
-13. 2022-04-09 16:34: <https://www.facebook.com/piemontebricksLUG/photos/pcb.3545752858882361/3545747368882910/?type=3&source=49>
+13. 2022-04-09 16:34: <https://www.facebook.com/piemontebricksLUG/photos/pcb.3545752858882361/3545747368882910>
 14. 2022-04-09 22:42: <https://www.facebook.com/gianpaolo.macario/posts/10158862528084542>
 15. 2022-04-10 11:12: <https://www.facebook.com/groups/custombricks1.8/posts/1432016813930408/>
 16. 2022-04-21 17:58: <https://www.facebook.com/gianluca.teti/posts/10227196925897827>
