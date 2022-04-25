@@ -46,6 +46,7 @@ Here is a list of weekly posts made by [Gianpaolo on his personal blog](https://
 
 Date       | Coverage | Summary
 -----------|----------|-------------
+2022-04-25 | [dev-cw16](https://gmacario.github.io/posts/2022-04-25-arneis-dev-cw16) | ARNEIS Top 10 Finalist of the OpenCV Spatial AI Contest<br>Preparing for ARNEIS Release 1.0<br>More progress with the Arduino Portenta X8
 2022-04-18 | [dev-cw15](https://gmacario.github.io/posts/2022-04-18-arneis-dev-cw15) | Scaling up the Kubernetes cluster<br>Testing software stack for Raspberry Pi OS 64-bit<br>First tests with Arduino Portenta X8
 2022-04-11 | [dev-cw14](https://gmacario.github.io/posts/2022-04-11-arneis-dev-cw14) | Meeting in Arduino with Massimo Banzi<br>ARNEIS project is getting known<br>San Mauro Brick Show 2022
 2022-04-04 | [dev-cw13](https://gmacario.github.io/posts/2022-04-04-arneis-dev-cw13) | ARNEIS submitted to the OpenCV Spatial AI Contest<br>ARNEIS OpenCV submission video<br>Preparing for San Mauro Bricks 2022
@@ -141,13 +142,16 @@ Date       | Coverage | Summary
 
 Those are mainly the videos made by [Alessandro](https://github.com/alv67):
 
-- Bottle conveyor 20220122 (<https://youtu.be/BFKyx1COfqk>)
-- ARNEIS project by B-AROL-O team - WIP (<https://youtu.be/7qxbT31U5dE>)
-- OpenCV Spatial AI Contest - NeuralNetwork 01 (<https://youtu.be/fuWxTJHCN7g>)
-- OpenCV Spatial AI Contest - NeuralNetwork 02 (<https://youtu.be/q7ccqtx44ko>)
-- ARNEIS LEGO MOC History (<https://youtu.be/S-DiK0UgNBY>)
-- ARNEIS Conveyor 22.04 (<https://youtu.be/4_--99dwwpc>)
-- ARNEIS submission Video (<https://youtu.be/qHFRRHWtTqY>)
+1. 2022-01-22: Bottle conveyor 20220122 (<https://youtu.be/BFKyx1COfqk>)
+2. 2022-02-10: ARNEIS project by B-AROL-O team - WIP (<https://youtu.be/7qxbT31U5dE>)
+3. 2022-02-14: OpenCV Spatial AI Contest - NeuralNetwork 01 (<https://youtu.be/fuWxTJHCN7g>)
+4. 2022-02-23: OpenCV Spatial AI Contest - NeuralNetwork 02 (<https://youtu.be/q7ccqtx44ko>)
+5. 2022-03-20: ARNEIS LEGO MOC History (<https://youtu.be/S-DiK0UgNBY>)
+6. 2022-03-29: Using AI & LEGO to Recognize, Sort, and Package Bottles - OpenCV Weekly Ep 49 - 3/17/22 (<https://youtu.be/nwAOgkqVJMo>)
+7. 2022-03-31: ARNEIS Conveyor 22.04 (<https://youtu.be/4_--99dwwpc>)
+8. 2022-04-05: ARNEIS submission Video (<https://youtu.be/qHFRRHWtTqY>)
+9. 2022-04-21: ARNEIS - OpenCV Spatial AI Contest Top 10 (<https://youtu.be/mijyQ9Kjg9Y>)
+10. 2022-04-22: Announcing the Winners of OpenCV Spatial AI Contest - OpenCV Weekly Ep. 54 (<https://youtu.be/J7eLcelcPY4>)
 
 ### Facebook
 
@@ -165,7 +169,7 @@ Those are mainly the videos made by [Alessandro](https://github.com/alv67):
 10. 2022-03-19 14:04: <https://www.facebook.com/photo/?fbid=10158829940794542>
 11. 2022-03-21 08:19: <https://www.facebook.com/photo/?fbid=10158833031559542>
 12. 2022-04-09 12:41: <https://www.facebook.com/gianluca.teti/posts/10227135788729436>
-13. 2022-04-09 16:34: <https://www.facebook.com/piemontebricksLUG/photos/pcb.3545752858882361/3545747368882910/?type=3&source=49>
+13. 2022-04-09 16:34: <https://www.facebook.com/piemontebricksLUG/photos/pcb.3545752858882361/3545747368882910>
 14. 2022-04-09 22:42: <https://www.facebook.com/gianpaolo.macario/posts/10158862528084542>
 15. 2022-04-10 11:12: <https://www.facebook.com/groups/custombricks1.8/posts/1432016813930408/>
 16. 2022-04-21 17:58: <https://www.facebook.com/gianluca.teti/posts/10227196925897827>
