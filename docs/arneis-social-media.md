@@ -68,7 +68,6 @@ Date       | Coverage | Summary
 
 **NOTE**: Search for `#ARNEIS` and `#OAKDLiteContest` to find other tweets on the same subject:
 
-<!-- markdown-link-check-disable -->
 1. 2021-12-18 11:28: <https://twitter.com/gpmacario/status/1472151778678517760>
 2. 2021-12-17 15:21: <https://twitter.com/avaresi/status/1472210479212867595>
 3. 2022-01-10 19:49: <https://twitter.com/gpmacario/status/1480612900502917122>
@@ -118,7 +117,6 @@ Date       | Coverage | Summary
 47. 2022-04-21 17:56: <https://twitter.com/baroloteam/status/1517170479102054405>
 48. 2022-04-21 17:59: <https://twitter.com/gpmacario/status/1517171276615503875>
 49. 2022-04-21 18:00: <https://twitter.com/opencvweekly/status/1517171312807989249>
-<!-- markdown-link-check-enable -->
 
 ### LinkedIn
 
@@ -151,7 +149,7 @@ Those are mainly the videos made by [Alessandro](https://github.com/alv67):
 7. 2022-03-31: ARNEIS Conveyor 22.04 (<https://youtu.be/4_--99dwwpc>)
 8. 2022-04-05: ARNEIS submission Video (<https://youtu.be/qHFRRHWtTqY>)
 9. 2022-04-21: ARNEIS - OpenCV Spatial AI Contest Top 10 (<https://youtu.be/mijyQ9Kjg9Y>)
-10. 2022-04-22: Announcing the Winners of OpenCV Spatial AI Contest - OpenCV Weekly Ep. 54 (<https://youtu.be/J7eLcelcPY4>)
+10. 2022-04-26: Announcing The Winners of OpenCV Spatial AI Contest - OpenCV Weekly Webinar Ep. 54 - 4/21/22 (<https://www.youtube.com/watch?v=NXhtmPpLEbcì>)
 
 ### Facebook
 
