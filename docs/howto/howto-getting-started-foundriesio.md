@@ -69,6 +69,7 @@ Select "Free", then click "Next"
 
 <!-- (2022-04-30 09:04 CEST) -->
 
+<!-- markdown-link-check-disable -->
 > **Almost there, review & create your factory**
 >
 > Fields marked with \* are required
@@ -84,6 +85,7 @@ Select "Free", then click "Next"
 > * [ ] I agree to the [FoundriesFactory Subscription](https://foundries.io/terms/) terms \*
 >
 > Cancel | Prev | Create Factory
+<!-- markdown-link-check-enable -->
 
 Review the displayed information, check "I agree", then click "Create Factory".
 
