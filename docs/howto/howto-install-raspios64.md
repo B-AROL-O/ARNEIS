@@ -134,7 +134,7 @@ Click "YES".
 
 After a few minutes the MicroSD should be ready for the first boot.
 
-### First boot of the RPi with the new MicroSD card
+## First boot of the RPi with the new MicroSD card
 
 <!-- (2022-01-12 08:35 CET) -->
 
