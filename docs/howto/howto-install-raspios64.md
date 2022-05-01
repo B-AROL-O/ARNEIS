@@ -6,7 +6,7 @@ This HOWTO documents how to install Raspberry Pi OS 64-bit on a Raspberry Pi 3B+
 
 ## Reference documents
 
-* [How to Use the New Raspberry PI Network Installation Feature](https://www.digikey.it/en/maker/blogs/2022/how-to-use-the-new-raspberry-pi-network-installation-feature) - Maker.io, 2022-03-03
+* [No PC Needed: How to Install Raspberry Pi OS Over the Internet](https://www.tomshardware.com/how-to/raspberry-pi-network-install) - Tom's Hardware, 2022-02-12
 
 ## Prerequisites
 
