@@ -4,6 +4,10 @@
 
 This HOWTO documents how to install Raspberry Pi OS 64-bit on a Raspberry Pi 3B+ or higher to be used as an Edge Controller of the ARNEIS project.
 
+## Reference documents
+
+* [No PC Needed: How to Install Raspberry Pi OS Over the internet](https://www.tomshardware.com/how-to/raspberry-pi-network-install) - Tom's Hardware, 2022-02-12
+
 ## Prerequisites
 
 * One [Raspberry Pi](https://www.raspberrypi.org/).
@@ -21,53 +25,118 @@ This HOWTO documents how to install Raspberry Pi OS 64-bit on a Raspberry Pi 3B+
 
 The installation of [Raspbian Pi OS 64-bit](https://www.raspberrypi.com/software/) is performed through the following tests:
 
-1. Prepare a MicroSD card with Raspberry Pi OS
-2. TODO (See below)
+1. Update the Bootloader of the Raspberry Pi
+2. Prepare a MicroSD card with Raspberry Pi OS
+3. TODO (See below)
 
 Each of thosee steps above is described in more details in the corresponding chapter down below.
 
-### Prepare a MicroSD card with Raspberry Pi OS
-
-**TODO: REPEAT FROM HERE**
+### Install Raspberry Pi Imager
 
 Launch a browser on your laptop and open <https://www.raspberrypi.com/software/>
 
 Download [Raspberry Pi Imager](https://www.raspberrypi.com/software/) and install it on your laptop.
 
+Make sure you are running the latest version (1.7.2 at the time of this writing).
+
+### Update the Bootloader of the Raspberry Pi
+
+Launch Raspberry Pi imager.
+
 Insert a MicroSD card into one slot of your laptop.
 Alternatively, insert the MicroSD into the USB card reader, then plug the USB card reader into one empty USB port of your laptop.
 
-Launch the [Raspberry Pi Imager](https://www.raspberrypi.com/software/) and select the following options
+Choose Operating System: Misc utility images > Beta Test Bootloader > SD Card Boot
 
-* Sistema operativo: Raspberry Pi OS (64-bit)
-* Scheda SD: MXT-USB Storage Device USB Device - 255.9 GB
+* Boot from SD Card if available, otherwise boot from USB
+* Released: 2022-02-28
+* Online - 0.0 GB download
 
-then click "SCRIVI".
+Choose Storage: (select MicroSDHC)
 
-> **Attenzione**
+Click "Write" to write the MicroSD card with the selected image.
+
+* Insert the MicroSD card into your Raspberry Pi.
+* Connect a display using a MicroHDMI-to-HDMI cable
+* Connect a USB keyboard to the first USB 2.0 port of the RPi4
+* Connect a USB mouse to the second USB 2.0 port of the RPi4
+* Connect a 5Vdc, 3A power supply to the USB-C port of the RPi4
+
+Wait until the Bootloader is updated, then remove power from the Raspberry Pi.
+
+Remove the MicroSDHC and power up the Raspberry Pi.
+The updated bootloader should be displayed.
+
+![2022-05-01-1948-install-os-raspi.jpg](../images/2022-05-01-1948-install-os-raspi.jpg)
+
+### Prepare a MicroSD card with Raspberry Pi OS
+
+Make sure the Ethernet cable is connected.
+
+Press and hold the SHIFT key to stop boot and start net install. The Raspberry Pi imager will be executed on the Raspberry Pi.
+
+![2022-05-01-2010-embedded-raspi-imager.jpg](../images/2022-05-01-2010-embedded-raspi-imager.jpg)
+
+**NOTE**: If you are using an older version of Raspberry Pi which does not support the updated bootloader, you may always prepare the MicroSD card running Raspberry Pi imager on the laptop and following similar instructions to what described in this section.
+
+Insert a MicroSD card into the Raspberry Pi.
+
+Choose Language and Keyboard.
+
+Choose Operating System: Raspberry Pi OS (other) > Raspberry Pi OS (64-bit)
+
+* A port of Debian Bullseye with the Raspberry Pi Desktop (Compatible with Raspberry Pi 3/4/400)
+* Released: 2022-04-04
+* Online - 0.7 GB download
+
+Choose Storage: Internal SD card reader - 31.3 GB
+
+Click on the "cog" icon to open the Advanced options dialog box
+
+> Image customization options: for this session only
 >
-> Tutti i dati esistenti in 'MXT-USB Storage Device USB Device' verranno eliminati.
-> Sei sicuro di voler continuare?
+> * [x] Set hostname: `rpird102`.local
+> * [x] Enable SSH
+>   - Use password authentication: Yes
+>   - Allow public-key authentication only
+> * [x] Set username and password
+>   - Username: `pi`
+>   - Password: `xxxx`
+> * [x] Configure wireless LAN
+>   - SSID: `xxxx`
+>   - Hidden SSID: No
+>   - Password: `yyyy`
+>   - Wireless LAN country: IT
+> * [x] Set locale settings
+>   - Time zone: Europe/Rome
+>   - Keyboard layout: it
+>
+> Persistent settings
+>
+> * [ ] Play sound when finished
+> * [x] Eject media when finished
+> * [x] Enable telemetry
+
+then click "SAVE".
+
+Click "WRITE" to download the image and write it to the MicroSDHC.
+
+> **Warning**
+>
+> All existing data on 'Internal SD card reader' will be erased.
+> Are you sure you want to continue?
 >
 > [NO](https://github.com/) | [SI](https://github.com/)
 
-Click "SI".
+Click "YES".
 
 ...
 
-> **Scrittura completata senza errori**
->
-> Scrittura di **Raspberry Pi OS (32-bit)** in **MXT-USB Storage Device USB Device** completata.
->
-> Ora puoi rimuovere la scheda SD dal lettore
->
-> [CONTINUA](https://github.com/)
+After a few minutes the MicroSD should be ready for the first boot.
 
-Remove the MicroSD from your laptop
+## First boot of the RPi with the new MicroSD card
 
-### First boot of the RPi with the new MicroSD card
-
-(2022-01-12 08:35 CET)
+<!-- (2022-01-12 08:35 CET) -->
 
 * Insert the MicroSD card into your Raspberry Pi.
 * Connect a display using a MicroHDMI-to-HDMI cable
@@ -116,7 +185,7 @@ Fill in the form as shown above, then click "Next"
 > password that only you know
 >
 > * Enter new password: xxxx
-> * Confirm new password: xxx
+> * Confirm new password: xxxx
 >
 > * [x] Hide characters
 >
@@ -247,10 +316,9 @@ It this works disconnect the USB keyboard, mouse and display
 Reboot your RPi4 and verify that the device is still accessible from SSH:
 
 ```text
-gpmacario@HW2457 MINGW64 ~
-$ ssh pi@172.30.48.18
-pi@172.30.48.18's password:
-Linux rpi4gm35 5.10.63-v7l+ #1488 SMP Thu Nov 18 16:15:28 GMT 2021 armv7l
+gmacario@alpha:~$ ssh pi@rpird102.local
+pi@rpird102.local's password:
+Linux rpird102 5.15.32-v8+ #1538 SMP PREEMPT Thu Mar 31 19:40:39 BST 2022 aarch64
 
 The programs included with the Debian GNU/Linux system are free software;
 the exact distribution terms for each program are described in the
@@ -258,8 +326,8 @@ individual files in /usr/share/doc/*/copyright.
 
 Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
 permitted by applicable law.
-Last login: Wed Jan 12 16:36:38 2022
-pi@rpi4gm35:~ $
+Last login: Sun May  1 21:28:04 2022
+pi@rpird102:~ $
 ```
 
 Do the same using a VNC client (in my case I used the free to use [VNC&reg; Viewer](https://www.realvnc.com/en/connect/download/viewer/))
@@ -304,7 +372,7 @@ $
 
 ### Configure public SSH keypair
 
-Logged in as pi@rpi4gm35, create a public/private SSH keypair:
+Logged in as pi@rpird102, create a public/private SSH keypair:
 
 ```bash
 ssh-keygen
@@ -359,22 +427,20 @@ Result:
 
 ![2022-01-21-1701-virtual-keyboard2.jpg](../images/2022-01-21-1701-virtual-keyboard2.jpg)
 
-
 ### Install byobu
 
 ```bash
 sudo apt -y install byobu
 ```
 
-
-#### Install git and tig
+### Install git and tig
 
 ```bash
 sudo apt update
 sudo apt -y install git tig
 ```
 
-#### Install git-aware-prompt
+### Install git-aware-prompt
   
 <!-- (2022-01-22 17:15 CET) -->
 
@@ -440,7 +506,7 @@ Logged in as pi@rpi4gm35
 ```bash
 mkdir -p ~/github/B-AROL-O
 cd ~/github/B-AROL-O
-git clone https://github.com/B-AROL-O/ARNEIS.git
+git clone https://github.com/B-AROL-O/ARNEIS
 ```
 
 ## Make the Raspberry Pi an agent node of a k3s cluster
@@ -603,7 +669,5 @@ Use the Up and Down arrows to select that node (in our case, `rpi3pmv38`), then 
 ![2022-03-27-2137-k9s-describe.png](../images/2022-03-27-2137-k9s-describe.png)
 
 Make sure that label `beta.kubernetes.io/arch` is set to `arm64`.
-
-TODO
 
 <!-- EOF -->
