@@ -71,28 +71,62 @@ Make sure the Ethernet cable is connected.
 
 Press and hold the SHIFT key to stop boot and start net install. The Raspberry Pi imager will be executed on the Raspberry Pi.
 
-TODO
+![2022-05-01-2010-embedded-raspi-imager.jpg](../images/2022-05-01-2010-embedded-raspi-imager.jpg)
 
-**TODO: CONTINUE FROM HERE**
+**NOTE**: If you are using an older version of Raspberry Pi which does not support the updated bootloader, you may always prepare the MicroSD card running Raspberry Pi imager on the laptop and following similar instructions to what described in this section.
 
-Insert a MicroSD card into one slot of your laptop.
-Alternatively, insert the MicroSD into the USB card reader, then plug the USB card reader into one empty USB port of your laptop.
+Insert a MicroSD card into the Raspberry Pi.
 
-Launch the [Raspberry Pi Imager](https://www.raspberrypi.com/software/) and select the following options
+Choose Language and Keyboard.
 
-* Sistema operativo: Raspberry Pi OS (64-bit)
-* Scheda SD: MXT-USB Storage Device USB Device - 255.9 GB
+Choose Operating System: Raspberry Pi OS (other) > Raspberry Pi OS (64-bit)
 
-then click "SCRIVI".
+* A port of Debian Bullseye with the Raspberry Pi Desktop (Compatible with Raspberry Pi 3/4/400)
+* Released: 2022-04-04
+* Online - 0.7 GB download
 
-> **Attenzione**
+Choose Storage: Internal SD card reader - 31.3 GB
+
+Click on the "cog" icon to open the Advanced options dialog box
+
+> Image customization options: for this session only
 >
-> Tutti i dati esistenti in 'MXT-USB Storage Device USB Device' verranno eliminati.
-> Sei sicuro di voler continuare?
+> * [x] Set hostname: `rpird102`.local
+> * [x] Enable SSH
+>   - Use password authentication: Yes
+>   - Allow public-key authentication only
+> * [x] Set username and password
+>   - Username: `pi`
+>   - Password: `xxxx`
+> * [x] Configure wireless LAN
+>   - SSID: `xxxx`
+>   - Hidden SSID: No
+>   - Password: `yyyy`
+>   - Wireless LAN country: IT
+> * [x] Set locale settings
+>   - Time zone: Europe/Rome
+>   - Keyboard layout: it
+>
+> Persistent settings
+>
+> * [ ] Play sound when finished
+> * [x] Eject media when finished
+> * [x] Enable telemetry
+
+then click "SAVE".
+
+Click "WRITE" to download the image and write it to the MicroSDHC.
+
+> **Warning**
+>
+> All existing data on 'Internal SD card reader' will be erased.
+> Are you sure you want to continue?
 >
 > [NO](https://github.com/) | [SI](https://github.com/)
 
-Click "SI".
+Click "YES".
+
+TODO TODO TODO
 
 ...
 
