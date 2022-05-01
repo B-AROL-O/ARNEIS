@@ -6,7 +6,7 @@ This HOWTO documents how to install Raspberry Pi OS 64-bit on a Raspberry Pi 3B+
 
 ## Reference documents
 
-* [No PC Needed: How to Install Raspberry Pi OS Over the Internet](https://www.tomshardware.com/how-to/raspberry-pi-network-install) - Tom's Hardware, 2022-02-12
+* [No PC Needed: How to Install Raspberry Pi OS Over the internet](https://www.tomshardware.com/how-to/raspberry-pi-network-install) - Tom's Hardware, 2022-02-12
 
 ## Prerequisites
 
@@ -56,7 +56,11 @@ Choose Storage: (select MicroSDHC)
 
 Click "Write" to write the MicroSD card with the selected image.
 
-Insert the MicroSDHC and power up the Raspberry Pi.
+* Insert the MicroSD card into your Raspberry Pi.
+* Connect a display using a MicroHDMI-to-HDMI cable
+* Connect a USB keyboard to the first USB 2.0 port of the RPi4
+* Connect a USB mouse to the second USB 2.0 port of the RPi4
+* Connect a 5Vdc, 3A power supply to the USB-C port of the RPi4
 
 Wait until the Bootloader is updated, then remove power from the Raspberry Pi.
 
@@ -126,21 +130,13 @@ Click "WRITE" to download the image and write it to the MicroSDHC.
 
 Click "YES".
 
-TODO TODO TODO
-
 ...
 
-> **Scrittura completata senza errori**
->
-> Scrittura di **Raspberry Pi OS (32-bit)** in **MXT-USB Storage Device USB Device** completata.
->
-> Ora puoi rimuovere la scheda SD dal lettore
->
-> [CONTINUA](https://github.com/)
-
-Remove the MicroSD from your laptop
+After a few minutes the MicroSD should be ready for the first boot.
 
 ### First boot of the RPi with the new MicroSD card
+
+TODO
 
 (2022-01-12 08:35 CET)
 
@@ -191,7 +187,7 @@ Fill in the form as shown above, then click "Next"
 > password that only you know
 >
 > * Enter new password: xxxx
-> * Confirm new password: xxx
+> * Confirm new password: xxxx
 >
 > * [x] Hide characters
 >
