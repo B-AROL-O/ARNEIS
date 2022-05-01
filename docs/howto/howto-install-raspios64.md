@@ -4,6 +4,10 @@
 
 This HOWTO documents how to install Raspberry Pi OS 64-bit on a Raspberry Pi 3B+ or higher to be used as an Edge Controller of the ARNEIS project.
 
+## Reference documents
+
+* [How to Use the New Raspberry PI Network Installation Feature](https://www.digikey.it/en/maker/blogs/2022/how-to-use-the-new-raspberry-pi-network-installation-feature) - Maker.io, 2022-03-03
+
 ## Prerequisites
 
 * One [Raspberry Pi](https://www.raspberrypi.org/).
@@ -21,18 +25,55 @@ This HOWTO documents how to install Raspberry Pi OS 64-bit on a Raspberry Pi 3B+
 
 The installation of [Raspbian Pi OS 64-bit](https://www.raspberrypi.com/software/) is performed through the following tests:
 
-1. Prepare a MicroSD card with Raspberry Pi OS
-2. TODO (See below)
+1. Update the Bootloader of the Raspberry Pi
+2. Prepare a MicroSD card with Raspberry Pi OS
+3. TODO (See below)
 
 Each of thosee steps above is described in more details in the corresponding chapter down below.
 
-### Prepare a MicroSD card with Raspberry Pi OS
-
-**TODO: REPEAT FROM HERE**
+### Install Raspberry Pi Imager
 
 Launch a browser on your laptop and open <https://www.raspberrypi.com/software/>
 
 Download [Raspberry Pi Imager](https://www.raspberrypi.com/software/) and install it on your laptop.
+
+Make sure you are running the latest version (1.7.2 at the time of this writing).
+
+### Update the Bootloader of the Raspberry Pi
+
+Launch Raspberry Pi imager.
+
+Insert a MicroSD card into one slot of your laptop.
+Alternatively, insert the MicroSD into the USB card reader, then plug the USB card reader into one empty USB port of your laptop.
+
+Choose Operating System: Misc utility images > Beta Test Bootloader > SD Card Boot
+
+* Boot from SD Card if available, otherwise boot from USB
+* Released: 2022-02-28
+* Online - 0.0 GB download
+
+Choose Storage: (select MicroSDHC)
+
+Click "Write" to write the MicroSD card with the selected image.
+
+Insert the MicroSDHC and power up the Raspberry Pi.
+
+Wait until the Bootloader is updated, then remove power from the Raspberry Pi.
+
+Remove the MicroSDHC and power up the Raspberry Pi.
+The updated bootloader should be displayed.
+
+![2022-05-01-1948-install-os-raspi.jpg](../images/2022-05-01-1948-install-os-raspi.jpg)
+
+### Prepare a MicroSD card with Raspberry Pi OS
+
+Make sure the Ethernet cable is connected.
+
+Press and hold the SHIFT key to stop boot and start net install. The Raspberry Pi imager will be executed on the Raspberry Pi.
+
+TODO
+
+**TODO: CONTINUE FROM HERE**
 
 Insert a MicroSD card into one slot of your laptop.
 Alternatively, insert the MicroSD into the USB card reader, then plug the USB card reader into one empty USB port of your laptop.
