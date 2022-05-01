@@ -136,9 +136,7 @@ After a few minutes the MicroSD should be ready for the first boot.
 
 ### First boot of the RPi with the new MicroSD card
 
-TODO
-
-(2022-01-12 08:35 CET)
+<!-- (2022-01-12 08:35 CET) -->
 
 * Insert the MicroSD card into your Raspberry Pi.
 * Connect a display using a MicroHDMI-to-HDMI cable
@@ -318,10 +316,9 @@ It this works disconnect the USB keyboard, mouse and display
 Reboot your RPi4 and verify that the device is still accessible from SSH:
 
 ```text
-gpmacario@HW2457 MINGW64 ~
-$ ssh pi@172.30.48.18
-pi@172.30.48.18's password:
-Linux rpi4gm35 5.10.63-v7l+ #1488 SMP Thu Nov 18 16:15:28 GMT 2021 armv7l
+gmacario@alpha:~$ ssh pi@rpird102.local
+pi@rpird102.local's password:
+Linux rpird102 5.15.32-v8+ #1538 SMP PREEMPT Thu Mar 31 19:40:39 BST 2022 aarch64
 
 The programs included with the Debian GNU/Linux system are free software;
 the exact distribution terms for each program are described in the
@@ -329,8 +326,8 @@ individual files in /usr/share/doc/*/copyright.
 
 Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
 permitted by applicable law.
-Last login: Wed Jan 12 16:36:38 2022
-pi@rpi4gm35:~ $
+Last login: Sun May  1 21:28:04 2022
+pi@rpird102:~ $
 ```
 
 Do the same using a VNC client (in my case I used the free to use [VNC&reg; Viewer](https://www.realvnc.com/en/connect/download/viewer/))
@@ -375,7 +372,7 @@ $
 
 ### Configure public SSH keypair
 
-Logged in as pi@rpi4gm35, create a public/private SSH keypair:
+Logged in as pi@rpird102, create a public/private SSH keypair:
 
 ```bash
 ssh-keygen
@@ -430,22 +427,20 @@ Result:
 
 ![2022-01-21-1701-virtual-keyboard2.jpg](../images/2022-01-21-1701-virtual-keyboard2.jpg)
 
-
 ### Install byobu
 
 ```bash
 sudo apt -y install byobu
 ```
 
-
-#### Install git and tig
+### Install git and tig
 
 ```bash
 sudo apt update
 sudo apt -y install git tig
 ```
 
-#### Install git-aware-prompt
+### Install git-aware-prompt
   
 <!-- (2022-01-22 17:15 CET) -->
 
@@ -511,7 +506,7 @@ Logged in as pi@rpi4gm35
 ```bash
 mkdir -p ~/github/B-AROL-O
 cd ~/github/B-AROL-O
-git clone https://github.com/B-AROL-O/ARNEIS.git
+git clone https://github.com/B-AROL-O/ARNEIS
 ```
 
 ## Make the Raspberry Pi an agent node of a k3s cluster
@@ -674,7 +669,5 @@ Use the Up and Down arrows to select that node (in our case, `rpi3pmv38`), then 
 ![2022-03-27-2137-k9s-describe.png](../images/2022-03-27-2137-k9s-describe.png)
 
 Make sure that label `beta.kubernetes.io/arch` is set to `arm64`.
-
-TODO
 
 <!-- EOF -->
