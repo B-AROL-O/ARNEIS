@@ -181,5 +181,8 @@ Those are mainly the videos made by [Alessandro](https://github.com/alv67):
 21. 2022-04-22 09:43: <https://www.facebook.com/pierfrancesco.cerruti.3/posts/5128096707277605>
 22. 2022-04-23 08:34: <https://www.facebook.com/groups/custombricks1.8/posts/1440654476399975/>
 23. 2022-04-23 13:23: <https://www.facebook.com/groups/ohmybrick/posts/1890882524456117/>
+24. 2022-05-03 20:49: <https://www.facebook.com/gianluca.teti/posts/10227263306237294>
+25. 2022-05-03 21:00: <https://www.facebook.com/gianpaolo.macario/posts/10158898859124542>
+
 
 <!-- EOF -->
