@@ -138,6 +138,9 @@ Date       | Coverage | Summary
 11. <https://www.linkedin.com/pulse/arneis-automated-recognizer-network-enabled-items-/>
 12. <https://www.linkedin.com/feed/update/urn:li:activity:6919910108042792960/>
 13. <https://www.linkedin.com/feed/update/urn:li:activity:6919938297855098880/>
+14. <https://www.linkedin.com/posts/alessandrovaresi_oakdlitecontest-arneis-activity-6928303739082530816-X9Kx>
+15. <https://www.linkedin.com/posts/serena-bisacca_oakdlitecontest-arneis-activity-6928556282975006720-jHxW>
+16. <https://www.linkedin.com/posts/gmacario_oakdlitecontest-arneis-activity-6929081218374197248-HaD5>
 
 ### YouTube
 
