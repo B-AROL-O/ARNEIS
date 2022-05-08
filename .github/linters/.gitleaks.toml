@@ -58,10 +58,10 @@ title = "gitleaks config"
 #    regex = '''(?i)linkedin(.{0,20})?(?-i)[0-9a-z]{12}'''
 #    tags = ["client", "LinkedIn"]
 
-[[rules]]
-    description = "LinkedIn Secret Key"
-    regex = '''(?i)linkedin(.{0,20})?[0-9a-z]{16}'''
-    tags = ["secret", "LinkedIn"]
+# [[rules]]
+#    description = "LinkedIn Secret Key"
+#    regex = '''(?i)linkedin(.{0,20})?[0-9a-z]{16}'''
+#    tags = ["secret", "LinkedIn"]
 
 [[rules]]
     description = "Slack"
