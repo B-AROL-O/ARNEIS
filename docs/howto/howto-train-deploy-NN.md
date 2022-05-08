@@ -237,6 +237,8 @@ The next part is what creates the model to be deployable (it's not the final pro
 
 I've had some issue with it but I fixed them by adding the FULL path for each line. As before I put the **pascal_animals** inside the content too: /content/pascal_animals/.
 
+<!-- markdown-link-check-disable -->
 If you have managed to get to here, you can just download those files and use the <http://blobconverter.luxonis.com/> to convert them through blob to be able to run your NN as a blob file on your camera. Just remember to use shaves like 5 or 6.
+<!-- markdown-link-check-enable -->
 
 <!-- EOF -->
