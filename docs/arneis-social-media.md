@@ -121,6 +121,7 @@ Date       | Coverage | Summary
 49. 2022-04-21 18:00: <https://twitter.com/opencvweekly/status/1517171312807989249>
 50. 2022-05-02 20:59: <https://twitter.com/gpmacario/status/1521202789535436802>
 51. 2022-05-02 22:09: <https://twitter.com/baroloteam/status/1521220425623257088>
+52. 2022-05-09 07:34: <https://twitter.com/gpmacario/status/1523536748235870208>
 
 ### LinkedIn
 
