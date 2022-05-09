@@ -81,4 +81,4 @@ You may adjust the speed and direction of the conveyor by rotating the dial (clo
 > [`arneis-conveyor-oak-d-lite.png`](arneis-conveyor-oak-d-lite.png) : a 3D rendered version image.<br/>
 > [`arneis-conveyor-20220312.gif`](arneis-conveyor-20220312.gif) : a 3D rendered video of rotating MOC.<br/>
 > [`arneis-conveyor-20220312.pdf`](https://arneis.blob.core.windows.net/public-folder/arneis-conveyor-20220312.pdf) : building instruction manual.<br/>
-> ['arneis-conveyor-oak-d-lite-build.mp4'](arneis-conveyor-oak-d-lite-build.mp4) : a 3D rendered video of building MOC.
+> [`arneis-conveyor-oak-d-lite-build.mp4`](arneis-conveyor-oak-d-lite-build.mp4) : a 3D rendered video of building MOC.
