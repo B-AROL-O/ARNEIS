@@ -404,32 +404,54 @@ hci0:   Type: Primary  Bus: UART
 fio@portenta-x8-a13b209dab6fad9:~$
 ```
 
-Trying `hcitool lescan`:
+Bring up the Bluetooth interface, then scan nearby BLE devices
 
 ```bash
-hcitool lescan
-```
-
-Result: ERROR
-
-```text
-fio@portenta-x8-a13b209dab6fad9:~$ hcitool lescan
-Could not open device: No such device
-fio@portenta-x8-a13b209dab6fad9:~$
-```
-
-It looks like there are no configured Bluetooth devices:
-
-```bash
+sudo hciconfig hci0 up
 hcitool dev
+sudo hcitool lescan
 ```
 
-Result: ERROR
+Result:
 
 ```text
+fio@portenta-x8-a13b209dab6fad9:~$ sudo hciconfig hci0 up
 fio@portenta-x8-a13b209dab6fad9:~$ hcitool dev
 Devices:
-fio@portenta-x8-a13b209dab6fad9:~$
+        hci0    43:43:A1:12:1F:AC
+fio@portenta-x8-a13b209dab6fad9:~$ sudo hcitool lescan
+LE Scan ...
+2E:75:1E:87:EB:CF (unknown)
+7C:64:56:88:EF:A7 (unknown)
+2F:ED:4A:2E:A5:B5 (unknown)
+72:D4:7E:59:0D:F8 (unknown)
+65:4E:A0:F6:BE:B4 (unknown)
+65:4E:A0:F6:BE:B4 (unknown)
+1F:F2:44:20:1A:28 (unknown)
+2C:9B:97:13:4A:9B (unknown)
+28:C4:3F:11:AB:CE (unknown)
+02:93:45:6B:9E:AB (unknown)
+CD:1B:AC:76:93:BF (unknown)
+6E:E5:2C:AB:EB:DD (unknown)
+6E:E5:2C:AB:EB:DD (unknown)
+1B:9E:4C:3A:9B:B1 (unknown)
+55:37:EF:1F:3B:86 (unknown)
+7C:81:F0:23:19:98 (unknown)
+07:DD:3B:78:21:46 (unknown)
+62:27:88:AC:C0:F0 (unknown)
+62:A4:EB:0B:D6:AE (unknown)
+5C:1B:DB:65:60:57 (unknown)
+7C:49:DF:24:CE:3B (unknown)
+37:9F:05:BE:F8:E9 (unknown)
+F5:83:BC:3A:7B:93 (unknown)
+62:A4:EB:0B:D6:AE (unknown)
+62:27:88:AC:C0:F0 (unknown)
+44:E8:BB:5E:76:AB (unknown)
+D9:04:87:92:BE:06 (unknown)
+D9:04:87:92:BE:06 BT510
+44:E8:BB:5E:76:AB (unknown)
+E3:A2:5D:E5:24:9C (unknown)
+^Cfio@portenta-x8-a13b209dab6fad9:~$
 ```
 
 <!-- EOF -->
