@@ -107,4 +107,48 @@ You may also click on each artifact to display its contents.
 
 Click on tab "Devices" to display the list of registered devices.
 
+Install the `fioctl` tool following the instructions at <https://docs.foundries.io/latest/getting-started/install-fioctl/index.html> - for instance, on Linux
+
+```bash
+export FIOCTL_VERSION=v0.25
+sudo curl -o /usr/local/bin/fioctl -LO https://github.com/foundriesio/fioctl/releases/download/$FIOCTL_VERSION/fioctl-linux-amd64
+sudo chmod +x /usr/local/bin/fioctl
+```
+
+Verify the correct installation of `fioctl`
+
+```text
+gmacario@hw2228:~ $ fioctl
+Manage Foundries Factories
+
+Usage:
+  fioctl [command]
+
+Available Commands:
+  completion       Generate completion script
+  config           Manage configuration common to all devices in a factory
+  configure-docker Configure a hub.foundries.io Docker credential helper
+  devices          Manage devices registered to a factory
+  event-queues     Manage event queues configured for a Factory
+  help             Help about any command
+  keys             Manage keys in use by your factory fleet
+  login            Access Foundries.io services with your client credentials
+  logout           Remove Foundries.io client credentials from system
+  secrets          Manage secret crendentials configured in a factory
+  status           Get dashboard view of a factory and its devices
+  targets          Manage factory's TUF targets
+  teams            List teams belonging to a FoundriesFactory
+  users            List users with access to a FoundriesFactory
+  version          Show version information of this tool.
+  waves            Manage factory's waves
+
+Flags:
+  -c, --config string   config file (default is $HOME/.config/fioctl.yaml)
+  -h, --help            help for fioctl
+  -v, --verbose         Print verbose logging
+
+Use "fioctl [command] --help" for more information about a command.
+gmacario@hw2228:~ $
+```
+
 <!-- EOF -->
