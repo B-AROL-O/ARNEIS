@@ -46,7 +46,8 @@ Here is a list of weekly posts made by [Gianpaolo on his personal blog](https://
 
 Date       | Coverage | Summary
 -----------|----------|-------------
-2022-05-02 | [dev-cw17](https://gmacario.github.io/posts/2022-05-02-arneis-dev-cw17) | We have a new contributor to ARNEIS<br>Keep on voting us in the OpenCV public poll<br>Getting started with Foundries.io
+2022-05-09 | [dev-cw18](https://gmacario.github.io/posts/2022-05-09-arneis-dev-cw18) | B-AROL-O and ARNEIS logos deposited to Proofy<br>Keep on voting us in the OpenCV public poll<br>Preparation to Expo Mattoncino 6
+2022-05-02 | [dev-cw17](https://gmacario.github.io/posts/2022-05-02-arneis-dev-cw17) | We have a new contributor to ARNEIS<br>Another contributor to ARNEIS<br>Getting started with Foundries.io
 2022-04-25 | [dev-cw16](https://gmacario.github.io/posts/2022-04-25-arneis-dev-cw16) | ARNEIS Top 10 Finalist of the OpenCV Spatial AI Contest<br>Preparing for ARNEIS Release 1.0<br>More progress with the Arduino Portenta X8
 2022-04-18 | [dev-cw15](https://gmacario.github.io/posts/2022-04-18-arneis-dev-cw15) | Scaling up the Kubernetes cluster<br>Testing software stack for Raspberry Pi OS 64-bit<br>First tests with Arduino Portenta X8
 2022-04-11 | [dev-cw14](https://gmacario.github.io/posts/2022-04-11-arneis-dev-cw14) | Meeting in Arduino with Massimo Banzi<br>ARNEIS project is getting known<br>San Mauro Brick Show 2022
@@ -120,6 +121,8 @@ Date       | Coverage | Summary
 49. 2022-04-21 18:00: <https://twitter.com/opencvweekly/status/1517171312807989249>
 50. 2022-05-02 20:59: <https://twitter.com/gpmacario/status/1521202789535436802>
 51. 2022-05-02 22:09: <https://twitter.com/baroloteam/status/1521220425623257088>
+52. 2022-05-09 07:34: <https://twitter.com/gpmacario/status/1523536748235870208>
+53. 2022-05-09 07:42: <https://twitter.com/baroloteam/status/1523538811321430016>
 
 ### LinkedIn
 
