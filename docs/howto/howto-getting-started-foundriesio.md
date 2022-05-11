@@ -181,6 +181,28 @@ In our example, this operation will download file `lmp-factory-image-raspberrypi
 
 #### Flash LmP system image
 
+Write the image to a blank microSD Card using a tool such as [balenaEtcher](https://www.balena.io/etcher/).
+
+#### Boot Device and Connect to the Network
+
+1. Connect an Ethernet cable to the board
+2. Insert the microSD into the Raspberry Pi and
+3. Power up the board
+
+You board will connect to the network via Ethernet and will be ready to connect within a minute or two of booting.
+
+```text
+Linux-microPlatform 3.4.3-1-86-4-g500142e raspberrypi4-64 tty1
+
+raspberrypi4-64 login:
+```
+
+Default username/password: `fio`/`fio`
+
+### Register your device
+
+Reference: <https://docs.foundries.io/latest/getting-started/register-device/index.html>
+ 
 TODO
 
 Click on tab "Devices" to display the list of registered devices.
