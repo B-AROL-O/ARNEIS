@@ -202,7 +202,7 @@ Default username/password: `fio`/`fio`
 ### Register your device
 
 Reference: <https://docs.foundries.io/latest/getting-started/register-device/index.html>
- 
+
 TODO
 
 Click on tab "Devices" to display the list of registered devices.
