@@ -14,6 +14,10 @@ FoundriesFactory is a cloud service to build, test, deploy, and maintain secure,
 
 ## Step-by-step instructions
 
+Login to <https://app.foundries.io/>, or first create an account if you have not one.
+
+### Create a Factory
+
 Browse <https://app.foundries.io/factories>
 
 > **No Factories**
@@ -91,21 +95,23 @@ Review the displayed information, check "I agree", then click "Create Factory".
 
 ![2022-04-30-0911-fio-factories-test-fio-raspi4.png](../images/2022-04-30-0911-fio-factories-test-fio-raspi4.png)
 
-If you click on tab "Targets" you will find the list of completed runs
+### Inspect the built system images
+
+If you click on tab "Targets" you will find the list of completed builds:
 
 ![2022-05-11-1159-fio-targets.png](../images/2022-05-11-1159-fio-targets.png)
 
-As an example, click on version "2" to display details
+As an example, click on version "2" to display the details of this specific target build:
 
 ![2022-05-11-1202-fio-target-details.png](../images/2022-05-11-1202-fio-target-details.png)
 
-If you expand the "Runs" panel
+If you expand the "Runs" panel you have access to the build artifacts:
 
 ![2022-05-11-1205-fio-target-run-details.png](../images/2022-05-11-1205-fio-target-run-details.png)
 
-You may also click on each artifact to display its contents.
+Click on a specific artifact to display its contents.
 
-Click on tab "Devices" to display the list of registered devices.
+### Install the `fioctl` tool
 
 Install the `fioctl` tool following the instructions at <https://docs.foundries.io/latest/getting-started/install-fioctl/index.html> - for instance, on Linux
 
@@ -150,5 +156,35 @@ Flags:
 Use "fioctl [command] --help" for more information about a command.
 gmacario@hw2228:~ $
 ```
+
+### Flash your device
+
+Follow the instructions at <https://docs.foundries.io/latest/getting-started/flash-device/index.html>
+
+In our example we will be creating a bootable microSD Card for the Raspberry Pi 4.
+
+#### Download LmP system image
+
+Login to <https://app.foundries.io/>, then select a Factory which you have access to - in our example, `test-fio-raspi4`.
+
+(Optional) Take note of the Source URLs and their related Commits - in our example:
+
+| Source | Commit |
+|--------|--------|
+| [test-fio-raspi4/lmp-manifest.git](https://source.foundries.io/factories/test-fio-raspi4/lmp-manifest.git) | [500142e1](https://source.foundries.io/factories/test-fio-raspi4/lmp-manifest.git/commit/?id=500142e17aa6480eb4428c1ca9b7466ed45f7396)
+| [test-fio-raspi4/meta-subscriber-overrides.git](https://source.foundries.io/factories/test-fio-raspi4/meta-subscriber-overrides.git) | [f594d249](https://source.foundries.io/factories/test-fio-raspi4/meta-subscriber-overrides.git/commit/?id=f594d249aabada5535a95606127651f79f0be85b) |
+
+
+Navigate to the "Targets" section of your Factory, then click the latest Target with the `platform-devel` Trigger. Expand the run in the "Runs" section with corresponds with the name of the board, then click "Download Simulator" (TBV).
+
+In our example, this operation will download file `lmp-factory-image-raspberrypi4-64.wic.gz` (218 MB).
+
+#### Flash LmP system image
+
+TODO
+
+Click on tab "Devices" to display the list of registered devices.
+
+TODO
 
 <!-- EOF -->
