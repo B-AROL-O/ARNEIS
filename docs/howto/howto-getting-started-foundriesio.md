@@ -199,6 +199,37 @@ raspberrypi4-64 login:
 
 Default username/password: `fio`/`fio`
 
+Verify assigned IP address
+
+```text
+fio@raspberrypi4-64:~$ ip addr
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host
+       valid_lft forever preferred_lft forever
+2: eth0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc mq state UP group default qlen 1000
+    link/ether e4:5f:01:35:8f:96 brd ff:ff:ff:ff:ff:ff
+    inet 192.168.64.174/24 brd 192.168.64.255 scope global dynamic noprefixroute eth0
+       valid_lft 43123sec preferred_lft 43123sec
+    inet6 fdaf:ad6a:c9df::17a/128 scope global noprefixroute
+       valid_lft forever preferred_lft forever
+    inet6 fdaf:ad6a:c9df:0:d17:705f:18ab:1617/64 scope global noprefixroute
+       valid_lft forever preferred_lft forever
+    inet6 fe80::eab4:9416:5a41:8b86/64 scope link noprefixroute
+       valid_lft forever preferred_lft forever
+3: sit0@NONE: <NOARP> mtu 1480 qdisc noop state DOWN group default qlen 1000
+    link/sit 0.0.0.0 brd 0.0.0.0
+4: wlan0: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qdisc fq_codel state DOWN group default qlen 1000
+    link/ether ce:fd:ee:3d:6e:47 brd ff:ff:ff:ff:ff:ff permaddr dc:a6:32:4e:db:b2
+5: docker0: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qdisc noqueue state DOWN group default
+    link/ether 02:42:4f:27:c0:b7 brd ff:ff:ff:ff:ff:ff
+    inet 172.17.0.1/16 brd 172.17.255.255 scope global docker0
+       valid_lft forever preferred_lft forever
+fio@raspberrypi4-64:~$
+```
+
 ### Register your device
 
 Reference: <https://docs.foundries.io/latest/getting-started/register-device/index.html>
