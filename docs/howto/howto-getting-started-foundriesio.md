@@ -234,9 +234,71 @@ fio@raspberrypi4-64:~$
 
 Reference: <https://docs.foundries.io/latest/getting-started/register-device/index.html>
 
-TODO
+From a console on the device run this command to register the device to your factory:
 
-Click on tab "Devices" to display the list of registered devices.
+```bash
+sudo lmp-device-register -n <device-name>
+```
+
+Example:
+
+```text
+fio@raspberrypi4-64:~$ sudo lmp-device-register -n rpird102
+Password:
+Token is not specified, getting an oauth token from Foundries' auth endpoint...
+
+----------------------------------------------------------------------------
+Visit the link below in your browser to authorize this new device. This link
+will expire in 15 minutes.
+  Device Name: 1f658bf4-cfb1-4546-88cf-01577b67da1b
+  User code: yDeY-Aevh
+  Browser URL: https://app.foundries.io/activate/
+
+Waiting for authorization /
+```
+
+From your browser visit the displayed URL <https://app.foundries.io/activate/>:
+
+![2022-05-11-1953-fio-activate.png](../images/2022-05-11-1953-fio-activate.png)
+
+Type the specified User code, then click "Next":
+
+![2022-05-11-1954-fio-activate-confirm.png](../images/2022-05-11-1954-fio-activate-confirm.png)
+
+Verify the displayed UUID, then click "Connect" if OK.
+
+![2022-05-11-1956-fio-activate-complete.png](../images/2022-05-11-1956-fio-activate-complete.png)
+
+Some more messages will be displayed on the console:
+
+```text
+fio@raspberrypi4-64:~$ sudo lmp-device-register -n rpird102
+Password:
+Token is not specified, getting an oauth token from Foundries' auth endpoint...
+
+----------------------------------------------------------------------------
+Visit the link below in your browser to authorize this new device. This link
+will expire in 15 minutes.
+  Device Name: 1f658bf4-cfb1-4546-88cf-01577b67da1b
+  User code: yDeY-Aevh
+  Browser URL: https://app.foundries.io/activate/
+
+Registering device, rpird102, to factory test-fio-raspi4.
+Device UUID: 1f658bf4-cfb1-4546-88cf-01577b67da1b
+Device is now registered.
+Starting aktualizr-lite daemon
+fio@raspberrypi4-64:~$
+```
+
+Verify on the "Devices" tab of the Factories page that the new device is now in the list of registered devices:
+
+![2022-05-11-1958-fio-devices.png](../images/2022-05-11-1958-fio-devices.png)
+
+Click on the device to get more details:
+
+![2022-05-11-2002-fio-device-rpird102.png](../images/2022-05-11-2002-fio-device-rpird102.png)
+
+NOTE: This device was registered on Gianpaolo RPi4, TBV whether the image will also work on the actual `rpird102`.
 
 TODO
 
