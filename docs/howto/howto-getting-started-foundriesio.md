@@ -91,4 +91,20 @@ Review the displayed information, check "I agree", then click "Create Factory".
 
 ![2022-04-30-0911-fio-factories-test-fio-raspi4.png](../images/2022-04-30-0911-fio-factories-test-fio-raspi4.png)
 
+If you click on tab "Targets" you will find the list of completed runs
+
+![2022-05-11-1159-fio-targets.png](../images/2022-05-11-1159-fio-targets.png)
+
+As an example, click on version "2" to display details
+
+![2022-05-11-1202-fio-target-details.png](../images/2022-05-11-1202-fio-target-details.png)
+
+If you expand the "Runs" panel
+
+![2022-05-11-1205-fio-target-run-details.png](../images/2022-05-11-1205-fio-target-run-details.png)
+
+You may also click on each artifact to display its contents.
+
+Click on tab "Devices" to display the list of registered devices.
+
 <!-- EOF -->
