@@ -302,6 +302,92 @@ Click on the device to get more details:
 
 NOTE: This device was registered on Gianpaolo RPi4, TBV whether the image will also work on the actual `rpird102`.
 
+## Clone the factory Source Repositories
+
+### Create a Source Code Access Token
+
+Login to <https://app.foundries.io/> then click "Settings" > "Api Tokens" > "New Token"
+
+> **Generate API Token**
+>
+> 1. INFO
+
+Fill in the required information:
+
+* Description: `git gmacario@hw2288`
+* Expiration date: 2022-06-30
+
+then click "Next".
+
+> **Generate API Token**
+>
+> 2. SCOPES
+
+Fill in the required information:
+
+* Scopes: Use for source code access (`source:create`, `source:read-update`)
+* Factory: `test-fio-raspi4`
+
+then click "Generate".
+
+> **Generate API Token**
+>
+> Your new API token has been created.
+> Make sure you save the token value as you won't be able to access it again.
+
+You may use the generated API token to authenticate and access private git source repositories, as shown in the next subsection.
+
+### Browse the factory Source Repositories from the web interface
+
+Logged in to <https://app.foundries.io> rowse the Foundries.io Subscriber Repositories. In our example
+
+<https://source.foundries.io/factories/test-fio-raspi4>
+
+![2022-05-16-1217-source-foundries-io.png](../images/2022-05-16-1217-source-foundries-io.png)
+
+### Configure Git
+
+```bash
+git config --global credential.helper store
+
+mkdir -p ~/source.foundries.io/factories/<factory>
+cd ~/source.foundries.io/factories/<factory>
+```
+
+### Clone the Container Source Repository
+
+Clone the `containers.git` repository:
+
+```bash
+git clone -b devel https://source.foundries.io/factories/<factory>/containers.git
+```
+
+In our example
+
+```text
+gmacario@hw2228:~ $ git clone -b devel https://source.foundries.io/factories/test-fio-raspi4/containers.git
+Cloning into 'containers'...
+Username for 'https://source.foundries.io': gmacario@gmail.com
+Password for 'https://gmacario@gmail.com@source.foundries.io': 
+remote: Enumerating objects: 8, done.
+remote: Counting objects: 100% (8/8), done.
+remote: Compressing objects: 100% (8/8), done.
+remote: Total 8 (delta 0), reused 0 (delta 0)
+Unpacking objects: 100% (8/8), 1.21 KiB | 620.00 KiB/s, done.
+gmacario@hw2228:~ $ 
+```
+
+Note: When requested by git, provide your Foundries.io as username (in our example, `gmacario@ŋmail.com`), then provide the generated API Token as password.
+
+Using a similar command you may also clone the other source repositories of the factory:
+
+```bash
+git clone https://source.foundries.io/factories/<factory>/ci-scripts.git
+
+git clone https://source.foundries.io/factories/<factory>/lmp-manifest.git
+
+git clone https://source.foundries.io/factories/<factory>/meta-subscriber-overrides.git
+```
 
 ## Deploy your first Application
 
@@ -326,6 +412,10 @@ To watch the `aktualizr-lite` logs and see the updates, leave a device terminal 
 ```bash
 sudo journalctl --follow --unit aktualizr-lite
 ```
+
+### Make changes to the `devel` branch of `containers.git`
+
+TODO
 
 ### Debugging your device
 
