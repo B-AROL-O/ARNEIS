@@ -124,6 +124,7 @@ Date       | Coverage | Summary
 51. 2022-05-02 22:09: <https://twitter.com/baroloteam/status/1521220425623257088>
 52. 2022-05-09 07:34: <https://twitter.com/gpmacario/status/1523536748235870208>
 53. 2022-05-09 07:42: <https://twitter.com/baroloteam/status/1523538811321430016>
+54. 2022-05-16 13:42: <https://twitter.com/gpmacario/status/1526166010964885505>
 
 ### LinkedIn
 
