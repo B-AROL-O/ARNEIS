@@ -309,6 +309,24 @@ Reference: <https://docs.foundries.io/latest/tutorials/deploying-first-app/deplo
 
 ### Configure your device
 
+To improve your experience during this tutorial, you will configure both `aktualizr-lite` and `fioconfig` to check every minute.
+
+```bash
+sudo mkdir -p /etc/sota/conf.d/
+sudo bash -c 'printf "[uptane]\npolling_sec = 60" > /etc/sota/conf.d/z-01-polling.toml'
+
+sudo bash -c 'printf "DAEMON_INTERVAL=60" > /etc/default/fioconfig'
+
+sudo systemctl restart aktualizr-lite
+sudo systemctl restart fioconfig
+```
+
+To watch the `aktualizr-lite` logs and see the updates, leave a device terminal running the command:
+
+```bash
+sudo journalctl --follow --unit aktualizr-lite
+```
+
 TODO
 
 ### Debugging your device
