@@ -440,31 +440,32 @@ Read information about device `rpird102`
 
 ```text
 gmacario@hw2228:~ $ fioctl device show rpird102
-UUID:		1f658bf4-cfb1-4546-88cf-01577b67da1b
-Owner:		625ff36d02d292c0e482ecbf
-Factory:	test-fio-raspi4
-Production:	false
-Up to date:	true
-Target:		raspberrypi4-64-lmp-1 / sha256(0755d289a061c1e15c6c64507bee7085418aa2588e82c309791d688f1649a243)
-Ostree Hash:	0755d289a061c1e15c6c64507bee7085418aa2588e82c309791d688f1649a243
-Created:	2022-05-11T17:55:47+00:00
-Last Seen:	2022-05-16T09:41:00+00:00
-Tag:		devel
+UUID:       1f658bf4-cfb1-4546-88cf-01577b67da1b
+Owner:      625ff36d02d292c0e482ecbf
+Factory:    test-fio-raspi4
+Production: false
+Up to date: true
+Target:     raspberrypi4-64-lmp-1 / sha256(0755d289a061c1e15c6c64507bee7085418aa2588e82c309791d688f1649a243)
+Ostree Hash:   0755d289a061c1e15c6c64507bee7085418aa2588e82c309791d688f1649a243
+Created:    2022-05-11T17:55:47+00:00
+Last Seen:  2022-05-16T09:41:00+00:00
+Tag:        devel
 Network Info:
-	Hostname:	raspberrypi4-64
-	IP:		192.168.69.128
-	MAC:		e4:5f:01:35:8f:96
+   Hostname:   raspberrypi4-64
+   IP:      192.168.69.128
+   MAC:     e4:5f:01:35:8f:96
 Hardware Info: (hidden, use --hwinfo)
 Aktualizr config: (hidden, use --aktoml)
 Active Config:
-	Created At:    2022-05-11T17:55:48+00:00
-	Applied At:    2022-05-11T17:55:48+00:00
-	Change Reason: Set Wireguard pubkey from fioconfig
-	Files:
-		wireguard-client
-		 | enabled=0
-		 | 
-		 | pubkey=Po/bjvs8w8bGgBLdPsh1owUO9r18rfLf/a+981Hjp2g=
+   Created At:    2022-05-11T17:55:48+00:00
+   Applied At:    2022-05-11T17:55:48+00:00
+   Change Reason: Set Wireguard pubkey from fioconfig
+   Files:
+      wireguard-client
+       | enabled=0
+       |
+       | pubkey=Po/
+       bjvs8w8bGgBLdPsh1owUO9r18rfLf/a+981Hjp2g=
 
 -----BEGIN PUBLIC KEY-----
 MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEp+s6JZYPHzfTZnJlys7HHVNANCob
