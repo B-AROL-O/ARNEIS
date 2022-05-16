@@ -306,7 +306,7 @@ NOTE: This device was registered on Gianpaolo RPi4, TBV whether the image will a
 
 ### Create a Source Code Access Token
 
-Login to <https://app.foundries.io/> then click "Settings" > "Api Tokens" > "New Token"
+Login to <https://app.foundries.io/> then click "Settings" > "API Tokens" > "New Token"
 
 > **Generate API Token**
 >
