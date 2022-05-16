@@ -12,7 +12,8 @@ FoundriesFactory is a cloud service to build, test, deploy, and maintain secure,
 * <https://docs.foundries.io/>
 * <https://foundries.io/insights/news/foundriesio-arduino-secure-embedded-solution/>
 
-## Step-by-step instructions
+
+## Preparation
 
 Login to <https://app.foundries.io/>, or first create an account if you have not one.
 
@@ -157,13 +158,14 @@ Use "fioctl [command] --help" for more information about a command.
 gmacario@hw2228:~ $
 ```
 
-### Flash your device
+
+## Deploy your first device using FoundriesFactory
 
 Follow the instructions at <https://docs.foundries.io/latest/getting-started/flash-device/index.html>
 
 In our example we will be creating a bootable microSD Card for the Raspberry Pi 4.
 
-#### Download LmP system image
+### Download LmP system image
 
 Login to <https://app.foundries.io/>, then select a Factory which you have access to - in our example, `test-fio-raspi4`.
 
@@ -179,11 +181,11 @@ Navigate to the "Targets" section of your Factory, then click the latest Target 
 
 In our example, this operation will download file `lmp-factory-image-raspberrypi4-64.wic.gz` (218 MB).
 
-#### Flash LmP system image
+### Flash LmP system image
 
 Write the image to a blank microSD Card using a tool such as [balenaEtcher](https://www.balena.io/etcher/).
 
-#### Boot Device and Connect to the Network
+### Boot device and connect to the network
 
 1. Connect an Ethernet cable to the board
 2. Insert the microSD into the Raspberry Pi and
@@ -299,6 +301,25 @@ Click on the device to get more details:
 ![2022-05-11-2002-fio-device-rpird102.png](../images/2022-05-11-2002-fio-device-rpird102.png)
 
 NOTE: This device was registered on Gianpaolo RPi4, TBV whether the image will also work on the actual `rpird102`.
+
+
+## Deploy your first Application
+
+Reference: <https://docs.foundries.io/latest/tutorials/deploying-first-app/deploying-first-app.html>
+
+### Configure your device
+
+TODO
+
+### Debugging your device
+
+TODO
+
+### Testing the Container
+
+TODO
+
+### Enabling Specific Applications
 
 TODO
 
