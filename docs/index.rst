@@ -187,6 +187,7 @@ of the ARNEIS LEGO MOC.
    * :doc:`lego/studies`
    * :doc:`lego/camera-support`
    * :doc:`lego/conveyor-wip`
+   * :doc:`lego/arneis-moc`
 
 .. toctree::
    :caption: LEGO®
@@ -198,6 +199,7 @@ of the ARNEIS LEGO MOC.
    lego/studies
    lego/camera-support
    lego/conveyor-wip
+   lego/arneis-moc
 
 ******************
 Indices and tables
