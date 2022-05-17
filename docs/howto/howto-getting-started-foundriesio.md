@@ -12,7 +12,8 @@ FoundriesFactory is a cloud service to build, test, deploy, and maintain secure,
 * <https://docs.foundries.io/>
 * <https://foundries.io/insights/news/foundriesio-arduino-secure-embedded-solution/>
 
-## Step-by-step instructions
+
+## Preparation
 
 Login to <https://app.foundries.io/>, or first create an account if you have not one.
 
@@ -157,13 +158,14 @@ Use "fioctl [command] --help" for more information about a command.
 gmacario@hw2228:~ $
 ```
 
-### Flash your device
+
+## Deploy your first device using FoundriesFactory
 
 Follow the instructions at <https://docs.foundries.io/latest/getting-started/flash-device/index.html>
 
 In our example we will be creating a bootable microSD Card for the Raspberry Pi 4.
 
-#### Download LmP system image
+### Download LmP system image
 
 Login to <https://app.foundries.io/>, then select a Factory which you have access to - in our example, `test-fio-raspi4`.
 
@@ -179,11 +181,11 @@ Navigate to the "Targets" section of your Factory, then click the latest Target 
 
 In our example, this operation will download file `lmp-factory-image-raspberrypi4-64.wic.gz` (218 MB).
 
-#### Flash LmP system image
+### Flash LmP system image
 
 Write the image to a blank microSD Card using a tool such as [balenaEtcher](https://www.balena.io/etcher/).
 
-#### Boot Device and Connect to the Network
+### Boot device and connect to the network
 
 1. Connect an Ethernet cable to the board
 2. Insert the microSD into the Raspberry Pi and
@@ -299,6 +301,213 @@ Click on the device to get more details:
 ![2022-05-11-2002-fio-device-rpird102.png](../images/2022-05-11-2002-fio-device-rpird102.png)
 
 NOTE: This device was registered on Gianpaolo RPi4, TBV whether the image will also work on the actual `rpird102`.
+
+## Clone the factory Source Repositories
+
+### Create a Source Code Access Token
+
+Login to <https://app.foundries.io/> then click "Settings" > "API Tokens" > "New Token"
+
+> **Generate API Token**
+>
+> 1. INFO
+
+Fill in the required information:
+
+* Description: `git gmacario@hw2288`
+* Expiration date: 2022-06-30
+
+then click "Next".
+
+> **Generate API Token**
+>
+> 2. SCOPES
+
+Fill in the required information:
+
+* Scopes: Use for source code access (`source:create`, `source:read-update`)
+* Factory: `test-fio-raspi4`
+
+then click "Generate".
+
+> **Generate API Token**
+>
+> Your new API token has been created.
+> Make sure you save the token value as you won't be able to access it again.
+
+You may use the generated API token to authenticate and access private git source repositories, as shown in the next subsection.
+
+### Browse the factory Source Repositories from the web interface
+
+Logged in to <https://app.foundries.io> rowse the Foundries.io Subscriber Repositories. In our example
+
+<https://source.foundries.io/factories/test-fio-raspi4>
+
+![2022-05-16-1217-source-foundries-io.png](../images/2022-05-16-1217-source-foundries-io.png)
+
+### Configure Git
+
+```bash
+git config --global credential.helper store
+
+mkdir -p ~/source.foundries.io/factories/<factory>
+cd ~/source.foundries.io/factories/<factory>
+```
+
+### Clone the Container Source Repository
+
+Clone the `containers.git` repository:
+
+```bash
+git clone -b devel https://source.foundries.io/factories/<factory>/containers.git
+```
+
+In our example
+
+```text
+gmacario@hw2228:~ $ git clone -b devel https://source.foundries.io/factories/test-fio-raspi4/containers.git
+Cloning into 'containers'...
+Username for 'https://source.foundries.io': gmacario@gmail.com
+Password for 'https://gmacario@gmail.com@source.foundries.io': 
+remote: Enumerating objects: 8, done.
+remote: Counting objects: 100% (8/8), done.
+remote: Compressing objects: 100% (8/8), done.
+remote: Total 8 (delta 0), reused 0 (delta 0)
+Unpacking objects: 100% (8/8), 1.21 KiB | 620.00 KiB/s, done.
+gmacario@hw2228:~ $ 
+```
+
+Note: When requested by git, provide your Foundries.io as username (in our example, `gmacario@ŋmail.com`), then provide the generated API Token as password.
+
+Using a similar command you may also clone the other source repositories of the factory:
+
+```bash
+git clone https://source.foundries.io/factories/<factory>/ci-scripts.git
+
+git clone https://source.foundries.io/factories/<factory>/lmp-manifest.git
+
+git clone https://source.foundries.io/factories/<factory>/meta-subscriber-overrides.git
+```
+
+## Deploy your first Application
+
+Reference: <https://docs.foundries.io/latest/tutorials/deploying-first-app/deploying-first-app.html>
+
+### Configure your device
+
+To improve your experience during this tutorial, you will configure both `aktualizr-lite` and `fioconfig` to check every minute.
+
+```bash
+sudo mkdir -p /etc/sota/conf.d/
+sudo bash -c 'printf "[uptane]\npolling_sec = 60" > /etc/sota/conf.d/z-01-polling.toml'
+
+sudo bash -c 'printf "DAEMON_INTERVAL=60" > /etc/default/fioconfig'
+
+sudo systemctl restart aktualizr-lite
+sudo systemctl restart fioconfig
+```
+
+To watch the `aktualizr-lite` logs and see the updates, leave a device terminal running the command:
+
+```bash
+sudo journalctl --follow --unit aktualizr-lite
+```
+
+### Make changes to the `devel` branch of `containers.git`
+
+Make some changes to the `devel` branch of `containers.git` -- for instance, you may rename the `shellhttpd.disabled` to `shellhttpd` to ensure that the Docker image gets built and the container run in the target.
+
+```bash
+cd containers
+git checkout devel
+git mv shellhttpd.disabled shellhttpd
+git commit -sm "Enable container: shellhttpd"
+git push
+```
+
+Any change on the git repository will cause the target image to be rebuilt
+
+### Debugging your device
+
+Logged in on the development host, check the list of subscribed devices
+
+```bash
+fioctl login
+fioctl devices list
+```
+
+Result:
+
+```text
+gmacario@hw2228:~ $ fioctl devices list
+NAME      TARGET                 STATUS  APPS  UP-TO-DATE  IS-PROD
+----      ------                 ------  ----  ----------  -------
+rpird102  raspberrypi4-64-lmp-1  OK            true        false
+gmacario@hw2228:~ $
+```
+
+Read information about device `rpird102`
+
+```text
+gmacario@hw2228:~ $ fioctl device show rpird102
+UUID:       1f658bf4-cfb1-4546-88cf-01577b67da1b
+Owner:      625ff36d02d292c0e482ecbf
+Factory:    test-fio-raspi4
+Production: false
+Up to date: true
+Target:     raspberrypi4-64-lmp-1 / sha256(0755d289a061c1e15c6c64507bee7085418aa2588e82c309791d688f1649a243)
+Ostree Hash:   0755d289a061c1e15c6c64507bee7085418aa2588e82c309791d688f1649a243
+Created:    2022-05-11T17:55:47+00:00
+Last Seen:  2022-05-16T09:41:00+00:00
+Tag:        devel
+Network Info:
+   Hostname:   raspberrypi4-64
+   IP:      192.168.69.128
+   MAC:     e4:5f:01:35:8f:96
+Hardware Info: (hidden, use --hwinfo)
+Aktualizr config: (hidden, use --aktoml)
+Active Config:
+   Created At:    2022-05-11T17:55:48+00:00
+   Applied At:    2022-05-11T17:55:48+00:00
+   Change Reason: Set Wireguard pubkey from fioconfig
+   Files:
+      wireguard-client
+       | enabled=0
+       |
+       | pubkey=Po/
+       bjvs8w8bGgBLdPsh1owUO9r18rfLf/a+981Hjp2g=
+
+-----BEGIN PUBLIC KEY-----
+MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEp+s6JZYPHzfTZnJlys7HHVNANCob
+US1BbACwCSvoBWE/fAHE0UKyIMYwu2ZnHzqOqPVA1wo1nlb41fxPcMD9Ng==
+-----END PUBLIC KEY-----
+gmacario@hw2228:~ $
+```
+
+Take note of the value of field `Tag:` (in our case, `devel`), then double check on <https://app.foundries.io/factories/test-fio-raspi4/targets/> which is the the latest Target with that tag.
+
+### Testing the Container
+
+The changes introduced in the source repository of the factory will trigger a new target image build and - depending on the device configuration - after a few minutes the target will load the new image.
+
+As part of the changed a new Docker container will be run on the target; we can verify this by logging into the target device and issuing the `docker ps` command:
+
+```text
+gmacario@hw2228:~$ ssh fio@raspberrypi4-64.local
+fio@raspberrypi4-64.local's password: 
+Last login: Mon May 16 09:33:03 2022 from 192.168.69.67
+fio@raspberrypi4-64:~$ docker ps
+CONTAINER ID   IMAGE                                         COMMAND                  CREATED        STATUS        PORTS                                       NAMES
+fe5f4f8787ee   hub.foundries.io/test-fio-raspi4/shellhttpd   "/usr/local/bin/http…"   14 hours ago   Up 14 hours   0.0.0.0:8080->8080/tcp, :::8080->8080/tcp   shellhttpd_httpd_1
+fio@raspberrypi4-64:~$
+```
+
+Also, the `shellhttpd` container will deploy a simple HTTP server which can be verified for instance through a web browser:
+
+![2022-05-17-0716-hello-world.png](../images/2022-05-17-0716-hello-world.png)
+
+
+### Enabling Specific Applications
 
 TODO
 
