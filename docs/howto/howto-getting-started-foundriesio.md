@@ -415,7 +415,17 @@ sudo journalctl --follow --unit aktualizr-lite
 
 ### Make changes to the `devel` branch of `containers.git`
 
-TODO
+Make some changes to the `devel` branch of `containers.git` -- for instance, you may rename the `shellhttpd.disabled` to `shellhttpd` to ensure that the Docker image gets built and the container run in the target.
+
+```bash
+cd containers
+git checkout devel
+git mv shellhttpd.disabled shellhttpd
+git commit -sm "Enable container: shellhttpd"
+git push
+```
+
+Any change on the git repository will cause the target image to be rebuilt
 
 ### Debugging your device
 
@@ -478,7 +488,24 @@ Take note of the value of field `Tag:` (in our case, `devel`), then double check
 
 ### Testing the Container
 
-TODO
+The changes introduced in the source repository of the factory will trigger a new target image build and - depending on the device configuration - after a few minutes the target will load the new image.
+
+As part of the changed a new Docker container will be run on the target; we can verify this by logging into the target device and issuing the `docker ps` command:
+
+```text
+gmacario@hw2228:~$ ssh fio@raspberrypi4-64.local
+fio@raspberrypi4-64.local's password: 
+Last login: Mon May 16 09:33:03 2022 from 192.168.69.67
+fio@raspberrypi4-64:~$ docker ps
+CONTAINER ID   IMAGE                                         COMMAND                  CREATED        STATUS        PORTS                                       NAMES
+fe5f4f8787ee   hub.foundries.io/test-fio-raspi4/shellhttpd   "/usr/local/bin/http…"   14 hours ago   Up 14 hours   0.0.0.0:8080->8080/tcp, :::8080->8080/tcp   shellhttpd_httpd_1
+fio@raspberrypi4-64:~$
+```
+
+Also, the `shellhttpd` container will deploy a simple HTTP server which can be verified for instance through a web browser:
+
+![2022-05-17-0716-hello-world.png](../images/2022-05-17-0716-hello-world.png)
+
 
 ### Enabling Specific Applications
 
