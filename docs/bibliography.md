@@ -37,7 +37,6 @@
 * [LEGO&reg; Set 42100 (Liebherr R 9800 Excavator)](https://arneis.readthedocs.io/en/latest/lego-set-42100) includes 2x [LEGO&reg; Technics Bluetooth Hub](https://www.bricklink.com/v2/catalog/catalogitem.page?P=bb0961c01#T=C) (LEGO&reg; Part bb0961c01).
 * [Powered Up - A tear down...](https://www.eurobricks.com/forum/index.php?/forums/topic/162288-powered-up-a-tear-down/) - Eurobricks Forum, 2018-06-07
 * [Programming the Lego NXT using Mathematica with Math4NXT](http://web5.uottawa.ca/www5/dcousineau/home/Others/Math4NXT/index.html) by Denis Cousineau
-* [RWTH - Mindstorms EV3 Toolbox for MATLAB](https://git.rwth-aachen.de/mindstorms/ev3-toolbox-matlab): This toolbox was designed to simplify controlling LEGO MINDSTORMS EV3 robots live using MATLAB.
 * [Smart Robotics with LEGO MINDSTORMS Robot Inventor](https://www.packtpub.com/product/smart-robotics-with-lego-mindstorms-robot-inventor/9781800568402) by Aaron Maurer. Packt Publishing, May 2021
 
 ### Controlling LEGO via Bluetooth
