@@ -46,6 +46,7 @@ Here is a list of weekly posts made by [Gianpaolo on his personal blog](https://
 
 Date       | Coverage | Summary
 -----------|----------|-------------
+2022-05-23 | [dev-cw20](https://gmacario.github.io/posts/2022-05-23-arneis-dev-cw20) | Few days left for voting us<br>The ARNEIS project hits release 1.0<br>Not attending Expo Mattoncino 6
 2022-05-16 | [dev-cw19](https://gmacario.github.io/posts/2022-05-16-arneis-dev-cw19) | Update 3D model of the ARNEIS conveyor<br>Progress with testing Foundries.io<br>Troubleshooting Bluetooth on Portenta
 2022-05-09 | [dev-cw18](https://gmacario.github.io/posts/2022-05-09-arneis-dev-cw18) | B-AROL-O and ARNEIS logos deposited to Proofy<br>Keep on voting us in the OpenCV public poll<br>Preparation to Expo Mattoncino 6
 2022-05-02 | [dev-cw17](https://gmacario.github.io/posts/2022-05-02-arneis-dev-cw17) | We have a new contributor to ARNEIS<br>Another contributor to ARNEIS<br>Getting started with Foundries.io
@@ -128,6 +129,8 @@ Date       | Coverage | Summary
 55. 2022-05-16 13:52: <https://twitter.com/baroloteam/status/1526168831021965314>
 56. 2022-05-22 11:42: <https://twitter.com/baroloteam/status/1528310312591581184>
 57. 2022-05-22 11:46: <https://twitter.com/gpmacario/status/1528311412312924160>
+58. 2022-05-24 17:26: <https://twitter.com/gpmacario/status/1529121730475790336>
+59. 2022-05-24 17:33: <https://twitter.com/baroloteam/status/1529123465097363457>
 
 ### LinkedIn
 
