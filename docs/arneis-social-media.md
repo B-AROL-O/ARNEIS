@@ -6,7 +6,7 @@ This is the ARNEIS elevator pitch video re-published on 2022-04-21 by [OpenCV AI
 
 <!-- [![ARNEIS - OpenCV Spatial AI Contest Top 10](https://img.youtube.com/vi/mijyQ9Kjg9Y/0.jpg)](https://www.youtube.com/watch?v=mijyQ9Kjg9Y "ARNEIS - OpenCV Spatial AI Contest Top 10") -->
 
-[![ARNEIS - OpenCV Spatial AI Contest Top 10](https://user-images.githubusercontent.com/75182/164913525-176820e5-eb7e-4f74-b3da-f7adf01dda9c.png)](https://form.jotform.com/221086334784156)
+[![ARNEIS - OpenCV Spatial AI Contest Top 10](https://user-images.githubusercontent.com/75182/164913525-176820e5-eb7e-4f74-b3da-f7adf01dda9c.png)](https://www.youtube.com/watch?v=mijyQ9Kjg9Y "ARNEIS - OpenCV Spatial AI Contest Top 10")
 
 ## OpenCV Spatial AI Contest Top 10 Finalists, 2022-04-21
 
