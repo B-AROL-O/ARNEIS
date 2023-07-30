@@ -66,7 +66,7 @@ The ARNEIS project roadmap is [kept updated on GitHub](https://github.com/B-AROL
 
 [Gianpaolo Macario](https://github.com/gmacario/) publishes regular updates of the ARNEIS project on [his personal blog](https://gmacario.github.io/posts).
 
-A 5-min video summarizing the history of the ARNEIS project is [available on YouTube](https://www.youtube.com/watch?v=ZKtS8KgnbAY).
+A 5-min video summarizing the history of the ARNEIS project is [available on YouTube](https://www.youtube.com/watch?v=S-DiK0UgNBY).
 
 [![ARNEIS LEGO MOC History HD 1080p](https://img.youtube.com/vi/S-DiK0UgNBY/0.jpg)](https://www.youtube.com/watch?v=S-DiK0UgNBY "ARNEIS LEGO MOC History HD 1080p")
 
