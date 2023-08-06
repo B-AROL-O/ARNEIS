@@ -1,4 +1,4 @@
-# HOWTO: Create a landing page (baroloteam.online) on Netlify
+# HOWTO Create a landing page on Netlify
 
 ## Introduction
 
