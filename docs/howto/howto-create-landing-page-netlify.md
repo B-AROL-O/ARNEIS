@@ -10,7 +10,9 @@ This document is a detailed walkthrough of the steps performed to create a landi
 
 Choose your preferred domain registrar and buy an available domain.
 
-In our example I logged into <https://register.it> and purchased baroloteam.online.
+In our example I logged into <https://register.it> and purchased `baroloteam.online`.
+
+![image](https://github.com/B-AROL-O/ARNEIS/assets/75182/33bfb7f4-a414-4374-b22e-bf176a9bb3a2)
 
 TODO
 
