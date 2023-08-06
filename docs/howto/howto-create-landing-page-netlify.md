@@ -18,7 +18,15 @@ TODO
 
 ### Create a project on Netlify
 
-Login to <https://www.netlify.com/>
+Login to <https://www.netlify.com/> (or Sign up if you do not have an account yet).
+
+You should be redirected to this page:
+
+![image](https://github.com/B-AROL-O/ARNEIS/assets/75182/1a29390f-839c-4b07-8b76-e8741608acd3)
+
+In the "Sites" panel, click **Add a new site**
+
+![image](https://github.com/B-AROL-O/ARNEIS/assets/75182/0ee33ff0-4b5d-4fa4-9b15-2ed271034fec)
 
 TODO
 
