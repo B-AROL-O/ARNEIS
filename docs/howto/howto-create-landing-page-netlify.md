@@ -67,6 +67,50 @@ Click on the **Open production deploy** link and browse the site which has been 
 
 ![image](https://github.com/B-AROL-O/ARNEIS/assets/75182/75645a6d-6e69-46e7-9727-490abd78ade1)
 
+### Apply a template to a source repository
+
+We can easily apply template "[gatsby-ecommerce-theme](https://github.com/netlify-templates/gatsby-ecommerce-theme)" to the source repository "[baroloteam.online](https://github.com/B-AROL-O/baroloteam.online)" using the following shell commands
+
+```bash
+# Clone source repository
+mkdir -p ~/github/B-AROL-O
+cd ~/github/B-AROL-O
+git clone https://github.com/B-AROL-O/baroloteam.online
+
+# Add a git remote for the template repository
+cd ~/github/B-AROL-O/baroloteam.online
+git remote add template https://github.com/netlify-templates/gatsby-ecommerce-theme
+git fetch --all --prune
+
+# Create a feature branch
+git checkout main
+git pull --all --prune
+git checkout -b feat/apply-gatsby-template
+git merge --allow-unrelated-histories template/main
+```
+
+The last command may return errors, such as
+
+```text
+gianpaolo.macario@HW2457 MINGW64 ~/github/B-AROL-O/baroloteam.online (feat/apply-gatsby-template)
+$ git merge --allow-unrelated-histories template/main
+Auto-merging README.md
+CONFLICT (add/add): Merge conflict in README.md
+Automatic merge failed; fix conflicts and then commit the result.
+
+gianpaolo.macario@HW2457 MINGW64 ~/github/B-AROL-O/baroloteam.online (feat/apply-gatsby-template|MERGING)
+$
+```
+
+If so, inspect the problems with `git status` then
+
+```bash
+git status
+vi README.md # Reconcile merge conflicts
+git add -A
+git commit -sm "Manually merge with template/main"
+```
+
 ### Update site contents
 
 You may update the contents of the site by pushing new commits on the main branch of the source repository.
