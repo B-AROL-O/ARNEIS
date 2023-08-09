@@ -34,6 +34,39 @@ A few templates will be proposed which you can start from:
 
 ![image](https://github.com/B-AROL-O/ARNEIS/assets/75182/231c0625-3ae8-4541-af1e-1933b98e4cfd)
 
+Choose one proposed template, or click **Browse more templates** to expand the list.
+
+If you are still not satisfied, [Google is your friend](https://www.google.com/search?q=html+simple+landing+page+templates+free) :wink:
+
+You may also revert your previous choice and click the "[Import from a Git repository](https://app.netlify.com/start)" link.
+
+<!-- In our example, I chose the "Bejamas Next.js Blog Starter": [Live demo](https://bejamas-nextjs-blog.netlify.app/), [Source code](https://github.com/netlify-templates/nextjs-blog-theme). -->
+
+In our example, I chose the "Gatsby E-commerce Theme": [Live demo](https://gatsby-ecommerce-theme.netlify.app/), [Source code](https://github.com/netlify-templates/gatsby-ecommerce-theme).
+
+You will be presented with the following choices
+
+![image](https://github.com/B-AROL-O/ARNEIS/assets/75182/499bf39d-c6ee-43f8-ac2c-cdd663609cff)
+
+Click **Clone to github**, then in section "Set up your site"
+
+* Team: (accept default)
+* Repository settings:
+  * Repository name: gatsby-ecommerce-theme
+  * Repository visibility: Public
+
+then click **Deploy site**.
+
+This command will create a new public repository <https://github.com/gmacario/gatsby-ecommerce-theme> on GitHub, then will start building the site.
+
+If the build is successful you should be presented a page like this:
+
+![image](https://github.com/B-AROL-O/ARNEIS/assets/75182/c15b7916-1fa8-4769-9e60-bd7359257da2)
+
+Click on the **Open production deploy** link and browse the site which has been generated.
+
+![image](https://github.com/B-AROL-O/ARNEIS/assets/75182/75645a6d-6e69-46e7-9727-490abd78ade1)
+
 TODO
 
 <!-- EOF -->
