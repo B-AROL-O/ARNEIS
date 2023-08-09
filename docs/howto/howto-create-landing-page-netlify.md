@@ -48,7 +48,7 @@ You will be presented with the following choices
 
 ![image](https://github.com/B-AROL-O/ARNEIS/assets/75182/499bf39d-c6ee-43f8-ac2c-cdd663609cff)
 
-Click **Clone to github**, then in section "Set up your site"
+Click **Clone to GitHub**, then in section "Set up your site"
 
 * Team: (accept default)
 * Repository settings:
@@ -66,6 +66,12 @@ If the build is successful you should be presented a page like this:
 Click on the **Open production deploy** link and browse the site which has been generated.
 
 ![image](https://github.com/B-AROL-O/ARNEIS/assets/75182/75645a6d-6e69-46e7-9727-490abd78ade1)
+
+### Update site contents
+
+You may update the contents of the site by pushing new commits on the main branch of the source repository.
+
+### Deploy to official URL
 
 TODO
 
