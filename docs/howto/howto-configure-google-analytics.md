@@ -27,18 +27,16 @@ Presenters:
 
 ### A Founders Guide to Google Analytics: Part 2
 
-(2023-07-06 11:00-12:00 CEST)
+<!-- (2023-07-06 11:00-12:00 CEST) -->
 
 In this follow up session, we'll explore workspaces in GA4 and you'll learn how to build custom tables and visualisations of your data
-
-Live: <https://www.youtube.com/watch?v=0V99kmrW9EI>
-
-> EMEA: The Founders Guide to Google Analytics, Part 2: Exploring your data
 
 Presenters:
 
 * [Ainhoa Ybanez](https://www.linkedin.com/in/ainybez/) - Advertising Solutions Architect, Mobile Apps, Google
 * [Grant Kemp](https://www.linkedin.com/in/creativetechnologyuk/) - Advertising Solutions Architect, Mobile Apps, Google
+
+[![EMEA: The Founders Guide to Google Analytics, Part 2: Exploring your data](https://img.youtube.com/vi/0V99kmrW9EI/0.jpg)](https://www.youtube.com/watch?v=0V99kmrW9EI "EMEA: The Founders Guide to Google Analytics, Part 2: Exploring your data")
 
 TODO
 
