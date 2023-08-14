@@ -122,6 +122,7 @@ gone through during the project realization.
 * **For documentation authors**:
    * :doc:`howto/howto-configure-arneis-readthedocs-io`
    * :doc:`howto/howto-create-landing-page-netlify`
+   * :doc:`howto/howto-configure-google-analyics`
    * :doc:`howto/howto-use-mermaid-graphic-tool`
 
 * **Learning AI and related tools**:
@@ -148,6 +149,7 @@ gone through during the project realization.
 
    howto/howto-configure-arneis-readthedocs-io
    howto/howto-create-landing-page-netlify
+   howto/howto-configure-google-analytics
    howto/howto-use-mermaid-graphic-tool
 
    howto/howto-install-depthai-on-rpi
