@@ -117,6 +117,8 @@ You may update the contents of the site by pushing new commits on the main branc
 
 ### Configure Google Analytics
 
+Please refer to [HOWTO Configure Google Analytics](howto-configure-google-analytics.md) for details.
+
 TODO
 
 ### Deploy to official URL
