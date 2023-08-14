@@ -16,8 +16,8 @@ In this session we'll cover the basics of Google Analytics 4, including how to s
 
 Presenters:
 
-* Ainhoa Ybanez - Advertising Solutions Architect, Mobile Apps, Google
-* Grant Kemp - Advertising Solutions Architect, Mobile Apps, Google
+* [Ainhoa Ybanez](https://www.linkedin.com/in/ainybez/) - Advertising Solutions Architect, Mobile Apps, Google
+* [Grant Kemp](https://www.linkedin.com/in/creativetechnologyuk/) - Advertising Solutions Architect, Mobile Apps, Google
 
 <!-- <https://cloudonair.withgoogle.com/events/startup-school/watch?talk=emea-talk6> -->
 
