@@ -122,7 +122,7 @@ gone through during the project realization.
 * **For documentation authors**:
    * :doc:`howto/howto-configure-arneis-readthedocs-io`
    * :doc:`howto/howto-create-landing-page-netlify`
-   * :doc:`howto/howto-configure-google-analyics`
+   * :doc:`howto/howto-configure-google-analytics`
    * :doc:`howto/howto-use-mermaid-graphic-tool`
 
 * **Learning AI and related tools**:
