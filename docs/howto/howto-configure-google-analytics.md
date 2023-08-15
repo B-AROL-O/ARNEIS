@@ -42,6 +42,16 @@ TODO
 
 ## Step-by-step instructions
 
+### Inject GA4 scripts into a Gatsby site
+
+Reference: <https://www.gatsbyjs.com/docs/how-to/testing/ab-testing-with-google-analytics-and-netlify/>
+
+Edit file `src/components/header.js`
+
+NOTE: For a site based on the <https://github.com/netlify-templates/gatsby-ecommerce-theme> template the file is called `src/components/Header/Header.js`.
+
+TODO
+
 ### TODO
 
 <!-- EOF -->
