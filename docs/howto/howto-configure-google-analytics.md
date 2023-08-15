@@ -2,7 +2,7 @@
 
 ## Introduction
 
-TODO
+This document explains how to configure [Google Analytics 4](https://analytics.google.com/analytics/web/?) and integrate it into your existing web site, for instance the one created followint the [HOWTO Create a Landing Page on Netlify](howto-create-landing-page-netlify.md).
 
 ## Reference documents
 
