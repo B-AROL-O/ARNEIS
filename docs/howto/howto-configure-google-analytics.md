@@ -42,6 +42,64 @@ TODO
 
 ## Step-by-step instructions
 
+### Create a new GA4 stream on Google Analytics
+
+Login to <https://analytics.google.com/>
+
+Create a new Analytics Account, or choose an existing one.
+
+Click **Admin**, then **+ Create Property**. The following page should be displayed:
+
+![image](https://github.com/B-AROL-O/ARNEIS/assets/75182/30786425-513b-44b0-a6e6-9b1222ceb80c)
+
+Fill in the Property details. In our example:
+
+* Property name (Required): `baroloteam`
+* Reporting time zone: Italy
+* Currency: Euro (€)
+
+then click **Next** and fill in your Business details. In our example:
+
+* Industry category (Required): Hobbies &amp; Leisure
+* Business size (Required): Small - 1 to 10 employees
+
+![image](https://github.com/B-AROL-O/ARNEIS/assets/75182/ae40cea3-a104-4ef3-9158-e63ce65ce6ce)
+
+Click **Next** and Choose your business objectives.
+
+![image](https://github.com/B-AROL-O/ARNEIS/assets/75182/92432c55-320e-4911-b734-47c223ad68f7)
+
+In our example:
+
+* [x] **Generate leads**
+* [ ] **Drive online sales**
+* [x] **Raise brand awareness**
+* [x] **Examine user behavior**
+* [ ] **Get baseline reports**
+
+When you are done, click **Create**. The wizard will show the following page:
+
+![image](https://github.com/B-AROL-O/ARNEIS/assets/75182/b19e37d2-1690-4dfa-8318-2d127b3f5130)
+
+In our example we only choose "Web". We should now set up your web stream.
+
+![image](https://github.com/B-AROL-O/ARNEIS/assets/75182/d992d2cd-051d-4dca-9c26-eb7171433f2e)
+
+Fill in the required information - in our example:
+
+* Website URL: <https://baroloteam.online>
+* Stream name: baroloteam.online stream
+* Enhanced measurements: (leave defaults)
+
+then click **Create stream**. After a few seconds the Web stream details will be displayed:
+
+![image](https://github.com/B-AROL-O/ARNEIS/assets/75182/37bad402-844d-4b78-ad15-1e4d6a35b437)
+
+Click **View tag instructions** to display code snippet to be injected into your website.
+In our example:
+
+![image](https://github.com/B-AROL-O/ARNEIS/assets/75182/5fe3801f-c21b-413d-b883-2f8046e47771)
+
 ### Inject GA4 scripts into a Gatsby site
 
 Reference: <https://www.gatsbyjs.com/docs/how-to/testing/ab-testing-with-google-analytics-and-netlify/>
