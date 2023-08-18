@@ -38,8 +38,6 @@ Presenters:
 
 [![EMEA: The Founders Guide to Google Analytics, Part 2: Exploring your data](https://img.youtube.com/vi/0V99kmrW9EI/0.jpg)](https://www.youtube.com/watch?v=0V99kmrW9EI "EMEA: The Founders Guide to Google Analytics, Part 2: Exploring your data")
 
-TODO
-
 ## Step-by-step instructions
 
 ### Create a new GA4 stream on Google Analytics
@@ -58,14 +56,14 @@ Fill in the Property details. In our example:
 * Reporting time zone: Italy
 * Currency: Euro (€)
 
-then click **Next** and fill in your Business details. In our example:
+then click **Next** and fill in our Business details. In our example:
 
 * Industry category (Required): Hobbies &amp; Leisure
 * Business size (Required): Small - 1 to 10 employees
 
 ![image](https://github.com/B-AROL-O/ARNEIS/assets/75182/ae40cea3-a104-4ef3-9158-e63ce65ce6ce)
 
-Click **Next** and Choose your business objectives.
+Click **Next**, then choose our business objectives.
 
 ![image](https://github.com/B-AROL-O/ARNEIS/assets/75182/92432c55-320e-4911-b734-47c223ad68f7)
 
@@ -81,7 +79,7 @@ When you are done, click **Create**. The wizard will show the following page:
 
 ![image](https://github.com/B-AROL-O/ARNEIS/assets/75182/b19e37d2-1690-4dfa-8318-2d127b3f5130)
 
-In our example we only choose "Web". We should now set up your web stream.
+In our example we only choose "Web". We should now set up our web stream.
 
 ![image](https://github.com/B-AROL-O/ARNEIS/assets/75182/d992d2cd-051d-4dca-9c26-eb7171433f2e)
 
@@ -91,7 +89,7 @@ Fill in the required information - in our example:
 * Stream name: baroloteam.online stream
 * Enhanced measurements: (leave defaults)
 
-then click **Create stream**. After a few seconds the Web stream details will be displayed:
+then click **Create stream**. After a few seconds the stream details will be displayed:
 
 ![image](https://github.com/B-AROL-O/ARNEIS/assets/75182/37bad402-844d-4b78-ad15-1e4d6a35b437)
 
