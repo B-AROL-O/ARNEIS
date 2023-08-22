@@ -115,6 +115,12 @@ git commit -sm "Manually merge with template/main"
 
 You may update the contents of the site by pushing new commits on the main branch of the source repository.
 
+### Configure Google Analytics
+
+Please refer to [HOWTO Configure Google Analytics](howto-configure-google-analytics.md) for details.
+
+TODO
+
 ### Deploy to official URL
 
 TODO
