@@ -3,7 +3,7 @@
 [![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-908a85?logo=gitpod)](https://gitpod.io/#https://github.com/B-AROL-O/ARNEIS)
 [![GitHub Super-Linter](https://github.com/B-AROL-O/ARNEIS/workflows/Lint%20Code%20Base/badge.svg)](https://github.com/marketplace/actions/super-linter)
 
-<a href="https://arneis.readthedocs.io/">![ARNEIS logo](docs/images/arneis-logo.png)</a>
+[![ARNEIS logo](docs/images/arneis-logo.png)](https://arneis.readthedocs.io/)
 
 The **ARNEIS** (short for `A`utomated `R`ecognizer, `N`etwork-`E`nabled, `I`tem Sorter) project is the winner of the Popular Vote of the [OpenCV Spatial AI Contest](https://opencv.org/opencv-spatial-ai-contest/) sponsored by [Intel&reg;](https://www.intel.com/) and [Microsoft Azure](https://azure.microsoft.com/).
 
@@ -60,13 +60,23 @@ Please refer to <https://arneis.readthedocs.io> for details.
 
 The OAK-D-Lite captures photos of the bottles flowing through the conveyor and runs a Neural Network trained on a custom dataset to be able to classify and recognize the type (Part Number) of the bottle. This information is fed in real-time to the Raspberry Pi which - based on the job order - decides whether to eject the bottle to the final packaging unit, or putting it back to the parts warehouse.
 
-### The timeline
+### ARNEIS project roadmap and timeline
 
-The ARNEIS project roadmap is [kept updated on GitHub](https://github.com/B-AROL-O/ARNEIS/milestones?direction=asc&sort=due_date&state=open).
+The ARNEIS project roadmap is [kept updated on GitHub](https://github.com/B-AROL-O/ARNEIS/milestones?direction=asc%26sort=due_date%26state=open).
 
 [Gianpaolo Macario](https://github.com/gmacario/) publishes regular updates of the ARNEIS project on [his personal blog](https://gmacario.github.io/posts).
 
-A 5-min video summarizing the history of the ARNEIS project is [available on YouTube](https://www.youtube.com/watch?v=S-DiK0UgNBY).
+#### B-AROL-O team interview, 2022-03-17
+
+ During [OpenCV Weekly Webinar Episode 49](https://twitter.com/opencvweekly/status/1504487889630945281) the B-AROL-O Team was asked to present the ARNEIS project and explain the vision, the motivations and the achievements after the first three months of development:
+
+<!-- TODO: <https://github.com/B-AROL-O/ARNEIS/issues/259> -->
+
+[![image](https://user-images.githubusercontent.com/75182/159136335-12c6b155-d7be-4172-bf84-1a45ef91c181.png)](https://www.linkedin.com/video/event/urn:li:ugcPost:6909587011267891201/)
+
+#### ARNEIS LEGO MOC History
+
+A 5-min video with the initial design of the LEGO MOC is [available on YouTube](https://www.youtube.com/watch?v=S-DiK0UgNBY).
 
 [![ARNEIS LEGO MOC History HD 1080p](https://img.youtube.com/vi/S-DiK0UgNBY/0.jpg)](https://www.youtube.com/watch?v=S-DiK0UgNBY "ARNEIS LEGO MOC History HD 1080p")
 
