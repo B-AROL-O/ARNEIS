@@ -68,7 +68,7 @@ The ARNEIS project roadmap is [kept updated on GitHub](https://github.com/B-AROL
 
 #### B-AROL-O team interview, 2022-03-17
 
- During [OpenCV Weekly Webinar Episode 49](https://twitter.com/opencvweekly/status/1504487889630945281) the B-AROL-O Team was asked to introduce the ARNEIS and explain the vision, the motivations and the achievements after the first three months of development:
+ During [OpenCV Weekly Webinar Episode 49](https://twitter.com/opencvweekly/status/1504487889630945281) the B-AROL-O Team was asked to present the ARNEIS project and explain the vision, the motivations and the achievements after the first three months of development:
 
 <!-- TODO: <https://github.com/B-AROL-O/ARNEIS/issues/259> -->
 
