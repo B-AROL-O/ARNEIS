@@ -62,7 +62,7 @@ The OAK-D-Lite captures photos of the bottles flowing through the conveyor and r
 
 ### ARNEIS project roadmap and timeline
 
-The ARNEIS project roadmap is [kept updated on GitHub](https://github.com/B-AROL-O/ARNEIS/milestones?direction=asc&sort=due_date&state=open).
+The ARNEIS project roadmap is [kept updated on GitHub](https://github.com/B-AROL-O/ARNEIS/milestones?direction=asc%26sort=due_date%26state=open).
 
 [Gianpaolo Macario](https://github.com/gmacario/) publishes regular updates of the ARNEIS project on [his personal blog](https://gmacario.github.io/posts).
 
