@@ -4,10 +4,9 @@
 
 This document explains how to install [Eclipse Capella&trade;](https://www.eclipse.org/capella/) - an Open Source solution for Model-Based Systems Engineering - and use it for the ARNEIS project.
 
-## Introduction Eclipse Capella™
+## Introduction to Eclipse Capella™
 
-Eclipse Capella™ is a comprehensive, extensible and field-proven MBSE tool and method
-to successfully design systems architecture.
+Eclipse Capella™ is a comprehensive, extensible and field-proven MBSE tool and method to successfully design systems architecture.
 
 <https://www.youtube.com/watch?v=WSzlN4YT3gM>
 
