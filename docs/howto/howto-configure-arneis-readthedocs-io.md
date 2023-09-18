@@ -219,6 +219,7 @@ Type "HOWTO" into the "Search docs" input field and verify that the Markdown pag
 <!-- (2022-01-25 05:35 CET) -->
 
 References:
+
 * <https://github.com/B-AROL-O/ARNEIS/issues/85>
 * [Preview Documentation from Pull Requests](https://docs.readthedocs.io/page/guides/autobuild-docs-for-pull-requests.html)
 
@@ -228,7 +229,7 @@ In order to enable the Pull Request preview feature you should execute the follo
 
    ![2022-04-21-2157-howto-rtd-admin.png](../images/2022-04-21-2157-howto-rtd-admin.png)
 
-1. In `Advanced Settings` select **Build pull requests for this project**
+2. In `Advanced Settings` select **Build pull requests for this project**
 
    ![2022-04-21-2157-howto-rtd-advsetting.png](../images/2022-04-21-2157-howto-rtd-advsetting.png)
 
