@@ -1,6 +1,6 @@
-# HOWTO: Install MicroPython on an Arduino Nano 33 BLE
+# HOWTO Install MicroPython on an Arduino Nano 33 BLE
 
-(2023-09-19 16:00 CEST)
+<!-- (2023-09-19 16:00 CEST) -->
 
 ## Introduction
 
