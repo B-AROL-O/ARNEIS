@@ -136,6 +136,7 @@ gone through during the project realization.
    * :doc:`howto/howto-prepare-rpi4b-for-arneis`
    * :doc:`howto/howto-getting-started-foundriesio`
    * :doc:`howto/howto-testing-portenta-x8`
+   * :doc:`howto/howto-install-micropython-nano33ble`
 
 * **For system integrators**:
    * :doc:`howto/howto-create-vm-on-azure`
@@ -161,6 +162,7 @@ gone through during the project realization.
    howto/howto-prepare-rpi4b-for-arneis
    howto/howto-getting-started-foundriesio
    howto/howto-testing-portenta-x8
+   howto/howto-install-micropython-nano33ble
    
    howto/howto-create-vm-on-azure
    howto/howto-install-k3s-for-arneis
