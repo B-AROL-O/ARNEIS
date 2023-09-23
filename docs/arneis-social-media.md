@@ -167,6 +167,7 @@ Those are mainly the videos made by [Alessandro](https://github.com/alv67):
 8. 2022-04-05: ARNEIS submission Video (<https://youtu.be/qHFRRHWtTqY>)
 9. 2022-04-21: ARNEIS - OpenCV Spatial AI Contest Top 10 (<https://youtu.be/mijyQ9Kjg9Y>)
 10. 2022-04-26: Announcing The Winners of OpenCV Spatial AI Contest - OpenCV Weekly Webinar Ep. 54 - 4/21/22 (<https://www.youtube.com/watch?v=NXhtmPpLEbcì>)
+11. 2022-06-17: AI Show Live - Episode 59 - 2022 OpenCV Hackathon Winners and More! (<https://www.youtube.com/watch?v=cl1sDvzCD9c>)
 
 ### Facebook
 
