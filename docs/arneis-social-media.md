@@ -136,22 +136,22 @@ Date       | Coverage | Summary
 
 **NOTE**: Search for `#ARNEIS` and `#OAKDLiteContest` to find other posts on the same subject:
 
-1. <https://www.linkedin.com/feed/update/urn:li:activity:6906939286512631808/>
-2. <https://www.linkedin.com/video/event/urn:li:ugcPost:6909587011267891201/>
-3. <https://www.linkedin.com/feed/update/urn:li:activity:6916879749529108480/>
-4. <https://www.linkedin.com/feed/update/urn:li:activity:6916879749529108480/>
-5. <https://www.linkedin.com/feed/update/urn:li:activity:6916649664603717632?commentUrn=urn%3Ali%3Acomment%3A%28activity%3A6916649664603717632%2C6916963029045628928%29>
-6. <https://www.linkedin.com/posts/gianluca-teti_arneis-project-journal-dev-cw02-activity-6889286643065393152-J2YP>
-7. <https://www.linkedin.com/posts/gianluca-teti_arneis-project-journal-dev-cw03-activity-6891458849144930304-yKTn>
-8. <https://www.linkedin.com/posts/gianluca-teti_github-b-arol-oarneis-automated-recognizer-activity-6894740891420938240-i1Ay>
-9. <https://www.linkedin.com/posts/gianluca-teti_arneis-project-journal-dev-cw05-activity-6896872473116123137-YzWT>
-10. <https://www.linkedin.com/posts/gianluca-teti_arneis-project-journal-dev-cw08-activity-6904516778966228992-EM8P>
-11. <https://www.linkedin.com/pulse/arneis-automated-recognizer-network-enabled-items-/>
-12. <https://www.linkedin.com/feed/update/urn:li:activity:6919910108042792960/>
-13. <https://www.linkedin.com/feed/update/urn:li:activity:6919938297855098880/>
-14. <https://www.linkedin.com/posts/alessandrovaresi_oakdlitecontest-arneis-activity-6928303739082530816-X9Kx>
-15. <https://www.linkedin.com/posts/serena-bisacca_oakdlitecontest-arneis-activity-6928556282975006720-jHxW>
-16. <https://www.linkedin.com/posts/gmacario_oakdlitecontest-arneis-activity-6929081218374197248-HaD5>
+6. 2022-01-17: Gianluca on ARNEIS project journal - dev-cw02: <https://www.linkedin.com/posts/gianluca-teti_arneis-project-journal-dev-cw02-activity-6889286643065393152-J2YP>
+7. 2022-01-24: Gianluca on ARNEIS project journal - dev-cw03: <https://www.linkedin.com/posts/gianluca-teti_arneis-project-journal-dev-cw03-activity-6891458849144930304-yKTn>
+8. 2022-02-02: Gianluca on ARNEIS project journal - dev-cw04: <https://www.linkedin.com/posts/gianluca-teti_github-b-arol-oarneis-automated-recognizer-activity-6894740891420938240-i1Ay>
+9. 2022-02-07: Gianluca on ARNEIS project journal - dev-cw05: <https://www.linkedin.com/posts/gianluca-teti_arneis-project-journal-dev-cw05-activity-6896872473116123137-YzWT>
+10. 2022-02-28: Gianluca on ARNEIS project journal - dev-cw08: <https://www.linkedin.com/posts/gianluca-teti_arneis-project-journal-dev-cw08-activity-6904516778966228992-EM8P>
+1. 2022-03-07: Gianpaolo on ARNEIS project journal - dev-cw09: <https://www.linkedin.com/feed/update/urn:li:activity:6906939286512631808/>
+2. 2022-03-17: Using AI & LEGO to Recognize, Sort, and Package - OpenCV Weekly - Event by OpenCV: <https://www.linkedin.com/video/event/urn:li:ugcPost:6909587011267891201/>
+3. 2022-04-04: Gianpaolo on ARNEIS project journal - dev-cw13: <https://www.linkedin.com/feed/update/urn:li:activity:6916879749529108480/>
+5. 2022-04-05: Comment to post by Satya Mallick: <https://www.linkedin.com/feed/update/urn:li:activity:6916649664603717632?commentUrn=urn%3Ali%3Acomment%3A%28activity%3A6916649664603717632%2C6916963029045628928%29>
+11. 2022-04-12: Article by AROL S.p.A. on LinkedIn: <https://www.linkedin.com/pulse/arneis-automated-recognizer-network-enabled-items-/>
+12. 2022-04-12: Post by AROL Sp.A. with link to article: <https://www.linkedin.com/feed/update/urn:li:activity:6919549840301404160/>
+13. 2022-04-13: Gianpaolo repost of article by AROL S.p.A.: <https://www.linkedin.com/feed/update/urn:li:activity:6919910108042792960/>
+14. 2022-04-14: Pietro repost of article by AROL S.p.A.: <https://www.linkedin.com/feed/update/urn:li:activity:6919938297855098880/>
+15. 2022-04-15: Post by Alessandro soliciting votes for "Team B-AROL-O" at #OAKDLiteContest: <https://www.linkedin.com/posts/alessandrovaresi_oakdlitecontest-arneis-activity-6928303739082530816-X9Kx>
+16. 2022-04-16: Serena Bisacca repost of post by Alessandro: <https://www.linkedin.com/posts/serena-bisacca_oakdlitecontest-arneis-activity-6928556282975006720-jHxW>
+17. 2022-04-15: Gianpaolo repost of post by Alessandro: <https://www.linkedin.com/posts/gmacario_oakdlitecontest-arneis-activity-6929081218374197248-HaD5>
 
 ### YouTube
 
