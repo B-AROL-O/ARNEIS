@@ -22,7 +22,7 @@ All types of contributions are encouraged and valued. See the [Table of Contents
   * [Suggesting Enhancements](#suggesting-enhancements)
   * [Your First Code Contribution](#your-first-code-contribution)
   * [Improving The Documentation](#improving-the-documentation)
-* [Styleguides](#styleguides)
+* [Style guides](#style-guides)
   * [Commit Messages](#commit-messages)
 * [Join The Project Team](#join-the-project-team)
 
@@ -144,7 +144,7 @@ Updating, improving and correcting the documentation
 
 -->
 
-## Styleguides
+## Style guides
 
 ### Commit Messages
 <!-- TODO
