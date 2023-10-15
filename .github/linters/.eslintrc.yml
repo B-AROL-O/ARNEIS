@@ -21,6 +21,7 @@ globals:
   SharedArrayBuffer: readonly
 
 ignorePatterns:
+  - ".devcontainer/devcontainer.json"
   - "!.*"
   - "**/node_modules/.*"
 
