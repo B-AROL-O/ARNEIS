@@ -2,7 +2,7 @@
 
 ## AI Show Live - Episode 59, 2022-06-17
 
-Interview 
+Interview to B-AROL-O Team starts at 
 [![AI Show Live - Episode 59 - 2022 OpenCV Hackathon Winners and More!](https://img.youtube.com/vi/cl1sDvzCD9c/0.jpg)](https://www.youtube.com/watch?v=cl1sDvzCD9c&t=623 "AI Show Live - Episode 59 - 2022 OpenCV Hackathon Winners and More!")
 
 ## ARNEIS - OpenCV Spatial AI Contest Top 10, 2022-04-21
