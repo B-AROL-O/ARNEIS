@@ -8,7 +8,7 @@ This document explains how to install [Eclipse Capella&trade;](https://www.eclip
 
 Eclipse Capella™ is a comprehensive, extensible, and field-proven MBSE tool and method to design systems architecture successfully.
 
-<https://www.youtube.com/watch?v=WSzlN4YT3gM>
+[![Discover Capella in 2 minutes](https://img.youtube.com/vi/WSzlN4YT3gM/0.jpg)](https://www.youtube.com/watch?v=WSzlN4YT3gM "Discover Capella in 2 minutes")
 
 ### References
 
