@@ -1,6 +1,10 @@
 # ARNEIS - Social Media Presence
 
-## ARNEIS - OpenCV Spatial AI Contest Top 10
+## AI Show Live - Episode 59, 2022-06-17
+
+[![AI Show Live - Episode 59 - 2022 OpenCV Hackathon Winners and More!](https://img.youtube.com/vi/cl1sDvzCD9c/0.jpg)](https://www.youtube.com/watch?v=cl1sDvzCD9c "AI Show Live - Episode 59 - 2022 OpenCV Hackathon Winners and More!")
+
+## ARNEIS - OpenCV Spatial AI Contest Top 10, 2022-04-21
 
 This is the ARNEIS elevator pitch video re-published on 2022-04-21 by [OpenCV AI](https://www.youtube.com/channel/UCpRd2pU-0_fHVutdregb8XQ) for the [OpenCV Spatial AI Contest Popular Vote](https://form.jotform.com/221086334784156):
 
