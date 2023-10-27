@@ -1,6 +1,20 @@
 # ARNEIS - Social Media Presence
 
-## ARNEIS Elevator Pitch video
+## ARNEIS - OpenCV Spatial AI Contest Top 10
+
+This is the ARNEIS elevator pitch video re-published on 2022-04-21 by [OpenCV AI](https://www.youtube.com/channel/UCpRd2pU-0_fHVutdregb8XQ) for the [OpenCV Spatial AI Contest Popular Vote](https://form.jotform.com/221086334784156):
+
+<!-- [![ARNEIS - OpenCV Spatial AI Contest Top 10](https://img.youtube.com/vi/mijyQ9Kjg9Y/0.jpg)](https://www.youtube.com/watch?v=mijyQ9Kjg9Y "ARNEIS - OpenCV Spatial AI Contest Top 10") -->
+
+[![ARNEIS - OpenCV Spatial AI Contest Top 10](https://user-images.githubusercontent.com/75182/164913525-176820e5-eb7e-4f74-b3da-f7adf01dda9c.png)](https://www.youtube.com/watch?v=mijyQ9Kjg9Y "ARNEIS - OpenCV Spatial AI Contest Top 10")
+
+## OpenCV Spatial AI Contest Top 10 Finalists, 2022-04-21
+
+During the [OpenCV Weekly Webinar Episode 54](https://twitter.com/opencvweekly/status/1517171312807989249) our team was appointed Top 10 Finalist of the [OpenCV Spatial AI Contest](https://opencv.org/opencv-spatial-ai-contest/) sponsored by Intel and Microsoft. Click on the image to watch the full announcement:
+
+[![image](https://user-images.githubusercontent.com/75182/164895375-263d5633-e5c9-4036-8135-38a019a64d67.png)](https://twitter.com/i/broadcasts/1lPJqmnrqBLJb)
+
+## ARNEIS elevator pitch, 2022-04-05
 
 This short video (3:48) was prepared as part of the final submission to the [OpenCV Spatial AI Contest](https://opencv.org/opencv-spatial-ai-contest/):
 
@@ -32,7 +46,13 @@ Here is a list of weekly posts made by [Gianpaolo on his personal blog](https://
 
 Date       | Coverage | Summary
 -----------|----------|-------------
-2022-04-11 | [dev-cw14](https://gmacario.github.io/posts/2022-04-11-arneis-dev-cw14) | ARNEIS project is getting known<br>Meeting with Massimo Banzi (Arduino)<br>San Mauro Brick Show 2022
+2022-05-23 | [dev-cw20](https://gmacario.github.io/posts/2022-05-23-arneis-dev-cw20) | Few days left for voting us<br>The ARNEIS project hits release 1.0<br>Not attending Expo Mattoncino 6
+2022-05-16 | [dev-cw19](https://gmacario.github.io/posts/2022-05-16-arneis-dev-cw19) | Update 3D model of the ARNEIS conveyor<br>Progress with testing Foundries.io<br>Troubleshooting Bluetooth on Portenta
+2022-05-09 | [dev-cw18](https://gmacario.github.io/posts/2022-05-09-arneis-dev-cw18) | B-AROL-O and ARNEIS logos deposited to Proofy<br>Keep on voting us in the OpenCV public poll<br>Preparation to Expo Mattoncino 6
+2022-05-02 | [dev-cw17](https://gmacario.github.io/posts/2022-05-02-arneis-dev-cw17) | We have a new contributor to ARNEIS<br>Another contributor to ARNEIS<br>Getting started with Foundries.io
+2022-04-25 | [dev-cw16](https://gmacario.github.io/posts/2022-04-25-arneis-dev-cw16) | ARNEIS Top 10 Finalist of the OpenCV Spatial AI Contest<br>Preparing for ARNEIS Release 1.0<br>More progress with the Arduino Portenta X8
+2022-04-18 | [dev-cw15](https://gmacario.github.io/posts/2022-04-18-arneis-dev-cw15) | Scaling up the Kubernetes cluster<br>Testing software stack for Raspberry Pi OS 64-bit<br>First tests with Arduino Portenta X8
+2022-04-11 | [dev-cw14](https://gmacario.github.io/posts/2022-04-11-arneis-dev-cw14) | Meeting in Arduino with Massimo Banzi<br>ARNEIS project is getting known<br>San Mauro Brick Show 2022
 2022-04-04 | [dev-cw13](https://gmacario.github.io/posts/2022-04-04-arneis-dev-cw13) | ARNEIS submitted to the OpenCV Spatial AI Contest<br>ARNEIS OpenCV submission video<br>Preparing for San Mauro Bricks 2022
 2022-03-28 | [dev-cw12](https://gmacario.github.io/posts/2022-03-28-arneis-dev-cw12) | Get inspiration from the Arduino Week<br>ARNEIS System Integration in progress<br>Preparing the final submission to the OpenCV Spatial AI Contest
 2022-03-21 | [dev-cw11](https://gmacario.github.io/posts/2022-03-21-arneis-dev-cw11) | B-AROL-O Team at the OpenCV Weekly Webinar<br>Working on a synthetic dataset for training the ARNEIS NN<br>Built a second ARNEIS MOC
@@ -92,34 +112,61 @@ Date       | Coverage | Summary
 38. 2022-03-30 08:33: <https://twitter.com/baroloteam/status/1509056192055689218>
 39. 2022-04-04 19:05: <https://twitter.com/gpmacario/status/1511027081861566464>
 40. 2022-04-05 12:47: <https://twitter.com/baroloteam/status/1511113288377151491>
+41. 2022-04-12 13:44: <https://twitter.com/baroloteam/status/1513844561545768965>
+42. 2022-04-17 21:13: <https://twitter.com/gpmacario/status/1515770531731095562>
+43. 2022-04-17 21:15: <https://twitter.com/baroloteam/status/1515770869410324481>
+44. 2022-04-18 16:08: <https://twitter.com/gpmacario/status/1516056138168643595>
+45. 2022-04-18 16:13: <https://twitter.com/baroloteam/status/1516057455175909385>
+46. 2022-04-21 07:48: <https://twitter.com/gpmacario/status/1517017417762889729>
+47. 2022-04-21 17:56: <https://twitter.com/baroloteam/status/1517170479102054405>
+48. 2022-04-21 17:59: <https://twitter.com/gpmacario/status/1517171276615503875>
+49. 2022-04-21 18:00: <https://twitter.com/opencvweekly/status/1517171312807989249>
+50. 2022-05-02 20:59: <https://twitter.com/gpmacario/status/1521202789535436802>
+51. 2022-05-02 22:09: <https://twitter.com/baroloteam/status/1521220425623257088>
+52. 2022-05-09 07:34: <https://twitter.com/gpmacario/status/1523536748235870208>
+53. 2022-05-09 07:42: <https://twitter.com/baroloteam/status/1523538811321430016>
+54. 2022-05-16 13:42: <https://twitter.com/gpmacario/status/1526166010964885505>
+55. 2022-05-16 13:52: <https://twitter.com/baroloteam/status/1526168831021965314>
+56. 2022-05-22 11:42: <https://twitter.com/baroloteam/status/1528310312591581184>
+57. 2022-05-22 11:46: <https://twitter.com/gpmacario/status/1528311412312924160>
+58. 2022-05-24 17:26: <https://twitter.com/gpmacario/status/1529121730475790336>
+59. 2022-05-24 17:33: <https://twitter.com/baroloteam/status/1529123465097363457>
 
 ### LinkedIn
 
-**NOTE**: Search for `#ARNEIS` and `#OAKDLiteContest` to find other posts on the same subject:
+**NOTE**: Search for `#ARNEIS` and/or `#OAKDLiteContest` to find other posts on the same subject:
 
-1. <https://www.linkedin.com/feed/update/urn:li:activity:6906939286512631808/>
-2. <https://www.linkedin.com/video/event/urn:li:ugcPost:6909587011267891201/>
-3. <https://www.linkedin.com/feed/update/urn:li:activity:6916879749529108480/>
-4. <https://www.linkedin.com/feed/update/urn:li:activity:6916879749529108480/>
-5. <https://www.linkedin.com/feed/update/urn:li:activity:6916649664603717632?commentUrn=urn%3Ali%3Acomment%3A%28activity%3A6916649664603717632%2C6916963029045628928%29>
-6. <https://www.linkedin.com/posts/gianluca-teti_arneis-project-journal-dev-cw02-activity-6889286643065393152-J2YP>
-7. <https://www.linkedin.com/posts/gianluca-teti_arneis-project-journal-dev-cw03-activity-6891458849144930304-yKTn>
-8. <https://www.linkedin.com/posts/gianluca-teti_github-b-arol-oarneis-automated-recognizer-activity-6894740891420938240-i1Ay>
-9. <https://www.linkedin.com/posts/gianluca-teti_arneis-project-journal-dev-cw05-activity-6896872473116123137-YzWT>
-10. <https://www.linkedin.com/posts/gianluca-teti_arneis-project-journal-dev-cw08-activity-6904516778966228992-EM8P>
-11. <https://www.linkedin.com/pulse/arneis-automated-recognizer-network-enabled-items-/>
+1. 2022-01-17: Gianluca on ARNEIS project journal - dev-cw02: <https://www.linkedin.com/posts/gianluca-teti_arneis-project-journal-dev-cw02-activity-6889286643065393152-J2YP>
+2. 2022-01-24: Gianluca on ARNEIS project journal - dev-cw03: <https://www.linkedin.com/posts/gianluca-teti_arneis-project-journal-dev-cw03-activity-6891458849144930304-yKTn>
+3. 2022-02-02: Gianluca on ARNEIS project journal - dev-cw04: <https://www.linkedin.com/posts/gianluca-teti_github-b-arol-oarneis-automated-recognizer-activity-6894740891420938240-i1Ay>
+4. 2022-02-07: Gianluca on ARNEIS project journal - dev-cw05: <https://www.linkedin.com/posts/gianluca-teti_arneis-project-journal-dev-cw05-activity-6896872473116123137-YzWT>
+5. 2022-02-28: Gianluca on ARNEIS project journal - dev-cw08: <https://www.linkedin.com/posts/gianluca-teti_arneis-project-journal-dev-cw08-activity-6904516778966228992-EM8P>
+6. 2022-03-07: Gianpaolo on ARNEIS project journal - dev-cw09: <https://www.linkedin.com/feed/update/urn:li:activity:6906939286512631808/>
+7. 2022-03-17: Using AI & LEGO to Recognize, Sort, and Package - OpenCV Weekly - Event by OpenCV: <https://www.linkedin.com/video/event/urn:li:ugcPost:6909587011267891201/>
+8. 2022-04-04: Gianpaolo on ARNEIS project journal - dev-cw13: <https://www.linkedin.com/feed/update/urn:li:activity:6916879749529108480/>
+9. 2022-04-05: Comment to post by Satya Mallick: <https://www.linkedin.com/feed/update/urn:li:activity:6916649664603717632?commentUrn=urn%3Ali%3Acomment%3A%28activity%3A6916649664603717632%2C6916963029045628928%29>
+10. 2022-04-12: Article by AROL S.p.A. on LinkedIn: <https://www.linkedin.com/pulse/arneis-automated-recognizer-network-enabled-items-/>
+11. 2022-04-12: Post by AROL Sp.A. with link to article: <https://www.linkedin.com/feed/update/urn:li:activity:6919549840301404160/>
+12. 2022-04-13: Gianpaolo repost of article by AROL S.p.A.: <https://www.linkedin.com/feed/update/urn:li:activity:6919910108042792960/>
+13. 2022-04-14: Pietro repost of article by AROL S.p.A.: <https://www.linkedin.com/feed/update/urn:li:activity:6919938297855098880/>
+14. 2022-04-15: Post by Alessandro soliciting votes for "Team B-AROL-O" at #OAKDLiteContest: <https://www.linkedin.com/posts/alessandrovaresi_oakdlitecontest-arneis-activity-6928303739082530816-X9Kx>
+15. 2022-04-16: Serena Bisacca repost of post by Alessandro: <https://www.linkedin.com/posts/serena-bisacca_oakdlitecontest-arneis-activity-6928556282975006720-jHxW>
+16. 2022-04-15: Gianpaolo repost of post by Alessandro: <https://www.linkedin.com/posts/gmacario_oakdlitecontest-arneis-activity-6929081218374197248-HaD5>
 
 ### YouTube
 
 Those are mainly the videos made by [Alessandro](https://github.com/alv67):
 
-- Bottle conveyor 20220122 (<https://youtu.be/BFKyx1COfqk>)
-- ARNEIS project by B-AROL-O team - WIP (<https://youtu.be/7qxbT31U5dE>)
-- OpenCV Spatial AI Contest - NeuralNetwork 01 (<https://youtu.be/fuWxTJHCN7g>)
-- OpenCV Spatial AI Contest - NeuralNetwork 02 (<https://youtu.be/q7ccqtx44ko>)
-- ARNEIS LEGO MOC History (<https://youtu.be/S-DiK0UgNBY>)
-- ARNEIS Conveyor 22.04 (<https://youtu.be/4_--99dwwpc>)
-- ARNEIS submission Video (<https://youtu.be/qHFRRHWtTqY>)
+1. 2022-01-22: Bottle conveyor 20220122 (<https://youtu.be/BFKyx1COfqk>)
+2. 2022-02-10: ARNEIS project by B-AROL-O team - WIP (<https://youtu.be/7qxbT31U5dE>)
+3. 2022-02-14: OpenCV Spatial AI Contest - NeuralNetwork 01 (<https://youtu.be/fuWxTJHCN7g>)
+4. 2022-02-23: OpenCV Spatial AI Contest - NeuralNetwork 02 (<https://youtu.be/q7ccqtx44ko>)
+5. 2022-03-20: ARNEIS LEGO MOC History (<https://youtu.be/S-DiK0UgNBY>)
+6. 2022-03-29: Using AI & LEGO to Recognize, Sort, and Package Bottles - OpenCV Weekly Ep 49 - 3/17/22 (<https://youtu.be/nwAOgkqVJMo>)
+7. 2022-03-31: ARNEIS Conveyor 22.04 (<https://youtu.be/4_--99dwwpc>)
+8. 2022-04-05: ARNEIS submission Video (<https://youtu.be/qHFRRHWtTqY>)
+9. 2022-04-21: ARNEIS - OpenCV Spatial AI Contest Top 10 (<https://youtu.be/mijyQ9Kjg9Y>)
+10. 2022-04-26: Announcing The Winners of OpenCV Spatial AI Contest - OpenCV Weekly Webinar Ep. 54 - 4/21/22 (<https://www.youtube.com/watch?v=NXhtmPpLEbcì>)
 
 ### Facebook
 
@@ -137,7 +184,19 @@ Those are mainly the videos made by [Alessandro](https://github.com/alv67):
 10. 2022-03-19 14:04: <https://www.facebook.com/photo/?fbid=10158829940794542>
 11. 2022-03-21 08:19: <https://www.facebook.com/photo/?fbid=10158833031559542>
 12. 2022-04-09 12:41: <https://www.facebook.com/gianluca.teti/posts/10227135788729436>
-13. 2022-04-09 22:42: <https://www.facebook.com/gianpaolo.macario/posts/10158862528084542>
-14. 2022-04-10 11:12: <https://www.facebook.com/groups/custombricks1.8/posts/1432016813930408/>
+13. 2022-04-09 16:34: <https://www.facebook.com/piemontebricksLUG/photos/pcb.3545752858882361/3545747368882910>
+14. 2022-04-09 22:42: <https://www.facebook.com/gianpaolo.macario/posts/10158862528084542>
+15. 2022-04-10 11:12: <https://www.facebook.com/groups/custombricks1.8/posts/1432016813930408/>
+16. 2022-04-21 17:58: <https://www.facebook.com/gianluca.teti/posts/10227196925897827>
+17. 2022-04-21 19:15: <https://www.facebook.com/alessandro.varesi.67/posts/5421054011279259>
+18. 2022-04-21 19:48: <https://www.facebook.com/caterina.piovano.5/posts/5521491711227835>
+19. 2022-04-21 20:16: <https://www.facebook.com/franco.bianco.10/posts/7378613172180228>
+20. 2022-04-21 20:19: <https://www.facebook.com/gianpaolo.macario/posts/10158879595084542>
+21. 2022-04-22 09:43: <https://www.facebook.com/pierfrancesco.cerruti.3/posts/5128096707277605>
+22. 2022-04-23 08:34: <https://www.facebook.com/groups/custombricks1.8/posts/1440654476399975/>
+23. 2022-04-23 13:23: <https://www.facebook.com/groups/ohmybrick/posts/1890882524456117/>
+24. 2022-05-03 20:49: <https://www.facebook.com/gianluca.teti/posts/10227263306237294>
+25. 2022-05-03 21:00: <https://www.facebook.com/gianpaolo.macario/posts/10158898859124542>
+
 
 <!-- EOF -->

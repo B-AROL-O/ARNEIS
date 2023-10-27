@@ -24,7 +24,7 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Check links
-        uses: gaurav-nelson/github-action-markdown-link-check@v1
+        uses: gaurav-nelson/github-action-markdown-link-check@1.0.13
         with:
           folder-path: './code, ./docs, ./mocs'
           file-path: './README.md, ./LICENSE'

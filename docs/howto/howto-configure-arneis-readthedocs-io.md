@@ -219,6 +219,7 @@ Type "HOWTO" into the "Search docs" input field and verify that the Markdown pag
 <!-- (2022-01-25 05:35 CET) -->
 
 References:
+
 * <https://github.com/B-AROL-O/ARNEIS/issues/85>
 * [Preview Documentation from Pull Requests](https://docs.readthedocs.io/page/guides/autobuild-docs-for-pull-requests.html)
 
@@ -226,15 +227,15 @@ In order to enable the Pull Request preview feature you should execute the follo
 
 1. In your _Read the Docs_ project page select the `Admin` menu
 
-   <img width="846" alt="Schermata 2022-01-25 alle 18 36 42" src="https://user-images.githubusercontent.com/25162080/151029713-e7ef6360-e1b7-4f0f-9a8c-0ec154701581.png">
+   ![2022-04-21-2157-howto-rtd-admin.png](../images/2022-04-21-2157-howto-rtd-admin.png)
 
-1. In `Advanced Settings` select **Build pull requests for this project**
+2. In `Advanced Settings` select **Build pull requests for this project**
 
-   <img width="829" alt="Schermata 2022-01-25 alle 18 40 42" src="https://user-images.githubusercontent.com/25162080/151030087-5fa2549e-2235-4e86-83ad-be31bb1f3294.png">
+   ![2022-04-21-2157-howto-rtd-advsetting.png](../images/2022-04-21-2157-howto-rtd-advsetting.png)
 
 3. That's all. For each pull request an automatic check which builds the document on _Read The Docs_ is added. You can check the result of this compilation in the `Detail` information for this check.
 
-   <img width="730" alt="Schermata 2022-01-25 alle 18 52 38" src="https://user-images.githubusercontent.com/25162080/151031987-2e64c678-0638-43a9-90c0-f965b2ede3c4.png">
+   ![2022-04-21-2157-howto-rtd-pr-detail.png](../images/2022-04-21-2157-howto-rtd-pr-detail.png)
 
 ### Removing the Ads
 

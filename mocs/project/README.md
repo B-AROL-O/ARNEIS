@@ -13,7 +13,7 @@ Here is the LEGO&reg; MOC (alias for _My Own Creation_) used for the ARNEIS proj
 > [LeoCAD](https://www.leocad.org) | Open Source CAD application | Check correctness of `ldr` files
 > [LDraw](https://www.ldraw.org) | Centralized resources for LEGO&reg; CADs | Reference for getting last _parts_ used in _Bricklink PartDesigner_
 
-## ARNEIS Conveyor (v.2022.03.12)
+## ARNEIS Conveyor
 
 This conveyor is designed to move ["mignon" (miniature) bottles](https://en.wikipedia.org/wiki/Miniature_(alcohol)).
 The main idea is to use a chain where some kind of _pushers_ are used to move bottles over a flat surface.
@@ -76,8 +76,9 @@ You may adjust the speed and direction of the conveyor by rotating the dial (clo
 
 > **Files**
 >
-> [`arneis-conveyor-20220312.io`](arneis-conveyor-20220312.io) : the LEGO project in _Bricklink Studio_ CAD.<br/>
-> [`arneis-conveyor-20220312.ldr`](arneis-conveyor-20220312.ldr) : the LEGO project exported in [LDraw file format](https://www.ldraw.org/article/218.html).<br/>
-> [`arneis-conveyor-20220312.png`](arneis-conveyor-20220312.png) : a 3D rendered version image.<br/>
+> [`arneis-conveyor-oak-d-lite.io`](arneis-conveyor-oak-d-lite.io) : the LEGO project in _Bricklink Studio_ CAD.<br/>
+> [`arneis-conveyor-oak-d-lite.ldr`](arneis-conveyor-oak-d-lite.ldr) : the LEGO project exported in [LDraw file format](https://www.ldraw.org/article/218.html).<br/>
+> [`arneis-conveyor-oak-d-lite.png`](arneis-conveyor-oak-d-lite.png) : a 3D rendered version image.<br/>
 > [`arneis-conveyor-20220312.gif`](arneis-conveyor-20220312.gif) : a 3D rendered video of rotating MOC.<br/>
-> [`arneis-conveyor-20220312.pdf`](https://arneis.blob.core.windows.net/public-folder/arneis-conveyor-20220312.pdf) : building instruction manual
+> [`arneis-conveyor-20220312.pdf`](https://arneis.blob.core.windows.net/public-folder/arneis-conveyor-20220312.pdf) : building instruction manual.<br/>
+> [`arneis-conveyor-oak-d-lite-build.mp4`](arneis-conveyor-oak-d-lite-build.mp4) : a 3D rendered video of building MOC.
