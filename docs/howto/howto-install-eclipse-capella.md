@@ -73,7 +73,7 @@ Eclipse Capella™ is a comprehensive, extensible, and field-proven MBSE tool an
     $
     ```
 
-You can now launch Capella with the following command line:
+You can now launch Capella with the following command-line:
 
 ```bash
 /c/opt/capella/capella/capella.exe
@@ -102,7 +102,7 @@ Once you confirm the workspace directory, after a few seconds Capella main windo
    sudo tar -C /opt/capella -xvzf capella-*.tar.gz
    ```
 
-3. You can launch Capella with the following command line
+3. You can launch Capella with the following command-line
 
    ```bash
    /opt/capella/capella/capella
