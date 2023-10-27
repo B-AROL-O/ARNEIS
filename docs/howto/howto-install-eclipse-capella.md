@@ -140,6 +140,4 @@ You may select another mirror if you like. Otherwise, click "Download".
 
 You may also support the Eclipse Community by donating some money.
 
-TODO
-
 <!-- EOF -->
