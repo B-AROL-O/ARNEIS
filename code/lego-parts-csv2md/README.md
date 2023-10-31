@@ -70,7 +70,7 @@ Select the `Run All` menu entry and wait...
 > **ATTENTION**
 >
 > The first time you try to run app, VSC will ask to install other needed libraries.
-> In particular it need to install `ipykernel` to be able to run your _Jupyther Notebook_ app.
+> In particular it need to install `ipykernel` to be able to run your _Jupyter Notebook_ app.
 >
 > **Accept the automatic installation of all extensions**
 >
