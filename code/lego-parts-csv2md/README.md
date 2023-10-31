@@ -7,7 +7,7 @@ The tool is written as a Python [Jupyter Notebook](https://jupyter.org) and can 
 
 ## Python environment
 
-Obviously you need to have `python3` installed on your system. In case you haven't it you can follow instructions from [python.org](https://www.python.org) or any tutorial you can find in the internet.
+Obviously you need to have `python3` installed on your system. In case you haven't it you can follow the instructions from [python.org](https://www.python.org) or any tutorial you can find in the internet.
 
 Since this tool depends on a few libraries we suggest to create a [virtual environment](https://docs.python.org/3/library/venv.html) where to install those libraries keeping your system clean.
 
