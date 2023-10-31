@@ -68,6 +68,12 @@ The ARNEIS project roadmap is [kept updated on GitHub](https://github.com/B-AROL
 [Gianpaolo Macario](https://github.com/gmacario/) publishes regular updates of the ARNEIS project on [his personal blog](https://gmacario.github.io/posts).
 -->
 
+#### AI Show Live - Episode 59, 2022-06-17
+
+Seth Juarez interview to B-AROL-O Team starts at 13:11
+
+[![AI Show Live - Episode 59 - 2022 OpenCV Hackathon Winners and More!](https://img.youtube.com/vi/cl1sDvzCD9c/0.jpg)](https://www.youtube.com/watch?v=cl1sDvzCD9c&t=791s "AI Show Live - Episode 59 - 2022 OpenCV Hackathon Winners and More!")
+
 #### B-AROL-O team interview, 2022-03-17
 
  During [OpenCV Weekly Webinar Episode 49](https://twitter.com/opencvweekly/status/1504487889630945281) the B-AROL-O Team was asked to present the ARNEIS project and explain the vision, the motivations and the achievements after the first three months of development:
