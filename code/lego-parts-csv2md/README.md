@@ -7,7 +7,7 @@ The tool is written as a Python [Jupyter Notebook](https://jupyter.org) and can 
 
 ## Python environment
 
-Obviously you need to have `python3` installed on your system. In case you haven't it you can follow instructions from [python.org](https://www.python.org) or any tutorial you can find in the internet.
+Obviously you need to have `python3` installed on your system. In case you haven't it you can follow the instructions from [python.org](https://www.python.org) or any tutorial you can find in the internet.
 
 Since this tool depends on a few libraries we suggest to create a [virtual environment](https://docs.python.org/3/library/venv.html) where to install those libraries keeping your system clean.
 
@@ -70,7 +70,7 @@ Select the `Run All` menu entry and wait...
 > **ATTENTION**
 >
 > The first time you try to run app, VSC will ask to install other needed libraries.
-> In particular it need to install `ipykernel` to be able to run your _Jupyther Notebook_ app.
+> In particular it need to install `ipykernel` to be able to run your _Jupyter Notebook_ app.
 >
 > **Accept the automatic installation of all extensions**
 >
