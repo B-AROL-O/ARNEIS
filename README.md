@@ -88,7 +88,7 @@ A 5-min video with the initial design of the LEGO MOC is [available on YouTube](
 
 [![ARNEIS LEGO MOC History HD 1080p](https://img.youtube.com/vi/S-DiK0UgNBY/0.jpg)](https://www.youtube.com/watch?v=S-DiK0UgNBY "ARNEIS LEGO MOC History HD 1080p")
 
-### How to stay in touch
+## How to stay in touch
 
 You may follow [@baroloteam on Twitter](https://twitter.com/baroloteam) to get notified about the progress of the project.
 
