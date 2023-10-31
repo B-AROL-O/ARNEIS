@@ -60,7 +60,7 @@ Please refer to <https://arneis.readthedocs.io> for details.
 
 The OAK-D-Lite captures photos of the bottles flowing through the conveyor and runs a Neural Network trained on a custom dataset to be able to classify and recognize the type (Part Number) of the bottle. This information is fed in real-time to the Raspberry Pi which - based on the job order - decides whether to eject the bottle to the final packaging unit, or putting it back to the parts warehouse.
 
-### ARNEIS project roadmap and timeline
+## ARNEIS project roadmap and timeline
 
 The ARNEIS project roadmap is [kept updated on GitHub](https://github.com/B-AROL-O/ARNEIS/milestones?direction=asc%26sort=due_date%26state=open).
 
@@ -68,13 +68,13 @@ The ARNEIS project roadmap is [kept updated on GitHub](https://github.com/B-AROL
 [Gianpaolo Macario](https://github.com/gmacario/) publishes regular updates of the ARNEIS project on [his personal blog](https://gmacario.github.io/posts).
 -->
 
-#### AI Show Live - Episode 59, 2022-06-17
+### AI Show Live - Episode 59, 2022-06-17
 
 Seth Juarez interview to B-AROL-O Team starts at 13:11
 
 [![AI Show Live - Episode 59 - 2022 OpenCV Hackathon Winners and More!](https://img.youtube.com/vi/cl1sDvzCD9c/0.jpg)](https://www.youtube.com/watch?v=cl1sDvzCD9c&t=791s "AI Show Live - Episode 59 - 2022 OpenCV Hackathon Winners and More!")
 
-#### B-AROL-O team interview, 2022-03-17
+### B-AROL-O team interview, 2022-03-17
 
  During [OpenCV Weekly Webinar Episode 49](https://twitter.com/opencvweekly/status/1504487889630945281) the B-AROL-O Team was asked to present the ARNEIS project and explain the vision, the motivations and the achievements after the first three months of development:
 
@@ -82,7 +82,7 @@ Seth Juarez interview to B-AROL-O Team starts at 13:11
 
 [![image](https://user-images.githubusercontent.com/75182/159136335-12c6b155-d7be-4172-bf84-1a45ef91c181.png)](https://www.linkedin.com/video/event/urn:li:ugcPost:6909587011267891201/)
 
-#### ARNEIS LEGO MOC History
+### ARNEIS LEGO MOC History
 
 A 5-min video with the initial design of the LEGO MOC is [available on YouTube](https://www.youtube.com/watch?v=S-DiK0UgNBY).
 
