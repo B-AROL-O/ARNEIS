@@ -90,9 +90,9 @@ A 5-min video with the initial design of the LEGO MOC is [available on YouTube](
 
 ## How to stay in touch
 
-You may follow [@baroloteam on Twitter](https://twitter.com/baroloteam) to get notified about the progress of the project.
+You may follow [@baroloteam on ~~Twitter~~ X](https://x.com/baroloteam) to get notified about the progress of the project.
 
-Please report bugs and feature requests on <https://github.com/B-AROL-O/ARNEIS/issues>, or DM [B-AROL-O Team on Twitter](https://twitter.com/baroloteam) about security issues or other non-public topics.
+Please report bugs and feature requests on <https://github.com/B-AROL-O/ARNEIS/issues>, or DM [B-AROL-O Team on ~~Twitter~~ X](https://x.com/baroloteam) about security issues or other non-public topics.
 
 ## Copyright and license
 
