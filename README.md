@@ -36,10 +36,6 @@ However, as the old adage says (and [we learned it the hard way](https://idioms.
 
 here is a 3-minute video which we submitted to the OpenCV Spatial AI Contest final on 2022-04-04:
 
-<!--
-[![ARNEIS submission Video draft - v0.4](https://img.youtube.com/vi/eBbF6LRGaUA/0.jpg)](https://www.youtube.com/watch?v=eBbF6LRGaUA "ARNEIS submission Video draft - v0.4")
--->
-
 [![ARNEIS submission Video](https://img.youtube.com/vi/qHFRRHWtTqY/0.jpg)](https://www.youtube.com/watch?v=qHFRRHWtTqY "ARNEIS submission Video")
 
 The source files for the software programs, the LEGO&reg; MOC as well as the documentation site are maintained in the GitHub repository at <https://github.com/B-AROL-O/ARNEIS>.
@@ -60,7 +56,7 @@ Please refer to <https://arneis.readthedocs.io> for details.
 
 The OAK-D-Lite captures photos of the bottles flowing through the conveyor and runs a Neural Network trained on a custom dataset to be able to classify and recognize the type (Part Number) of the bottle. This information is fed in real-time to the Raspberry Pi which - based on the job order - decides whether to eject the bottle to the final packaging unit, or putting it back to the parts warehouse.
 
-## ARNEIS project roadmap and timeline
+## ARNEIS project roadmap and major milestones
 
 The ARNEIS project roadmap is [kept updated on GitHub](https://github.com/B-AROL-O/ARNEIS/milestones?direction=asc%26sort=due_date%26state=open).
 
@@ -78,9 +74,7 @@ Seth Juarez interview to B-AROL-O Team starts at 13:11
 
  During [OpenCV Weekly Webinar Episode 49](https://twitter.com/opencvweekly/status/1504487889630945281) the B-AROL-O Team was asked to present the ARNEIS project and explain the vision, the motivations and the achievements after the first three months of development:
 
-<!-- TODO: <https://github.com/B-AROL-O/ARNEIS/issues/259> -->
-
-[![image](https://user-images.githubusercontent.com/75182/159136335-12c6b155-d7be-4172-bf84-1a45ef91c181.png)](https://www.linkedin.com/video/event/urn:li:ugcPost:6909587011267891201/)
+[![Using AI & LEGO to Recognize, Sort, and Package Bottles - OpenCV Weekly Ep 49 - 3/17/22](https://img.youtube.com/vi/nwAOgkqVJMo/0.jpg)](https://www.youtube.com/watch?v=nwAOgkqVJMo "Using AI & LEGO to Recognize, Sort, and Package Bottles - OpenCV Weekly Ep 49 - 3/17/22")
 
 ### ARNEIS LEGO MOC History
 
