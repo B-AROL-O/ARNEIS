@@ -90,7 +90,7 @@ A 5-min video with the initial design of the LEGO MOC is [available on YouTube](
 
 ## How to stay in touch
 
-You may follow [@baroloteam on ~~Twitter~~ X](https://x.com/baroloteam) to get notified about the progress of the project.
+You may follow [@baroloteam on Instagram](https://instagram.com/baroloteam) or [@baroloteam on ~~Twitter~~ X](https://x.com/baroloteam) to get notified about the progress of the ARNEIS project.
 
 Please report bugs and feature requests on <https://github.com/B-AROL-O/ARNEIS/issues>, or DM [B-AROL-O Team on ~~Twitter~~ X](https://x.com/baroloteam) about security issues or other non-public topics.
 
