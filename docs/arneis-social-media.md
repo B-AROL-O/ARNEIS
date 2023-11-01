@@ -1,6 +1,12 @@
 # ARNEIS - Social Media Presence
 
-## ARNEIS - OpenCV Spatial AI Contest Top 10
+## AI Show Live - Episode 59, 2022-06-17
+
+Seth Juarez interview to B-AROL-O Team starts at 13:11
+
+[![AI Show Live - Episode 59 - 2022 OpenCV Hackathon Winners and More!](https://img.youtube.com/vi/cl1sDvzCD9c/0.jpg)](https://www.youtube.com/watch?v=cl1sDvzCD9c&t=791s "AI Show Live - Episode 59 - 2022 OpenCV Hackathon Winners and More!")
+
+## ARNEIS - OpenCV Spatial AI Contest Top 10, 2022-04-21
 
 This is the ARNEIS elevator pitch video re-published on 2022-04-21 by [OpenCV AI](https://www.youtube.com/channel/UCpRd2pU-0_fHVutdregb8XQ) for the [OpenCV Spatial AI Contest Popular Vote](https://form.jotform.com/221086334784156):
 
@@ -167,6 +173,7 @@ Those are mainly the videos made by [Alessandro](https://github.com/alv67):
 8. 2022-04-05: ARNEIS submission Video (<https://youtu.be/qHFRRHWtTqY>)
 9. 2022-04-21: ARNEIS - OpenCV Spatial AI Contest Top 10 (<https://youtu.be/mijyQ9Kjg9Y>)
 10. 2022-04-26: Announcing The Winners of OpenCV Spatial AI Contest - OpenCV Weekly Webinar Ep. 54 - 4/21/22 (<https://www.youtube.com/watch?v=NXhtmPpLEbcì>)
+11. 2022-06-17: AI Show Live - Episode 59 - 2022 OpenCV Hackathon Winners and More! (<https://www.youtube.com/watch?v=cl1sDvzCD9c>)
 
 ### Facebook
 
