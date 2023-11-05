@@ -4,6 +4,11 @@
 
 This guide explains how to use the [rclone](https://rclone.org/) tool to access contents and backup data on a bucket of [Cubbit DS3 Object Storage](https://www.cubbit.io/).
 
+## Reference Documents
+
+* [Rclone Landing Page](https://rclone.org/)
+* [Rclone guide on docs.cubbit.io](https://docs.cubbit.io/integrations/rclone)
+
 ## Introduction to `rclone`
 
 From <https://rclone.org/>:
