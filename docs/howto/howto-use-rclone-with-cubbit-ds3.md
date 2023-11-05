@@ -21,12 +21,15 @@ From <https://rclone.org/>:
 
 Official instructions for using rclone with Cubbit DS3 are available at <https://docs.cubbit.io/integrations/rclone>
 
-## Installing rclone
+## Installing `rclone`
 
-Follow the instructions at <https://rclone.org/install/>.
+The page at <https://rclone.org/install/> provide detailed instructions for installing `rclone` under many Operating Systems and HW architectures.
+
 The following sections detail the results performing the installation on some relevant hosts.
 
-### Install `rclone` on hw2228 (Ubuntu 22.04.3 LTS)
+### Install rclone on Ubuntu 22.04.3 LTS
+
+(Tested on host HW2228)
 
 Check if rclone is already installed:
 
@@ -45,13 +48,13 @@ See 'snap info rclone' for additional versions.
 gmacario@hw2228:~$
 ```
 
-Let us install rclone 1.64.0 via snap
+A more recent version of `rclone` (1.64.0 as of 2023-11-05) is available via [snap](https://snapcraft.io/docs/installing-snap-on-ubuntu), therefore let us install `rclone` with the following command:
 
 ```text
 sudo snap install rclone
 ```
 
-Check:
+Verify that the installation was performed correctly:
 
 ```text
 gmacario@hw2228:~$ rclone version
@@ -66,7 +69,57 @@ rclone v1.64.0
 gmacario@hw2228:~$
 ```
 
-### Configure rclone for Cubbit DS3
+### Installing rclone on Windows 10 Pro
+
+(Tested on host ALPHA)
+
+Download the installation file for the Windows OS from <https://rclone.org/downloads/> (as of 2023-11-05 this is `rclone-v1.64.2-windows-amd64.zip`),
+then uncompress the `.zip` archive and copy the `rclone.exe` file into a directory listed in the `PATH` environment variable.
+
+You may verify that the installation was performed successfully by typing `rclone --version` from the command-line prompt.
+
+Example (from Git bash)
+
+```text
+gmaca@alpha MINGW64 ~
+$ which rclone
+/c/Users/gmaca/bin/rclone
+
+gmaca@alpha MINGW64 ~
+$ rclone --version
+rclone v1.64.2
+- os/version: Microsoft Windows 10 Pro 22H2 (64 bit)
+- os/kernel: 10.0.19045.3636 (x86_64)
+- os/type: windows
+- os/arch: amd64
+- go/version: go1.21.3
+- go/linking: static
+- go/tags: cmount
+
+gmaca@alpha MINGW64 ~
+$
+```
+
+## Configuring rclone for Cubbit DS3
+
+After the `rclone` tool has been installed it must be configured in order to access the data stored on Cubbit DS3.
+
+**NOTE**: A similar procedure can be used to configure rclone for other object storage backends, for instance [Amazon Simple Storage Service (Amazon S3)](https://aws.com/s3) or [Azure Blob Storage](https://azure.microsoft.com/products/storage/blobs/).
+
+### Create Access Key ID and Secret for Cubbit DS3
+
+Login to Cubbit DS3 Object Storage from <https://www.cubbit.io/it/log-in>
+
+From your Workspace click "Settings > API keys", then click "+ Generate new client API key"
+
+![2023-11-05-cubbit-ds-create-access-key.png](../images/2023-11-05-cubbit-ds-create-access-key.png)
+
+Accept the proposed key name, or change it if you prefer, then click "Download .csv".
+This file contains the Access key ID and Secret access key which will be used to configure a S3 client application such as [S3 Browser](https://s3browser.com/).
+
+### Run `rclone config`
+
+Prerequisite: `snap` installed as detailed in the previous chapter.
 
 Run the `rclone config` command and type the following options
 (you must replace `************` with the values from the `.csv` file)
@@ -96,7 +149,7 @@ rclone config dump
 
 ## Some useful `rclone` commands
 
-### List files from a bucket
+### List files in a bucket
 
 ```bash
 rclone ls cubbit:${BUCKET_NAME}
