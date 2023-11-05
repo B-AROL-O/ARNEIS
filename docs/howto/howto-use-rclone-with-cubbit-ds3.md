@@ -7,9 +7,12 @@ This guide explains how to use the [rclone](https://rclone.org/) tool to access 
 ## Reference Documents
 
 * [Rclone Landing Page](https://rclone.org/)
-* [Rclone guide on docs.cubbit.io](https://docs.cubbit.io/integrations/rclone)
+* [GitHub: rclone/rclone](https://github.com/rclone/rclone)
+* [Integration with Rclone - docs.cubbit.io](https://docs.cubbit.io/integrations/rclone)
 
 ## Introduction to `rclone`
+
+Rclone ("_rsync for cloud storage_") is a command-line program to sync files and directories to and from different cloud storage providers.
 
 From <https://rclone.org/>:
 
