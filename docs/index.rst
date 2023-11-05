@@ -125,6 +125,7 @@ gone through during the project realization.
    * :doc:`howto/howto-configure-google-analytics`
    * :doc:`howto/howto-install-eclipse-capella`
    * :doc:`howto/howto-use-mermaid-graphic-tool`
+   * :doc:`howto/howto-use-rclone-with-cubbit-ds3`
 
 * **Learning AI and related tools**:
    * :doc:`howto/howto-install-depthai-on-rpi`
@@ -154,6 +155,7 @@ gone through during the project realization.
    howto/howto-configure-google-analytics
    howto/howto-install-eclipse-capella
    howto/howto-use-mermaid-graphic-tool
+   howto/howto-use-rclone-with-cubbit-ds3
 
    howto/howto-install-depthai-on-rpi
    howto/howto-install-depthai-on-windows10
