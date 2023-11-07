@@ -263,7 +263,7 @@ Use "rclone help backends" for a list of supported services.
 gmacario@hw2228:~$
 ```
 
-### Sync folder to a bucket on Cubbit DS3
+### Sync a local folder to a bucket on Cubbit DS3
 
 ```bash
 rclone sync -P ./backup-folder cubbit:${BUCKET_NAME}
@@ -272,7 +272,8 @@ rclone sync -P ./backup-folder cubbit:${BUCKET_NAME}
 Note that `BUCKET_NAME` must exist otherwise the command will fail (it may be created from <https://console.cubbit.eu/>)
 
 On the other hand, if you sync files to a subfolder of a bucket, the subfolder will be created automatically if it does not exist.
-Example:
+
+#### Example 1
 
 ```text
 gmacario@gmpowerhorse:~ $ rclone sync -P ~/Downloads cubbit:bk-gmpowerhorse/test02
@@ -283,6 +284,32 @@ Transferred:           17 / 17, 100%
 Elapsed time:       19.3s
 gmacario@gmpowerhorse:~ $
 ```
+
+#### Example 2
+
+<!-- (2023-11-07 22:52 CET) -->
+
+```bash
+cd ~/Dropbox/Cubbit_MIRROR/CUBBIT_SHARED/SHARED_WITH_BAROLOTEAM
+rclone sync -P . cubbit:baroloteam-from-dropbox
+```
+
+Result:
+
+```text
+gmaca@alpha MINGW64 ~/Dropbox/Cubbit_MIRROR/CUBBIT_SHARED/SHARED_WITH_BAROLOTEAM
+$ rclone sync -P . cubbit:baroloteam-from-dropbox
+Transferred:      106.072 MiB / 4.432 GiB, 2%, 8.153 MiB/s, ETA 9m3s
+Transferred:            2 / 724, 0%
+Elapsed time:        14.0s
+Transferring:
+ * freisa-media-andreapodo/Grapevine desease.zip: transferring
+ * freisa-media-andreapod…aves_Image_Dataset.zip: transferring
+ * freisa-media-andreapod…ment-canopy.yolov8.zip:100% /64.173Mi, 12.856Mi/s, 0s
+ * freisa-media-andreapod…post-trunks.yolov8.zip: transferring
+```
+
+TODO
 
 ### Backup files from gmpowerhorse (Ubuntu 20.04.6 LTS)
 
