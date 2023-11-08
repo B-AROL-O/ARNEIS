@@ -299,17 +299,13 @@ Result:
 ```text
 gmaca@alpha MINGW64 ~/Dropbox/Cubbit_MIRROR/CUBBIT_SHARED/SHARED_WITH_BAROLOTEAM
 $ rclone sync -P . cubbit:baroloteam-from-dropbox
-Transferred:      106.072 MiB / 4.432 GiB, 2%, 8.153 MiB/s, ETA 9m3s
-Transferred:            2 / 724, 0%
-Elapsed time:        14.0s
-Transferring:
- * freisa-media-andreapodo/Grapevine desease.zip: transferring
- * freisa-media-andreapod…aves_Image_Dataset.zip: transferring
- * freisa-media-andreapod…ment-canopy.yolov8.zip:100% /64.173Mi, 12.856Mi/s, 0s
- * freisa-media-andreapod…post-trunks.yolov8.zip: transferring
-```
+Transferred:        4.945 GiB / 4.945 GiB, 100%, 117.173 KiB/s, ETA 0s
+Transferred:          724 / 724, 100%
+Elapsed time:      33m8.1s
 
-TODO
+gmaca@alpha MINGW64 ~/Dropbox/Cubbit_MIRROR/CUBBIT_SHARED/SHARED_WITH_BAROLOTEAM
+$
+```
 
 ### Backup files from gmpowerhorse (Ubuntu 20.04.6 LTS)
 
