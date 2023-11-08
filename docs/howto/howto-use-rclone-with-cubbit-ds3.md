@@ -307,6 +307,32 @@ gmaca@alpha MINGW64 ~/Dropbox/Cubbit_MIRROR/CUBBIT_SHARED/SHARED_WITH_BAROLOTEAM
 $
 ```
 
+#### Example 3
+
+<!-- (2023-11-08 06:30 CET) -->
+
+```bash
+cd ~/Dropbox/Cubbit_MIRROR
+rclone sync -P . cubbit:mirror-from-dropbox
+```
+
+Result:
+
+```text
+gmaca@alpha MINGW64 ~/Dropbox/Cubbit_MIRROR
+$ rclone sync -P . cubbit:mirror-from-dropbox
+Transferred:       45.985 MiB / 280.245 GiB, 0%, 788.967 KiB/s, ETA 4d7h26m
+Transferred:            4 / 6405, 0%
+Elapsed time:        55.5s
+Transferring:
+ * CORSO_JAVASCRIPT_VIDEO…o-javascript-array.mp4: 11% /55.366Mi, 163.406Ki/s, 5m6s
+ * CORSO_JAVASCRIPT_VIDEO…script-async-await.mp4: 81% /24.572Mi, 275.659Ki/s, 16s
+ * CORSO_JAVASCRIPT_VIDEO…-javascript-classi.mp4: 31% /25.246Mi, 197.664Ki/s, 1m29s
+ * CORSO_JAVASCRIPT_VIDEO…avascript-closures.mp4: 42% /27.334Mi, 198.408Ki/s, 1m21s
+```
+
+TODO
+
 ### Backup files from gmpowerhorse (Ubuntu 20.04.6 LTS)
 
 Prerequisites:
