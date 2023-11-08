@@ -321,14 +321,23 @@ Result:
 ```text
 gmaca@alpha MINGW64 ~/Dropbox/Cubbit_MIRROR
 $ rclone sync -P . cubbit:mirror-from-dropbox
-Transferred:       45.985 MiB / 280.245 GiB, 0%, 788.967 KiB/s, ETA 4d7h26m
-Transferred:            4 / 6405, 0%
-Elapsed time:        55.5s
-Transferring:
- * CORSO_JAVASCRIPT_VIDEO…o-javascript-array.mp4: 11% /55.366Mi, 163.406Ki/s, 5m6s
- * CORSO_JAVASCRIPT_VIDEO…script-async-await.mp4: 81% /24.572Mi, 275.659Ki/s, 16s
- * CORSO_JAVASCRIPT_VIDEO…-javascript-classi.mp4: 31% /25.246Mi, 197.664Ki/s, 1m29s
- * CORSO_JAVASCRIPT_VIDEO…avascript-closures.mp4: 42% /27.334Mi, 198.408Ki/s, 1m21s
+...
+2023/11/08 11:14:47 ERROR : S3 bucket mirror-from-dropbox: not deleting files as ther
+e were IO errors
+2023/11/08 11:14:47 ERROR : S3 bucket mirror-from-dropbox: not deleting directories a
+s there were IO errors
+2023/11/08 11:14:47 ERROR : Attempt 3/3 failed with 6261 errors and: failed to open s
+ource object: The file cannot be accessed by the system.
+Transferred:        7.145 GiB / 7.145 GiB, 100%, 246.635 KiB/s, ETA 0s
+Errors:              6261 (retrying may help)
+Checks:               286 / 286, 100%
+Transferred:          144 / 144, 100%
+Elapsed time:    4h42m9.6s
+2023/11/08 11:14:47 Failed to sync with 6261 errors: last error was: failed to open s
+ource object: The file cannot be accessed by the system.
+
+gmaca@alpha MINGW64 ~/Dropbox/Cubbit_MIRROR
+$
 ```
 
 TODO
