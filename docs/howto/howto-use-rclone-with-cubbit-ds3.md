@@ -309,7 +309,7 @@ $
 
 #### Example 3
 
-<!-- (2023-11-09 04:52 CET) -->
+<!-- (2023-11-09 20:23 CET) -->
 
 ```bash
 cd ~/Dropbox/Cubbit_MIRROR
@@ -322,17 +322,31 @@ Result:
 gmaca@alpha MINGW64 ~/Dropbox/Cubbit_MIRROR
 $ rclone sync -P . cubbit:mirror-from-dropbox
 ...
-2023/11/09 09:40:13 ERROR : S3 bucket mirror-from-dropbox: not deleting directories a
-s there were IO errors
-2023/11/09 09:40:13 ERROR : Attempt 3/3 failed with 3596 errors and: multi-thread cop
-y: failed to open source: The file cannot be accessed by the system.
-Transferred:       13.825 GiB / 13.825 GiB, 100%, 242 B/s, ETA 0s
-Errors:              3596 (retrying may help)
-Checks:              7381 / 7381, 100%
-Transferred:         1050 / 1050, 100%
-Elapsed time:   4h47m54.0s
-2023/11/09 09:40:13 Failed to sync with 3596 errors: last error was: multi-thread cop
-y: failed to open source: The file cannot be accessed by the system.
+2023/11/09 22:21:17 ERROR : Win10-images/Win10_21H1_Italian_x64.iso: Failed to copy:
+multi-thread copy: failed to open source: The file cannot be accessed by the system.
+2023/11/09 22:21:18 ERROR : ARCHIVE/2023-07-15-google-takeout/Tutti i messaggi compre
+si Spam e Cestino-005.mbox: Failed to copy: multi-thread copy: failed to open source:
+ The file cannot be accessed by the system.
+Transferred:        3.285 GiB / 211.470 GiB, 2%, 241.274 KiB/s, ETA 1w3d11h
+Errors:                 4 (retrying may help)
+Checks:              3292 / 5125, 64%
+Transferred:          295 / 2853, 10%
+Elapsed time:    2h2m18.9s
+Checking:
+ * CUBBIT_SHARED/SHARED_W…30830_17_02_10_Pro.jpg: checking
+ * CUBBIT_SHARED/SHARED_W…30830_17_02_11_Pro.jpg: checking
+ * CUBBIT_SHARED/SHARED_W…30830_17_02_12_Pro.jpg: checking
+ * CUBBIT_SHARED/SHARED_W…30830_17_20_12_Pro.jpg: checking
+ * CUBBIT_SHARED/SHARED_W…30830_17_20_13_Pro.jpg: checking
+ * CUBBIT_SHARED/SHARED_W…30830_17_20_16_Pro.jpg: checking
+ * CUBBIT_SHARED/SHARED_W…30830_17_20_22_Pro.jpg: checking
+ * CUBBIT_SHARED/SHARED_W…30830_17_20_23_Pro.jpg: checking
+Transferring:
+ * ARCHIVE/2023-07-15-goo…230715T062408Z-003.zip:  0% /1.984Gi, 9.408Ki/s, 60h48m14
+ * ARCHIVE/2023-07-15-goo…230715T062408Z-004.zip:  1% /1.611Gi, 46.785Ki/s, 9h54m17
+ * warez/2019-09-04-solid…dWorks 2018.part01.rar:  3% /1Gi, 45.942Ki/s, 6h5m31s
+ * warez/2019-09-04-solid…dWorks 2018.part02.rar:  1% /1Gi, 87.172Ki/s, 3h16m33s
+
 
 gmaca@alpha MINGW64 ~/Dropbox/Cubbit_MIRROR
 $
@@ -421,6 +435,32 @@ gmacario@hw2228:~$ rclone ls cubbit:bk-gmpowerhorse
  16079382 iottlyagent_1.6.4_linux_AMD64.tar.gz
   1235710 sp59252.tgz
 gmacario@hw2228:~$
+```
+
+<!-- (2023-11-09 20:25 CET) -->
+
+Command:
+
+```bash
+cd
+rclone sync -P ~/Downloads cubbit:bk-gmpowerhorse
+```
+
+Result>
+
+```text
+gmacario@gmpowerhorse:~ $ rclone sync -P . cubbit:bk-gmpowerhorse/home_gmacario
+...
+2023-11-09 23:34:43 ERROR : S3 bucket bk-gmpowerhorse path home_gmacario: not deleting files as there were IO errors
+2023-11-09 23:34:43 ERROR : S3 bucket bk-gmpowerhorse path home_gmacario: not deleting directories as there were IO errors
+2023-11-09 23:34:43 ERROR : Attempt 3/3 failed with 17 errors and: failed to open source object: open /home/gmacario/github/gmacario/hassio-gmpowerhorse/config/.storage/core.uuid: permission denied
+Transferred:      414.161M / 414.161 MBytes, 100%, 81.090 kBytes/s, ETA 0s
+Errors:                17 (retrying may help)
+Checks:             99165 / 99165, 100%
+Transferred:        13571 / 13571, 100%
+Elapsed time:   1h27m9.9s
+2023/11/09 23:34:43 Failed to sync with 17 errors: last error was: failed to open source object: open /home/gmacario/github/gmacario/hassio-gmpowerhorse/config/.storage/core.uuid: permission denied
+gmacario@gmpowerhorse:~ $
 ```
 
 TODO
