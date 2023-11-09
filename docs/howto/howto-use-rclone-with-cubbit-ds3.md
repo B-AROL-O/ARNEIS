@@ -309,7 +309,7 @@ $
 
 #### Example 3
 
-<!-- (2023-11-08 06:30 CET) -->
+<!-- (2023-11-08 20:02 CET) -->
 
 ```bash
 cd ~/Dropbox/Cubbit_MIRROR
@@ -322,19 +322,22 @@ Result:
 gmaca@alpha MINGW64 ~/Dropbox/Cubbit_MIRROR
 $ rclone sync -P . cubbit:mirror-from-dropbox
 ...
-2023/11/08 11:14:47 ERROR : S3 bucket mirror-from-dropbox: not deleting files as ther
+2023/11/09 01:02:47 ERROR : CUBBIT_SHARED/SHARED_WITH_AROL/SHARED_MAGAZINES/Eletttron
+ica_2000/2° ZipPack - Elettronica 2000.zip: Failed to copy: multi-thread copy: failed
+ to open source: The file cannot be accessed by the system.
+2023/11/09 01:02:47 ERROR : S3 bucket mirror-from-dropbox: not deleting files as ther
 e were IO errors
-2023/11/08 11:14:47 ERROR : S3 bucket mirror-from-dropbox: not deleting directories a
+2023/11/09 01:02:47 ERROR : S3 bucket mirror-from-dropbox: not deleting directories a
 s there were IO errors
-2023/11/08 11:14:47 ERROR : Attempt 3/3 failed with 6261 errors and: failed to open s
-ource object: The file cannot be accessed by the system.
-Transferred:        7.145 GiB / 7.145 GiB, 100%, 246.635 KiB/s, ETA 0s
-Errors:              6261 (retrying may help)
-Checks:               286 / 286, 100%
-Transferred:          144 / 144, 100%
-Elapsed time:    4h42m9.6s
-2023/11/08 11:14:47 Failed to sync with 6261 errors: last error was: failed to open s
-ource object: The file cannot be accessed by the system.
+2023/11/09 01:02:47 ERROR : Attempt 3/3 failed with 4646 errors and: multi-thread cop
+y: failed to open source: The file cannot be accessed by the system.
+Transferred:        6.804 GiB / 6.804 GiB, 100%, 139.400 KiB/s, ETA 0s
+Errors:              4646 (retrying may help)
+Checks:              3682 / 3682, 100%
+Transferred:         1590 / 1590, 100%
+Elapsed time:   4h59m39.8s
+2023/11/09 01:02:47 Failed to sync with 4646 errors: last error was: multi-thread cop
+y: failed to open source: The file cannot be accessed by the system.
 
 gmaca@alpha MINGW64 ~/Dropbox/Cubbit_MIRROR
 $
