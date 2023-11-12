@@ -33,4 +33,3 @@ the theme dark in the code by using ```%%{init:{'theme':'dark'}}%%``` at the beg
 * <https://www.youtube.com/watch?v=-HUwt8dF4X8>
 
 <!-- EOF -->
-
