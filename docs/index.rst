@@ -135,6 +135,7 @@ gone through during the project realization.
 * **For Embedded electronics enthusiast**:
    * :doc:`howto/howto-control-rpi-poweredup`
    * :doc:`howto/howto-install-raspios64`
+   * :doc:`howto/howto-static-ip-address`
    * :doc:`howto/howto-prepare-rpi4b-for-arneis`
    * :doc:`howto/howto-install-micropython-nano33ble`
    * :doc:`howto/howto-getting-started-foundriesio`
@@ -163,6 +164,7 @@ gone through during the project realization.
    
    howto/howto-control-rpi-poweredup
    howto/howto-install-raspios64
+   howto/howto-static-ip-address
    howto/howto-prepare-rpi4b-for-arneis
    howto/howto-install-micropython-nano33ble
    howto/howto-getting-started-foundriesio
