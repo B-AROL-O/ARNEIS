@@ -6,6 +6,19 @@ This document explains how to configure a static IP address on the Ethernet inte
 
 With recent versions of Linux distributions, the network configuration is performed with [NetworkManager](https://wiki.debian.org/NetworkManager).
 
+## Reference documents
+
+* <https://www.baeldung.com/linux/set-static-ip-address>
+* [NetworkManager - Debian WIki](https://wiki.debian.org/NetworkManager)
+* [Ubuntu Forum: Need advice: Redoing networking on an old server?](https://ubuntuforums.org/showthread.php?t=2478425)
+
+<!--
+TODO: Integrate @OrsoEric notes from section "4a) ETH0 Static IP" of
+<https://arol.atlassian.net/l/cp/01AGbw4N>
+-->
+
+## Configuring NetworkManager
+
 **NOTE**: Even though NetworkManager was designed for the Gnome desktop environment, it works "just-fine" also in server editions of those OSs. Checked on the following
 
 Vendor       | OS Name                            | network-manager | version
@@ -54,8 +67,5 @@ gmacario@raspinstall01:~ $ ip address show eth0
        valid_lft forever preferred_lft forever
 gmacario@raspinstall01:~ $
 ```
-## See also
-
-* <https://www.baeldung.com/linux/set-static-ip-address>
 
 <!-- EOF -->
