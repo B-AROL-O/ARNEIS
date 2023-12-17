@@ -6,9 +6,12 @@ This document explains how to configure a static IP address on the Ethernet inte
 
 With recent versions of Linux distributions, the network configuration is performed with [NetworkManager](https://wiki.debian.org/NetworkManager).
 
+Ubuntu configures networking through a higher abstraction tool called [Netplan](https://netplan.io/) which internally invokes NetworkManager as a renderer.
+
 ## Reference documents
 
 * <https://www.baeldung.com/linux/set-static-ip-address>
+* [Netplan documentation](https://netplan.readthedocs.io/)
 * [NetworkManager - Debian WIki](https://wiki.debian.org/NetworkManager)
 * [Ubuntu Forum: Need advice: Redoing networking on an old server?](https://ubuntuforums.org/showthread.php?t=2478425)
 
