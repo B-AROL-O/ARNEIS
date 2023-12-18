@@ -18,7 +18,19 @@ Ubuntu configures networking through a higher abstraction tool called [Netplan](
 <!--
 TODO: Integrate @OrsoEric notes from section "4a) ETH0 Static IP" of
 <https://arol.atlassian.net/l/cp/01AGbw4N>
+
+TODO: Integrate @alv67 notes from <https://arol.atlassian.net/l/cp/PSbCAVjP>
 -->
+
+## Configuring Netplan
+
+From <https://netplan.io>:
+
+> Netplan is a utility for easily configuring networking on a linux system.
+> You simply create a YAML description of the required network interfaces and what each should be configured to do.
+> From this description Netplan will generate all the necessary configuration for your chosen renderer tool.
+
+TODO
 
 ## Configuring NetworkManager
 
