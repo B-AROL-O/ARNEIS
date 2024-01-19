@@ -90,7 +90,7 @@ Please report bugs and feature requests on <https://github.com/B-AROL-O/ARNEIS/i
 
 ## Copyright and license
 
-Copyright (C) 2021-2023, [B-AROL-O Team](https://github.com/B-AROL-O), all rights reserved.
+Copyright (C) 2021-2024, [B-AROL-O Team](https://github.com/B-AROL-O), all rights reserved.
 
 ### Source code license
 
