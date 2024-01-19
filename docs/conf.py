@@ -18,7 +18,7 @@
 # -- Project information -----------------------------------------------------
 
 project = 'ARNEIS'
-copyright = '2022-2023, The B-AROL-O Team'
+copyright = '2022-2024, The B-AROL-O Team'
 author = 'The B-AROL-O Team'
 
 
