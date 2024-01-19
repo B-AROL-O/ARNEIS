@@ -6,7 +6,7 @@ This document contains the Functional and Non-Functional requirements for the [A
 
 ### Copyright and License
 
-This document is Copyright (c) 2021-2022 by the [B-AROL-O Team](https://github.com/B-AROL-O).
+This document is Copyright (c) 2021-2024 by the [B-AROL-O Team](https://github.com/B-AROL-O).
 
 ### Reference documents
 
