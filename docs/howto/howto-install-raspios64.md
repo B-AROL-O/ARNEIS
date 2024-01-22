@@ -189,7 +189,7 @@ Fill in the form as shown above, then click "Next"
 >
 > * [x] Hide characters
 >
-> Press 'Next' to activate your new passoword.
+> Press 'Next' to activate your new password.
 >
 > [Back](https://github.com/) | [Next](https://github.com/)
 
