@@ -74,7 +74,7 @@ Turn on the power supply and wait for Raspberry Pi OS to boot.
 >
 > Welcome to the Raspberry Pi Desktop!
 >
-> Before you start usin it, there are a few things to set up.
+> Before you start using it, there are a few things to set up.
 >
 > Press 'Next' to get started.
 >
@@ -113,7 +113,7 @@ Fill in the form as shown above, then click "Next"
 >
 > * [x] Hide characters
 >
-> Press 'Next' to activate your new passowrd.
+> Press 'Next' to activate your new passoword.
 >
 > [Back](https://github.com/) | [Next](https://github.com/)
 

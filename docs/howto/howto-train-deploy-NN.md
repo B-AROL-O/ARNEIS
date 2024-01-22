@@ -115,7 +115,7 @@ with open(pipeline_fname, 'w') as f:
     
     f.write(s)
 ```
-The error says something like *'fine_tune_checkpoint: ".*?"'* is not a variable, so instead of processing that with regex, it search for a variable with that name.
+The error says something like *'fine_tune_checkpoint: ".*?"'* is not a variable, so instead of processing that with regular expression, it search for a variable with that name.
 Which I don't know how to fix yet, aside from changing VM or PC...
 
 I didn't use the part of code with Tensorboard. I didn't care to try it.
