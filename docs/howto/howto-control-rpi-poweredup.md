@@ -71,7 +71,7 @@ The app will also check the version of the firmware on the Hub, and propose the 
 
 Repeat the steps for the second hub in the set.
 
-After all the checks are succesful, the app is ready and can be used to control the excavator and have hours of entertainment with the LEGO set.
+After all the checks are successful, the app is ready and can be used to control the excavator and have hours of entertainment with the LEGO set.
 
 ## Using Pybricks
 

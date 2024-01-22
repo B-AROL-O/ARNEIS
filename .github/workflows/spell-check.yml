@@ -20,5 +20,7 @@ jobs:
 
       - name: Spell check
         uses: codespell-project/actions-codespell@master
+        with:
+          ignore_words_list: Technics
 
 # EOF

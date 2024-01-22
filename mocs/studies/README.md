@@ -9,7 +9,7 @@ In this folder are stored various studies as LEGO&reg; MOC (alias for _My Own Cr
 > Resource | Description | Used For
 > ----|----|-----
 > [Bricklink Studio](https://www.bricklink.com/v3/studio/download.page) | Full featured CAD application| Project design, BOM creation, rendering, instruction manual editing, export to `ldr`
-> [Bricklink PartDesigner](https://www.bricklink.com/v3/studio/partdesigner.page) | Single LEGO&reg; Part Editor | Creation of parts still not avalaible in _Bricklink Studio_. Correction of parts not working whern exported to `ldr`
+> [Bricklink PartDesigner](https://www.bricklink.com/v3/studio/partdesigner.page) | Single LEGO&reg; Part Editor | Creation of parts still not available in _Bricklink Studio_. Correction of parts not working whern exported to `ldr`
 > [LeoCAD](https://www.leocad.org) | Open Source CAD application | Check correctness of `ldr` files
 > [LDraw](https://www.ldraw.org) | Centralized resources for LEGO&reg; CADs | Reference for getting last _parts_ used in _Bricklink PartDesigner_
 
