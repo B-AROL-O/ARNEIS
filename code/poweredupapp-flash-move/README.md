@@ -7,7 +7,7 @@ This folder contains a simple project for the [LEGO&reg; Powered Up](https://pla
 ## Prerequisites
 
 * [ ] A mobile device (phone or tablet) running Android
-* [ ] One LEGO&reg; Technics Bluetooth Hub (Item no. [bb0961c01](https://www.bricklink.com/v2/catalog/catalogitem.page?P=bb0961c01&idColor=86))
+* [ ] One LEGO&reg; Technic&reg; Bluetooth Hub (Item no. [bb0961c01](https://www.bricklink.com/v2/catalog/catalogitem.page?P=bb0961c01&idColor=86))
 * [ ] One LEGO&reg; Powered Up L Motor (Item no. [bb0959c01](https://www.bricklink.com/v2/catalog/catalogitem.page?P=bb0959c01&idColor=85))
 * [ ] 6x AA fully charged batteries
 
