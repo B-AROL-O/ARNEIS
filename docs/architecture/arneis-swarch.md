@@ -43,6 +43,6 @@ The following services are expected to be deployed on the ARNEIS cluster:
 * ARNEIS backend service ([Node.js](https://nodejs.org/) + [Koa](https://koajs.com/) - possibly based on some publicly available boilerplate)
 * ARNEIS customer frontend (static site developed in [Next.js](https://nextjs.org/))
 * Service running on the RPi4 for controlling the [OAK-D-Lite](https://docs.luxonis.com/projects/hardware/en/latest/pages/DM9095.html) (Python3?)
-* Service running on the RPi4 for controlling the [LEGO&reg; Technics Bluetooth Hub](https://www.bricklink.com/v2/catalog/catalogitem.page?P=bb0961c01&idColor=86#T=C&C=86) (Python3?)
+* Service running on the RPi4 for controlling the [LEGO&reg; Technic&reg; Bluetooth Hub](https://www.bricklink.com/v2/catalog/catalogitem.page?P=bb0961c01&idColor=86#T=C&C=86) (Python3?)
 
 <!-- EOF -->

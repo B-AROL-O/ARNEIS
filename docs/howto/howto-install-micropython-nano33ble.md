@@ -60,7 +60,7 @@ Arduino IDE: Sketch > Upload
 Wait until the sketch has been successfully uploaded to the Arduino Nano 33 BLE.
 The LED on the board should blink every second.
 
-Try modifiying the sketch changing the value in the `delay(...)` statements, then upload the new sketch and make sure the blink frequency changes accordingly.
+Try modifying the sketch changing the value in the `delay(...)` statements, then upload the new sketch and make sure the blink frequency changes accordingly.
 
 ### Installing the Core
 

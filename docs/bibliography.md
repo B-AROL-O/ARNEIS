@@ -34,7 +34,7 @@
 * [LEGO&reg; Powered Up Connector](https://www.biasedlogic.com/index.php/lego-powered-up-connector/) - Marek's microsite, 2022-09-26
 * [LEGO&reg; Powered Up simple code block guide](https://racingbrick.com/powered-up-code-block-guide/) - RackingBrick, 2020-04-29
 * [LEGO&reg; Powered Up extended code block guide](https://racingbrick.com/powered-up-code-block-guide-full/) - RackingBrick, 2020-04-29
-* [LEGO&reg; Set 42100 (Liebherr R 9800 Excavator)](https://arneis.readthedocs.io/en/latest/lego-set-42100) includes 2x [LEGO&reg; Technics Bluetooth Hub](https://www.bricklink.com/v2/catalog/catalogitem.page?P=bb0961c01#T=C) (LEGO&reg; Part bb0961c01).
+* [LEGO&reg; Set 42100 (Liebherr R 9800 Excavator)](https://arneis.readthedocs.io/en/latest/lego-set-42100) includes 2x [LEGO&reg; Technic&reg; Bluetooth Hub](https://www.bricklink.com/v2/catalog/catalogitem.page?P=bb0961c01#T=C) (LEGO&reg; Part bb0961c01).
 * [Powered Up - A tear down...](https://www.eurobricks.com/forum/index.php?/forums/topic/162288-powered-up-a-tear-down/) - Eurobricks Forum, 2018-06-07
 * [Programming the Lego NXT using Mathematica with Math4NXT](http://web5.uottawa.ca/www5/dcousineau/home/Others/Math4NXT/index.html) by Denis Cousineau
 * [Smart Robotics with LEGO MINDSTORMS Robot Inventor](https://www.packtpub.com/product/smart-robotics-with-lego-mindstorms-robot-inventor/9781800568402) by Aaron Maurer. Packt Publishing, May 2021
@@ -44,7 +44,7 @@
 * **BrickNil**: A Python async library for PoweredUp/Boost
   - GitHub repository: <https://virantha.github.io/bricknil>
   - Discussion on Eurobricks.com: <https://www.eurobricks.com/forum/index.php?/forums/topic/170945-bricknil-a-python-async-library-for-poweredupboost/>
-* [Controlling the Lego Technics Hub (Hub 2) via Bluetooth (btle) using a Raspberry Pi 4B](https://dietrichchristopeit.github.io/lego-pi-docs/#controlling-the-lego-technics-hub-hub-2-via-bluetooth-btle-using-a-rasperry-pi-4b)
+* [Controlling the Lego Technic Hub (Hub 2) via Bluetooth (btle) using a Raspberry Pi 4B](https://dietrichchristopeit.github.io/lego-pi-docs/#controlling-the-lego-technics-hub-hub-2-via-bluetooth-btle-using-a-rasperry-pi-4b)
 * Article: [Hack Lego Boost with Raspberry Pi](https://magpi.raspberrypi.com/articles/hack-lego-boost-with-raspberry-pi) - The MagPi Magazine, 2019-04-01
 * Tutorial: [How to export/import a project in the Powered Up app on Android](https://racingbrick.com/2020/01/how-to-export-import-a-project-in-the-powered-up-app-on-android/) - RacingBrick, 2020-01-22
 * Article: [How to Set Up Bluetooth on the Raspberry Pi for a LEGO@reg; Spike](https://medium.com/jj-innovative-results/how-to-set-up-bluetooth-on-the-raspberry-pi-for-a-lego-spike-61b137f98673) - Jason Jurotich on Medium.com, 2020-05-23

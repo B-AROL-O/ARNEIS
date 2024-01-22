@@ -80,7 +80,7 @@ sudo dmesg -w
 
 Connect the OAK-D-Lite to one USB 3.0 port of the Raspberry Pi using a USB 3.0 cable (USB-A to USB-C).
 
-As soon as the OAK-D-Lite gets recognize the following messages should be displyed on the kernel log:
+As soon as the OAK-D-Lite gets recognize the following messages should be displayed on the kernel log:
 
 ```text
 [ 5253.298901] usb 1-1.2: new high-speed USB device number 4 using xhci_hcd

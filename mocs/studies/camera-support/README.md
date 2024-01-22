@@ -1,6 +1,6 @@
 # OAK-D-Lite LEGO&reg; mechanical adapter
 
-Main goal of this project is to construct a mechanical support for the [OAK-D-Lite](https://docs.luxonis.com/projects/hardware/en/latest/pages/DM9095.html#dm9095) camera, by using only LEGO&reg; Technics parts.
+Main goal of this project is to construct a mechanical support for the [OAK-D-Lite](https://docs.luxonis.com/projects/hardware/en/latest/pages/DM9095.html#dm9095) camera, by using only LEGO&reg; Technic&reg; parts.
 
 ## Main features
 

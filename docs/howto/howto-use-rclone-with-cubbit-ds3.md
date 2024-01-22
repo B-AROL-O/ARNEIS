@@ -322,10 +322,8 @@ Result:
 gmaca@alpha MINGW64 ~/Dropbox/Cubbit_MIRROR
 $ rclone sync -P . cubbit:mirror-from-dropbox
 ...
-2023/11/09 22:21:17 ERROR : Win10-images/Win10_21H1_Italian_x64.iso: Failed to copy:
-multi-thread copy: failed to open source: The file cannot be accessed by the system.
-2023/11/09 22:21:18 ERROR : ARCHIVE/2023-07-15-google-takeout/Tutti i messaggi compre
-si Spam e Cestino-005.mbox: Failed to copy: multi-thread copy: failed to open source:
+2023/11/09 22:21:17 ERROR : Win10-images/Win10_21H1_Italian_x64.iso: Failed to copy: multi-thread copy: failed to open source: The file cannot be accessed by the system.
+2023/11/09 22:21:18 ERROR : ARCHIVE/2023-07-15-google-takeout/Tutti i messaggi compresi Spam e Cestino-005.mbox: Failed to copy: multi-thread copy: failed to open source:
  The file cannot be accessed by the system.
 Transferred:        3.285 GiB / 211.470 GiB, 2%, 241.274 KiB/s, ETA 1w3d11h
 Errors:                 4 (retrying may help)

@@ -52,7 +52,7 @@ Python
 
 This is not required to make it works (I believe) but as I wanted to know where every file was downloaded, I kept everything together so it's more easy to manage or delete if needed.
 
-The notebook downloads library, folders with photos, programs, ... For several Gb, so be adviced that you may need a flat internet! **Don't do it on mobile network**.
+The notebook downloads library, folders with photos, programs, ... For several Gb, so be advised that you may need a flat internet! **Don't do it on mobile network**.
 
 You may encounter some trouble running this code
 ```python
@@ -73,7 +73,7 @@ The correct result of that cell should look like this with a green check under:
 object_detection/protos/input_reader.proto: warning: Import object_detection/protos/image_resizer.proto but not used.
 ```
 
-The following cell generate the **label_map.pbtxt** as well as **test, train records**. The first file will be required to run the model with our code. It cointains the names of the "**ITEMS**" on which the NN will be trained for.
+The following cell generate the **label_map.pbtxt** as well as **test, train records**. The first file will be required to run the model with our code. It contains the names of the "**ITEMS**" on which the NN will be trained for.
 
 You may encounter some problems running
 ```python
@@ -115,7 +115,7 @@ with open(pipeline_fname, 'w') as f:
     
     f.write(s)
 ```
-The error says something like *'fine_tune_checkpoint: ".*?"'* is not a variable, so instead of processing that with regex, it search for a variable with that name.
+The error says something like *'fine_tune_checkpoint: ".*?"'* is not a variable, so instead of processing that with regular expression, it search for a variable with that name.
 Which I don't know how to fix yet, aside from changing VM or PC...
 
 I didn't use the part of code with Tensorboard. I didn't care to try it.

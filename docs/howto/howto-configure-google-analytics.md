@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This document explains how to configure [Google Analytics 4](https://analytics.google.com/analytics/web/?) and integrate it into your existing web site, for instance the one created followint the [HOWTO Create a Landing Page on Netlify](howto-create-landing-page-netlify.md).
+This document explains how to configure [Google Analytics 4](https://analytics.google.com/analytics/web/?) and integrate it into your existing web site, for instance the one created following the [HOWTO Create a Landing Page on Netlify](howto-create-landing-page-netlify.md).
 
 ## Reference documents
 
@@ -29,7 +29,7 @@ Presenters:
 
 <!-- (2023-07-06 11:00-12:00 CEST) -->
 
-In this follow up session, we'll explore workspaces in GA4 and you'll learn how to build custom tables and visualisations of your data
+In this follow up session, we'll explore workspaces in GA4 and you'll learn how to build custom tables and visualizations of your data
 
 Presenters:
 

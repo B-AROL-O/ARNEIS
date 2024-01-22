@@ -2,6 +2,7 @@
 
 [![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-908a85?logo=gitpod)](https://gitpod.io/#https://github.com/B-AROL-O/ARNEIS)
 [![GitHub Super-Linter](https://github.com/B-AROL-O/ARNEIS/workflows/Lint%20Code%20Base/badge.svg)](https://github.com/marketplace/actions/super-linter)
+[![Spell Check](https://github.com/B-AROL-O/ARNEIS/actions/workflows/spell-check.yml/badge.svg)](https://github.com/B-AROL-O/ARNEIS/actions/workflows/spell-check.yml)
 
 [![ARNEIS logo](docs/images/arneis-logo.png)](https://arneis.readthedocs.io/)
 

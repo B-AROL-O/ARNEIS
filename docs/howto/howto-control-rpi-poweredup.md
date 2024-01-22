@@ -71,7 +71,7 @@ The app will also check the version of the firmware on the Hub, and propose the 
 
 Repeat the steps for the second hub in the set.
 
-After all the checks are succesful, the app is ready and can be used to control the excavator and have hours of entertainment with the LEGO set.
+After all the checks are successful, the app is ready and can be used to control the excavator and have hours of entertainment with the LEGO set.
 
 ## Using Pybricks
 
@@ -95,7 +95,7 @@ If you use the City Hub, you must unplug all motors and sensors. Follow these st
 
 ### Load some Python program
 
-From the [Pybricks Code](https://code.pybricks.com/) web interface, create or open a MicroPython source file and upload it to the LEGO Technics BT Hub. You may find some examples under the `/code` folder of the [ARNEIS repository on GitHub](https://github.com/B-AROL-O/ARNEIS).
+From the [Pybricks Code](https://code.pybricks.com/) web interface, create or open a MicroPython source file and upload it to the LEGO Technic BT Hub. You may find some examples under the `/code` folder of the [ARNEIS repository on GitHub](https://github.com/B-AROL-O/ARNEIS).
 
 
 ## Controlling from a Raspberry Pi
@@ -203,7 +203,7 @@ Some quick links:
 
 - [#369 Definitive Guide to Attaching Sensors to the Raspberry Pi (Tutorial)](https://www.youtube.com/watch?v=gnE4v-PcYKQ) - YouTube video by Andreas Speiss, 2021-01-24
 
-On the other hand, this option has the disadvantage that the feedback loop sensor/actuator will be slower since a longer path (Sensor --> Raspberry Pi --> BLE --> Technics Hub --> Actuator) should be followed.
+On the other hand, this option has the disadvantage that the feedback loop sensor/actuator will be slower since a longer path (Sensor --> Raspberry Pi --> BLE --> Technic Hub --> Actuator) should be followed.
 
 ### Input sensors connected to the LEGO&reg; Powered Up Hub
 
@@ -213,7 +213,7 @@ At the moment only few types of input sensors with Powered Up interface are avai
 - [LEGO WeDo Tilt Sensor](https://www.brickowl.com/catalog/lego-wedo-tilt-sensor-63522) - Code 63522
 - Infrared Sensor - Code TODO
 
-Those sensors are directly usable with LEGO&reg; Technics BT Hub using different languages, including [Pybricks](https://pybricks.com/):
+Those sensors are directly usable with LEGO&reg; Technic&reg; BT Hub using different languages, including [Pybricks](https://pybricks.com/):
 
 - <https://docs.pybricks.com/en/stable/pupdevices/colordistancesensor.html>
 - <https://docs.pybricks.com/en/stable/pupdevices/tiltsensor.html>
@@ -221,7 +221,7 @@ Those sensors are directly usable with LEGO&reg; Technics BT Hub using different
 
 As an added bonus, the [ColorDistanceSensor](https://docs.pybricks.com/en/stable/pupdevices/colordistancesensor.html#pybricks.pupdevices.ColorDistanceSensor) can send infrared signals to control Power Functions infrared receivers. You can use this technique to control medium, large, extra large, and train motors. You can find more details at <https://docs.pybricks.com/en/stable/pupdevices/pfmotor.html>.
 
-Provided that the available sensors are good enough for the use case, this option is probably the one which guarantees the quickest feedback loop (Sensor --> Technics Hub --> Actuator)
+Provided that the available sensors are good enough for the use case, this option is probably the one which guarantees the quickest feedback loop (Sensor --> Technic Hub --> Actuator)
 
 ### Input sensors connected to the SBrick Plus
 
